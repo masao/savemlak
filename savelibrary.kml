@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>図書館被害状況マップ</name>
+  <description><![CDATA[東日本大地震による図書館の被災情報・救援情報
+http://www45.atwiki.jp/savelibrary
+にまとめられている情報を地図上で並べてみることができます。
+
+※更新は手動なので、最新情報に追い付いていません。最新はウィキ上の情報を確認するようにしてください。
+]]></description>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style36">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style38">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style37">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style34">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style35">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style39">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/ja_jp/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>土浦市立図書館</name>
+    <description><![CDATA[<div dir="ltr">〒300-0045 茨城県土浦市文京町9-2／029-822-3389,029-823-4646（連絡先Tel）<br>書架の一部が倒壊し、館内は危険な状況です。連日、職員総出で復旧作業に当たっております。復旧には時間がかかると思われますので、当面のあいだ休館いたします。（地震による被害状況（写真掲載あり）)<br>元情報：<a href="http://www.t-lib.jp/" rel="nofollow">図書館公式サイトでの掲示</a>／<a href="http://www.t-lib.jp/higai/higai.html" rel="nofollow">地震による被害状況</a></div>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>140.193207,36.085339,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>宮城県立図書館</name>
+    <description><![CDATA[<div dir="ltr">〒981－3205 宮城県仙台市泉区紫山1－1－1／022-377-8446<br>当分の間、休館。電源不安定のため、サーバが停止中（サイトが停止中）<br>元情報：<a href="http://twitter.com/qkmode/status/46169405410914304" rel="nofollow">職員からのツイート</a></div>]]></description>
+    <styleUrl>#style36</styleUrl>
+    <Point>
+      <coordinates>140.838562,38.346043,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>仙台市民図書館</name>
+    <description><![CDATA[<div dir="ltr">〒980-0821 宮城県仙台市青葉区春日町２－１／022-261-1585<br>書架からの蔵書の落下(8、9割)、天井からの落下物、ロッカー横倒れ、メディアテークにも建物部分被害あり<br>元情報：職員からのメール（<a href="http://twitter.com/dellganov" rel="nofollow">新 出(@dellganov)）</a></div>]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>140.865509,38.265564,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>岩手県立図書館</name>
+    <description><![CDATA[<div dir="ltr">本は3割程度棚から落下。<br>入居する施設、アイーナが避難所になっているため、現在指定管理者職員が避難所対応に奔走。開館の見通しはたたず。<br>元情報：岩手県立指定管理者によるTwitterへの書き込み。[<a href="http://twitter.com/#%21/sympo_digital" rel="nofollow">http://twitter.com/#!/sympo_digital</a>]</div>]]></description>
+    <styleUrl>#style38</styleUrl>
+    <Point>
+      <coordinates>141.132706,39.701927,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>奥州市立前沢図書館</name>
+    <description><![CDATA[<div dir="ltr">施設の被害：建物一部崩れ。書架11基転倒。<br>蔵書の被害：本は５割程度棚から落下。<br>その他の被害：停電中<br>運営情報：できるだけ早く開館したい。電気がくれば来週をめどに。<br>情報源：岩手県立指定管理者によるTwitterへの書き込み。[<a href="http://twitter.com/#%21/sympo_digital" rel="nofollow">http://twitter.com/#!/sympo_digital</a>]</div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>141.124588,39.050838,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>軽米町役場 町立図書館</name>
+    <description><![CDATA[<div dir="ltr">施設の被害：ガラス一枚が割れている。<br>蔵書の被害：50～60冊の本が落下。<br>運営情報：しばらく休館。<br>情報源：岩手県立指定管理者によるTwitterへの書き込み。[<a href="http://twitter.com/#%21/sympo_digital" rel="nofollow">http://twitter.com/#!/sympo_digital</a>]<br></div>]]></description>
+    <styleUrl>#style37</styleUrl>
+    <Point>
+      <coordinates>141.448975,40.321419,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>岩手県立農業大学校</name>
+    <description><![CDATA[<div dir="ltr">蔵書の被害：本の落下2割程度。<br>運営情報：状況に応じて開館閉館を対応。<span style="font-weight:bold"><br></span>情報源：岩手県立指定管理者によるTwitterへの書き込み。[<a href="http://twitter.com/#%21/sympo_digital" rel="nofollow">http://twitter.com/#!/sympo_digital</a>]<br></div>]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>141.043106,39.236160,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>盛岡市都南図書館</name>
+    <description><![CDATA[<div dir="ltr">施設の被害：被害ほとんどなし。ただし、ボイラーが壊れて安全性の確認が必要。<br>情報源：岩手県立指定管理者によるTwitterへの書き込み。[<a href="http://twitter.com/#%21/sympo_digital" rel="nofollow">http://twitter.com/#!/sympo_digital</a>]<br></div>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>141.154724,39.653313,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>八幡平市立図書館</name>
+    <description><![CDATA[<div dir="ltr">施設の被害：建物にひび割れ<br>蔵書の被害：5割程度の本が棚から落ちた。<br>運営情報：今後の見通し立たず。<br>情報源：岩手県立指定管理者によるTwitterへの書き込み。[<a href="http://twitter.com/#%21/sympo_digital" rel="nofollow">http://twitter.com/#!/sympo_digital</a>]</div>]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>141.094498,39.924725,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>紫波町役場 中央公民館</name>
+    <description><![CDATA[<div dir="ltr">蔵書の被害：5割程度の本が棚から落ちた。<br>運営情報：開館再開については未定。<br>情報源：岩手県立指定管理者によるTwitterへの書き込み。[<a href="http://twitter.com/#%21/sympo_digital" rel="nofollow">http://twitter.com/#!/sympo_digital</a>]<br></div>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>141.165024,39.557266,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>花巻市立大迫図書館</name>
+    <description><![CDATA[<div dir="ltr">蔵書の被害：本が10冊程度落ちた。<br>運営情報：今後の見通し未定。<span style="font-weight:bold"><br></span>情報源：岩手県立指定管理者によるTwitterへの書き込み。[<a href="http://twitter.com/#%21/sympo_digital" rel="nofollow">http://twitter.com/#!/sympo_digital</a>]<br></div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>141.291336,39.469051,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>葛巻公民館図書室</name>
+    <description><![CDATA[<div dir="ltr">被害情報：被害なし。電気の復旧待ち。<br>情報源：岩手県立指定管理者によるTwitterへの書き込み。[<a href="http://twitter.com/#%21/sympo_digital" rel="nofollow">http://twitter.com/#!/sympo_digital</a>]<br></div>]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>141.437531,40.040081,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>矢巾町役場 町公民館</name>
+    <description><![CDATA[<div dir="ltr">被害情報：ガラスが割れるなどの被害有。<br>運営情報：今後のことは未定。<br>情報源：岩手県立指定管理者によるTwitterへの書き込み。[<a href="http://twitter.com/#%21/sympo_digital" rel="nofollow">http://twitter.com/#!/sympo_digital</a>]<br></div>]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>141.142975,39.606049,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>遠野市立図書館</name>
+    <description><![CDATA[<div dir="ltr">被害情報：ガラスにヒビ<br>運営情報：今後のことは未定。<br>情報源：岩手県立指定管理者によるTwitterへの書き込み。[http://twitter.com/#!/sympo_digital]<br></div>]]></description>
+    <styleUrl>#style33</styleUrl>
+    <Point>
+      <coordinates>141.528885,39.327732,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>花巻市図書館</name>
+    <description><![CDATA[<div dir="ltr">その他の被害：新聞保存棚が将棋倒し。システムが動いていない。<br>運営情報：当面休館<br>情報源：岩手県立指定管理者によるTwitterへの書き込み。[<a href="http://twitter.com/#%21/sympo_digital" rel="nofollow">http://twitter.com/#!/sympo_digital</a>]<br></div>]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>141.101013,39.384678,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>奥州市立江刺図書館</name>
+    <description><![CDATA[<div dir="ltr">施設の被害：建物などを見る限りは大丈夫。詳細は確認できていない。<br>運営情報：今後のことは未明。<br>情報源：岩手県立指定管理者によるTwitterへの書き込み。[<a href="http://twitter.com/#%21/sympo_digital" rel="nofollow">http://twitter.com/#!/sympo_digital</a>]</div>]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>141.173599,39.192013,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>一関市立東山図書館</name>
+    <description><![CDATA[<div dir="ltr">施設の被害：建物に少しだけ亀裂が入った。<br>蔵書の被害：本の落下等なし。<br>運営情報：当面見通し立たず。<br>情報源：岩手県立指定管理者によるTwitterへの書き込み。[<a href="http://twitter.com/#%21/sympo_digital" rel="nofollow">http://twitter.com/#!/sympo_digital</a>]<br></div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>141.252838,38.992573,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>一関市立一関図書館</name>
+    <description><![CDATA[<div dir="ltr">被害情報：かなりの被害の模様。事務室等余震が来ると壊れる恐れがある。<br>施設の被害：参考資料室、児童室は壊滅状態。開架書架は大丈夫。<br>蔵書の被害：本は50%程度落下。ビデオ類は100％落下。閉架70～80％落下。<br>運営情報：今後の見通し立たず。<br>情報源：岩手県立指定管理者によるTwitterへの書き込み。[<a href="http://twitter.com/#%21/sympo_digital" rel="nofollow">http://twitter.com/#!/sympo_digital</a>]<br></div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>141.132065,38.931316,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>一関市立川崎図書館</name>
+    <description><![CDATA[<div dir="ltr">施設の被害：建物は見た限り大丈夫<br>蔵書の被害：4割くらいの本が落ちている。<br>運営情報：再開予定は未定。避難所となる可能性もある。<br>情報源：岩手県立指定管理者によるTwitterへの書き込み。[<a href="http://twitter.com/#%21/sympo_digital" rel="nofollow">http://twitter.com/#!/sympo_digital</a>]<br></div>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>141.264023,38.901535,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>二戸市立図書館</name>
+    <description><![CDATA[<div dir="ltr">蔵書の被害：本が数冊落下。<br>運営情報：記載なし。（電気の復旧待ちとのこと）<br>情報源：岩手県立指定管理者によるTwitterへの書き込み。[http://twitter.com/#!/sympo_digital]</div>]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>141.297104,40.271217,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>久慈市立図書館</name>
+    <description><![CDATA[<div dir="ltr">蔵書の被害：棚が一つ倒れた。<br>運営情報：13日も休館予定。電気の復旧待ち。併設の公民館には、20名程度避難中。<br>情報源：岩手県立指定管理者によるTwitterへの書き込み。[http://twitter.com/#!/sympo_digital]<br></div>]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>141.770020,40.194675,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>九戸村平内公民館</name>
+    <description><![CDATA[<div dir="ltr">被害情報：被害はない模様。<br>蔵書の被害：棚が一つ倒れた。<br>運営情報：再開の見通し立たず。<br>情報源：岩手県立指定管理者によるTwitterへの書き込み。[http://twitter.com/#!/sympo_digital]<br></div>]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>141.422668,40.144974,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>岩手看護短期大学図書館</name>
+    <description><![CDATA[<div dir="ltr">蔵書の被害：本棚がすべて倒れている模様。<br>運営情報：今後については来週判断の予定。<br>情報源：岩手県立指定管理者によるTwitterへの書き込み。[http://twitter.com/#!/sympo_digital]</div>]]></description>
+    <styleUrl>#style34</styleUrl>
+    <Point>
+      <coordinates>141.048462,39.704220,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>一関市立大東図書館</name>
+    <description><![CDATA[<div dir="ltr">施設の被害：増築部分のつなぎめが段差になった。エアコンカバーが落下。<br>運営情報：電気の復旧待ち。<br>情報源：岩手県立指定管理者によるTwitterへの書き込み。[http://twitter.com/#!/sympo_digital]</div>]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>141.323624,38.996307,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>郡山女子大学図書館</name>
+    <description><![CDATA[<div dir="ltr">施設の被害：外壁一部崩落，1階床面一部隆起，書架一部倒壊<br>蔵書の被害：ほとんどの蔵書が棚から落下<br>運営情報：当分の間，閉館<br>救援情報：なし<br>自由記述：被害状況の写真をツイッターに載せています<br>情報源：http://twitter.com/#!/LibKGC</div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>140.353485,37.396938,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>つくば市立中央図書館</name>
+    <description><![CDATA[<div dir="ltr">運営情報：3月12日（土）～13日（日）臨時休館：中央図書館、公民館図書室（谷田部、筑波、小野川、茎崎）／3月14日（月）通常休館：（左記に同じ）／3月15日（火）以降の開館可否については現在検討中です。／中央図書館の返却ポストは通常どおりご利用いただけます。<br>元情報：<a href="http://www.city.tsukuba.ibaraki.jp/lib/whatsnew3.htm#54" rel="nofollow">図書館公式サイトでの掲示</a>（2011.3.12確認）<br></div>]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>140.112244,36.084538,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>結城市ゆうき図書館</name>
+    <description><![CDATA[<div dir="ltr">施設の被害：書架からの本の落下等<br>運営情報：3月14日まで休館(図書館カレンダーより)。<br>情報源：<a href="https://picasaweb.google.com/102367960071361451425/ebLpNL?feat=directlink#" rel="nofollow">ゆうき図書館・地震被害</a><br></div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>139.873322,36.298634,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>守谷中央図書館</name>
+    <description><![CDATA[<div dir="ltr">施設の被害：天井が崩落するなどの被害。<br>中央図書館及び各公民館図書室は、安全が確認できるまで当分の間休館。<br>資料の検索・予約や利用状況の照会など、ホームページ上のサービスについても停止。<br>元情報：<a href="http://www.lib.moriya.ibaraki.jp/" rel="nofollow">図書館公式サイトでの掲示</a><br></div>]]></description>
+    <styleUrl>#style35</styleUrl>
+    <Point>
+      <coordinates>139.974487,35.951107,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>千葉県立中央図書館</name>
+    <description><![CDATA[<div dir="ltr">施設の被害：窓の一部が割れ、3階以上の本棚は散乱<br>運営情報：中央図書館　３月１２日（土）・３月１３日（日）、西部図書館　３月１２日（土）、東部図書館　３月１２日（土）・３月１３日（日） 臨時休館。月１４日（月）午前９時から午後５時まで、機器保守点検のため県立図書館ホームページは利用不可。<br>元情報：<a href="http://www.library.pref.chiba.lg.jp/" rel="nofollow">図書館公式サイトでの掲示</a><br></div>]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>140.125778,35.603275,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>市川市立中央図書館</name>
+    <description><![CDATA[<div dir="ltr">施設の被害：書架からの蔵書の落下、一部書架に倒壊の危険あり<br>当日15時半以降臨時休館、中央図書館、生涯学習センター内施設、行徳図書館、信篤図書館、南行徳図書館、平田図書室、ウィズ情報資料室、情報プラザ、大野公民館図書室は3月13日（土）休館<span style="font-weight:bold"><br></span>元情報：<a href="http://www.city.ichikawa.lg.jp/library/info/1090.html" rel="nofollow">図書館公式サイトでの掲示</a><br><br></div>]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>139.931961,35.715286,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>成田市立図書館</name>
+    <description><![CDATA[<div dir="ltr">職員・利用者の被害：利用者、職員の怪我人などなし<br>施設の被害：書架から資料落下。本館は11,000冊、成田分館で11,500冊が落下。書庫、参考図書室での被害大。配管破損による漏水。<br>運営情報：3月12日は全館休館。視聴覚サービスセンターも休館。13日以降の運営は12日中に決定。<br>元情報：<a href="http://www.library.narita.chiba.jp/update/2010/n_20110311_earthquake.html" rel="nofollow">図書館公式サイトでの掲示</a>, <a href="http://twitter.com/#%21/narita_library" rel="nofollow">図書館のtwitter</a><br></div>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>140.292725,35.779152,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>佐倉市立佐倉図書館</name>
+    <description><![CDATA[<div dir="ltr">施設の被害：なし（佐倉図書館：書庫の棚が一部破損、3/11(金)16:00～断水中）<br>運営情報：3月12日（土）は市内各図書館（佐倉、志津、南、分館、臼井公民館図書室、北志津児童センター）とも臨時休館／志津分館は3月13日（日）も休館／3月14日（月）は通常休館／<br>元情報（図書館サイト<a href="http://www.library.city.sakura.lg.jp/" rel="nofollow">http://www.library.city.sakura.lg.jp/</a>、電話で聞きとり）<br></div>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>140.231445,35.719303,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>浦安市立中央図書館</name>
+    <description><![CDATA[<div dir="ltr">運営情報：中央図書館は臨時避難場所に指定。3月11日は午後４時臨時閉館。館内での貸出・返却や資料の問い合わせを中止。休館中の電話での図書等のお問い合わせ、予約は受けられないとのこと。併せて、分館（公民館内図書室）、新浦安駅前プラザ・マーレ図書サービスコーナー、舞浜駅前行政サービスセンター、視聴覚ライブラリーでのサービスも休止。３月１２日（土）１３日（日）１４日（月）は、全館休館。なお、この期間中の行事はすべて中止。 ブックポストへの図書の返却はご遠慮ください。<br>元情報：<a href="http://library.city.urayasu.chiba.jp/news/news/index.html" rel="nofollow">図書館公式サイトでの掲示</a><br></div>]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>139.902023,35.655491,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>国立国会図書館東京本館</name>
+    <description><![CDATA[<div dir="ltr">施設の被害：不明(書庫に被害)<br>運営情報：3月12日は通常開館。図書資料の大半が利用できず。<br>元情報：<a href="http://www.ndl.go.jp/jp/news/fy2010/1191285_1531.html" rel="nofollow">図書館公式サイトでの掲示</a><br></div>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>139.744156,35.678417,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>杉並区立中央図書館</name>
+    <description><![CDATA[<div dir="ltr">運営情報：３月１２日（土）～３月１３日（日） 全館臨時休館。<br>元情報：<a href="https://www.library.city.suginami.tokyo.jp/TOSHOW/html/129443595224843750/kyuukann.htm" rel="nofollow">図書館公式サイトでの掲示</a><br></div>]]></description>
+    <styleUrl>#style32</styleUrl>
+    <Point>
+      <coordinates>139.626785,35.701809,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>中央区立日本橋図書館</name>
+    <description><![CDATA[<div dir="ltr">施設の被害：書架からの本の落下、天井破損、漏水。<br>運営情報：日本橋図書館は3月12日、13日 臨時休館。京橋図書館、月島図書館は開館。<span style="font-weight:bold"><br></span>元情報：<a href="http://www.library.city.chuo.tokyo.jp/main/0000000178/default.html" rel="nofollow">図書館公式サイトでの掲示</a>, <a href="http://tomonken-weekly.seesaa.net/article/190078595.html#comment" rel="nofollow">ともんけんウィークリーのコメント</a><br><br></div>]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>139.781281,35.684723,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>江東区立図書館</name>
+    <description><![CDATA[<div dir="ltr">職員・利用者の被害：利用者、職員、スタッフに怪我人はない模様<br>施設の被害：書架からの本の落下、一部書架転倒<br>運営情報：３月１２日（土）全館ともカウンターでの資料の返却および予約取置資料の受け取りの受付業務のみ行う。<br>元情報：<a href="http://www.library.city.koto.tokyo.jp/lib/help/kiji/rinjikaikan.html" rel="nofollow">図書館公式サイトでの掲示</a>, <a href="http://tomonken-weekly.seesaa.net/article/190078595.html#comment" rel="nofollow">ともんけんウィークリーのコメント</a><br></div>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>139.834030,35.671844,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>神奈川県立図書館</name>
+    <description><![CDATA[<div dir="ltr">運営情報：3月12日、県立図書館(横浜市西区)は一部閉室、川崎図書館(川崎市川崎区)は臨時休館<br>元情報：<a href="http://www.klnet.pref.kanagawa.jp/information/osirase1011.htm" rel="nofollow">図書館公式サイトでの掲示</a><br></div>]]></description>
+    <styleUrl>#style39</styleUrl>
+    <Point>
+      <coordinates>139.625809,35.452183,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>横浜市中央図書館</name>
+    <description><![CDATA[<div dir="ltr">施設の被害：書架からの本の落下、停電等。<br>運営情報：3月11日は午後3時に全館休館。3月12日も全館休館。3月13日は開館。<br>元情報：<a href="http://www.city.yokohama.jp/me/kyoiku/library/" rel="nofollow">図書館公式サイトでの掲示</a><br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>139.626556,35.447556,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
