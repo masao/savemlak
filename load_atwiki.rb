@@ -41,9 +41,11 @@ BASEURL = "http://www45.atwiki.jp/savelibrary/editx/"
 CALIL_BASEURL = "http://api.calil.jp/library?pref="
 
 PREF_LIBRARIES = {
+   "Tokyo" => "14.html",
+#   "Saitama" => "32.html",
 #   "Chiba" => "16.html",
 #   "Gunma" => "34.html",
-   "Tochigi" => "26.html",
+#   "Tochigi" => "26.html",
 #   "Ibaraki" => "23.html",
 #   "Fukushima" => "22.html",
 #   "Akita" => "25.html",
@@ -88,6 +90,7 @@ PREF_LIBRARIES.each do |pref, url|
                   libraries << data
                   data = {}
                end
+               text = text.gsub( /\&aname\(\w+\)\{(.+?)\}/ ){|m| $1 }
                data[ :title ] = text
                data[ :calil ] = calil_info.find do |e|
                   formal = e.find( "./formal" )[0].content.strip
@@ -97,7 +100,7 @@ PREF_LIBRARIES.each do |pref, url|
                      ( text.gsub( /[　 ]/, "" ) == formal.gsub( /[　 ]/, "" ) ) or
                      ( text.gsub( /市立/, "市" ) == formal.gsub( /市立/, "市" ) ) or
                      ( text.gsub( /中央図書館\Z/, "図書館" ) == formal.gsub( /中央図書館\Z/, "図書館" ) ) or
-                     ( text.gsub( /([市町村])?立?(中央)?図書館\Z/, '\1図書館' ) == formal.gsub( /([市町村])?立?(中央)?図書館\Z/, '\1図書館' ) ) or
+                     ( text.gsub( /([市区町村])?立?(中央)?図書館\Z/, '\1図書館' ) == formal.gsub( /([市区町村])?立?(中央)?図書館\Z/, '\1図書館' ) ) or
                      ( text.gsub( /ケ/, "ヶ" ) == formal.gsub( /ケ/, "ヶ" ) ) or
                      ( text.gsub( /\(.+?\)\Z/, "" ) == formal.gsub( /\(.+?\)\Z/, "" ) ) or
                      ( text == e.find( "./systemname" )[0].content )
