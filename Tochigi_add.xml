@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Libraries>
+	<Library>
+		<short>芳賀町総合情報館</short>
+		<formal>芳賀町総合情報館</formal>
+		<pref>栃木県</pref>
+		<geocode>140.033798,36.561014</geocode>
+	</Library>
+	<Library>
+		<short>市貝町立図書館・歴史民俗資料館</short>
+		<formal>市貝町立図書館・歴史民俗資料館</formal>
+		<pref>栃木県</pref>
+		<geocode>140.04324,36.555982</geocode>
+	</Library>
+</Libraries>

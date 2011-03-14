@@ -41,17 +41,17 @@ BASEURL = "http://www45.atwiki.jp/savelibrary/editx/"
 CALIL_BASEURL = "http://api.calil.jp/library?pref="
 
 PREF_LIBRARIES = {
-   "Chiba" => "16.html",
-   "Gunma" => "34.html",
-#   "Tochigi" => "26.html",
-   "Ibaraki" => "23.html",
-   "Fukushima" => "22.html",
-   "Akita" => "25.html",
-   "Aomori" => "27.html",
-   "Hokkaido" => "30.html",
-   "Yamagata" => "24.html",
-   "Iwate" => "21.html",
-   "Miyagi" => "20.html",
+#   "Chiba" => "16.html",
+#   "Gunma" => "34.html",
+   "Tochigi" => "26.html",
+#   "Ibaraki" => "23.html",
+#   "Fukushima" => "22.html",
+#   "Akita" => "25.html",
+#   "Aomori" => "27.html",
+#   "Hokkaido" => "30.html",
+#   "Yamagata" => "24.html",
+#   "Iwate" => "21.html",
+#   "Miyagi" => "20.html",
 }
 
 class String
