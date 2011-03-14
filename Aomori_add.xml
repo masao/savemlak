@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Libraries>
+	<Library>
+<!--alias-->
+		<systemid>Aomori_Hachinohe</systemid>
+		<systemname>青森県八戸市</systemname>
+		<libkey>南郷図書館</libkey>
+		<libid>100270</libid>
+		<short>南郷図書館</short>
+		<formal>八戸市立南郷図書館</formal>
+		<url_pc>http://www.lib.hachinohe.aomori.jp/tosyokan.html</url_pc>
+		<address>青森県八戸市南郷区大字市野沢字中市野沢39-１</address>
+		<pref>青森県</pref>
+		<city>八戸市</city>
+		<post>031-0111　</post>
+		<tel>0178-60-8100</tel>
+		<geocode>141.4319552,40.4044683</geocode>
+		<category>MEDIUM</category>
+		<image></image>
+	</Library>
+
+</Libraries>

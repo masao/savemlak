@@ -41,6 +41,9 @@ BASEURL = "http://www45.atwiki.jp/savelibrary/editx/"
 CALIL_BASEURL = "http://api.calil.jp/library?pref="
 
 PREF_LIBRARIES = {
+   "Aomori" => "27.html",
+   "Hokkaido" => "30.html",
+   "Yamagata" => "24.html",
    "Iwate" => "21.html",
    "Miyagi" => "20.html",
 }
@@ -72,6 +75,7 @@ PREF_LIBRARIES.each do |pref, url|
          when /\A(\*+)\s*(.*)\Z/
             section, text = $1, $2
             text = text.gsub( /&gt;/, ">" ).gsub( /&lt;/, "<" ).gsub( /&amp;/, "&" )
+            text = text.gsub( /[　 ]+\Z/, "" )
             next if section.size == 1
             if section.size == 2
                if not data.empty?

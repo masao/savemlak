@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Libraries>
+	<Library>
+<!--alias-->
+		<systemid>Hokkaido_Kushiro</systemid>
+		<systemname>北海道釧路市</systemname>
+		<libkey>釧一般</libkey>
+		<libid>101227</libid>
+		<short>釧路図書館</short>
+		<formal>市立釧路図書館（分館含む）</formal>
+		<url_pc>https://lib.city.kushiro.hokkaido.jp</url_pc>
+		<address>北海道釧路市幣舞町4-6</address>
+		<pref>北海道</pref>
+		<city>釧路市</city>
+		<post>085-0836</post>
+		<tel>0154-42-1411 </tel>
+		<geocode>144.3860637,42.9789828</geocode>
+		<category>MEDIUM</category>
+		<image></image>
+	</Library>
+	<Library>
+<!--alias-->
+		<systemid>Hokkaido_Hakodate</systemid>
+		<systemname>北海道函館市</systemname>
+		<libkey>中央図書館</libkey>
+		<libid>101178</libid>
+		<short>中央図書館</short>
+		<formal>	<Library>
+		<systemid>Hokkaido_Hakodate</systemid>
+		<systemname>北海道函館市</systemname>
+		<libkey>中央図書館</libkey>
+		<libid>101178</libid>
+		<short>中央図書館</short>
+		<formal>函館市中央図書館 （分館含む）</formal>
+		<url_pc>http://www.lib-hkd.jp</url_pc>
+		<address>北海道函館市五稜郭町26番1号</address>
+		<pref>北海道</pref>
+		<city>函館市</city>
+		<post>040-0001　</post>
+		<tel>0138-35-6800</tel>
+		<geocode>140.7534349,41.7982719</geocode>
+		<category>MEDIUM</category>
+		<image></image>
+	</Library>
+</formal>
+		<url_pc>http://www.lib-hkd.jp</url_pc>
+		<address>北海道函館市五稜郭町26番1号</address>
+		<pref>北海道</pref>
+		<city>函館市</city>
+		<post>040-0001　</post>
+		<tel>0138-35-6800</tel>
+		<geocode>140.7534349,41.7982719</geocode>
+		<category>MEDIUM</category>
+		<image></image>
+	</Library>
+</Libraries>
