@@ -41,6 +41,7 @@ BASEURL = "http://www45.atwiki.jp/savelibrary/editx/"
 CALIL_BASEURL = "http://api.calil.jp/library?pref="
 
 PREF_LIBRARIES = {
+   "Akita" => "25.html",
    "Aomori" => "27.html",
    "Hokkaido" => "30.html",
    "Yamagata" => "24.html",
@@ -87,6 +88,7 @@ PREF_LIBRARIES.each do |pref, url|
                   ( text == e.find( "./formal" )[0].content.strip ) or
                      ( text == e.find( "./short" )[0].content.strip ) or
                      ( text.gsub( /[　 ]/, "" ) == e.find( "./formal" )[0].content.gsub( /[　 ]/, "" ) ) or
+                     ( text.gsub( /市立/, "市" ) == e.find( "./formal" )[0].content.gsub( /市立/, "市" ) ) or
                      ( text == e.find( "./systemname" )[0].content )
                end
                if data[ :calil ].nil?
