@@ -41,8 +41,9 @@ BASEURL = "http://www45.atwiki.jp/savelibrary/editx/"
 CALIL_BASEURL = "http://api.calil.jp/library?pref="
 
 PREF_LIBRARIES = {
+   "Chiba" => "16.html",
    "Gunma" => "34.html",
-  "Tochigi" => "26.html",
+#   "Tochigi" => "26.html",
    "Ibaraki" => "23.html",
    "Fukushima" => "22.html",
    "Akita" => "25.html",
@@ -89,13 +90,16 @@ PREF_LIBRARIES.each do |pref, url|
                end
                data[ :title ] = text
                data[ :calil ] = calil_info.find do |e|
-                  ( text == e.find( "./formal" )[0].content.strip ) or
-                     ( text == e.find( "./short" )[0].content.strip ) or
-                     ( text.gsub( /[　 ]/, "" ) == e.find( "./formal" )[0].content.gsub( /[　 ]/, "" ) ) or
-                     ( text.gsub( /市立/, "市" ) == e.find( "./formal" )[0].content.gsub( /市立/, "市" ) ) or
-                     ( text.gsub( /中央図書館\Z/, "図書館" ) == e.find( "./formal" )[0].content.gsub( /中央図書館\Z/, "図書館" ) ) or
-                     ( text.gsub( /ケ/, "ヶ" ) == e.find( "./formal" )[0].content.gsub( /ケ/, "ヶ" ) ) or
-                     ( text.gsub( /\(.+?\)\Z/, "" ) == e.find( "./formal" )[0].content.gsub( /\(.+?\)\Z/, "" ) ) or
+                  formal = e.find( "./formal" )[0].content.strip
+                  short  = e.find( "./short" )[0].content.strip
+                  ( text == formal ) or
+                     ( text == short ) or
+                     ( text.gsub( /[　 ]/, "" ) == formal.gsub( /[　 ]/, "" ) ) or
+                     ( text.gsub( /市立/, "市" ) == formal.gsub( /市立/, "市" ) ) or
+                     ( text.gsub( /中央図書館\Z/, "図書館" ) == formal.gsub( /中央図書館\Z/, "図書館" ) ) or
+                     ( text.gsub( /([市町村])?立?(中央)?図書館\Z/, '\1図書館' ) == formal.gsub( /([市町村])?立?(中央)?図書館\Z/, '\1図書館' ) ) or
+                     ( text.gsub( /ケ/, "ヶ" ) == formal.gsub( /ケ/, "ヶ" ) ) or
+                     ( text.gsub( /\(.+?\)\Z/, "" ) == formal.gsub( /\(.+?\)\Z/, "" ) ) or
                      ( text == e.find( "./systemname" )[0].content )
                end
                if data[ :calil ].nil?
