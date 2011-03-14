@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Libraries>
+	<Library>
+<!--alias-->
+		<systemid>Univ_Chiba</systemid>
+		<systemname>千葉大学</systemname>
+		<libkey>本館</libkey>
+		<libid>106659</libid>
+		<short>本館</short>
+		<formal>千葉大学附属図書館</formal>
+		<url_pc>http://www.ll.chiba-u.ac.jp/</url_pc>
+		<address>千葉県千葉市稲毛区弥生町1-33</address>
+		<pref>千葉県</pref>
+		<city>千葉市</city>
+		<post>263-8522</post>
+		<tel>043-290-2258</tel>
+		<geocode>140.1026148,35.6263051</geocode>
+		<category>UNIV</category>
+		<image></image>
+	</Library>
+	<Library>
+		<short>匝瑳市立図書館</short>
+		<formal>匝瑳市立図書館</formal>
+		<pref>千葉県</pref>
+		<geocode>140.370941,35.817813</geocode>
+	</Library>
+	<Library>
+		<short>東京基督教大学図書館</short>
+		<formal>東京基督教大学図書館</formal>
+		<pref>千葉県</pref>
+		<geocode>140.101347,35.803544</geocode>
+	</Library>
+	<Library>
+<!--alias-->
+		<systemid>Chiba_Noda</systemid>
+		<systemname>千葉県野田市</systemname>
+		<libkey>興風</libkey>
+		<libid>100485</libid>
+		<short>興風図書館</short>
+		<formal>野田市立図書館</formal>
+		<url_pc>http://www.library-noda.jp/index.html</url_pc>
+		<address>千葉県野田市中野台168-1　欅のホール1&amp;2階</address>
+		<pref>千葉県</pref>
+		<city>野田市</city>
+		<post>278-0035</post>
+		<tel>04-7123-7611</tel>
+		<geocode>139.8588457,35.9463017</geocode>
+		<category>MEDIUM</category>
+		<image></image>
+	</Library>
+</Libraries>
