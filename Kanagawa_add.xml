@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Libraries>
+	<Library>
+<!--alias-->
+		<systemid>Kanagawa_Kawasaki</systemid>
+		<systemname>神奈川県川崎市</systemname>
+		<libkey>中原</libkey>
+		<libid>101904</libid>
+		<short>中原図書館</short>
+		<formal>川崎市立図書館</formal>
+		<url_pc>http://www.library.city.kawasaki.jp/riyou_libmap/libinfo_06.html</url_pc>
+		<address>神奈川県川崎市中原区小杉町3-417</address>
+		<pref>神奈川県</pref>
+		<city>川崎市</city>
+		<post>211-0063 </post>
+		<tel>044-722-4932</tel>
+		<geocode>139.658395,35.576085</geocode>
+		<category>MEDIUM</category>
+		<image></image>
+	</Library>
+	<Library>
+<!--alias-->
+		<systemid>Univ_Meiji</systemid>
+		<systemname>明治大学</systemname>
+		<libkey>生田</libkey>
+		<libid>107502</libid>
+		<short>明治大生田</short>
+		<formal>明治大学生田図書館（川崎市）</formal>
+		<url_pc>http://www.lib.meiji.ac.jp/</url_pc>
+		<address>神奈川県川崎市多摩区東三田1-1-1</address>
+		<pref>神奈川県</pref>
+		<city>川崎市</city>
+		<post>214-8571</post>
+		<tel>044-934-7946</tel>
+		<geocode>139.5481984,35.6129238</geocode>
+		<category>UNIV</category>
+		<image></image>
+	</Library>
+	<Library>
+		<short>ラボ図書環（NPO法人横浜コミュニティデザイン・ラボ内）</short>
+		<formal>ラボ図書環（NPO法人横浜コミュニティデザイン・ラボ内）</formal>
+		<pref>神奈川県</pref>
+		<geocode>139.409637,35.602602</geocode>
+	</Library>
+	<Library>
+		<short>専修大学図書館（生田キャンパス本館，生田分館）</short>
+		<formal>専修大学図書館（生田キャンパス本館，生田分館）</formal>
+		<pref>神奈川県</pref>
+		<geocode>139.548469,35.611831</geocode>
+	</Library>
+</Libraries>
