@@ -58,7 +58,7 @@
 		<short>郡山市中央図書館富田分館</short>
 		<formal>郡山市中央図書館富田分館</formal>
 		<pref>福島県</pref>
-		<geocode>37.449651,140.29953</geocode>
+		<geocode>140.29953,37.449651</geocode>
 	</Library>
 	<Library>
 		<short>郡山市中央図書館逢瀬分館</short>
@@ -196,7 +196,7 @@
 		<short>福島学院大学図書館情報センター</short>
 		<formal>福島学院大学図書館情報センター</formal>
 		<pref>福島県</pref>
-		<geocode>37.812361,140.46278</geocode>
+		<geocode>140.46278,37.812361</geocode>
 	</Library>
 	<Library>
 		<short>福島県立安積黎明高校図書館</short>
