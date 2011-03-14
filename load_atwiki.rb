@@ -16,13 +16,13 @@ $KCODE = "u"
 KML_HEADER = <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
-<Document>
+<Folder>
   <name>図書館被害状況マップ</name>
   <description><![CDATA[東日本大地震による図書館の被災情報・救援情報
 http://www45.atwiki.jp/savelibrary
 にまとめられている情報を地図上で並べてみることができます。
 
-※更新は手動なので、最新情報に追い付いていません。最新はウィキ上の情報を確認するようにしてください。
+※30分おきに更新します。ただし、一部読み込みに失敗することがあります。最新はウィキ上の情報を確認するようにしてください。
 ]]></description>
   <Style id="style1">
     <IconStyle>
@@ -33,7 +33,7 @@ http://www45.atwiki.jp/savelibrary
   </Style>
 EOF
 KML_FOOTER = <<EOF
-</Document>
+</Folder>
 </kml>
 EOF
 
@@ -42,19 +42,19 @@ CALIL_BASEURL = "http://api.calil.jp/library?pref="
 
 PREF_LIBRARIES = {
    "Kanagawa" => "15.html",
-#   "Tokyo" => "14.html",
-#   "Saitama" => "32.html",
-#   "Chiba" => "16.html",
-#   "Gunma" => "34.html",
-#   "Tochigi" => "26.html",
-#   "Ibaraki" => "23.html",
-#   "Fukushima" => "22.html",
-#   "Akita" => "25.html",
-#   "Aomori" => "27.html",
-#   "Hokkaido" => "30.html",
-#   "Yamagata" => "24.html",
-#   "Iwate" => "21.html",
-#   "Miyagi" => "20.html",
+   "Tokyo" => "14.html",
+   "Saitama" => "32.html",
+   "Chiba" => "16.html",
+   "Gunma" => "34.html",
+   "Tochigi" => "26.html",
+   "Ibaraki" => "23.html",
+   "Fukushima" => "22.html",
+   "Akita" => "25.html",
+   "Aomori" => "27.html",
+   "Hokkaido" => "30.html",
+   "Yamagata" => "24.html",
+   "Iwate" => "21.html",
+   "Miyagi" => "20.html",
 }
 
 class String
@@ -70,8 +70,10 @@ def load_calil_xml( basename )
    calil_info = doc.find( "//Library" )
 end
 
-libraries = []
+libraries = {}
 PREF_LIBRARIES.each do |pref, url|
+   STDERR.puts pref
+   libraries[ pref ] ||= []
    calil_info = load_calil_xml( pref )
    calil_add_info = load_calil_xml( pref + "_add" )
    cont = open( BASEURL + url ){|io| io.read }
@@ -88,12 +90,14 @@ PREF_LIBRARIES.each do |pref, url|
             next if section.size == 1
             if section.size == 2
                if not data.empty?
-                  libraries << data
+                  libraries[pref] << data
                   data = {}
                end
                text = text.gsub( /\&aname\(\w+\)\{(.+?)\}/ ){|m| $1 }
                text = text.gsub( /\[\[(.+?)>[^\]]*\]\]/ ){|m| $1 }
+               text = text.gsub( /\A\s*図書館名?[ 　]*/, "" )
                data[ :title ] = text
+               data[ :pref ] = pref
                data[ :calil ] = calil_info.find do |e|
                   formal = e.find( "./formal" )[0].content.strip
                   short  = e.find( "./short" )[0].content.strip
@@ -115,30 +119,31 @@ PREF_LIBRARIES.each do |pref, url|
                   end
                end
             else
-               #label1, text = text.split( /[:：]/, 2 )
-               #if text and not text.empty?
-               #   #text = text.join( ":" ) if text.respond_to?( :join )
-               #   data[ label1 ] = text
-               #end
                data[ :text ] ||= []
                data[ :text ] << text
             end
          when ""
             if not data.empty?
-               libraries << data
+               libraries[pref] << data
                data = {}
                #puts "--"
             end
          end
       end
       if not data.empty?
-         libraries << data
+         libraries[pref] << data
       end
    end
 end
 puts KML_HEADER
-libraries.each do |lib|
+libraries.each do |pref,val|
+   puts <<EOF
+  <Document>
+    <name>#{ pref.escape_xml }</name>
+EOF
+   val.each do |lib|
    next if lib.empty?
+   next if lib[:title] and lib[:title].empty?
    next if lib[:title] and lib[:title] == "図書館名"
    next if lib[:title] and lib[:title] =~ /\A参考（上記に掲載されていない(公共|大学)図書館）\Z/
    next if lib[:title] and lib[:title] =~ /\A以下東北大学附属図書館の図書室/
@@ -146,13 +151,14 @@ libraries.each do |lib|
       warn lib.inspect
       next
    end
-   if lib[ :text ].nil?
-      warn lib.inspect
-   end
    geocode = lib[ :calil ].find( "./geocode" )[0].content if lib[ :calil ]
    if geocode.nil?
-      pp lib
+      warn lib.inspect
+      next
       geocode=""
+   end
+   if lib[ :text ].nil?
+      warn lib.inspect
    end
    point = "<Point><coordinates>#{ geocode.escape_xml },0.000000</coordinates></Point>"
    puts <<EOF
@@ -163,5 +169,7 @@ libraries.each do |lib|
   #{ point }
 </Placemark>
 EOF
+   end
+   puts "</Document>"
 end
 puts KML_FOOTER
