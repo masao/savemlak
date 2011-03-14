@@ -41,20 +41,20 @@ BASEURL = "http://www45.atwiki.jp/savelibrary/editx/"
 CALIL_BASEURL = "http://api.calil.jp/library?pref="
 
 PREF_LIBRARIES = {
-   "Kanagawa" => "15.html",
+   "Iwate" => "21.html",
+   "Miyagi" => "20.html",
+   "Fukushima" => "22.html",
+   "Yamagata" => "24.html",
+   "Akita" => "25.html",
+   "Aomori" => "27.html",
+   "Ibaraki" => "23.html",
+   "Gunma" => "34.html",
+   "Tochigi" => "26.html",
+   "Hokkaido" => "30.html",
    "Tokyo" => "14.html",
    "Saitama" => "32.html",
    "Chiba" => "16.html",
-   "Gunma" => "34.html",
-   "Tochigi" => "26.html",
-   "Ibaraki" => "23.html",
-   "Fukushima" => "22.html",
-   "Akita" => "25.html",
-   "Aomori" => "27.html",
-   "Hokkaido" => "30.html",
-   "Yamagata" => "24.html",
-   "Iwate" => "21.html",
-   "Miyagi" => "20.html",
+   "Kanagawa" => "15.html",
 }
 
 class String
@@ -136,12 +136,13 @@ PREF_LIBRARIES.each do |pref, url|
    end
 end
 puts KML_HEADER
-libraries.each do |pref,val|
+libraries.keys.sort.each do |pref|
    puts <<EOF
   <Document>
     <name>#{ pref.escape_xml }</name>
+    <open>0</open>
 EOF
-   val.each do |lib|
+   libraries[pref].each do |lib|
    next if lib.empty?
    next if lib[:title] and lib[:title].empty?
    next if lib[:title] and lib[:title] == "図書館名"
