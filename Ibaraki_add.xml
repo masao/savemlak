@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Libraries>
+	<Library>
+<!--alias-->
+		<systemid>Ibaraki_Toride</systemid>
+		<systemname>茨城県取手市</systemname>
+		<libkey>取手</libkey>
+		<libid>101589</libid>
+		<short>取手図書館</short>
+		<formal>取手市立図書館</formal>
+		<url_pc>http://www.toride-toshokan.jp/</url_pc>
+		<address>茨城県取手市取手1-12-16</address>
+		<pref>茨城県</pref>
+		<city>取手市</city>
+		<post>302-0004</post>
+		<tel>0297-74-8361</tel>
+		<geocode>140.0659096,35.8898866</geocode>
+		<category>MEDIUM</category>
+		<image></image>
+	</Library>
+</Libraries>
