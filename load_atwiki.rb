@@ -81,12 +81,14 @@ PREF_LIBRARIES.each do |pref, url|
                data[ :title ] = text
                data[ :calil ] = calil_info.find do |e|
                   ( text == e.find( "./formal" )[0].content.strip ) or
-                     ( text == e.find( "./short" )[0].content.strip )
+                     ( text == e.find( "./short" )[0].content.strip ) or
+                     ( text.gsub( /[　 ]/, "" ) == e.find( "./formal" )[0].content.gsub( /[　 ]/, "" ) ) or
+                     ( text == e.find( "./systemname" )[0].content )
                end
                if data[ :calil ].nil?
                   data[ :calil ] = calil_add_info.find do |e|
-                     ( text == e.find( "./formal" )[0].content.strip ) or
-                        ( text == e.find( "./short" )[0].content.strip )
+                     ( text == e.find( "./formal" )[0].content ) or
+                        ( text == e.find( "./short" )[0].content )
                   end
                end
             else
@@ -116,6 +118,7 @@ libraries.each do |lib|
    next if lib.empty?
    next if lib[:title] and lib[:title] == "図書館名"
    next if lib[:title] and lib[:title] =~ /\A参考（上記に掲載されていない(公共|大学)図書館）\Z/
+   next if lib[:title] and lib[:title] =~ /\A以下東北大学附属図書館の図書室/
    if lib[ :title ].nil?
       warn lib.inspect
       next
@@ -132,7 +135,7 @@ libraries.each do |lib|
    puts <<EOF
 <Placemark>
   <name>#{ lib[:title].escape_xml }</name>
-  <description><![CDATA[<div dir="ltr">#{ lib[:text].join("<br>") }</div>]]></description>
+  <description><![CDATA[<div dir="ltr">#{ lib[:text].to_a.join("<br>") }</div>]]></description>
   <styleUrl>#style1</styleUrl>
   #{ point }
 </Placemark>

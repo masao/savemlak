@@ -924,7 +924,7 @@
 		<libkey>大和</libkey>
 		<libid>105626</libid>
 		<short>大和</short>
-		<formal>宮城大学総合情報センター大和キャンパス図書館‎</formal>
+		<formal>宮城大学総合情報センター大和キャンパス図書館</formal>
 		<url_pc>http://www.myu.ac.jp/sogocenter/so05.html</url_pc>
 		<address>宮城県黒川郡大和町学苑１</address>
 		<pref>宮城県</pref>
@@ -943,7 +943,7 @@
 		<short>太白</short>
 		<formal>宮城大学総合情報センター太白キャンパス図書館</formal>
 		<url_pc>http://www.myu.ac.jp/sogocenter/so05.html</url_pc>
-		<address>宮城県仙台市太白区旗立２丁目２−１</address>
+		<address>宮城県仙台市太白区旗立２丁目２?１</address>
 		<pref>宮城県</pref>
 		<city>仙台市</city>
 		<post>982-0215</post>
@@ -994,7 +994,7 @@
 		<short>仙台高等専門学校広瀬キャンパス</short>
 		<formal>仙台高等専門学校広瀬キャンパス図書館</formal>
 		<url_pc>http://133.104.3.55/library/index.html</url_pc>
-		<address>宮城県仙台市青葉区愛子中央４丁目１６−１</address>
+		<address>宮城県仙台市青葉区愛子中央４丁目１６?１</address>
 		<pref>宮城県</pref>
 		<city>仙台市</city>
 		<post>989-3128</post>
@@ -1045,7 +1045,7 @@
 		<short>本館</short>
 		<formal>東北福祉大学図書館</formal>
 		<url_pc>http://www.tfu.ac.jp/libr/tful.html</url_pc>
-		<address>宮城県仙台市青葉区国見１丁目８−１</address>
+		<address>宮城県仙台市青葉区国見１丁目８?１</address>
 		<pref>宮城県</pref>
 		<city>仙台市</city>
 		<post>981-0943</post>
@@ -1198,7 +1198,7 @@
 		<short>東北薬科大学</short>
 		<formal>東北薬科大学図書館</formal>
 		<url_pc>http://www.tohoku-pharm.ac.jp/new/index.cgi?eid=185</url_pc>
-		<address>宮城県仙台市青葉区小松島４丁目４−１</address>
+		<address>宮城県仙台市青葉区小松島４丁目４?１</address>
 		<pref>宮城県</pref>
 		<city>仙台市</city>
 		<post>981-0905</post>
