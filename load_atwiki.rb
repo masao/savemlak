@@ -42,6 +42,7 @@ CALIL_BASEURL = "http://api.calil.jp/library?pref="
 
 PREF_LIBRARIES = {
    "Iwate" => "21.html",
+   "Miyagi" => "20.html",
 }
 
 class String
