@@ -179,5 +179,23 @@
 		<category>LARGE</category>
 		<image></image>
 	</Library>
+	<Library>
+<!--alias-->
+		<systemid>Tokyo_Nerima</systemid>
+		<systemname>東京都練馬区</systemname>
+		<libkey>練馬</libkey>
+		<libid>104125</libid>
+		<short>練馬図書館</short>
+		<formal>練馬区立図書館</formal>
+		<url_pc>http://www.lib.nerima.tokyo.jp/library/nerima.html</url_pc>
+		<address>東京都練馬区豊玉北6-8-1</address>
+		<pref>東京都</pref>
+		<city>練馬区</city>
+		<post>176-0012</post>
+		<tel>03-3992-1580</tel>
+		<geocode>139.6519188,35.734268</geocode>
+		<category>MEDIUM</category>
+		<image></image>
+	</Library>
 
 </Libraries>
