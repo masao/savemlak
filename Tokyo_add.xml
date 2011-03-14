@@ -197,5 +197,10 @@
 		<category>MEDIUM</category>
 		<image></image>
 	</Library>
-
+	<Library>
+		<short>国際協力機構図書館</short>
+		<formal>国際協力機構図書館</formal>
+		<pref>東京都</pref>
+		<geocode>139.719186,35.700976</geocode>
+	</Library>
 </Libraries>
