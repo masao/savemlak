@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Libraries>
+	<Library>
+<!--alias-->
+		<systemid>Gumma_Ota</systemid>
+		<systemname>群馬県太田市</systemname>
+		<libkey>中央図書館</libkey>
+		<libid>101010</libid>
+		<short>中央図書館</short>
+		<formal>太田市立図書館</formal>
+		<url_pc>http://www.lib.ota.gunma.jp/index.html</url_pc>
+		<address>群馬県太田市飯塚町1549-2</address>
+		<pref>群馬県</pref>
+		<city>太田市</city>
+		<post>373-0817</post>
+		<tel>0276-48-6226</tel>
+		<geocode>139.3825789,36.2843536</geocode>
+		<category>MEDIUM</category>
+		<image></image>
+	</Library>
+	<Library>
+		<short>みどり市立図書館</short>
+		<formal>みどり市立図書館</formal>
+		<pref>群馬県</pref>
+		<geocode>139.25849,36.405948</geocode>
+	</Library>
+	<Library>
+		<short>神流町図書館</short>
+		<formal>神流町図書館</formal>
+		<pref>群馬県</pref>
+		<geocode>138.893108,36.129695</geocode>
+	</Library>
+	<Library>
+		<short>甘楽町図書館</short>
+		<formal>甘楽町図書館</formal>
+		<pref>群馬県</pref>
+		<geocode>138.90358,36.265176</geocode>
+	</Library>
+	<Library>
+		<short>草津町立図書館</short>
+		<formal>草津町立図書館</formal>
+		<pref>群馬県</pref>
+		<geocode>138.571844,36.634333</geocode>
+	</Library>
+	<Library>
+		<short>上野村図書館</short>
+		<formal>上野村図書館</formal>
+		<pref>群馬県</pref>
+		<geocode>138.46756,36.317338</geocode>
+	</Library>
+</Libraries>

@@ -41,6 +41,8 @@ BASEURL = "http://www45.atwiki.jp/savelibrary/editx/"
 CALIL_BASEURL = "http://api.calil.jp/library?pref="
 
 PREF_LIBRARIES = {
+   "Gunma" => "34.html",
+  "Tochigi" => "26.html",
    "Ibaraki" => "23.html",
    "Fukushima" => "22.html",
    "Akita" => "25.html",
