@@ -96,6 +96,8 @@ PREF_LIBRARIES.each do |pref, url|
                text = text.gsub( /\&aname\(\w+\)\{(.+?)\}/ ){|m| $1 }
                text = text.gsub( /\[\[(.+?)>[^\]]*\]\]/ ){|m| $1 }
                text = text.gsub( /\A\s*図書館名?[ 　]*/, "" )
+               text = text.gsub( /[（\(]\d{4}\/\d{2}\/\d{2}\s*更新[）\)]\s*\Z/, "" )
+               text = text.gsub( /[（\(][\d\/\:\s]*(更新|作成)[）\)]\s*\Z/, "" )
                data[ :title ] = text
                data[ :pref ] = pref
                data[ :calil ] = calil_info.find do |e|

@@ -48,4 +48,22 @@
 		<category>MEDIUM</category>
 		<image></image>
 	</Library>
+	<Library>
+<!--alias-->
+		<systemid>Special_Ide</systemid>
+		<systemname>ジェトロ・アジア経済研究所</systemname>
+		<libkey>アジ研</libkey>
+		<libid>107321</libid>
+		<short>ジェトロ・アジア経済研究所</short>
+		<formal>アジア経済研究所図書館</formal>
+		<url_pc>http://www.ide.go.jp/Japanese/Library/</url_pc>
+		<address>千葉県千葉市美浜区若葉3-2-2</address>
+		<pref>千葉県</pref>
+		<city>千葉市</city>
+		<post>261-8545</post>
+		<tel>043-299-9716</tel>
+		<geocode>140.0471803,35.6488258</geocode>
+		<category>SPECIAL</category>
+		<image></image>
+	</Library>
 </Libraries>

@@ -365,7 +365,7 @@
 		<short>千畑図書室</short>
 		<formal>美郷町千畑図書室</formal>
 		<url_pc>http://www.town.misato.akita.jp/madoguchi/shakikyouiku/gakuyu/gakuyukan.asp</url_pc>
-		<address>秋田県仙北郡美郷町土崎字上野乙１−３９０</address>
+		<address>秋田県仙北郡美郷町土崎字上野乙１?３９０</address>
 		<pref>秋田県</pref>
 		<city>仙北郡美郷町</city>
 		<post>019-1541</post>
@@ -382,7 +382,7 @@
 		<short>美郷町公民館図書室</short>
 		<formal>美郷町公民館図書室</formal>
 		<url_pc>http://www.town.misato.akita.jp/madoguchi/shakikyouiku/gakuyu/gakuyukan.asp</url_pc>
-		<address>秋田県仙北郡美郷町飯詰字北中島３７−１</address>
+		<address>秋田県仙北郡美郷町飯詰字北中島３７?１</address>
 		<pref>秋田県</pref>
 		<city>仙北郡美郷町</city>
 		<post>019-1234</post>
@@ -652,7 +652,7 @@
 		<libkey>岩城</libkey>
 		<libid>100239</libid>
 		<short>岩城図書館</short>
-		<formal>由利本庄市岩城図書館</formal>
+		<formal>由利本荘市岩城図書館</formal>
 		<url_pc>http://nsmailsv.city.yurihonjo.akita.jp/honjo/tosyo/index.htm</url_pc>
 		<address>秋田県由利本荘市岩城内道川字水呑場27－１</address>
 		<pref>秋田県</pref>
@@ -669,7 +669,7 @@
 		<libkey>本荘</libkey>
 		<libid>100240</libid>
 		<short>本荘図書館</short>
-		<formal>由利本庄市本荘図書館</formal>
+		<formal>由利本荘市本荘図書館</formal>
 		<url_pc>http://nsmailsv.city.yurihonjo.akita.jp/honjo/tosyo/index.htm</url_pc>
 		<address>秋田県由利本荘市美倉町３０</address>
 		<pref>秋田県</pref>
@@ -686,7 +686,7 @@
 		<libkey>東由</libkey>
 		<libid>100241</libid>
 		<short>東由利公民館</short>
-		<formal>由利本庄市東由利公民館図書室</formal>
+		<formal>由利本荘市東由利公民館図書室</formal>
 		<url_pc>http://nsmailsv.city.yurihonjo.akita.jp/honjo/tosyo/index.htm</url_pc>
 		<address>秋田県由利本荘市東由利老方字台山36</address>
 		<pref>秋田県</pref>
@@ -703,7 +703,7 @@
 		<libkey>由利</libkey>
 		<libid>100242</libid>
 		<short>由利図書館</short>
-		<formal>由利本庄市由利図書館</formal>
+		<formal>由利本荘市由利図書館</formal>
 		<url_pc>http://nsmailsv.city.yurihonjo.akita.jp/honjo/tosyo/index.htm</url_pc>
 		<address>秋田県由利本荘市前郷字御伊勢下33</address>
 		<pref>秋田県</pref>
@@ -720,7 +720,7 @@
 		<libkey>矢島</libkey>
 		<libid>100243</libid>
 		<short>矢島公民館</short>
-		<formal>由利本庄市矢島公民館図書室</formal>
+		<formal>由利本荘市矢島公民館図書室</formal>
 		<url_pc>http://nsmailsv.city.yurihonjo.akita.jp/honjo/tosyo/index.htm</url_pc>
 		<address>秋田県由利本荘市矢島町七日町字羽坂６４－１</address>
 		<pref>秋田県</pref>
@@ -754,7 +754,7 @@
 		<libkey>鳥海</libkey>
 		<libid>100245</libid>
 		<short>鳥海公民館</short>
-		<formal>由利本庄市鳥海公民館図書室</formal>
+		<formal>由利本荘市鳥海公民館図書室</formal>
 		<url_pc>http://nsmailsv.city.yurihonjo.akita.jp/honjo/tosyo/index.htm</url_pc>
 		<address>秋田県由利本荘市鳥海町伏見字久保193</address>
 		<pref>秋田県</pref>
@@ -771,7 +771,7 @@
 		<libkey>出羽</libkey>
 		<libid>100246</libid>
 		<short>出羽伝承館</short>
-		<formal>由利本庄市出羽伝承館 (大内公民館図書室)</formal>
+		<formal>由利本荘市出羽伝承館 (大内公民館図書室)</formal>
 		<url_pc>http://www.ont.ne.jp/~dewaden/toshotop.htm</url_pc>
 		<address>秋田県由利本荘市岩谷町字西越３６</address>
 		<pref>秋田県</pref>
@@ -790,7 +790,7 @@
 		<short>湯沢図書館</short>
 		<formal>湯沢市立湯沢図書館</formal>
 		<url_pc>http://aios.city-yuzawa.jp/contents/webyuzawa.nsf/doc/05E218450ADCE8A349257026001D42FF?OpenDocument</url_pc>
-		<address>秋田県湯沢市字内舘町２７‎</address>
+		<address>秋田県湯沢市字内舘町２７?</address>
 		<pref>秋田県</pref>
 		<city>湯沢市</city>
 		<post>012-0842</post>

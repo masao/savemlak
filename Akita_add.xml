@@ -90,7 +90,7 @@
 		<formal>北秋田市森吉図書館</formal>
 		<pref>秋田県</pref>
 		<city>秋田市</city>
-		<geocode>111.621094,49.15297,</geocode>
+		<geocode>111.621094,49.15297</geocode>
 	</Library>
 	<Library>
 <!--alias-->
@@ -109,5 +109,19 @@
 		<geocode>140.4323017,39.3455655</geocode>
 		<category>MEDIUM</category>
 		<image></image>
+	</Library>
+	<Library>
+		<short>潟上市図書館昭和分館（昭和学習館）</short>
+		<formal>潟上市図書館昭和分館（昭和学習館）</formal>
+		<pref>秋田県</pref>
+		<city>秋田市</city>
+		<geocode>140.060427,39.874916</geocode>
+	</Library>
+	<Library>
+		<short>潟上市図書館飯田川分館（飯田川公民館図書室）</short>
+		<formal>潟上市図書館飯田川分館（飯田川公民館図書室）</formal>
+		<pref>秋田県</pref>
+		<city>秋田市</city>
+		<geocode>139.973717,39.93475</geocode>
 	</Library>
 </Libraries>
