@@ -4,8 +4,12 @@
 
 # http://www45.atwiki.jp/savelibrary/editx/30.html
 
+require "uri"
 require "open-uri"
 require "pp"
+
+require "rubygems"
+require "libxml"
 
 $KCODE = "u"
 
@@ -34,6 +38,11 @@ KML_FOOTER = <<EOF
 EOF
 
 BASEURL = "http://www45.atwiki.jp/savelibrary/editx/"
+CALIL_BASEURL = "http://api.calil.jp/library?pref="
+
+PREF_LIBRARIES = {
+   "Iwate" => "21.html",
+}
 
 class String
    def escape_xml
@@ -41,8 +50,17 @@ class String
    end
 end
 
+def load_calil_xml( basename )
+   cont = open( basename + ".xml" ){|io| io.read }
+   parser = LibXML::XML::Parser.string( cont )
+   doc = parser.parse
+   calil_info = doc.find( "//Library" )
+end
+
 libraries = []
-%w[ 21.html ].each do |url|
+PREF_LIBRARIES.each do |pref, url|
+   calil_info = load_calil_xml( pref )
+   calil_add_info = load_calil_xml( pref + "_add" )
    cont = open( BASEURL + url ){|io| io.read }
    if cont.match( /<textarea\s+name="source"[^>]*>(.*?)<\/textarea>/m )
       wikitext = $1
@@ -60,6 +78,16 @@ libraries = []
                   data = {}
                end
                data[ :title ] = text
+               data[ :calil ] = calil_info.find do |e|
+                  ( text == e.find( "./formal" )[0].content.strip ) or
+                     ( text == e.find( "./short" )[0].content.strip )
+               end
+               if data[ :calil ].nil?
+                  data[ :calil ] = calil_add_info.find do |e|
+                     ( text == e.find( "./formal" )[0].content.strip ) or
+                        ( text == e.find( "./short" )[0].content.strip )
+                  end
+               end
             else
                #label1, text = text.split( /[:：]/, 2 )
                #if text and not text.empty?
@@ -94,10 +122,18 @@ libraries.each do |lib|
    if lib[ :text ].nil?
       warn lib.inspect
    end
+   geocode = lib[ :calil ].find( "./geocode" )[0].content if lib[ :calil ]
+   if geocode.nil?
+      pp lib
+      geocode=""
+   end
+   point = "<Point><coordinates>#{ geocode.escape_xml },0.000000</coordinates></Point>"
    puts <<EOF
 <Placemark>
   <name>#{ lib[:title].escape_xml }</name>
   <description><![CDATA[<div dir="ltr">#{ lib[:text].join("<br>") }</div>]]></description>
+  <styleUrl>#style1</styleUrl>
+  #{ point }
 </Placemark>
 EOF
 end
