@@ -111,11 +111,13 @@ PREF_LIBRARIES.each do |pref|
                      ( text == short ) or
                      ( text.gsub( /[　 ・「」]/, "" ) == formal.gsub( /[　 ・「」]/, "" ) ) or
                      ( text.gsub( /市立/, "市" ) == formal.gsub( /市立/, "市" ) ) or
+                     ( text.gsub( /\A.+?県/, "" ) == formal.gsub( /\A.+?県/, "" ) ) or
                      ( text.gsub( /\s*中央図書館\Z/, "図書館" ) == formal.gsub( /\s*中央図書館\Z/, "図書館" ) ) or
                      ( text.gsub( /由利本庄市/, "由利本荘市" ) == formal.gsub( /由利本庄市/, "由利本荘市" ) ) or
                      ( text.gsub( /\s*中央館\Z/, "" ) == formal.gsub( /\s*中央館\Z/, "" ) ) or
                      ( text.gsub( /([市区町村])?立?(中央)?図書館\Z/, '\1図書館' ) == formal.gsub( /([市区町村])?立?(中央)?図書館\Z/, '\1図書館' ) ) or
                      ( text.gsub( /本館\Z/, '' ) == formal.gsub( /本館\Z/, '' ) ) or
+                     ( text.gsub( /公民館[ 　]*図書室\Z/, '公民館' ) == formal.gsub( /公民館[ 　]*図書室\Z/, '公民館' ) ) or
                      ( text.gsub( /ケ/, "ヶ" ) == formal.gsub( /ケ/, "ヶ" ) ) or
                      ( text.gsub( /\(.+?\)\Z/, "" ) == formal.gsub( /\(.+?\)\Z/, "" ) ) or
                      ( text == e.find( "./systemname" )[0].content )
@@ -144,13 +146,13 @@ PREF_LIBRARIES.each do |pref|
    end
 end
 puts KML_HEADER
-libraries.keys.sort.each do |pref|
+PREF_LIBRARIES.each do |pref|
    puts <<EOF
   <Document>
-    <name>#{ pref.escape_xml }</name>
+    <name>#{ pref[:pref].escape_xml }</name>
     <open>0</open>
 EOF
-   libraries[pref].each do |lib|
+   libraries[pref[:name]].each do |lib|
    next if lib.empty?
    next if lib[:title] and lib[:title].empty?
    next if lib[:title] and lib[:title] == "図書館名"
