@@ -18,4 +18,22 @@
 		<category>UNIV</category>
 		<image></image>
 	</Library>
+	<Library>
+<!--alias-->
+		<systemid>Nagano_Nagano</systemid>
+		<systemname>長野県長野市</systemname>
+		<libkey>長野図書館</libkey>
+		<libid>102507</libid>
+		<short>長野市立長野図書館</short>
+		<formal>長野市立図書館（長野図書館）</formal>
+		<url_pc>http://library.nagano-ngn.ed.jp/</url_pc>
+		<address>長野県長野市大字長野長門町1097番地3</address>
+		<pref>長野県</pref>
+		<city>長野市</city>
+		<post>380-0843</post>
+		<tel>026-232-3558</tel>
+		<geocode>138.184422,36.6550898</geocode>
+		<category>MEDIUM</category>
+		<image></image>
+	</Library>
 </Libraries>
