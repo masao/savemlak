@@ -57,6 +57,8 @@ PREF_LIBRARIES = [
    { :name => "Kanagawa", :pref => "神奈川県", :wikiname => "15.html" },
    { :name => "Nagano", :pref => "長野県", :wikiname => "29.html" },
    { :name => "Niigata", :pref => "新潟県", :wikiname => "28.html" },
+   { :name => "Shizuoka", :pref => "静岡県", :wikiname => "46.html" },
+   { :name => "Yamanashi", :pref => "山梨県", :wikiname => "47.html" },
 ]
 
 class String
@@ -120,6 +122,7 @@ PREF_LIBRARIES.each do |pref|
                      ( text.gsub( /公民館[ 　]*図書室\Z/, '公民館' ) == formal.gsub( /公民館[ 　]*図書室\Z/, '公民館' ) ) or
                      ( text.gsub( /ケ/, "ヶ" ) == formal.gsub( /ケ/, "ヶ" ) ) or
                      ( text.gsub( /\(.+?\)\Z/, "" ) == formal.gsub( /\(.+?\)\Z/, "" ) ) or
+                     ( text.gsub( /（.+?）\Z/, "" ) == formal.gsub( /（.+?）\Z/, "" ) ) or
                      ( text == e.find( "./systemname" )[0].content )
                end
                if data[ :calil ].nil?
