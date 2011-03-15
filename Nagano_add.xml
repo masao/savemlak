@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Libraries>
+	<Library>
+<!--alias-->
+		<systemid>Univ_Shinshu</systemid>
+		<systemname>信州大学</systemname>
+		<libkey>松本合同</libkey>
+		<libid>105286</libid>
+		<short>松本合同</short>
+		<formal>信州大学附属図書館 (全館)</formal>
+		<url_pc>http://www.shinshu-u.ac.jp/institution/library/</url_pc>
+		<address>長野県松本市旭3-1-1</address>
+		<pref>長野県</pref>
+		<city>松本市</city>
+		<post>390-8621</post>
+		<tel>0263-37-2178</tel>
+		<geocode>137.9771997,36.25087</geocode>
+		<category>UNIV</category>
+		<image></image>
+	</Library>
+</Libraries>
