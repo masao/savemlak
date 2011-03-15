@@ -18,4 +18,10 @@
 		<category>MEDIUM</category>
 		<image></image>
 	</Library>
+	<Library>
+		<short>那珂市立図書館</short>
+		<formal>那珂市立図書館</formal>
+		<pref>茨城県</pref>
+		<geocode>140.46999,36.46416</geocode>
+	</Library>
 </Libraries>
