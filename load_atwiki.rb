@@ -56,6 +56,7 @@ PREF_LIBRARIES = {
    "Chiba" => "16.html",
    "Kanagawa" => "15.html",
    "Nagano" => "29.html",
+   "Niigata" => "28.html",
 }
 
 class String
@@ -109,7 +110,8 @@ PREF_LIBRARIES.each do |pref, url|
                      ( text == short ) or
                      ( text.gsub( /[　 ]/, "" ) == formal.gsub( /[　 ]/, "" ) ) or
                      ( text.gsub( /市立/, "市" ) == formal.gsub( /市立/, "市" ) ) or
-                     ( text.gsub( /中央図書館\Z/, "図書館" ) == formal.gsub( /中央図書館\Z/, "図書館" ) ) or
+                     ( text.gsub( /\s*中央図書館\Z/, "図書館" ) == formal.gsub( /\s*中央図書館\Z/, "図書館" ) ) or
+                     ( text.gsub( /\s*中央館\Z/, "" ) == formal.gsub( /\s*中央館\Z/, "" ) ) or
                      ( text.gsub( /([市区町村])?立?(中央)?図書館\Z/, '\1図書館' ) == formal.gsub( /([市区町村])?立?(中央)?図書館\Z/, '\1図書館' ) ) or
                      ( text.gsub( /本館\Z/, '' ) == formal.gsub( /本館\Z/, '' ) ) or
                      ( text.gsub( /ケ/, "ヶ" ) == formal.gsub( /ケ/, "ヶ" ) ) or

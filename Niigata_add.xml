@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Libraries>
+	<Library>
+<!--alias-->
+		<systemid>Univ_Niigata</systemid>
+		<systemname>新潟大学</systemname>
+		<libkey>中央館</libkey>
+		<libid>105301</libid>
+		<short>中央館</short>
+		<formal>新潟大学附属図書館</formal>
+		<url_pc>http://www.lib.niigata-u.ac.jp/</url_pc>
+		<address>新潟県新潟市西区五十嵐2の町8050番地</address>
+		<pref>新潟県</pref>
+		<city>新潟市</city>
+		<post>950-2181</post>
+		<tel>025-262-6221</tel>
+		<geocode>138.9415106,37.8674779</geocode>
+		<category>UNIV</category>
+		<image></image>
+	</Library>
+</Libraries>
