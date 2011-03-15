@@ -160,4 +160,34 @@
 		<category>MEDIUM</category>
 		<image></image>
 	</Library>
+	<Library>
+		<short>仙北市立田沢湖図書館</short>
+		<formal>仙北市立田沢湖図書館</formal>
+		<pref>秋田県</pref>
+		<geocode>140.72289,39.709745</geocode>
+	</Library>
+	<Library>
+		<short>小坂町立小坂図書館</short>
+		<formal>小坂町立小坂図書館</formal>
+		<pref>秋田県</pref>
+		<geocode>140.714436,40.337582</geocode>
+	</Library>
+	<Library>
+		<short>上小阿仁村立図書館</short>
+		<formal>上小阿仁村立図書館</formal>
+		<pref>秋田県</pref>
+		<geocode>140.271721,40.077874</geocode>
+	</Library>
+	<Library>
+		<short>八郎潟町立図書館</short>
+		<formal>八郎潟町立図書館</formal>
+		<pref>秋田県</pref>
+		<geocode>140.047016,39.963372</geocode>
+	</Library>
+	<Library>
+		<short>羽後町立図書館</short>
+		<formal>羽後町立図書館</formal>
+		<pref>秋田県</pref>
+		<geocode>140.377893,39.214034</geocode>
+	</Library>
 </Libraries>
