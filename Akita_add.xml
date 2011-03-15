@@ -412,4 +412,100 @@
 		<pref>秋田県</pref>
 		<geocode>140.079267,39.746679</geocode>
 	</Library>
+	<Library>
+		<short>秋田市医師会立秋田看護学校　図書室</short>
+		<formal>秋田市医師会立秋田看護学校　図書室</formal>
+		<pref>秋田県</pref>
+		<geocode>140.052338,39.753393</geocode>
+	</Library>
+	<Library>
+		<short>秋田県点字図書館</short>
+		<formal>秋田県点字図書館</formal>
+		<pref>秋田県</pref>
+		<geocode>140.070813,39.749368</geocode>
+	</Library>
+	<Library>
+		<short>秋田県議会図書室</short>
+		<formal>秋田県議会図書室</formal>
+		<pref>秋田県</pref>
+		<geocode>140.095661,39.721002</geocode>
+	</Library>
+	<Library>
+		<short>秋田県総務部広報広聴課　県政情報資料室</short>
+		<formal>秋田県総務部広報広聴課　県政情報資料室</formal>
+		<pref>秋田県</pref>
+		<geocode>139.479675,39.897094</geocode>
+	</Library>
+	<Library>
+		<short>秋田県総合教育センター　総合教育資料室</short>
+		<formal>秋田県総合教育センター　総合教育資料室</formal>
+		<pref>秋田県</pref>
+		<geocode>139.952087,39.83675</geocode>
+	</Library>
+	<Library>
+		<short>秋田県生涯学習センター</short>
+		<formal>秋田県生涯学習センター</formal>
+		<pref>秋田県</pref>
+		<geocode>140.085897,39.721695</geocode>
+	</Library>
+	<Library>
+		<short>東北農政局秋田農政事務所　統計部</short>
+		<formal>東北農政局秋田農政事務所　統計部</formal>
+		<pref>秋田県</pref>
+		<geocode>140.092764,39.721695</geocode>
+	</Library>
+	<Library>
+		<short>秋田県農林水産技術センター　農業試験場</short>
+		<formal>秋田県農林水産技術センター　農業試験場</formal>
+		<pref>秋田県</pref>
+		<geocode>140.195568,39.575908</geocode>
+	</Library>
+	<Library>
+		<short>秋田県農林水産技術センター森林技術センター</short>
+		<formal>秋田県農林水産技術センター森林技術センター</formal>
+		<pref>秋田県</pref>
+		<geocode>139.943161,39.744682</geocode>
+	</Library>
+	<Library>
+		<short>秋田県農林水産技術センター水産振興センター</short>
+		<formal>秋田県農林水産技術センター水産振興センター</formal>
+		<pref>秋田県</pref>
+		<geocode>139.581299,39.925535</geocode>
+	</Library>
+	<Library>
+		<short>秋田県立博物館</short>
+		<formal>秋田県立博物館</formal>
+		<pref>秋田県</pref>
+		<geocode>140.039806,39.830423</geocode>
+	</Library>
+	<Library>
+		<short>秋田市立佐竹史料館</short>
+		<formal>秋田市立佐竹史料館</formal>
+		<pref>秋田県</pref>
+		<geocode>140.098429,39.733066</geocode>
+	</Library>
+	<Library>
+		<short>秋田県公文書館</short>
+		<formal>秋田県公文書館</formal>
+		<pref>秋田県</pref>
+		<geocode>140.031567,39.76329</geocode>
+	</Library>
+	<Library>
+		<short>NHK番組公開ライブラリー</short>
+		<formal>NHK番組公開ライブラリー</formal>
+		<pref>秋田県</pref>
+		<geocode>140.125294,39.719104</geocode>
+	</Library>
+	<Library>
+		<short>秋田経済研究所</short>
+		<formal>秋田経済研究所</formal>
+		<pref>秋田県</pref>
+		<geocode>140.07431,39.721052</geocode>
+	</Library>
+	<Library>
+		<short>民族芸術研究所</short>
+		<formal>民族芸術研究所</formal>
+		<pref>秋田県</pref>
+		<geocode>131.308594,40.5472</geocode>
+	</Library>
 </Libraries>

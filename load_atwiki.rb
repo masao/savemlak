@@ -111,7 +111,7 @@ PREF_LIBRARIES.each do |pref|
                   short  = e.find( "./short" )[0].content.strip
                   ( text == formal ) or
                      ( text == short ) or
-                     ( text.gsub( /[　 ・「」]/, "" ) == formal.gsub( /[　 ・「」]/, "" ) ) or
+                     ( text.gsub( /[　 ・「」\(\)]/, "" ) == formal.gsub( /[　 ・「」\(\)]/, "" ) ) or
                      ( text.gsub( /市立/, "市" ) == formal.gsub( /市立/, "市" ) ) or
                      ( text.gsub( /\A.+?県/, "" ) == formal.gsub( /\A.+?県/, "" ) ) or
                      ( text.gsub( /\s*中央図書館\Z/, "図書館" ) == formal.gsub( /\s*中央図書館\Z/, "図書館" ) ) or
