@@ -12,4 +12,10 @@
 		<pref>栃木県</pref>
 		<geocode>140.04324,36.555982</geocode>
 	</Library>
+	<Library>
+		<short>下野市立図書館（石橋、南河内、国分寺）</short>
+		<formal>下野市立図書館（石橋、南河内、国分寺）</formal>
+		<pref>栃木県</pref>
+		<geocode>139.819565,36.392062</geocode>
+	</Library>
 </Libraries>
