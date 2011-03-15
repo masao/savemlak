@@ -18,5 +18,10 @@
 		<category>MEDIUM</category>
 		<image></image>
 	</Library>
-
+	<Library>
+		<short>青森中央学院大学・青森中央短期大学 図書館情報センター</short>
+		<formal>青森中央学院大学・青森中央短期大学 図書館情報センター</formal>
+		<pref>青森県</pref>
+		<geocode>140.761814,40.784831</geocode>
+	</Library>
 </Libraries>
