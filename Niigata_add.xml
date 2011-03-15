@@ -18,4 +18,10 @@
 		<category>UNIV</category>
 		<image></image>
 	</Library>
+	<Library>
+		<short>小千谷市立図書館</short>
+		<formal>小千谷市立図書館</formal>
+		<pref>新潟県</pref>
+		<geocode>138.785369,37.312513</geocode>
+	</Library>
 </Libraries>
