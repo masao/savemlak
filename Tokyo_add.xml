@@ -203,4 +203,22 @@
 		<pref>東京都</pref>
 		<geocode>139.719186,35.700976</geocode>
 	</Library>
+	<Library>
+<!--alias-->
+		<systemid>Tokyo_Edogawa</systemid>
+		<systemname>東京都江戸川区</systemname>
+		<libkey>江戸川区立中央図書館</libkey>
+		<libid>103899</libid>
+		<short>中央図書館</short>
+		<formal>江戸川区立の全図書館</formal>
+		<url_pc>https://www.library.city.edogawa.tokyo.jp/toshow/introduction/html/chuo.html</url_pc>
+		<address>東京都江戸川区中央3-1-3</address>
+		<pref>東京都</pref>
+		<city>江戸川区</city>
+		<post>132-0021</post>
+		<tel>03-3656-6211</tel>
+		<geocode>139.869768,35.7105565</geocode>
+		<category>MEDIUM</category>
+		<image></image>
+	</Library>
 </Libraries>
