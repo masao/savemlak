@@ -124,4 +124,40 @@
 		<city>秋田市</city>
 		<geocode>139.973717,39.93475</geocode>
 	</Library>
+	<Library>
+<!--alias-->
+		<systemid>Akita_Akita</systemid>
+		<systemname>秋田県秋田市</systemname>
+		<libkey>移動図書館</libkey>
+		<libid>100214</libid>
+		<short>イソップ号</short>
+		<formal>秋田市立図書館　移動図書館イソップ号</formal>
+		<url_pc>http://www.lib.city.akita.akita.jp</url_pc>
+		<address>秋田県秋田市千秋明徳町4番4号</address>
+		<pref>秋田県</pref>
+		<city>秋田市</city>
+		<post>010‐0875 </post>
+		<tel>018‐832‐9220</tel>
+		<geocode>140.1235179,39.719756</geocode>
+		<category>BM</category>
+		<image></image>
+	</Library>
+	<Library>
+<!--alias-->
+		<systemid>Akita_Kazuno</systemid>
+		<systemname>秋田県鹿角市</systemname>
+		<libkey>十和田図書館</libkey>
+		<libid>100228</libid>
+		<short>十和田図書館</short>
+		<formal>鹿角市立立山文庫継承十和田図書館</formal>
+		<url_pc>http://www.city.kazuno.akita.jp/kakuka_folder/library/lib-top.jsp</url_pc>
+		<address>秋田県鹿角市十和田毛馬内字上陣場19番地5</address>
+		<pref>秋田県</pref>
+		<city>鹿角市</city>
+		<post>018-5334</post>
+		<tel>0186-35-3239</tel>
+		<geocode>140.7698051,40.2652037</geocode>
+		<category>MEDIUM</category>
+		<image></image>
+	</Library>
 </Libraries>
