@@ -316,4 +316,100 @@
 		<pref>秋田県</pref>
 		<geocode>140.57981,39.473339</geocode>
 	</Library>
+	<Library>
+		<short>ふれあい交流館かわべ（秋田市役所 地域振興部地域振興課 所轄）</short>
+		<formal>ふれあい交流館かわべ（秋田市役所 地域振興部地域振興課 所轄）</formal>
+		<pref>秋田県</pref>
+		<geocode>140.211275,39.654424</geocode>
+	</Library>
+	<Library>
+		<short>東成瀬村公民館図書室</short>
+		<formal>東成瀬村公民館図書室</formal>
+		<pref>秋田県</pref>
+		<geocode>140.572128,39.192086</geocode>
+	</Library>
+	<Library>
+<!--alias-->
+		<systemid>Univ_Akita_Pu</systemid>
+		<systemname>秋田県立大学</systemname>
+		<libkey>秋田</libkey>
+		<libid>105067</libid>
+		<short>秋田</short>
+		<formal>秋田県立大学図書情報センター(秋田キャンパス)</formal>
+		<url_pc>http://www.akita-pu.ac.jp/library/</url_pc>
+		<address>秋田県秋田市下新城中野字街道端西241-438</address>
+		<pref>秋田県</pref>
+		<city>秋田市</city>
+		<post>010-0195</post>
+		<tel>018-872-1561</tel>
+		<geocode>140.0528384,39.8063251</geocode>
+		<category>UNIV</category>
+		<image></image>
+	</Library>
+	<Library>
+<!--alias-->
+		<systemid>Univ_Akita_Pu</systemid>
+		<systemname>秋田県立大学</systemname>
+		<libkey>本荘</libkey>
+		<libid>105068</libid>
+		<short>本荘</short>
+		<formal>秋田県立大学図書情報センター(本荘キャンパス)</formal>
+		<url_pc>http://www.akita-pu.ac.jp/library/</url_pc>
+		<address>秋田県由利本荘市土谷字海老ノ口84-4</address>
+		<pref>秋田県</pref>
+		<city>由利本荘市</city>
+		<post>015-0055</post>
+		<tel>0184-27-2049</tel>
+		<geocode>140.0729666,39.3933404</geocode>
+		<category>UNIV</category>
+		<image></image>
+	</Library>
+	<Library>
+		<short>国際教養大学図書・情報センター</short>
+		<formal>国際教養大学図書・情報センター</formal>
+		<pref>秋田県</pref>
+		<geocode>140.092506,39.680241</geocode>
+	</Library>
+	<Library>
+		<short>ノースアジア大学附属図書館</short>
+		<formal>ノースアジア大学附属図書館</formal>
+		<pref>秋田県</pref>
+		<geocode>140.051994,39.769756</geocode>
+	</Library>
+	<Library>
+		<short>秋田栄養短期大学</short>
+		<formal>秋田栄養短期大学</formal>
+		<pref>秋田県</pref>
+		<geocode>140.150506,39.71988</geocode>
+	</Library>
+	<Library>
+		<short>秋田看護福祉大学附属図書館</short>
+		<formal>秋田看護福祉大学附属図書館</formal>
+		<pref>秋田県</pref>
+		<geocode>140.527153,40.294715</geocode>
+	</Library>
+	<Library>
+		<short>聖園学園短期大学図書館</short>
+		<formal>聖園学園短期大学図書館</formal>
+		<pref>秋田県</pref>
+		<geocode>140.087185,39.737422</geocode>
+	</Library>
+	<Library>
+		<short>日本赤十字秋田短期大学図書館</short>
+		<formal>日本赤十字秋田短期大学図書館</formal>
+		<pref>秋田県</pref>
+		<geocode>140.128555,39.699923</geocode>
+	</Library>
+	<Library>
+		<short>放送大学　秋田学習センター</short>
+		<formal>放送大学　秋田学習センター</formal>
+		<pref>秋田県</pref>
+		<geocode>140.126817,39.732472</geocode>
+	</Library>
+	<Library>
+		<short>青森中央学院大学・青森中央短期大学 図書館情報センター</short>
+		<formal>青森中央学院大学・青森中央短期大学 図書館情報センター</formal>
+		<pref>秋田県</pref>
+		<geocode>140.761814,40.784831</geocode>
+	</Library>
 </Libraries>
