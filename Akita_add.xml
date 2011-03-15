@@ -280,4 +280,40 @@
 		<pref>秋田県</pref>
 		<geocode>139.94668,40.02446</geocode>
 	</Library>
+	<Library>
+		<short>ふれあい交流館かわべ（秋田市役所 地域振興部地域振興課所轄）</short>
+		<formal>ふれあい交流館かわべ（秋田市役所 地域振興部地域振興課所轄）</formal>
+		<pref>秋田県</pref>
+		<geocode>140.211275,39.654424</geocode>
+	</Library>
+	<Library>
+		<short>にかほ市勤労青少年ホーム</short>
+		<formal>にかほ市勤労青少年ホーム</formal>
+		<pref>秋田県</pref>
+		<geocode>139.935265,39.306742</geocode>
+	</Library>
+	<Library>
+		<short>にかほ市象潟公民館</short>
+		<formal>にかほ市象潟公民館</formal>
+		<pref>秋田県</pref>
+		<geocode>139.872093,39.22986</geocode>
+	</Library>
+	<Library>
+		<short>大内公民館図書室「おおうち図書コーナー」</short>
+		<formal>大内公民館図書室「おおうち図書コーナー」</formal>
+		<pref>秋田県</pref>
+		<geocode>139.829178,39.489735</geocode>
+	</Library>
+	<Library>
+		<short>西木公民館</short>
+		<formal>西木公民館</formal>
+		<pref>秋田県</pref>
+		<geocode>140.559876,39.658868</geocode>
+	</Library>
+	<Library>
+		<short>美郷町千畑交流センター</short>
+		<formal>美郷町千畑交流センター</formal>
+		<pref>秋田県</pref>
+		<geocode>140.57981,39.473339</geocode>
+	</Library>
 </Libraries>
