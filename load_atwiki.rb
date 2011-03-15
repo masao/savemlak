@@ -40,24 +40,24 @@ EOF
 BASEURL = "http://www45.atwiki.jp/savelibrary/editx/"
 CALIL_BASEURL = "http://api.calil.jp/library?pref="
 
-PREF_LIBRARIES = {
-   "Iwate" => "21.html",
-   "Miyagi" => "20.html",
-   "Fukushima" => "22.html",
-   "Yamagata" => "24.html",
-   "Akita" => "25.html",
-   "Aomori" => "27.html",
-   "Ibaraki" => "23.html",
-   "Gunma" => "34.html",
-   "Tochigi" => "26.html",
-   "Hokkaido" => "30.html",
-   "Tokyo" => "14.html",
-   "Saitama" => "32.html",
-   "Chiba" => "16.html",
-   "Kanagawa" => "15.html",
-   "Nagano" => "29.html",
-   "Niigata" => "28.html",
-}
+PREF_LIBRARIES = [
+   { :name => "Iwate", :pref => "岩手県", :wikiname => "21.html" },
+   { :name => "Miyagi", :pref => "宮城県", :wikiname => "20.html" },
+   { :name => "Fukushima", :pref => "福島県", :wikiname => "22.html" },
+   { :name => "Yamagata", :pref => "山形県", :wikiname => "24.html" },
+   { :name => "Akita", :pref => "秋田県", :wikiname => "25.html" },
+   { :name => "Aomori", :pref => "青森県", :wikiname => "27.html" },
+   { :name => "Ibaraki", :pref => "茨城県", :wikiname => "23.html" },
+   { :name => "Gunma", :pref => "群馬県", :wikiname => "34.html" },
+   { :name => "Tochigi", :pref => "栃木県", :wikiname => "26.html" },
+   { :name => "Hokkaido", :pref => "北海道", :wikiname => "30.html" },
+   { :name => "Tokyo", :pref => "東京都", :wikiname => "14.html" },
+   { :name => "Saitama", :pref => "埼玉県", :wikiname => "32.html" },
+   { :name => "Chiba", :pref => "千葉県", :wikiname => "16.html" },
+   { :name => "Kanagawa", :pref => "神奈川県", :wikiname => "15.html" },
+   { :name => "Nagano", :pref => "長野県", :wikiname => "29.html" },
+   { :name => "Niigata", :pref => "新潟県", :wikiname => "28.html" },
+]
 
 class String
    def escape_xml
@@ -65,20 +65,21 @@ class String
    end
 end
 
-def load_calil_xml( basename )
-   cont = open( basename + ".xml" ){|io| io.read }
-   parser = LibXML::XML::Parser.string( cont )
+def load_calil_xml( xml )
+   parser = LibXML::XML::Parser.string( xml )
    doc = parser.parse
    calil_info = doc.find( "//Library" )
 end
 
 libraries = {}
-PREF_LIBRARIES.each do |pref, url|
-   STDERR.puts pref
-   libraries[ pref ] ||= []
-   calil_info = load_calil_xml( pref )
-   calil_add_info = load_calil_xml( pref + "_add" )
-   cont = open( BASEURL + url ){|io| io.read }
+PREF_LIBRARIES.each do |pref|
+   STDERR.puts pref[:name]
+   libraries[ pref[:name] ] ||= []
+   cont = open( CALIL_BASEURL + URI.escape(pref[:pref]) ){|io| io.read }
+   calil_info = load_calil_xml( cont )
+   cont = open( pref[:name] + "_add.xml" ){|io| io.read }
+   calil_add_info = load_calil_xml( cont )
+   cont = open( BASEURL + pref[:wikiname] ){|io| io.read }
    if cont.match( /<textarea\s+name="source"[^>]*>(.*?)<\/textarea>/m )
       wikitext = $1
       lines = wikitext.strip.split( /\r?\n/ )
@@ -92,7 +93,7 @@ PREF_LIBRARIES.each do |pref, url|
             next if section.size == 1
             if section.size == 2
                if not data.empty?
-                  libraries[pref] << data
+                  libraries[pref[:name]] << data
                   data = {}
                end
                text = text.gsub( /\A[　 ]+/, "" )
@@ -102,7 +103,7 @@ PREF_LIBRARIES.each do |pref, url|
                text = text.gsub( /[（\(]\d{4}\/\d{2}\/\d{2}\s*更新[）\)]\s*\Z/, "" )
                text = text.gsub( /[（\(][\d\/\:\-\s]*(更新|作成|記入)[）\)]\s*\Z/, "" )
                data[ :title ] = text
-               data[ :pref ] = pref
+               data[ :pref ] = pref[:name]
                data[ :calil ] = calil_info.find do |e|
                   formal = e.find( "./formal" )[0].content.strip
                   short  = e.find( "./short" )[0].content.strip
@@ -130,14 +131,14 @@ PREF_LIBRARIES.each do |pref, url|
             end
          when ""
             if not data.empty?
-               libraries[pref] << data
+               libraries[pref[:name]] << data
                data = {}
                #puts "--"
             end
          end
       end
       if not data.empty?
-         libraries[pref] << data
+         libraries[pref[:name]] << data
       end
    end
 end
