@@ -122,7 +122,7 @@
 		<formal>潟上市図書館飯田川分館（飯田川公民館図書室）</formal>
 		<pref>秋田県</pref>
 		<city>秋田市</city>
-		<geocode>139.973717,39.93475</geocode>
+		<geocode>140.019482,39.626036</geocode>
 	</Library>
 	<Library>
 <!--alias-->
@@ -212,19 +212,19 @@
 		<short>三種町琴丘公民館</short>
 		<formal>三種町琴丘公民館</formal>
 		<pref>秋田県</pref>
-		<geocode>139.870377,40.145289</geocode>
+		<geocode>140.081483,40.033427</geocode>
 	</Library>
 	<Library>
 		<short>三種町山本公民館</short>
 		<formal>三種町山本公民館</formal>
 		<pref>秋田県</pref>
-		<geocode>139.97097,40.158148</geocode>
+		<geocode>140.069847,40.108144</geocode>
 	</Library>
 	<Library>
 		<short>三種町八竜公民館</short>
 		<formal>三種町八竜公民館</formal>
 		<pref>秋田県</pref>
-		<geocode>139.965134,40.132953</geocode>
+		<geocode>140.005002,40.102375</geocode>
 	</Library>
 	<Library>
 		<short>藤里町三世代交流館</short>
@@ -236,13 +236,13 @@
 		<short>八峰町文化交流センター（八峰町公民館）</short>
 		<formal>八峰町文化交流センター（八峰町公民館）</formal>
 		<pref>秋田県</pref>
-		<geocode>139.937668,40.340787</geocode>
+		<geocode>140.036845,40.289445</geocode>
 	</Library>
 	<Library>
 		<short>八峰町峰浜地区文化交流センター「峰栄館」</short>
 		<formal>八峰町峰浜地区文化交流センター「峰栄館」</formal>
 		<pref>秋田県</pref>
-		<geocode>139.937668,40.340787</geocode>
+		<geocode>140.043152,40.284975</geocode>
 	</Library>
 	<Library>
 <!--alias-->
@@ -278,7 +278,7 @@
 		<short>大潟村公民館 図書室</short>
 		<formal>大潟村公民館 図書室</formal>
 		<pref>秋田県</pref>
-		<geocode>139.94668,40.02446</geocode>
+		<geocode>139.998779,39.957122</geocode>
 	</Library>
 	<Library>
 		<short>ふれあい交流館かわべ（秋田市役所 地域振興部地域振興課所轄）</short>
@@ -290,7 +290,7 @@
 		<short>にかほ市勤労青少年ホーム</short>
 		<formal>にかほ市勤労青少年ホーム</formal>
 		<pref>秋田県</pref>
-		<geocode>139.935265,39.306742</geocode>
+		<geocode>139.96159,39.29257</geocode>
 	</Library>
 	<Library>
 		<short>にかほ市象潟公民館</short>
@@ -302,7 +302,7 @@
 		<short>大内公民館図書室「おおうち図書コーナー」</short>
 		<formal>大内公民館図書室「おおうち図書コーナー」</formal>
 		<pref>秋田県</pref>
-		<geocode>139.829178,39.489735</geocode>
+		<geocode>140.090291,39.443158</geocode>
 	</Library>
 	<Library>
 		<short>西木公民館</short>
@@ -434,13 +434,13 @@
 		<short>秋田県総務部広報広聴課　県政情報資料室</short>
 		<formal>秋田県総務部広報広聴課　県政情報資料室</formal>
 		<pref>秋田県</pref>
-		<geocode>139.479675,39.897094</geocode>
+		<geocode>140.623158,39.384964</geocode>
 	</Library>
 	<Library>
 		<short>秋田県総合教育センター　総合教育資料室</short>
 		<formal>秋田県総合教育センター　総合教育資料室</formal>
 		<pref>秋田県</pref>
-		<geocode>139.952087,39.83675</geocode>
+		<geocode>140.069612,39.761471</geocode>
 	</Library>
 	<Library>
 		<short>秋田県生涯学習センター</short>
@@ -464,13 +464,13 @@
 		<short>秋田県農林水産技術センター森林技術センター</short>
 		<formal>秋田県農林水産技術センター森林技術センター</formal>
 		<pref>秋田県</pref>
-		<geocode>139.943161,39.744682</geocode>
+		<geocode>140.153687,39.647058</geocode>
 	</Library>
 	<Library>
 		<short>秋田県農林水産技術センター水産振興センター</short>
 		<formal>秋田県農林水産技術センター水産振興センター</formal>
 		<pref>秋田県</pref>
-		<geocode>139.581299,39.925535</geocode>
+		<geocode>140.003544,39.717148</geocode>
 	</Library>
 	<Library>
 		<short>秋田県立博物館</short>
@@ -488,7 +488,7 @@
 		<short>秋田県公文書館</short>
 		<formal>秋田県公文書館</formal>
 		<pref>秋田県</pref>
-		<geocode>140.031567,39.76329</geocode>
+		<geocode>140.084267,39.738874</geocode>
 	</Library>
 	<Library>
 		<short>NHK番組公開ライブラリー</short>
