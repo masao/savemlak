@@ -78,8 +78,9 @@ def load_calil_xml( xml )
    calil_info = doc.find( "//Library" )
 end
 
+def load_atwiki_data( target = PREF_LIBRARIES )
 libraries = {}
-PREF_LIBRARIES.each do |pref|
+target.each do |pref|
    STDERR.puts pref[:name]
    libraries[ pref[:name] ] ||= []
    cont = open( CALIL_BASEURL + URI.escape(pref[:pref]) ){|io| io.read }
@@ -158,6 +159,10 @@ PREF_LIBRARIES.each do |pref|
       end
    end
 end
+libraries
+end
+
+if $0 == __FILE__
 puts KML_HEADER
 PREF_LIBRARIES.each do |pref|
    puts <<EOF
@@ -197,3 +202,4 @@ EOF
    puts "</Document>"
 end
 puts KML_FOOTER
+end
