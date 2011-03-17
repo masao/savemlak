@@ -53,7 +53,7 @@ PREF_LIBRARIES = [
    { :name => "Hokkaido", :pref => "北海道", :wikiname => "30.html" },
    { :name => "Chiba", :pref => "千葉県", :wikiname => "16.html" },
    { :name => "Tokyo", :pref => "東京都", :wikiname => "14.html" },
-   { :name => "Tokyo (East)", :pref => "東京都", :wikiname => "55.html", :pagename => "東京都（城東地区）" },
+   { :name => "Tokyo (East)", :pref => "東京都", :wikiname => "54.html", :pagename => "東京都（城東地区）" },
    { :name => "Tokyo (West)", :pref => "東京都", :wikiname => "56.html", :pagename => "東京都（城西地区）" },
    { :name => "Tokyo (North)", :pref => "東京都", :wikiname => "55.html", :pagename => "東京都（城北地区）" },
    { :name => "Tokyo (Central)", :pref => "東京都", :wikiname => "58.html", :pagename => "東京都（都心部）" },
