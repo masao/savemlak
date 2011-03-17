@@ -121,7 +121,6 @@ PREF_LIBRARIES.each do |pref|
                      ( text.gsub( /\A.+?県/, "" ) == formal.gsub( /\A.+?県/, "" ) ) or
                      ( text.gsub( /\A.+?[市区町村]立?/, "" ) == formal.gsub( /\A.+?[市区町村]立?/, "" ) ) or
                      ( text.gsub( /\s*中央図書館\Z/, "図書館" ) == formal.gsub( /\s*中央図書館\Z/, "図書館" ) ) or
-                     ( text.gsub( /由利本庄市/, "由利本荘市" ) == formal.gsub( /由利本庄市/, "由利本荘市" ) ) or
                      ( text.gsub( /\s*(中央|本)館\Z/, "" ) == formal.gsub( /\s*(中央|本)館\Z/, "" ) ) or
                      ( text.gsub( /([市区町村])?立?(中央)?図書館\Z/, '\1図書館' ) == formal.gsub( /([市区町村])?立?(中央)?図書館\Z/, '\1図書館' ) ) or
                      ( text.gsub( /本館\Z/, '' ) == formal.gsub( /本館\Z/, '' ) ) or
