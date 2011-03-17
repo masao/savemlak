@@ -221,4 +221,16 @@
 		<category>MEDIUM</category>
 		<image></image>
 	</Library>
+	<Library>
+		<short>江戸川区立東部図書館</short>
+		<formal>江戸川区立東部図書館</formal>
+		<pref>東京都</pref>
+		<geocode>139.814758,35.687697</geocode>
+	</Library>
+	<Library>
+		<short>日本海事センター海事図書館</short>
+		<formal>日本海事センター海事図書館</formal>
+		<pref>東京都</pref>
+		<geocode>139.739576,35.679298</geocode>
+	</Library>
 </Libraries>
