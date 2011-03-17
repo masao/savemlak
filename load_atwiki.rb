@@ -51,9 +51,14 @@ PREF_LIBRARIES = [
    { :name => "Gunma", :pref => "群馬県", :wikiname => "34.html" },
    { :name => "Tochigi", :pref => "栃木県", :wikiname => "26.html" },
    { :name => "Hokkaido", :pref => "北海道", :wikiname => "30.html" },
-   { :name => "Tokyo", :pref => "東京都", :wikiname => "14.html" },
-   { :name => "Saitama", :pref => "埼玉県", :wikiname => "32.html" },
    { :name => "Chiba", :pref => "千葉県", :wikiname => "16.html" },
+   { :name => "Tokyo", :pref => "東京都", :wikiname => "14.html" },
+   { :name => "Tokyo (East)", :pref => "東京都", :wikiname => "55.html", :pagename => "東京都（城東地区）" },
+   { :name => "Tokyo (West)", :pref => "東京都", :wikiname => "56.html", :pagename => "東京都（城西地区）" },
+   { :name => "Tokyo (North)", :pref => "東京都", :wikiname => "55.html", :pagename => "東京都（城北地区）" },
+   { :name => "Tokyo (Central)", :pref => "東京都", :wikiname => "58.html", :pagename => "東京都（都心部）" },
+   { :name => "Tokyo (South)", :pref => "東京都", :wikiname => "57.html", :pagename => "東京都（城南地区）" },
+   { :name => "Saitama", :pref => "埼玉県", :wikiname => "32.html" },
    { :name => "Kanagawa", :pref => "神奈川県", :wikiname => "15.html" },
    { :name => "Nagano", :pref => "長野県", :wikiname => "29.html" },
    { :name => "Niigata", :pref => "新潟県", :wikiname => "28.html" },
@@ -79,7 +84,7 @@ PREF_LIBRARIES.each do |pref|
    libraries[ pref[:name] ] ||= []
    cont = open( CALIL_BASEURL + URI.escape(pref[:pref]) ){|io| io.read }
    calil_info = load_calil_xml( cont )
-   cont = open( pref[:name] + "_add.xml" ){|io| io.read }
+   cont = open( pref[:name].sub( /\s*\(.*\)\Z/, "" ) + "_add.xml" ){|io| io.read }
    calil_add_info = load_calil_xml( cont )
    cont = open( BASEURL + pref[:wikiname] ){|io| io.read }
    if cont.match( /<textarea\s+name="source"[^>]*>(.*?)<\/textarea>/m )
@@ -158,7 +163,7 @@ puts KML_HEADER
 PREF_LIBRARIES.each do |pref|
    puts <<EOF
   <Document>
-    <name>#{ pref[:pref].escape_xml }</name>
+    <name>#{ ( pref[:pagename ] or pref[:pref] ).escape_xml }</name>
     <open>0</open>
 EOF
    libraries[pref[:name]].each do |lib|
