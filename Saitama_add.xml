@@ -6,4 +6,10 @@
 		<pref>埼玉県</pref>
 		<geocode>139.707534,36.030516</geocode>
 	</Library>
+	<Library>
+		<short>埼玉純真短期大学図書館</short>
+		<formal>埼玉純真短期大学図書館</formal>
+		<pref>埼玉県</pref>
+		<geocode>139.525478,36.162502</geocode>
+	</Library>
 </Libraries>
