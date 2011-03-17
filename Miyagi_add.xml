@@ -192,4 +192,22 @@
 		<pref>宮城県</pref>
 		<geocode>140.474389,39.334357</geocode>
 	</Library>
+	<Library>
+<!--alias-->
+		<systemid>Miyagi_Sendai</systemid>
+		<systemname>宮城県仙台市</systemname>
+		<libkey>メディア</libkey>
+		<libid>102339</libid>
+		<short>せんだいメディアテーク</short>
+		<formal>せんだいメディアテーク（仙台市民図書館が入居する複合施設）</formal>
+		<url_pc>http://lib-www.smt.city.sendai.jp/guide/fac_smt.html</url_pc>
+		<address>宮城県仙台市青葉区春日町２－１</address>
+		<pref>宮城県</pref>
+		<city>仙台市</city>
+		<post>980-0821</post>
+		<tel>022-713-3171</tel>
+		<geocode>140.8655118,38.2655652</geocode>
+		<category>MEDIUM</category>
+		<image></image>
+	</Library>
 </Libraries>
