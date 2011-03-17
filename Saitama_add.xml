@@ -12,4 +12,10 @@
 		<pref>埼玉県</pref>
 		<geocode>139.525478,36.162502</geocode>
 	</Library>
+	<Library>
+		<short>日本語国際センター図書館（国際交流基金）</short>
+		<formal>日本語国際センター図書館（国際交流基金）</formal>
+		<pref>埼玉県</pref>
+		<geocode>139.641724,35.874569</geocode>
+	</Library>
 </Libraries>
