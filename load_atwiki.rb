@@ -163,6 +163,7 @@ libraries
 end
 
 if $0 == __FILE__
+libraries = load_atwiki_data
 puts KML_HEADER
 PREF_LIBRARIES.each do |pref|
    puts <<EOF
