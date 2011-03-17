@@ -233,4 +233,10 @@
 		<pref>東京都</pref>
 		<geocode>139.739576,35.679298</geocode>
 	</Library>
+	<Library>
+		<short>埼玉純真短期大学図書館</short>
+		<formal>埼玉純真短期大学図書館</formal>
+		<pref>東京都</pref>
+		<geocode>139.525478,36.162502</geocode>
+	</Library>
 </Libraries>
