@@ -508,4 +508,28 @@
 		<pref>秋田県</pref>
 		<geocode>140.623283,39.60992</geocode>
 	</Library>
+	<Library>
+<!--alias-->
+		<systemid>Akita_Yurihonjo</systemid>
+		<systemname>秋田県由利本荘市,市立図書館</systemname>
+		<libkey>西目</libkey>
+		<libid>100244</libid>
+		<short>西目公民館</short>
+		<formal>由利本荘市西目公民館</formal>
+		<url_pc>http://nsmailsv.city.yurihonjo.akita.jp/honjo/tosyo/index.htm</url_pc>
+		<address>秋田県由利本荘市西目町沼田字新道下2－533</address>
+		<pref>秋田県</pref>
+		<city>由利本荘市</city>
+		<post>018-0604</post>
+		<tel>0184－33－2315</tel>
+		<geocode>140.0151731,39.347867</geocode>
+		<category>SMALL</category>
+		<image></image>
+	</Library>
+	<Library>
+		<short>横手市立大雄図書館</short>
+		<formal>横手市立大雄図書館</formal>
+		<pref>秋田県</pref>
+		<geocode>140.474389,39.334357</geocode>
+	</Library>
 </Libraries>

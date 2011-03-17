@@ -186,4 +186,10 @@
 		<pref>宮城県</pref>
 		<geocode>140.776405,38.305564</geocode>
 	</Library>
+	<Library>
+		<formal>東北大学電気通信研究所図書室</formal>
+		<short>東北大学電気通信研究所図書室</short>
+		<pref>宮城県</pref>
+		<geocode>140.474389,39.334357</geocode>
+	</Library>
 </Libraries>
