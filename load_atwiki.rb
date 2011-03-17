@@ -87,6 +87,7 @@ PREF_LIBRARIES.each do |pref|
       lines = wikitext.strip.split( /\r?\n/ )
       data = {}
       lines.each do |line|
+         #p line
          case line
          when /\A(\*+)\s*(.*)\Z/
             section, text = $1, $2
@@ -102,8 +103,7 @@ PREF_LIBRARIES.each do |pref|
                text = text.gsub( /\&aname\(\w+\)\{(.+?)\}/ ){|m| $1 }
                text = text.gsub( /\[\[(.+?)>[^\]]*\]\]/ ){|m| $1 }
                text = text.gsub( /\A\s*図書館名?[ 　]*/, "" )
-               text = text.gsub( /[（\(]\d{4}\/\d{2}\/\d{2}\s*更新[）\)]\s*\Z/, "" )
-               text = text.gsub( /[（\(][\d\/\:\-\s]*(更新|作成|記入)[）\)]\s*\Z/, "" )
+               text = text.gsub( /[（\(]([\d\/\:\-\s、]*(更新|作成|記入|草稿|追記|変更|現在|開館))*[）\)]\s*\Z/, "" )
                data[ :title ] = text
                data[ :pref ] = pref[:name]
                data[ :calil ] = calil_info.find do |e|
@@ -114,9 +114,10 @@ PREF_LIBRARIES.each do |pref|
                      ( text.gsub( /[　 ・「」\(\)]/, "" ) == formal.gsub( /[　 ・「」\(\)]/, "" ) ) or
                      ( text.gsub( /市立/, "市" ) == formal.gsub( /市立/, "市" ) ) or
                      ( text.gsub( /\A.+?県/, "" ) == formal.gsub( /\A.+?県/, "" ) ) or
+                     ( text.gsub( /\A.+?[市区町村]立?/, "" ) == formal.gsub( /\A.+?[市区町村]立?/, "" ) ) or
                      ( text.gsub( /\s*中央図書館\Z/, "図書館" ) == formal.gsub( /\s*中央図書館\Z/, "図書館" ) ) or
                      ( text.gsub( /由利本庄市/, "由利本荘市" ) == formal.gsub( /由利本庄市/, "由利本荘市" ) ) or
-                     ( text.gsub( /\s*中央館\Z/, "" ) == formal.gsub( /\s*中央館\Z/, "" ) ) or
+                     ( text.gsub( /\s*(中央|本)館\Z/, "" ) == formal.gsub( /\s*(中央|本)館\Z/, "" ) ) or
                      ( text.gsub( /([市区町村])?立?(中央)?図書館\Z/, '\1図書館' ) == formal.gsub( /([市区町村])?立?(中央)?図書館\Z/, '\1図書館' ) ) or
                      ( text.gsub( /本館\Z/, '' ) == formal.gsub( /本館\Z/, '' ) ) or
                      ( text.gsub( /公民館[ 　]*図書室\Z/, '公民館' ) == formal.gsub( /公民館[ 　]*図書室\Z/, '公民館' ) ) or
@@ -134,6 +135,11 @@ PREF_LIBRARIES.each do |pref|
             else
                data[ :text ] ||= []
                data[ :text ] << text
+            end
+         when /\A[\-]+(.+?)\Z/o
+            if $1 and $1 != "-"
+               data[ :text ] ||= []
+               data[ :text ] << $1 
             end
          when ""
             if not data.empty?
