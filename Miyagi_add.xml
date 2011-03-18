@@ -210,4 +210,10 @@
 		<category>MEDIUM</category>
 		<image></image>
 	</Library>
+	<Library>
+		<formal>東北大学金属材料研究所図書室</formal>
+		<short>東北大学金属材料研究所図書室</short>
+		<pref>宮城県</pref>
+		<geocode>140.873253,38.25247</geocode>
+	</Library>
 </Libraries>

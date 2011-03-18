@@ -18,4 +18,10 @@
 		<pref>埼玉県</pref>
 		<geocode>139.641724,35.874569</geocode>
 	</Library>
+	<Library>
+		<short>目白大学岩槻図書館</short>
+		<formal>目白大学岩槻図書館</formal>
+		<pref>埼玉県</pref>
+		<geocode>139.71256,35.924331</geocode>
+	</Library>
 </Libraries>

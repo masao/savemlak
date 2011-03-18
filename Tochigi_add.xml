@@ -18,4 +18,22 @@
 		<pref>栃木県</pref>
 		<geocode>139.819565,36.392062</geocode>
 	</Library>
+	<Library>
+<!--alias-->
+		<systemid>Univ_Oyama_Ct</systemid>
+		<systemname>小山工業高等専門学校</systemname>
+		<libkey>図書館</libkey>
+		<libid>108541</libid>
+		<short>小山工業高等専門学校</short>
+		<formal>小山工業高等専門学校図書情報センター</formal>
+		<url_pc>http://www.oyama-ct.ac.jp/tosyo/</url_pc>
+		<address>栃木県小山市中久喜771番地</address>
+		<pref>栃木県</pref>
+		<city>小山市</city>
+		<post>323-0806</post>
+		<tel>0285-20-2117</tel>
+		<geocode>139.8420858,36.318309</geocode>
+		<category>UNIV</category>
+		<image></image>
+	</Library>
 </Libraries>
