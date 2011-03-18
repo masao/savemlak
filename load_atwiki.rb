@@ -139,7 +139,7 @@ target.each do |pref|
                   data[ :calil ] = calil_add_info.find do |e|
                      formal = e.find( "./formal" )[0].content
                      ( text == formal ) or
-                        ( text.gsub( /[　 ]（.+?）\Z/, "" ) == formal.gsub( /[　 ]（.+?）\Z/, "" ) ) or
+                        ( text.gsub( /[　 ]?（.+?）\Z/, "" ) == formal.gsub( /[　 ]?（.+?）\Z/, "" ) ) or
                         ( text == e.find( "./short" )[0].content )
                   end
                end
