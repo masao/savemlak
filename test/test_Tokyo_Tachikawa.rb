@@ -5,7 +5,7 @@ require "pp"
 
 require "load_atwiki.rb"
 
-class TestAtwiki < Test::Unit::TestCase
+class TestAtwiki_Tokyo < Test::Unit::TestCase
    def test_load_atwiki_Tokyo_Tachikawa
       data = load_atwiki_data( [ 
    { :name => "Tokyo", :pref => "東京都", :wikiname => "14.html" },
