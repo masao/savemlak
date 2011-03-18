@@ -36,4 +36,46 @@
 		<category>UNIV</category>
 		<image></image>
 	</Library>
+	<Library>
+		<short>栃木県議会図書館</short>
+		<formal>栃木県議会図書館</formal>
+		<pref>栃木県</pref>
+		<geocode>139.847717,36.499701</geocode>
+	</Library>
+	<Library>
+		<short>栃木県総合教育センター図書資料室</short>
+		<formal>栃木県総合教育センター図書資料室</formal>
+		<pref>栃木県</pref>
+		<geocode>139.863131,36.614596</geocode>
+	</Library>
+	<Library>
+		<short>栃木県立がんセンター図書室</short>
+		<formal>栃木県立がんセンター図書室</formal>
+		<pref>栃木県</pref>
+		<geocode>139.869175,36.535847</geocode>
+	</Library>
+	<Library>
+		<short>栃木県立衛生福祉大学校図書館</short>
+		<formal>栃木県立衛生福祉大学校図書館</formal>
+		<pref>栃木県</pref>
+		<geocode>139.743347,36.633162</geocode>
+	</Library>
+	<Library>
+		<short>栃木県農業大学校図書室</short>
+		<formal>栃木県農業大学校図書室</formal>
+		<pref>栃木県</pref>
+		<geocode>139.982191,36.531915</geocode>
+	</Library>
+	<Library>
+		<short>パルティ情報ライブラリー</short>
+		<formal>パルティ情報ライブラリー</formal>
+		<pref>栃木県</pref>
+		<geocode>139.85964,36.60147</geocode>
+	</Library>
+	<Library>
+		<short>とちぎ視聴覚障害者情報センター　点字図書館</short>
+		<formal>とちぎ視聴覚障害者情報センター　点字図書館</formal>
+		<pref>栃木県</pref>
+		<geocode>139.863191,36.584897</geocode>
+	</Library>
 </Libraries>
