@@ -5,7 +5,7 @@ require "pp"
 
 require "load_atwiki.rb"
 
-class TestAtwiki < Test::Unit::TestCase
+class TestAtwiki_Akita < Test::Unit::TestCase
    def test_load_atwiki_Akita_Univ_Health
       data = load_atwiki_data( [ 
          { :name => "Akita", :pref => "秋田県", :wikiname => "25.html" },
