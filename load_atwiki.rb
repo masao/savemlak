@@ -68,6 +68,25 @@ PREF_LIBRARIES = [
    { :name => "Yamanashi", :pref => "山梨県", :wikiname => "47.html" },
 ]
 
+LIB_FIELDS = %w[ 
+   連絡先
+   電話
+   FAX
+   メールアドレス
+   被災情報
+   被害情報
+   職員・利用者の被害
+   施設の被害
+   蔵書の被害
+   その他の被害
+   運営情報
+   救援情報
+   自由記述（求める／求められている救援情報を詳しく記入しましょう）
+   情報源
+   記入者
+   元情報
+]
+
 class String
    def escape_xml
       self.gsub( /&/, "&amp;" ).gsub( /</, "&lt;" ).gsub( />/, "&gt;" )
@@ -195,7 +214,11 @@ EOF
       next
       geocode=""
    end
-   if lib[ :text ].nil?
+   if lib[ :text ]
+      lib[ :text ] = lib[ :text ].select do |e|
+         /\A\s*(#{ LIB_FIELDS.join( "|" ) })[：:※　]?(記載なし|不明)?[。]?\s*\Z/ !~ e
+      end
+   else
       warn lib.inspect
    end
    point = "<Point><coordinates>#{ geocode.escape_xml },0.000000</coordinates></Point>"
