@@ -7,8 +7,8 @@ require "load_atwiki.rb"
 
 class TestAtwiki_Tochigi < Test::Unit::TestCase
    def setup
-      data = load_atwiki_data( [ 
-         { :name => "Tochigi", :pref => "栃木県", :wikiname => "26.html" },
+      data = load_atwiki_data( [
+         { :name => "Tochigi (South)", :pref => "栃木県", :wikiname => "60.html" },
       ] )
       @data = data[ "Tochigi" ]
    end
