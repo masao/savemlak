@@ -110,6 +110,7 @@ target.each do |pref|
                text = text.gsub( /\[\[(.+?)>[^\]]*\]\]/ ){|m| $1 }
                text = text.gsub( /\A\s*図書館名?[ 　]*/, "" )
                text = text.gsub( /[ 　]※.*?\s*\Z/, "" )
+               text = text.gsub( /\s*-\s*\w*?\Z/, "" )
                text = text.gsub( /[（\(]([\d\/\:\-\s、]*(更新|作成|記入|草稿|追記|変更|現在|開館))*[）\)]\s*\Z/, "" )
                data[ :title ] = text
                data[ :pref ] = pref[:name]
@@ -130,11 +131,14 @@ target.each do |pref|
                      ( text.gsub( /ケ/, "ヶ" ) == formal.gsub( /ケ/, "ヶ" ) ) or
                      ( text.gsub( /\(.+?\)\Z/, "" ) == formal.gsub( /\(.+?\)\Z/, "" ) ) or
                      ( text.gsub( /（.+?）\Z/, "" ) == formal.gsub( /（.+?）\Z/, "" ) ) or
+                     ( text.gsub( /\s*-\s*.*?\Z/, "" ) == formal.gsub( /\s*-\s*.*?\Z/, "" ) ) or
                      ( text == e.find( "./systemname" )[0].content )
                end
                if data[ :calil ].nil?
                   data[ :calil ] = calil_add_info.find do |e|
-                     ( text == e.find( "./formal" )[0].content ) or
+                     formal = e.find( "./formal" )[0].content
+                     ( text == formal ) or
+                        ( text.gsub( /[　 ]（.+?）\Z/, "" ) == formal.gsub( /[　 ]（.+?）\Z/, "" ) ) or
                         ( text == e.find( "./short" )[0].content )
                   end
                end
