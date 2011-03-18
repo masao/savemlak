@@ -128,6 +128,7 @@ target.each do |pref|
                      ( text.gsub( /([市区町村])?立?(中央)?図書館\Z/, '\1図書館' ) == formal.gsub( /([市区町村])?立?(中央)?図書館\Z/, '\1図書館' ) ) or
                      ( text.gsub( /本館\Z/, '' ) == formal.gsub( /本館\Z/, '' ) ) or
                      ( text.gsub( /公民館[ 　]*図書室\Z/, '公民館' ) == formal.gsub( /公民館[ 　]*図書室\Z/, '公民館' ) ) or
+                     ( text.gsub( /[　 ・「」\(\)]/, "" ).gsub( /学院大学/, '学院' ) == formal.gsub( /[　 ・「」\(\)]/, "" ).gsub( /学院大学/, '学院' ) ) or
                      ( text.gsub( /ケ/, "ヶ" ) == formal.gsub( /ケ/, "ヶ" ) ) or
                      ( text.gsub( /\(.+?\)\Z/, "" ) == formal.gsub( /\(.+?\)\Z/, "" ) ) or
                      ( text.gsub( /（.+?）\Z/, "" ) == formal.gsub( /（.+?）\Z/, "" ) ) or
