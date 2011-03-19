@@ -78,4 +78,16 @@
 		<pref>栃木県</pref>
 		<geocode>139.863191,36.584897</geocode>
 	</Library>
+	<Library>
+		<short>宇都宮共和大学那須キャンパス図書</short>
+		<formal>宇都宮共和大学那須キャンパス図書</formal>
+		<pref>栃木県</pref>
+		<geocode>139.935902,36.766795</geocode>
+	</Library>
+	<Library>
+		<short>塩谷町公民館図書室</short>
+		<formal>塩谷町公民館図書室</formal>
+		<pref>栃木県</pref>
+		<geocode>139.684982,36.901587</geocode>
+	</Library>
 </Libraries>
