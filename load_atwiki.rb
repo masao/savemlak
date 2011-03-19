@@ -126,6 +126,7 @@ target.each do |pref|
                   libraries[pref[:name]] << data
                   data = {}
                end
+               next if text =~ /\A入力フォーマット/
                text = text.gsub( /\A[　 ]+/, "" )
                text = text.gsub( /\&aname\(\w+\)\{(.+?)\}/ ){|m| $1 }
                text = text.gsub( /\[\[(.+?)>[^\]]*\]\]/ ){|m| $1 }
