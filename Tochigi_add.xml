@@ -55,6 +55,12 @@
 		<geocode>139.869175,36.535847</geocode>
 	</Library>
 	<Library>
+		<short>がん情報・相談支援センター患者図書室「こやま文庫」</short>
+		<formal>がん情報・相談支援センター患者図書室「こやま文庫」</formal>
+		<pref>栃木県</pref>
+		<geocode>139.869239,36.53411</geocode>
+	</Library>
+	<Library>
 		<short>栃木県立衛生福祉大学校図書館</short>
 		<formal>栃木県立衛生福祉大学校図書館</formal>
 		<pref>栃木県</pref>
@@ -89,5 +95,23 @@
 		<formal>塩谷町公民館図書室</formal>
 		<pref>栃木県</pref>
 		<geocode>139.684982,36.901587</geocode>
+	</Library>
+	<Library>
+<!--alias-->
+		<systemid>Tochigi_Sano</systemid>
+		<systemname>栃木県佐野市</systemname>
+		<libkey>佐野図書館</libkey>
+		<libid>103766</libid>
+		<short>佐野図書館</short>
+		<formal>佐野市立図書館</formal>
+		<url_pc>http://www.library.sano.tochigi.jp/</url_pc>
+		<address>栃木県佐野市大蔵町2977</address>
+		<pref>栃木県</pref>
+		<city>佐野市</city>
+		<post>327-0012</post>
+		<tel>0283-22-1833</tel>
+		<geocode>139.5723915,36.3144323</geocode>
+		<category>MEDIUM</category>
+		<image></image>
 	</Library>
 </Libraries>
