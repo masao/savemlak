@@ -50,6 +50,7 @@ PREF_LIBRARIES = [
    { :name => "Ibaraki", :pref => "茨城県", :wikiname => "23.html" },
    { :name => "Gunma", :pref => "群馬県", :wikiname => "34.html" },
    { :name => "Tochigi", :pref => "栃木県", :wikiname => "26.html" },
+   { :name => "Tochigi (Utsunomiya)", :pref => "栃木県", :wikiname => "62.html", :pagename => "栃木県（宇都宮市）" },
    { :name => "Tochigi (South)", :pref => "栃木県", :wikiname => "60.html", :pagename => "栃木県（南部）" },
    { :name => "Tochigi (North)", :pref => "栃木県", :wikiname => "59.html", :pagename => "栃木県（北部）" },
    { :name => "Hokkaido", :pref => "北海道", :wikiname => "30.html" },
