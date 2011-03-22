@@ -61,6 +61,7 @@ PREF_LIBRARIES = [
    { :name => "Tokyo (North)", :pref => "東京都", :wikiname => "55.html", :pagename => "東京都（城北地区）" },
    { :name => "Tokyo (Central)", :pref => "東京都", :wikiname => "58.html", :pagename => "東京都（都心部）" },
    { :name => "Tokyo (South)", :pref => "東京都", :wikiname => "57.html", :pagename => "東京都（城南地区）" },
+   { :name => "Tokyo (NDL)", :pref => "東京都", :wikiname => "53.html", :pagename => "国立国会図書館（含む支部図書館）" },
    { :name => "Saitama", :pref => "埼玉県", :wikiname => "32.html" },
    { :name => "Kanagawa", :pref => "神奈川県", :wikiname => "15.html" },
    { :name => "Nagano", :pref => "長野県", :wikiname => "29.html" },
