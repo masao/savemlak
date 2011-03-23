@@ -233,4 +233,28 @@
 		<pref>東京都</pref>
 		<geocode>139.739576,35.679298</geocode>
 	</Library>
+	<Library>
+<!--alias-->
+		<systemid>Tokyo_Taito</systemid>
+		<systemname>東京都台東区</systemname>
+		<libkey>浅草橋</libkey>
+		<libid>104266</libid>
+		<short>浅草橋分室</short>
+		<formal>台東区立浅草橋分室</formal>
+		<url_pc>http://www.taitocity.net/tai-lib/</url_pc>
+		<address>東京都台東区浅草橋2-8-7　浅草橋区民館　2階・3階</address>
+		<pref>東京都</pref>
+		<city>台東区</city>
+		<post>111-0053</post>
+		<tel>03-3863-0082</tel>
+		<geocode>139.7833932,35.6995335</geocode>
+		<category>SMALL</category>
+		<image></image>
+	</Library>
+	<Library>
+		<short>雑司が谷図書貸出コーナー</short>
+		<formal>雑司が谷図書貸出コーナー</formal>
+		<pref>東京都</pref>
+		<geocode>139.71056,35.70108</geocode>
+	</Library>
 </Libraries>
