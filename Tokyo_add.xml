@@ -7,6 +7,24 @@
 		<geocode>140.096884,36.036104</geocode>
 	</Library>
 	<Library>
+<!--alias-->
+		<systemid>Special_Affrc</systemid>
+		<systemname>農林水産関係試験研究機関総合目録</systemname>
+		<libkey>農林水産研究情報総合センター</libkey>
+		<libid>109426</libid>
+		<short>農林水産省図書館農林水産技術会議事務局筑波事務所分館(農林水産研究情報総合センター)</short>
+		<formal>農林水産省図書館農林水産技術会議事務局筑波事務所分館(農林水産研究情報総合センター)</formal>
+		<url_pc>http://library.affrc.go.jp/opac/kikanlist.htm#cc</url_pc>
+		<address>茨城県つくば市観音台2-1-9</address>
+		<pref>茨城県</pref>
+		<city>つくば市</city>
+		<post>305-8601</post>
+		<tel>029-838-7284</tel>
+		<geocode>140.1027668,36.0327787</geocode>
+		<category>SPECIAL</category>
+		<image></image>
+	</Library>
+	<Library>
 		<short>国立情報学研究所図書室</short>
 		<formal>国立情報学研究所図書室</formal>
 		<pref>東京都</pref>

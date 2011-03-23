@@ -61,7 +61,7 @@ PREF_LIBRARIES = [
    { :name => "Tokyo (North)", :pref => "東京都", :wikiname => "55.html", :pagename => "東京都（城北地区）" },
    { :name => "Tokyo (Central)", :pref => "東京都", :wikiname => "58.html", :pagename => "東京都（都心部）" },
    { :name => "Tokyo (South)", :pref => "東京都", :wikiname => "57.html", :pagename => "東京都（城南地区）" },
-   { :name => "Tokyo (NDL)", :pref => "東京都", :wikiname => "53.html", :pagename => "国立国会図書館（含む支部図書館）" },
+   { :name => "Tokyo (NDL)", :pref => ["東京都","茨城県"], :wikiname => "53.html", :pagename => "国立国会図書館（含む支部図書館）" },
    { :name => "Saitama", :pref => "埼玉県", :wikiname => "32.html" },
    { :name => "Kanagawa", :pref => "神奈川県", :wikiname => "15.html" },
    { :name => "Nagano", :pref => "長野県", :wikiname => "29.html" },
@@ -106,8 +106,11 @@ libraries = {}
 target.each do |pref|
    STDERR.puts pref[:name]
    libraries[ pref[:name] ] ||= []
-   cont = open( CALIL_BASEURL + URI.escape(pref[:pref]) ){|io| io.read }
-   calil_info = load_calil_xml( cont )
+   calil_info = []
+   pref[ :pref ].each do |p|
+      cont = open( CALIL_BASEURL + URI.escape(p) ){|io| io.read }
+      calil_info += load_calil_xml( cont ).to_a
+   end
    cont = open( pref[:name].sub( /\s*\(.*\)\Z/, "" ) + "_add.xml" ){|io| io.read }
    calil_add_info = load_calil_xml( cont )
    cont = open( BASEURL + pref[:wikiname] ){|io| io.read }
