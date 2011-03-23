@@ -157,6 +157,7 @@ target.each do |pref|
                      ( text.gsub( /\(.+?\)\Z/, "" ) == formal.gsub( /\(.+?\)\Z/, "" ) ) or
                      ( text.gsub( /（.+?）\Z/, "" ) == formal.gsub( /（.+?）\Z/, "" ) ) or
                      ( text.gsub( /\s*-\s*.*?\Z/, "" ) == formal.gsub( /\s*-\s*.*?\Z/, "" ) ) or
+                     ( text.gsub( /（.+?）\Z/, "" ) == short.gsub( /（.+?）\Z/, "" ) ) or
                      ( text == e.find( "./systemname" )[0].content )
                end
                if data[ :calil ].nil?
