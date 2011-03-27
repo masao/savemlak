@@ -126,4 +126,16 @@
 		<pref>栃木県</pref>
 		<geocode>139.828219,36.560935</geocode>
 	</Library>
+	<Library>
+		<short>足利短期大学</short>
+		<formal>足利短期大学</formal>
+		<pref>栃木県</pref>
+		<geocode>139.447401,36.340315</geocode>
+	</Library>
+	<Library>
+		<short>佐野短期大学</short>
+		<formal>佐野短期大学</formal>
+		<pref>栃木県</pref>
+		<geocode>139.604808,36.302265</geocode>
+	</Library>
 </Libraries>
