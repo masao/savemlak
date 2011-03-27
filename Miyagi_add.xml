@@ -122,6 +122,24 @@
 	</Library>
 	<Library>
 <!--alias-->
+		<systemid>Univ_Tohoku_Gakuin</systemid>
+		<systemname>東北学院大学</systemname>
+		<libkey>泉図書館</libkey>
+		<libid>106186</libid>
+		<short>泉図書館</short>
+		<formal>東北学院大学図書館　泉キャンパス図書館</formal>
+		<url_pc>http://www.lib.tohoku-gakuin.ac.jp/</url_pc>
+		<address>宮城県仙台市泉区天神沢二丁目1-1</address>
+		<pref>宮城県</pref>
+		<city>仙台市</city>
+		<post>981-3193</post>
+		<tel>022-375-1174</tel>
+		<geocode>140.9019821,38.329234</geocode>
+		<category>UNIV</category>
+		<image></image>
+	</Library>
+	<Library>
+<!--alias-->
 		<systemid>Univ_Tohoku_P</systemid>
 		<systemname>東北薬科大学</systemname>
 		<libkey>図書館</libkey>

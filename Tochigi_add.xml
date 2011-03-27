@@ -114,4 +114,16 @@
 		<category>MEDIUM</category>
 		<image></image>
 	</Library>
+	<Library>
+		<short>文星芸術大学・宇都宮文星短期大学</short>
+		<formal>文星芸術大学・宇都宮文星短期大学</formal>
+		<pref>栃木県</pref>
+		<geocode>139.858277,36.598356</geocode>
+	</Library>
+	<Library>
+		<short>宇都宮短期大学附属図書館</short>
+		<formal>宇都宮短期大学附属図書館</formal>
+		<pref>栃木県</pref>
+		<geocode>139.828219,36.560935</geocode>
+	</Library>
 </Libraries>

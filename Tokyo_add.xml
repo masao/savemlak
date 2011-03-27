@@ -275,4 +275,10 @@
 		<pref>東京都</pref>
 		<geocode>139.71056,35.70108</geocode>
 	</Library>
+	<Library>
+		<short>法政大学大原社会問題研究所</short>
+		<formal>法政大学大原社会問題研究所</formal>
+		<pref>東京都</pref>
+		<geocode>139.691706,35.689488</geocode>
+	</Library>
 </Libraries>
