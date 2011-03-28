@@ -176,7 +176,7 @@ target.each do |pref|
                data[ :text ] ||= []
                data[ :text ] << text
             end
-         when /\A[\-]+(.+?)\Z/o
+         when /\A[\-]+(.+?)\Z/o, /\A\s+/o
             if $1 and $1 != "-"
                data[ :text ] ||= []
                data[ :text ] << $1 
