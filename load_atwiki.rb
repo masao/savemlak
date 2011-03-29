@@ -120,7 +120,6 @@ target.each do |pref|
       data = {}
       lines.each do |line|
          line = line.gsub( /&gt;/, ">" ).gsub( /&lt;/, "<" ).gsub( /&amp;/, "&" )
-         line = line.gsub( /[　 ]+\Z/, "" )
          #p line
          case line
          when /\A(\*+)\s*(.*)\Z/
@@ -132,6 +131,7 @@ target.each do |pref|
                   data = {}
                end
                next if text =~ /\A入力フォーマット/
+               text = text.gsub( /[　 ]+\Z/, "" )
                text = text.gsub( /\A[　 ]+/, "" )
                text = text.gsub( /\&aname\(\w+\)\{(.+?)\}/ ){|m| $1 }
                text = text.gsub( /\[\[(.+?)>[^\]]*\]\]/ ){|m| $1 }
@@ -176,7 +176,7 @@ target.each do |pref|
                data[ :text ] ||= []
                data[ :text ] << text
             end
-         when /\A[\-]+(.+?)\Z/o, /\A\s+/o
+         when /\A[\-]+(.+?)\Z/o
             if $1 and $1 != "-"
                data[ :text ] ||= []
                data[ :text ] << $1 
@@ -188,8 +188,8 @@ target.each do |pref|
                #puts "--"
             end
          else
-            text ||= []
-            text << line
+            data[ :text ] ||= []
+            data[ :text ] << line
          end
       end
       if not data.empty?
