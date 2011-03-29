@@ -138,7 +138,7 @@ target.each do |pref|
                text = text.gsub( /\A\s*図書館名?[ 　]*/, "" )
                text = text.gsub( /[ 　]※.*?\s*\Z/, "" )
                text = text.gsub( /\s*-\s*\w*?\Z/, "" )
-               text = text.gsub( /[（\(]([\d\/\:\-\.\s、]*(更新|作成|記入|草稿|追記|変更|現在|開館))*[）\)]\s*\Z/, "" )
+               text = text.gsub( /[（\(]([\d\/\:\-\.\s、]*(更新|作成|記入|草稿|追記|変更|現在|(より)?開館))*[）\)]\s*\Z/, "" )
                data[ :title ] = text
                data[ :pref ] = pref[:name]
                data[ :calil ] = calil_info.find do |e|
@@ -187,6 +187,9 @@ target.each do |pref|
                data = {}
                #puts "--"
             end
+         else
+            text ||= []
+            text << line
          end
       end
       if not data.empty?
