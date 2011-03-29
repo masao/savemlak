@@ -119,12 +119,12 @@ target.each do |pref|
       lines = wikitext.strip.split( /\r?\n/ )
       data = {}
       lines.each do |line|
+         line = line.gsub( /&gt;/, ">" ).gsub( /&lt;/, "<" ).gsub( /&amp;/, "&" )
+         line = line.gsub( /[　 ]+\Z/, "" )
          #p line
          case line
          when /\A(\*+)\s*(.*)\Z/
             section, text = $1, $2
-            text = text.gsub( /&gt;/, ">" ).gsub( /&lt;/, "<" ).gsub( /&amp;/, "&" )
-            text = text.gsub( /[　 ]+\Z/, "" )
             next if section.size == 1
             if section.size == 2
                if not data.empty?
