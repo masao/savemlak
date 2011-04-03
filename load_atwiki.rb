@@ -145,7 +145,8 @@ target.each do |pref|
                   formal = e.find( "./formal" )[0].content.strip
                   short  = e.find( "./short" )[0].content.strip
                   #p [ formal, short ]
-                  ( text == formal ) or
+		  #pp e.find("./systemname")[0]
+                  result = ( text == formal ) or
                      ( text == short ) or
                      ( text.gsub( /[　 ・「」\(\)]/, "" ) == formal.gsub( /[　 ・「」\(\)]/, "" ) ) or
                      ( text.gsub( /\A.+?県/, "" ) == formal.gsub( /\A.+?県/, "" ) ) or
@@ -162,7 +163,11 @@ target.each do |pref|
                      ( text.gsub( /（.+?）\Z/, "" ) == formal.gsub( /（.+?）\Z/, "" ) ) or
                      ( text.gsub( /\s*-\s*.*?\Z/, "" ) == formal.gsub( /\s*-\s*.*?\Z/, "" ) ) or
                      ( text.gsub( /（.+?）\Z/, "" ) == short.gsub( /（.+?）\Z/, "" ) ) or
-                     ( text == e.find( "./systemname" )[0].content )
+                     ( e.find( "./systemname" )[0] and text == e.find( "./systemname" )[0].content )
+		     formal = nil
+		     short = nil
+		     #GC.start
+		     result
                end
                if data[ :calil ].nil?
                   data[ :calil ] = calil_add_info.find do |e|
