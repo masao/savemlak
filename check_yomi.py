@@ -52,6 +52,7 @@ class CheckYomiBot:
 
     def run(self):
     	self.count = { "target" : 0, "done" : 0 }
+        pywikibot.setAction( self.summary )
         for page in self.generator:
             self.treat(page)
         print "Done: %.01f%% (%d/%d)" % \
