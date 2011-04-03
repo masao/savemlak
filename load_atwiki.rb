@@ -119,12 +119,11 @@ target.each do |pref|
       lines = wikitext.strip.split( /\r?\n/ )
       data = {}
       lines.each do |line|
+         line = line.gsub( /&gt;/, ">" ).gsub( /&lt;/, "<" ).gsub( /&amp;/, "&" )
          #p line
          case line
          when /\A(\*+)\s*(.*)\Z/
             section, text = $1, $2
-            text = text.gsub( /&gt;/, ">" ).gsub( /&lt;/, "<" ).gsub( /&amp;/, "&" )
-            text = text.gsub( /[　 ]+\Z/, "" )
             next if section.size == 1
             if section.size == 2
                if not data.empty?
@@ -132,13 +131,14 @@ target.each do |pref|
                   data = {}
                end
                next if text =~ /\A入力フォーマット/
+               text = text.gsub( /[　 ]+\Z/, "" )
                text = text.gsub( /\A[　 ]+/, "" )
                text = text.gsub( /\&aname\(\w+\)\{(.+?)\}/ ){|m| $1 }
                text = text.gsub( /\[\[(.+?)>[^\]]*\]\]/ ){|m| $1 }
                text = text.gsub( /\A\s*図書館名?[ 　]*/, "" )
                text = text.gsub( /[ 　]※.*?\s*\Z/, "" )
                text = text.gsub( /\s*-\s*\w*?\Z/, "" )
-               text = text.gsub( /[（\(]([\d\/\:\-\.\s、]*(更新|作成|記入|草稿|追記|変更|現在|開館))*[）\)]\s*\Z/, "" )
+               text = text.gsub( /[（\(]([\d\/\:\-\.\s、]*(更新|作成|記入|草稿|追記|変更|現在|(より)?開館))*[）\)]\s*\Z/, "" )
                data[ :title ] = text
                data[ :pref ] = pref[:name]
                data[ :calil ] = calil_info.find do |e|
@@ -181,7 +181,7 @@ target.each do |pref|
                data[ :text ] ||= []
                data[ :text ] << text
             end
-         when /\A[\-]+(.+?)\Z/o, /\A\s+/o
+         when /\A[\-]+(.+?)\Z/o
             if $1 and $1 != "-"
                data[ :text ] ||= []
                data[ :text ] << $1 
@@ -192,6 +192,9 @@ target.each do |pref|
                data = {}
                #puts "--"
             end
+         else
+            data[ :text ] ||= []
+            data[ :text ] << line
          end
       end
       if not data.empty?
