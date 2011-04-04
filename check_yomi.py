@@ -34,7 +34,7 @@ class CheckYomiBot:
         'ja':u'ロボットによる編集: check Yomi field',
     }
 
-    def __init__(self, generator, dry, always):
+    def __init__(self, generator, dry, always, input):
         """
         Constructor. Parameters:
             @param generator: The page generator that determines on which pages
@@ -47,6 +47,7 @@ class CheckYomiBot:
         self.generator = generator
         self.dry = dry
         self.always = always
+        self.input = input
         # Set the edit summary message
         self.summary = pywikibot.translate(pywikibot.getSite(), self.msg)
 
@@ -69,13 +70,28 @@ class CheckYomiBot:
             return
 
 	self.count[ "target" ] += 1
-	pattern = re.compile( u"\\|\\s*よみ\\s*=" )
+	pattern = re.compile( ur'\|\s*よみ\s*=' )
 	if not pattern.search( text ):
             print "%s" % page.title(asLink=True)
-            return
-	else:
+            if self.input:
+                yomi = raw_input( 'Yomi for %s? ' % page.title().encode('utf_8') )
+                yomi = yomi.strip()
+                if len( yomi ) > 0:
+                    tmpl_pattern = re.compile( ur'{{(図書館|博物館|文書館)(.+?)}}',
+                                               re.DOTALL )
+                    text = re.sub( tmpl_pattern,
+                                   ur'{{\1\n|よみ=%s\2}}' % yomi.decode('utf_8'),
+                                   text )
+                else:
+                    return
+            else:
+                return
+
+	if pattern.search( text ):
 	    #print "%s done." % page.title(asLink=True)
 	    self.count[ "done" ] += 1
+	else:
+            return
 
         # Munge!
         text = re.sub( r'\[\[Category:(.+?)\|.*?\]\]',
@@ -144,6 +160,8 @@ def main():
     dry = False
     # will become True when the user uses the -always flag.
     always = False
+    # will input Yomi data
+    input = False
 
     # Parse command line arguments
     for arg in pywikibot.handleArgs():
@@ -151,6 +169,8 @@ def main():
             dry = True
         if arg.startswith("-always"):
             always = True
+        if arg.startswith("-input"):
+            input = True
         else:
             # check if a standard argument like
             # -start:XYZ or -ref:Asdf was given.
@@ -169,7 +189,7 @@ def main():
         # The preloading generator is responsible for downloading multiple
         # pages from the wiki simultaneously.
         gen = pagegenerators.PreloadingGenerator(gen)
-        bot = CheckYomiBot(gen, dry, always)
+        bot = CheckYomiBot(gen, dry, always, input)
         bot.run()
     else:
         pywikibot.showHelp()
