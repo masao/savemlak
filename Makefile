@@ -1,8 +1,8 @@
-
 TEXT = check_yomi_all.txt
-.check_yomi_all:
+
+check_yomi_all:
 	-rm -f $(TEXT)
-	echo "== 北海道 ==" >> $(TEXT)
+	echo "「よみ」項目が付与されていない記事です：\n== 北海道 ==" >> $(TEXT)
 	./check_yomi.py -outputwiki -cat:北海道 >> $(TEXT)
 	echo "== 青森県 ==" >> $(TEXT)
 	./check_yomi.py -outputwiki -cat:青森県 >> $(TEXT)
@@ -37,3 +37,5 @@ TEXT = check_yomi_all.txt
 	echo "== 長野県 ==" >> $(TEXT)
 	./check_yomi.py -outputwiki -cat:長野県 >> $(TEXT)
 	./check_yomi_all.py
+
+.PHONY: check_yomi_all
