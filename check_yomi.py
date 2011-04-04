@@ -162,15 +162,19 @@ def main():
     always = False
     # will input Yomi data
     input = False
+    # will input Yomi data
+    input = False
 
     # Parse command line arguments
     for arg in pywikibot.handleArgs():
         if arg.startswith("-dry"):
             dry = True
-        if arg.startswith("-always"):
+        elif arg.startswith("-always"):
             always = True
-        if arg.startswith("-input"):
+        elif arg.startswith("-input"):
             input = True
+        elif arg.startswith("-outputwiki"):
+            outputwiki = True
         else:
             # check if a standard argument like
             # -start:XYZ or -ref:Asdf was given.
