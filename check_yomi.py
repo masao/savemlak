@@ -34,7 +34,7 @@ class CheckYomiBot:
         'ja':u'ロボットによる編集: check Yomi field',
     }
 
-    def __init__(self, generator, dry, always, input):
+    def __init__(self, generator, dry, always, input, outputwiki):
         """
         Constructor. Parameters:
             @param generator: The page generator that determines on which pages
@@ -48,17 +48,22 @@ class CheckYomiBot:
         self.dry = dry
         self.always = always
         self.input = input
+        self.outputwiki = outputwiki
         # Set the edit summary message
         self.summary = pywikibot.translate(pywikibot.getSite(), self.msg)
 
     def run(self):
-    	self.count = { "target" : 0, "done" : 0 }
+    	self.count = { "target" : [], "done" : [] }
         pywikibot.setAction( self.summary )
         for page in self.generator:
             self.treat(page)
+        if self.outputwiki:
+            for page in (set(self.count["target"])-set(self.count["done"])):
+                print( (u"*%s" % page).encode('utf_8') )
         print "Done: %.01f%% (%d/%d)" % \
-              ( 100*self.count["done"] / float(self.count["target"]),
-                self.count["done"], self.count["target"],
+              ( 100*len(self.count["done"]) / float(len(self.count["target"])),
+                len(self.count["done"]),
+                len(self.count["target"]),
               )
 
     def treat(self, page):
@@ -69,10 +74,10 @@ class CheckYomiBot:
         if not text:
             return
 
-	self.count[ "target" ] += 1
+	self.count[ "target" ].append( page.title(asLink=True) )
 	pattern = re.compile( ur'\|\s*よみ\s*=' )
 	if not pattern.search( text ):
-            print "%s" % page.title(asLink=True)
+            #print "%s" % page.title(asLink=True)
             if self.input:
                 yomi = raw_input( 'Yomi for %s? ' % page.title().encode('utf_8') )
                 yomi = yomi.strip()
@@ -89,10 +94,13 @@ class CheckYomiBot:
 
 	if pattern.search( text ):
 	    #print "%s done." % page.title(asLink=True)
-	    self.count[ "done" ] += 1
+	    self.count[ "done" ].append( page.title(asLink=True) )
 	else:
             return
 
+        if self.outputwiki:
+            return
+        
         # Munge!
         text = re.sub( r'\[\[Category:(.+?)\|.*?\]\]',
                        r'[[Category:\1]]',
@@ -163,7 +171,7 @@ def main():
     # will input Yomi data
     input = False
     # will input Yomi data
-    input = False
+    outputwiki = False
 
     # Parse command line arguments
     for arg in pywikibot.handleArgs():
@@ -193,7 +201,7 @@ def main():
         # The preloading generator is responsible for downloading multiple
         # pages from the wiki simultaneously.
         gen = pagegenerators.PreloadingGenerator(gen)
-        bot = CheckYomiBot(gen, dry, always, input)
+        bot = CheckYomiBot(gen, dry, always, input, outputwiki)
         bot.run()
     else:
         pywikibot.showHelp()
