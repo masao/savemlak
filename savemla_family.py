@@ -34,6 +34,42 @@ class Family(family.Family):
         self.namespaces[7] = {
             'ja': u'ファイル・トーク',
         }
+        self.namespaces[102] = {
+            'ja': u'Property',
+        }
+        self.namespaces[103] = {
+            'ja': u'Property talk',
+        }
+        self.namespaces[104] = {
+            'ja': u'Type',
+        }
+        self.namespaces[105] = {
+            'ja': u'Type talk',
+        }
+        self.namespaces[106] = {
+            'ja': u'Form',
+        }
+        self.namespaces[107] = {
+            'ja': u'Form talk',
+        }
+        self.namespaces[108] = {
+            'ja': u'Concept',
+        }
+        self.namespaces[109] = {
+            'ja': u'Concept talk',
+        }
+        self.namespaces[274] = {
+            'ja': u'Widget',
+        }
+        self.namespaces[275] = {
+            'ja': u'Widget talk',
+        }
+        self.namespaces[420] = {
+            'ja': u'Layer',
+        }
+        self.namespaces[421] = {
+            'ja': u'Layer talk',
+        }
 
     def version(self, code):
         return "1.18alpha"
