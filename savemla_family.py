@@ -23,10 +23,10 @@ class Family(family.Family):
             'ja': u'利用者・トーク',
         }
         self.namespaces[4] = {
-            'ja': u'SaveMLA',
+            'ja': u'SaveMLAK',
         }
         self.namespaces[5] = {
-            'ja': u'SaveMLA・トーク',
+            'ja': u'SaveMLAK・トーク',
         }
         self.namespaces[6] = {
             'ja': u'ファイル',
