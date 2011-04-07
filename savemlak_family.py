@@ -8,10 +8,10 @@ class Family(family.Family):
     def __init__(self):
         family.Family.__init__(self)
 
-        self.name = 'savemla'
+        self.name = 'savemlak'
 
         self.langs = {
-                'ja': 'savemla.jp',
+                'ja': 'savemlak.jp',
         }
         self.namespaces[1] = {
             'ja': u'トーク',
@@ -23,10 +23,10 @@ class Family(family.Family):
             'ja': u'利用者・トーク',
         }
         self.namespaces[4] = {
-            'ja': u'SaveMLAK',
+            'ja': u'saveMLAK',
         }
         self.namespaces[5] = {
-            'ja': u'SaveMLAK・トーク',
+            'ja': u'saveMLAK・トーク',
         }
         self.namespaces[6] = {
             'ja': u'ファイル',
@@ -75,4 +75,4 @@ class Family(family.Family):
         return "1.18alpha"
 
     def scriptpath(self, code):
-        return '/savemla'
+        return '/savemlak'
