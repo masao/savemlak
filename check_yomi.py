@@ -82,7 +82,7 @@ class CheckYomiBot:
                 yomi = raw_input( 'Yomi for %s? ' % page.title().encode('utf_8') )
                 yomi = yomi.strip()
                 if len( yomi ) > 0:
-                    tmpl_pattern = re.compile( ur'{{(図書館|博物館|文書館)(.+?)}}',
+                    tmpl_pattern = re.compile( ur'{{(図書館|博物館|文書館|施設)(.+?)}}',
                                                re.DOTALL )
                     text = re.sub( tmpl_pattern,
                                    ur'{{\1\n|よみ=%s\2}}' % yomi.decode('utf_8'),
