@@ -12,6 +12,7 @@ class Family(family.Family):
 
         self.langs = {
                 'ja': 'savemlak.jp',
+                'en': 'savemlak.jp',
         }
         self.namespaces[1] = {
             'ja': u'トーク',
