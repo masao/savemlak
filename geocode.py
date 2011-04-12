@@ -69,12 +69,14 @@ class GeocodeBot:
         if not text:
             return
 
-	pattern1 = re.compile( ur'\|\s*所在地\s*=\s*(\S.*)\n' )
+	pattern1 = re.compile( ur'\|\s*所在地\s*=([^\n]*?)\n' )
         m = pattern1.search( text )
-        if not m:
-            print u"Address not found: %s" % page.title(asLink=True)
-            return
         address = m.group( 1 )
+        if not m or len(address.strip()) == 0:
+	    line = u"*%s (所在地 記載なし)" % page.title(asLink=True)
+            print line.encode('utf_8')
+            return
+        #print address
 
 	pattern2 = re.compile( ur'\s*\|\s*緯度経度\s*=([^\n]*)\n' )
         m = pattern2.search( text )
