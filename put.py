@@ -26,41 +26,61 @@ docuReplacements = {
     '&params;': pagegenerators.parameterHelp
 }
 
-class CheckYomiAllBot:
+class PagePutBot:
     # Edit summary message that should be used.
     # NOTE: Put a good description here, and add translations, if possible!
     msg = {
-        'en': u'Robot: Checking Yomi info within whole site',
-        'ja':u'ロボットによる編集: check Yomi info within whole site',
+        'en': u'Robot: Put specified wikitext',
+        'ja':u'ロボットによる編集: ウィキテキストの自動投稿',
     }
 
-    def __init__(self):
-        self.summary = pywikibot.translate(pywikibot.getSite(), self.msg)
+    def __init__(self, page, filename, summary, dry, always):
+        self.page = pywikibot.Page( pywikibot.getSite(), page )
+        self.filename = filename
+        self.summary = summary
+        if not self.summary:
+            self.summary = pywikibot.translate(pywikibot.getSite(), self.msg)
         pywikibot.setAction( self.summary )
 
-    def run(self, page):
-        file = open( "check_yomi_all.txt" )
+    def run(self):
+        file = open( self.filename )
         text = file.read().decode("utf_8")
-        if text != page.get():
+        if text != self.page.get():
             try:
                 # Save the page
-                page.put(text)
+                self.page.put(text)
             except pywikibot.LockedPage:
                 pywikibot.output(u"Page %s is locked; skipping."
-                                 % page.title(asLink=True))
+                                 % self.page.title(asLink=True))
             except pywikibot.EditConflict:
                 pywikibot.output(
                     u'Skipping %s because of edit conflict'
-                    % (page.title()))
+                    % (self.page.title()))
             except pywikibot.SpamfilterError, error:
                 pywikibot.output(
                     u'Cannot change %s because of spam blacklist entry %s'
-                    % (page.title(), error.url))
+                    % (self.page.title(), error.url))
 
 def main():
-    bot = CheckYomiAllBot()
-    page = pywikibot.Page( pywikibot.getSite(), u"利用者:Masao/Yomi_Check" )
-    bot.run( page )
+    dry = None
+    always = None
+    page_title = None
+    filename = None
+    summary = None
+    for arg in pywikibot.handleArgs():
+        if arg.startswith("-dry"):
+            dry = True
+        elif arg.startswith('-always'):
+            always = True
+        elif arg.startswith('-summary:'):
+            summary = arg[len('-summary:'):]
+        elif arg.startswith('-page:'):
+            page_title = arg[len('-page:'):]
+        elif arg.startswith('-file:'):
+            filename = arg[len('-file:'):]
+
+    bot = PagePutBot(page_title, filename, summary, dry, always)
+    bot.run()
 
 if __name__ == "__main__":
     try:

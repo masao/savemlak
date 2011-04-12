@@ -1,11 +1,18 @@
 TEXT = check_yomi_all.txt
+NOGEOCODE = nogeocode.txt
 
-all: check_yomi check_yomi_all
+all: geocode check_yomi_all
+
+geocode:
+	echo "自動で「緯度経度」項目が入手できなかった施設一覧です:" > $(NOGEOCODE)
+	./geocode.py -transcludes:施設 -always >> $(NOGEOCODE)
+	./put.py -page:利用者:Masao/NoGeocode -file:$(NOGEOCODE) -summary:「緯度経度」自動取得による更新を反映
+
 
 check_yomi:
 	./check_yomi.py -always -cat:文書館 -cat:博物館 -cat:図書館
 
-check_yomi_all:
+check_yomi_all: check_yomi
 	-rm -f $(TEXT)
 	echo -e "「よみ」項目が付与されていない記事です：\n== 北海道 ==" >> $(TEXT)
 	./check_yomi.py -outputwiki -cat:北海道 >> $(TEXT)
@@ -41,6 +48,7 @@ check_yomi_all:
 	./check_yomi.py -outputwiki -cat:山梨県 >> $(TEXT)
 	echo "== 長野県 ==" >> $(TEXT)
 	./check_yomi.py -outputwiki -cat:長野県 >> $(TEXT)
-	./check_yomi_all.py
+	./put.py -page:利用者:Masao/Yomi_Check -file:$(TEXT) -summary:「よみ」未付与の項目一覧を更新
 
-.PHONY: check_yomi check_yomi_all
+
+.PHONY: check_yomi check_yomi_all geocode
