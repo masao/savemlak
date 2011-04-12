@@ -72,7 +72,7 @@ class GeocodeBot:
 	pattern1 = re.compile( ur'\|\s*所在地\s*=\s*(\S.*)\n' )
         m = pattern1.search( text )
         if not m:
-            print "Address not found: %s" % page.title(asLink=True)
+            print u"Address not found: %s" % page.title(asLink=True)
             return
         address = m.group( 1 )
 
@@ -88,7 +88,8 @@ class GeocodeBot:
 
         latlon = self.geocoding( address )
         if not latlon:
-            print "Geocoding failed: address:%s, %s" % ( address, page.title(asLink=True) )
+	    line = "*%s (%s)" % ( page.title(asLink=True), address.strip() )
+            print line.encode('utf_8')
             return
 
         text = re.sub( pattern1,
