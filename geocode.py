@@ -75,19 +75,21 @@ class GeocodeBot:
             print "Address not found: %s" % page.title(asLink=True)
             return
         address = m.group( 1 )
-        #print address
 
 	pattern2 = re.compile( ur'\s*\|\s*緯度経度\s*=([^\n]*)\n' )
         m = pattern2.search( text )
         if m:
             val = m.group( 1 ).strip()
-            #print len(val)
+            #print val
             if len(val) == 0 or re.match( ur'^0\s*,\s*0$', val ):
                 text = re.sub( pattern2, r'\n', text )
             else:
                 return
 
         latlon = self.geocoding( address )
+        if not latlon:
+            print "Geocoding failed: address:%s, %s" % ( address, page.title(asLink=True) )
+            return
 
         text = re.sub( pattern1,
                        ur'\g<0>|緯度経度=%s,%s\n' % ( latlon["lat"], latlon["lon"] ),
