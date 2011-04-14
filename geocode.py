@@ -69,24 +69,25 @@ class GeocodeBot:
         if not text:
             return
 
-	pattern1 = re.compile( ur'\|\s*所在地\s*=([^\n]*?)\n' )
-        m = pattern1.search( text )
-        address = m.group( 1 )
-        if not m or len(address.strip()) == 0:
+	pattern_coordinates = re.compile( ur'\s*\|\s*緯度経度\s*=([^\n]*)\n' )
+        match_coordinates = pattern_coordinates.search( text )
+        if match_coordinates:
+            val = match_coordinates.group( 1 ).strip()
+            #print val
+            if len(val) == 0 or re.match( ur'^0\s*,\s*0$', val ):
+                text = re.sub( pattern_coordinates, r'\n', text )
+            else:
+                return
+
+	pattern_address = re.compile( ur'\|\s*所在地\s*=([^\n]*?)\n' )
+        match_address = pattern_address.search( text )
+        address = match_address.group( 1 )
+
+        if not match_address or len(address.strip()) == 0:
 	    line = u"*%s (所在地 記載なし)" % page.title(asLink=True)
             print line.encode('utf_8')
             return
         #print address
-
-	pattern2 = re.compile( ur'\s*\|\s*緯度経度\s*=([^\n]*)\n' )
-        m = pattern2.search( text )
-        if m:
-            val = m.group( 1 ).strip()
-            #print val
-            if len(val) == 0 or re.match( ur'^0\s*,\s*0$', val ):
-                text = re.sub( pattern2, r'\n', text )
-            else:
-                return
 
         latlon = self.geocoding( address )
         if not latlon:
@@ -94,7 +95,7 @@ class GeocodeBot:
             print line.encode('utf_8')
             return
 
-        text = re.sub( pattern1,
+        text = re.sub( pattern_address,
                        ur'\g<0>|緯度経度=%s,%s\n' % ( latlon["lat"], latlon["lon"] ),
                        text )
 
