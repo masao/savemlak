@@ -69,6 +69,7 @@ class LibraryCategoryBot:
         school_lib = pywikibot.Page(pywikibot.getSite(), u'Category:学校図書館')
         special_lib= pywikibot.Page(pywikibot.getSite(), u'Category:専門図書館')
         public_lib = pywikibot.Page(pywikibot.getSite(), u'Category:公共図書館')
+        ndl_lib    = pywikibot.Page(pywikibot.getSite(), u'Category:国立国会図書館')
         if public_lib in cats:
             return
         elif univ_lib in cats:
