@@ -78,6 +78,8 @@ class LibraryCategoryBot:
             return
         elif special_lib in cats:
             return
+        elif ndl_lib in cats:
+            return
         else:
             pagetitle = page.title(asLink=True)
             othercats = u", ".join( map((lambda e: e.aslink(textlink=True)),
