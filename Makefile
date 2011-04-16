@@ -1,7 +1,13 @@
 TEXT = check_yomi_all.txt
 NOGEOCODE = nogeocode.txt
+LIBARRYCATEGORY = library_category.txt
 
-all: geocode check_yomi_all
+all: library_category geocode check_yomi_all
+
+library_category:
+	echo "適切なサブカテゴリを持たない図書館施設一覧です。" > $(LIBARRYCATEGORY)
+	./library_category.py -cat:図書館 >> $(LIBARRYCATEGORY)
+	./put.py -page:利用者:Masao/LibraryCategory -file:$(LIBARRYCATEGORY) -summary:サブカテゴリを持たない図書館施設一覧を更新
 
 geocode:
 	echo "自動で「緯度経度」項目が入手できなかった施設一覧です:" > $(NOGEOCODE)
@@ -51,4 +57,4 @@ check_yomi_all: check_yomi
 	./put.py -page:利用者:Masao/Yomi_Check -file:$(TEXT) -summary:「よみ」未付与の項目一覧を更新
 
 
-.PHONY: check_yomi check_yomi_all geocode
+.PHONY: check_yomi check_yomi_all geocode library_category
