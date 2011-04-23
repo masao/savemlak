@@ -45,7 +45,11 @@ class PagePutBot:
     def run(self):
         file = open( self.filename )
         text = file.read().decode("utf_8")
-        if text != self.page.get():
+        try:
+            current_text = self.page.get()
+        except pywikibot.NoPage:
+            current_text = None
+        if current_text == None or text != current_text:
             try:
                 # Save the page
                 self.page.put(text)
