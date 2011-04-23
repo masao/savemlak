@@ -14,8 +14,9 @@ if $0 == __FILE__
    none_target = {}
    csv.shift # skip first line (header).
    csv.each do |pref,area,city,district,name,population,capacity,update_date,update_time,source,notes,latlng,color|
+      name.gsub!( /コミセン/, "コミュニティセンター" )
       pagename = city + name
-      if not name =~ /公民館|コミュニティセンター/
+      if not name =~ /公民館|コミュニティセンター|コミュニティー?センター?|市民センター|地区センター/
          none_target[ pref ] ||= []
 	 none_target[ pref ] << pagename
 	 next
@@ -50,21 +51,22 @@ if $0 == __FILE__
 | その他の被害=
 | 運営情報=
 | 救援状況=
-| 避難受入情報=#{ population ? "*避難者#{ population }名 #{ update_date ? "（更新 #{ update_date }）" : "" }" : "" }#{ notes ? "," + notes : "" }
-| 避難受入規模=#{ capacity_str }
+| 避難受入情報=
+| 避難受入規模=#{ population ? "*避難者#{ population }名 #{ update_date ? "（更新 #{ update_date }）" : "" }" : "" }#{ notes ? "," + notes : "" }
+#{ capacity_str }
 | その他=
 | 記入者=
-| 元情報=*[http://shelter-info.appspot.com/maps Google避難所情報], #{ source } #{ update_date ? "（更新 #{ update_date } #{ update_time }）" : "" }
+| 元情報=*[http://shelter-info.appspot.com/maps Google避難所情報]#{ source ? ", #{ source }" : "" } #{ update_date ? "（更新 #{ update_date } #{ update_time.to_s.gsub( /:00$/, "" ) }）" : "" }
 }}
 EOF
       open( "#{ pagename }.txt", "w" ){|io| io.print template }
       done[ pref ] ||= []
       done[ pref ] << pagename
-      puts notes
+      #puts notes
    end
    done.each_key do |k|
       puts "*#{k}"
-      puts "**#{done[k].map{|e| "[[#{ e }]]" }.join(", ") }"
-      puts "**:非対象施設: <small>#{none_target[k].map{|e| "[[#{ e }]]" }.join(", ") }</small>"
+      puts "**対象施設 (#{done[k].size}): #{done[k].map{|e| "[[#{ e }]]" }.join(", ") }"
+      puts "**非対象施設 (#{none_target[k].size}): #{none_target[k].map{|e| "[[#{ e }]]" }.join(", ") }"
    end
 end
