@@ -15,7 +15,13 @@ if $0 == __FILE__
    csv.shift # skip first line (header).
    csv.each do |pref,area,city,district,name,population,capacity,update_date,update_time,source,notes,latlng,color|
       name.gsub!( /コミセン/, "コミュニティセンター" )
-      pagename = city + name
+      city = "一関市" if city == "一関"
+      city_n = city.gsub( /\A.*?郡/, "" )
+      pagename = if name.index( city_n ) == 0
+      		    name
+		 else
+		    city_n + name
+		 end
       if not name =~ /公民館|コミュニティセンター|コミュニティー?センター?|市民センター|地区センター/
          none_target[ pref ] ||= []
 	 none_target[ pref ] << pagename
