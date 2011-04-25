@@ -7,7 +7,7 @@ if $0 == __FILE__
    ARGF.gets
    ARGF.each do |line|
       name, zipcode, address, phone, url, pref, = line.toutf8.chomp.split( /\t/ )
-      #p name
+      name.tr!( '[]|', '() ' )
       open( name + ".txt", "w" ) do |f|
          f.puts <<EOF
 {{subst:新規施設
