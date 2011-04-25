@@ -14,9 +14,11 @@ and the bot will only work on that single page.
 """
 
 import sys
+import os
 import re
 
-sys.path.append( "../pywikipedia/" )
+sys.path.append( os.path.join( os.path.dirname(os.path.abspath(sys.argv[0])),
+                               "..", "pywikipedia" ) )
 import wikipedia as pywikibot
 import pagegenerators
 
