@@ -52,8 +52,12 @@ class PageCreateBot:
             current_text = self.page.get()
             print( (u"*%s" % self.page.title(asLink=True)).encode('utf_8') )
             return
+        except pywikibot.IsRedirect:
+            print( (u"*%s (redirect)" % self.page.title(asLink=True)).encode('utf_8') )
+            return
         except pywikibot.NoPage:
             current_text = None
+
         if current_text == None or ( self.overwrite or text != current_text ):
             try:
                 # Save the page
