@@ -81,12 +81,11 @@ class GeocodeBot:
 
 	pattern_address = re.compile( ur'\|\s*所在地\s*=([^\n]*?)\n' )
         match_address = pattern_address.search( text )
-        address = match_address.group( 1 )
-
-        if not match_address or len(address.strip()) == 0:
+        if not match_address or len(match_address.group(1).strip()) == 0:
 	    line = u"*%s (所在地 記載なし)" % page.title(asLink=True)
             print line.encode('utf_8')
             return
+        address = match_address.group( 1 )
         #print address
 
         latlon = self.geocoding( address )
