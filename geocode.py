@@ -153,12 +153,19 @@ class GeocodeBot:
         content = io.read()
         #print "%s" % content
         obj = json.loads(content)
-        if obj["status"] != "OK":
+        if obj["status"] == "OVER_QUERY_LIMIT":
+            raise Error( u'Geocoding "OVER_QUERY_LIMIT" error for %s.' % address )
+        elif obj["status"] != "OK":
             return None
+
         result = {}
         result['lon'] = str(obj["results"][0]["geometry"]["location"]["lng"])
         result['lat'] = str(obj["results"][0]["geometry"]["location"]["lat"])
         return result
+
+class GeocodingOverQueryLimitError(Exception):
+    """class for exceptions if RateLimit over in Google Geocoding API."""
+    pass
 
 def main():
     # This factory is responsible for processing command line arguments
