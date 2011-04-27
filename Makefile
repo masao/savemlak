@@ -18,7 +18,7 @@ geocode:
 check_yomi:
 	./check_yomi.py -always -cat:文書館 -cat:博物館 -cat:図書館
 
-check_yomi_all: check_yomi
+check_yomi_all:
 	-rm -f $(TEXT)
 	echo -e "「よみ」項目が付与されていない記事です：\n== 北海道 ==" >> $(TEXT)
 	./check_yomi.py -outputwiki -cat:北海道 >> $(TEXT)
