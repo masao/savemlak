@@ -75,18 +75,22 @@ class CheckYomiBot:
             return
 
 	self.count[ "target" ].append( page.title(asLink=True) )
-	pattern = re.compile( ur'\|\s*よみ\s*=' )
-	if not pattern.search( text ):
-            #print "%s" % page.title(asLink=True)
+	pattern = re.compile( ur'\|\s*よみ\s*=([^\n]*\n)' )
+	match = pattern.search( text )
+	#print match.group(1)
+	if match == None or len(match.group(1).strip()) == 0:
             if self.input:
                 yomi = raw_input( 'Yomi for %s? ' % page.title().encode('utf_8') )
                 yomi = yomi.strip()
                 if len( yomi ) > 0:
-                    tmpl_pattern = re.compile( ur'{{(図書館|博物館|文書館|施設)(.+?)}}',
-                                               re.DOTALL )
-                    text = re.sub( tmpl_pattern,
-                                   ur'{{\1\n|よみ=%s\2}}' % yomi.decode('utf_8'),
-                                   text )
+		    if match:
+                        text = re.sub( pattern, ur'|よみ=%s\n' % yomi.decode('utf_8'), text )
+                    else:
+                    	tmpl_pattern = re.compile( ur'{{(図書館|博物館|文書館|施設)(.+?)}}',
+                                                   re.DOTALL )
+                        text = re.sub( tmpl_pattern,
+                                       ur'{{\1\n|よみ=%s\2}}' % yomi.decode('utf_8'),
+                                       text )
                 else:
                     return
             else:
