@@ -32,6 +32,10 @@ docuReplacements = {
     '&params;': pagegenerators.parameterHelp
 }
 
+class GeocodingOverQueryLimitError(Exception):
+    """class for exceptions if RateLimit over in Google Geocoding API."""
+    pass
+
 class GeocodeBot:
     # Edit summary message that should be used.
     # NOTE: Put a good description here, and add translations, if possible!
@@ -88,7 +92,11 @@ class GeocodeBot:
         address = match_address.group( 1 )
         #print address
 
-        latlon = self.geocoding( address )
+        latlon = None
+        try:
+            latlon = self.geocoding( address )
+        except GeocodingOverQueryLimitError:
+            pywikibot.output( u"OVER_QUERY_LIMIT error at %s." % page.title(asLink=True) )
         if not latlon:
 	    line = "*%s (%s)" % ( page.title(asLink=True), address.strip() )
             print line.encode('utf_8')
@@ -154,7 +162,7 @@ class GeocodeBot:
         #print "%s" % content
         obj = json.loads(content)
         if obj["status"] == "OVER_QUERY_LIMIT":
-            raise Error( u'Geocoding "OVER_QUERY_LIMIT" error for %s.' % address )
+            raise GeocodingOverQueryLimitError( u'Geocoding "OVER_QUERY_LIMIT" error for %s.' % address )
         elif obj["status"] != "OK":
             return None
 
@@ -162,10 +170,6 @@ class GeocodeBot:
         result['lon'] = str(obj["results"][0]["geometry"]["location"]["lng"])
         result['lat'] = str(obj["results"][0]["geometry"]["location"]["lat"])
         return result
-
-class GeocodingOverQueryLimitError(Exception):
-    """class for exceptions if RateLimit over in Google Geocoding API."""
-    pass
 
 def main():
     # This factory is responsible for processing command line arguments
