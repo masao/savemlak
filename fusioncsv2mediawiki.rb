@@ -19,7 +19,7 @@ if $0 == __FILE__
       csv.each do |c|
          c["Name"].gsub!( /コミセン/, "コミュニティセンター" )
          c["City"] = "一関市" if c["City"] == "一関"
-         c["Name"].gsub!( /�|�/, "" )
+         c["Name"].gsub!( /㈲|㈱/, "" )
          city_n = c["City"].gsub( /\A.*?郡/, "" )
          pagename = if c["Name"].index( city_n ) == 0
                        c["Name"]
