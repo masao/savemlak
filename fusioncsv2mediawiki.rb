@@ -19,14 +19,15 @@ if $0 == __FILE__
       csv.each do |c|
          c["Name"].gsub!( /コミセン/, "コミュニティセンター" )
          c["City"] = "一関市" if c["City"] == "一関"
+         c["City"] = "奥州市" if c["City"] == "奥州"
          c["Name"].gsub!( /㈲|㈱/, "" )
-         city_n = c["City"].gsub( /\A.*?郡/, "" )
+         city_n = c["City"].gsub( /\A.+?郡/, "" )
          pagename = if c["Name"].index( city_n ) == 0
                        c["Name"]
                     else
                        city_n + c["Name"]
                     end
-         if not c["Name"] =~ /公民館|コミュニティセンター|コミュニティー?センター?|市民センター|地区センター/
+         if not c["Name"] =~ /図書館|公民館|コミュニティセンター|コミュニティー?センター?|市民センター|地区センター/
             none_target[ c["Prefecture"] ] ||= []
             none_target[ c["Prefecture"] ] << pagename
             next
@@ -109,7 +110,7 @@ EOF
    end
    done.each_key do |k|
       puts "*#{k}"
-      puts "**対象施設 (#{done[k].uniq.size}): #{done[k].uniq.map{|e| "[[#{ e }]]" }.join(", ") }"
-      puts "**非公民館施設 (#{none_target[k].uniq.size}): #{none_target[k].uniq.map{|e| "[[#{ e }]]" }.join(", ") }"
+      puts "**対象施設 (#{done[k].uniq.size}): #{done[k].uniq.map{|e| "[[#{ e }]]" }.sort.join(", ") }"
+      puts "**非公民館施設 (#{none_target[k].uniq.size}): #{none_target[k].uniq.map{|e| "[[#{ e }]]" }.sort.join(", ") }"
    end
 end
