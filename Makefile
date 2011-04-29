@@ -20,7 +20,8 @@ check_yomi:
 
 check_yomi_all:
 	-rm -f $(TEXT)
-	echo -e "「よみ」項目が付与されていない記事です：n== [[:Category:北海道|]] ==" >> $(TEXT)
+	echo -e "「よみ」項目が付与されていない記事です：" > $(TEXT)
+	echo "== [[:Category:北海道|]] ==" >> $(TEXT)
 	./check_yomi.py -outputwiki -cat:北海道 >> $(TEXT)
 	echo "== [[:Category:青森県|]] ==" >> $(TEXT)
 	./check_yomi.py -outputwiki -cat:青森県 >> $(TEXT)
