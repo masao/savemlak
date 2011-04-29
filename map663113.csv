@@ -1,0 +1,1852 @@
+Prefecture,City,District,Name,Population,Capacity,Updated,Notes,Source,LatLng,Color
+千葉県,旭市,二の１９２０,旭市総合体育館,30,,4月13日 0:00,ＴＥＬ0479-62-1212,旭市ホームページによる,,measle_turquoise
+千葉県,旭市,横根3520番地,飯岡保険福祉センター,75,,4月13日 9:00,ＴＥＬ0479-57-3113,旭市ホームページによる,,measle_turquoise
+千葉県,旭市,飯岡町2020-1,飯岡小学校,72,,4月6日 21:00,ＴＥＬ0479-57-2048,旭市ホームページによる,,measle_turquoise
+千葉県,旭市,高生1番地,海上公民館,80,,4月13日 9:00,ＴＥＬ0479-55-2566,旭市ホームページによる,,measle_turquoise
+千葉県,香取市,佐原イ２１１,香取市民体育館,28,,4月13日 9:00,,自治体ホームページより,"35.895114,140.495547",measle_turquoise
+埼玉県,さいたま市,見沼区染谷3-147-1,片柳コミュニティセンター,50,400,4月12日 11:00,ＴＥＬ048-686-8666,埼玉県HP・受付終了,"35.909804,139.683986",measle_turquoise
+埼玉県,さいたま市中央区,上落合２－３－２,新都心ビジネス交流プラザ４Ｆ会議室,100,100,3月30日 19:47,定員いっぱい,http://www.pref.saitama.lg.jp/page/hinanjyo.html,"35.890670,139.627857",measle_turquoise
+埼玉県,さいたま市北区,土呂町２－２４－１,彩の国さいたま人づくり広域連合自治人材開発センター,300,300,3月30日 19:46,定員いっぱい,http://www.pref.saitama.lg.jp/page/hinanjyo.html,"35.929309,139.633142",measle_blue
+埼玉県,さいたま市浦和区,,障害者交流センター体育館,27,,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,三郷市,,瑞沼市民センター,240,260,4月12日 11:00,,埼玉県HP,,measle_blue
+埼玉県,上尾市,,イコス上尾,5,60,,,埼玉県HP,,measle_turquoise
+埼玉県,久喜市,,総合第一体育館,5,70,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,入間市,,青少年活動センター,11,45,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,入間市,上谷ヶ貫２４４－２,農林総合研究センター茶業研究所,,60,3月30日 19:47,,http://www.pref.saitama.lg.jp/page/hinanjyo.html,"35.808865,139.345956",measle_yellow
+埼玉県,八潮市,,文化スポーツセンター,9,30,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,加須市,,老人福祉センター不老荘,18,45,4月12日 11:00,,,,measle_turquoise
+埼玉県,加須市,大字騎西598 - 1,旧埼玉県立騎西高校,1388,,4月12日 11:00,福島県双葉町住民 (4/1 埼玉スーパーアリーナより移転),日経新聞 20110401,"36.106171,139.565799",measle_blue
+埼玉県,北葛飾郡杉戸町,,すぎとピア,34,50,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,北葛飾郡杉戸町,,エコスポいずみ,33,60,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,北足立郡伊奈町,,伊奈町ふれあい活動センター,12,40,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,南埼玉郡宮代町,,ふれ愛センター,12,12,4月12日 11:00,受入完了,埼玉県HP,,measle_turquoise
+埼玉県,川口市,,西スポーツセンター,25,250,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,川越市,,農業ふれあいセンター,27,150,4月12日 11:00,,,,measle_turquoise
+埼玉県,幸手市,,老人福祉センター,51,70,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,戸田市,,市民医療センター,2,6,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,戸田市,,白寿荘（軽費老人ホーム）,24,30,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,所沢市,,老人憩いの家とみおか荘,24,55,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,新座市,,老人福祉センター,9,60,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,春日部市,,大池憩いの家（高齢者福祉施設）,14,84,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,比企郡鳩山町,,宇宙航空研究開発機構　旧宿舎,8,192,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,比企郡鳩山町,,日立製作所基礎研究所鳩山ハウス,22,120,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,深谷市,,高齢者福祉青少年活動複合施設もくせい館,48,100,4月12日 11:00,,,,measle_turquoise
+埼玉県,熊谷市,原島３１５,旧熊谷市立女子高校,100,,4月1日 15:36,福島県双葉町市民,日経新聞 20110401,"36.171268,139.367156",measle_turquoise
+埼玉県,秩父市,,秩父ミューズパークスポーツの森コテージ,24,200,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,羽生市,,農村センター（集会所）,2,40,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,草加市,,旧花栗小学校,14,150,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,蓮田市,,老人福祉センター,18,30,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,蕨市,,交流プラザさくら,14,50,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,行田市,,老人福祉センター南河原荘,4,30,4月12日 11:00,,,,measle_turquoise
+埼玉県,鴻巣市,,川里創作館（公民館）,2,35,4月12日 11:00,,埼玉県HP,,measle_turquoise
+埼玉県,鶴ヶ島市,,老人福祉センター（逆木荘）,8,70,4月12日 11:00,,埼玉県HP,,measle_turquoise
+宮城県,亘理郡亘理町,,亘理中学校,297,,4月16日 19:00,,"亘理町公式ホームページ
+http://www.town.watari.miyagi.jp/index.cfm/22,16228,html","38.030449,140.842911",measle_blue
+宮城県,亘理郡亘理町,,吉田小学校,193,700,4月16日 19:00,,"亘理町公式ホームページ
+http://www.town.watari.miyagi.jp/index.cfm/22,16228,html","38.013794,140.857681",measle_turquoise
+宮城県,亘理郡亘理町,,逢隈小学校,254,,4月16日 19:00,,"亘理町公式ホームページ
+http://www.town.watari.miyagi.jp/index.cfm/22,16228,html","38.073231,140.865906",measle_blue
+宮城県,亘理郡亘理町,亘理郡亘理町,亘理高校,509,,4月16日 19:00,,"亘理町公式ホームページ
+http://www.town.watari.miyagi.jp/index.cfm/22,16228,html","38.032932,140.849075",measle_blue
+宮城県,亘理郡亘理町,字下小路22-2,亘理小学校,297,,4月16日 19:00,,"亘理町公式ホームページ
+http://www.town.watari.miyagi.jp/index.cfm/22,16228,html","38.036522,140.853424",measle_blue
+宮城県,亘理郡山元町,坂元,坂元中,230,,4月17日 18:00,,"山元町公式ホームページより
+http://www.town.yamamoto.miyagi.jp/jishin/oojishin.html","37.921959,140.904373",measle_blue
+宮城県,亘理郡山元町,坂元,坂元支所,120,,4月17日 18:00,,"山元町公式ホームページより
+http://www.town.yamamoto.miyagi.jp/jishin/oojishin.html","37.920357,140.894806",measle_turquoise
+宮城県,亘理郡山元町,大平字握６,山下第一小学校,200,,4月17日 18:00,,宮城県ホームページより,"37.991768,140.866806",measle_blue
+宮城県,亘理郡山元町,山寺字畑中２９,山下中学校,450,,4月17日 18:00,灯油などの燃料や毛布等が不足していると思われます。ＴＥＬ223370032,"山元町公式ホームページより
+http://www.town.yamamoto.miyagi.jp/jishin/oojishin.html",,measle_blue
+宮城県,亘理郡山元町,浅生原字作田山３２,山元町役場・中央公民館,650,,4月17日 18:00,,"山元町公式ホームページより
+http://www.town.yamamoto.miyagi.jp/jishin/oojishin.html","37.962402,140.877472",measle_blue
+宮城県,亘理郡山元町,真庭,真庭区民会館,130,,4月17日 18:00,,"山元町公式ホームページより
+http://www.town.yamamoto.miyagi.jp/jishin/oojishin.html","37.930454,140.882980",measle_turquoise
+宮城県,仙台市太白区,,富沢市民センター,64,,4月15日 0:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.213345,140.865997",measle_turquoise
+宮城県,仙台市太白区,八木山本町１丁目４３,八木山市民センター,21,,4月15日 0:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.244984,140.843381",measle_turquoise
+宮城県,仙台市太白区,緑ヶ丘三丁目9番19号,緑ヶ丘コミセン,5,,4月15日 0:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.233276,140.865341",measle_turquoise
+宮城県,仙台市宮城野区,,福室市民センター,99,,4月15日 0:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.279205,140.971252",measle_turquoise
+宮城県,仙台市宮城野区,岡田字北在家67,岡田小学校,266,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.256645,140.978404",measle_blue
+宮城県,仙台市宮城野区,田子2丁目4番25号,田子市民センター,113,,4月15日 9:00,,"仙台市公式フェブサイト
+http://www.city.sendai.jp/311jishin/index.html","38.279586,140.960546",measle_turquoise
+宮城県,仙台市宮城野区,高砂一丁目24番地の9,高砂市民センター,163,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.270521,140.974015",measle_turquoise
+宮城県,仙台市泉区,七北田字赤生津４,七北田公園体育館,54,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.320306,140.878563",measle_turquoise
+宮城県,仙台市若林区,,六郷市民センター,107,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.214859,140.927322",measle_turquoise
+宮城県,仙台市若林区,一本杉町17-10,南小泉小学校,28,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.244416,140.905473",measle_turquoise
+宮城県,仙台市若林区,一本杉町2－1.,南小泉中学校,26,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.243919,140.904923",measle_turquoise
+宮城県,仙台市若林区,今泉１丁目２０−５４,JA六郷,75,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.212668,140.933136",measle_turquoise
+宮城県,仙台市若林区,六郷１３,六郷中学校,375,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.213386,140.934048",measle_blue
+宮城県,仙台市若林区,卸町東二丁目8番10号,若林体育館,300,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.257993,140.947915",measle_blue
+宮城県,仙台市若林区,堀添65番地の5,七郷市民センター,29,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.242570,140.941009",measle_turquoise
+宮城県,仙台市若林区,沖野二丁目 29-50,沖野中学校,10,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.228538,140.915345",measle_turquoise
+宮城県,仙台市若林区,若林区かすみ町,かすみ町中部町内会集会所,7,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.234236,140.899843",measle_turquoise
+宮城県,仙台市若林区,荒井字堀添53-2.,七郷小学校,94,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.241045,140.942467",measle_turquoise
+宮城県,仙台市若林区,荒井字遠藤9-3,七郷中学校,31,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.237348,140.945970",measle_turquoise
+宮城県,仙台市若林区,荒町86-2,荒町市民センター,34,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.249059,140.881889",measle_turquoise
+宮城県,仙台市若林区,蒲町32番18号),蒲町コミセン,26,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.243309,140.925121",measle_turquoise
+宮城県,仙台市若林区,遠見塚1丁目22-1,遠見塚小学校,11,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.238061,140.912603",measle_turquoise
+宮城県,仙台市青葉区,堤町一丁目1番5号,青葉体育館,22,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.281722,140.870769",measle_turquoise
+宮城県,仙台市青葉区,大町２丁目１２−１,戦災復興記念館,4,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.260888,140.866990",measle_turquoise
+宮城県,仙台市青葉区,折立３丁目２０−１,折立市民センター,9,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.262808,140.808992",measle_turquoise
+宮城県,仙台市青葉区,福沢町9-9,福沢市民センター,15,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.274240,140.888929",measle_turquoise
+宮城県,仙台市青葉区,高野原2丁目5,高野原集会所,20,,4月15日 9:00,,http://www.city.sendai.jp/soumu/kouhou/bousai/0311jishin/hinanjyo.pdf 4/18 情報,"38.289834,140.765022",measle_turquoise
+宮城県,伊具郡丸森町,字鳥屋一20,丸森まちづくりセンター,2,270,3月29日 12:00,,宮城県ホームページより,"37.913637,140.764445",measle_turquoise
+宮城県,刈田郡蔵王町,円田,円田地区公民館,26,50,3月19日 21:00,,宮城県 市町村別避難所・避難者リスト,"38.104195,140.680075",measle_turquoise
+宮城県,刈田郡蔵王町,大字円田字西浦５,蔵王町ふるさと文化会館（ございんホール）,3,,3月19日 21:00,,宮城県 市町村別避難所・避難者リスト,"38.097475,140.656916",measle_turquoise
+宮城県,刈田郡蔵王町,小村崎,小村崎公民館,11,40,3月19日 21:00,,宮城県 市町村別避難所・避難者リストから,"38.128945,140.688814",measle_turquoise
+宮城県,加美郡加美町,,中新田交流センター,51,,4月15日 15:00,,http://www.town.kami.miyagi.jp/tohokudaisinsai_kami/hinanjo.jsp 4/18,,measle_turquoise
+宮城県,名取市,下増田字土手北１０１,下増田小学校,46,,4月17日 0:00,,"名取市公式Webサイトより
+http://www.city.natori.miyagi.jp/jisin/node_10772/node_10855",,measle_turquoise
+宮城県,名取市,名取が丘３丁目５?３,名取が丘公民館,15,180,4月17日 0:00,,"名取市公式Webサイトより
+http://www.city.natori.miyagi.jp/jisin/node_10772/node_10855","38.155762,140.875000",measle_turquoise
+宮城県,名取市,増田字柳田２３０,増田中学校,80,1000,4月17日 0:00,,"名取市公式Webサイトより
+http://www.city.natori.miyagi.jp/jisin/node_10772/node_10855","38.169582,140.894547",measle_turquoise
+宮城県,名取市,増田字柳田２４４,保健センター,9,,4月17日 0:00,,"名取市公式Webサイトより
+http://www.city.natori.miyagi.jp/jisin/node_10772/node_10855","38.170010,140.892700",measle_turquoise
+宮城県,名取市,増田字柳田６２０,文化会館,387,1200,4月17日 0:00,,"名取市公式Webサイトより
+http://www.city.natori.miyagi.jp/jisin/node_10772/node_10855","38.168221,140.891342",measle_blue
+宮城県,名取市,増田３丁目９?２０,増田小学校,58,1000,4月17日 0:00,,"名取市公式Webサイトより
+http://www.city.natori.miyagi.jp/jisin/node_10772/node_10855","38.171764,140.888580",measle_turquoise
+宮城県,名取市,小山1丁目８?１,名取第一中学校,154,1000,4月17日 0:00,,"名取市公式Webサイトより
+http://www.city.natori.miyagi.jp/jisin/node_10772/node_10855","38.163387,140.880798",measle_turquoise
+宮城県,名取市,手倉田堰堤２３５?１,増田西公民館,2,180,4月17日 0:00,,"名取市公式Webサイトより
+http://www.city.natori.miyagi.jp/jisin/node_10772/node_10855","38.173534,140.872192",measle_turquoise
+宮城県,名取市,手倉田字堰堤３３０,増田西小学校,90,1000,4月17日 0:00,,"名取市公式Webサイトより
+http://www.city.natori.miyagi.jp/jisin/node_10772/node_10855","38.172825,140.870987",measle_turquoise
+宮城県,名取市,植松1丁目２?１７,館腰小学校,185,1200,4月17日 0:00,,"名取市公式Webサイトより
+http://www.city.natori.miyagi.jp/jisin/node_10772/node_10855","38.151463,140.882111",measle_turquoise
+宮城県,名取市,高舘吉田字長六反１１７−３,高舘小学校,126,1000,4月17日 0:00,,"名取市公式Webサイトより
+http://www.city.natori.miyagi.jp/jisin/node_10772/node_10855",,measle_turquoise
+宮城県,名取市,高舘百田字吉合９０,名取第二中学校,134,1000,4月17日 0:00,,"名取市公式Webサイトより
+http://www.city.natori.miyagi.jp/jisin/node_10772/node_10855","38.179775,140.865891",measle_turquoise
+宮城県,塩竈市,今宮町,塩竈ガス体育館,105,,4月15日 10:00,,"塩竃市公式ホームページ　災害情報より
+http://www.city.shiogama.miyagi.jp/html/emergency/bousai/bousaikunren/shiogama-saigai.html#sa2","38.328286,141.012240",measle_turquoise
+宮城県,塩竈市,東玉川町,塩竈市公民館,97,,4月15日 10:00,,"塩竃市公式ホームページ　災害情報より
+http://www.city.shiogama.miyagi.jp/html/emergency/bousai/bousaikunren/shiogama-saigai.html#sa2","38.310198,141.011059",measle_turquoise
+宮城県,塩竈市,浦戸寒風沢字中月21,旧浦戸第一小学校,87,,4月15日 10:00,,"塩竃市公式ホームページ　災害情報より
+http://www.city.shiogama.miyagi.jp/html/emergency/bousai/bousaikunren/shiogama-saigai.html#sa2","38.334183,141.119274",measle_turquoise
+宮城県,塩竈市,浦戸野々島字馬越8,塩竈市立浦戸中学校,68,,4月15日 10:00,,"塩竃市公式ホームページ　災害情報より
+http://www.city.shiogama.miyagi.jp/html/emergency/bousai/bousaikunren/shiogama-saigai.html#sa2","38.339499,141.116532",measle_turquoise
+宮城県,塩竈市,浦戸野々島字馬越8,旧浦戸第二小学校,170,,4月15日 10:00,,"塩竃市公式ホームページ　災害情報より
+http://www.city.shiogama.miyagi.jp/html/emergency/bousai/bousaikunren/shiogama-saigai.html#sa2","38.339499,141.116532",measle_turquoise
+宮城県,塩竈市,浦戸野々島朴島宅地,朴島,11,,4月15日 10:00,,"塩竃市公式ホームページ　災害情報より
+http://www.city.shiogama.miyagi.jp/html/emergency/bousai/bousaikunren/shiogama-saigai.html#sa2","38.349407,141.124041",measle_turquoise
+宮城県,多賀城市,下馬5-9-3,総合体育館,440,,4月17日 21:00,,宮城県 市町村別避難所・避難者リスト,"38.299599,141.015884",measle_blue
+宮城県,多賀城市,中央2-27-1,文化センター,449,,4月17日 21:00,乳児・高齢者多数,多賀城市ホームページより,"38.295406,141.005020",measle_blue
+宮城県,多賀城市,中央二丁目25-5,史遊館,27,,4月17日 21:00,,http://www.city.tagajo.miyagi.jp/saigai/hisaizyouhou.html#hinansyasuu,,measle_turquoise
+宮城県,多賀城市,南宮字毛上28,山王公民館,97,,4月17日 21:00,,http://www.city.tagajo.miyagi.jp/saigai/hisaizyouhou.html#hinansyasuu,"38.300571,140.978531",measle_turquoise
+宮城県,大崎市,古川旭４丁目５?２,古川武道館,86,,4月17日 15:00,,大崎町ホームページより。,"38.564186,140.975281",measle_turquoise
+宮城県,大崎市,田尻通木字中崎東１０−１,かごぼうの里,2,,4月17日 15:00,,大崎市ホームページより,"38.601562,141.029422",measle_turquoise
+宮城県,女川町,,女川第一中学校,,,3月22日 1:06,,,,measle_yellow
+宮城県,女川町,986-2243女川浜字大原四八○,女川町第一保育所,,,3月19日 23:32,,,,measle_yellow
+宮城県,女川町,塚浜字小屋取,民家,20,,3月18日 3:22,0225-53-3096　　孤立しているため物資や燃料が配給されてない。女川原発のすぐ横の小さな集落です。,,,measle_turquoise
+宮城県,女川町,宮城県牡鹿郡女川町浦宿浜字十二神60?3,女川高校,100,,3月21日 11:57,,,,measle_turquoise
+宮城県,女川町,鷲神浜字堀切山51番地の6,女川町立病院,,,3月21日 3:39,0225-53-5511,,,measle_yellow
+宮城県,宮城郡七ヶ浜町,吉田浜,吉田浜地区公民分館（コミュニティセンター）,48,,4月7日 22:51,,七ヶ浜災害対策本部へ電話で確認,"38.306252,141.062196",measle_turquoise
+宮城県,宮城郡七ヶ浜町,吉田浜字野山5-9,生涯学習センター 中央公民館,320,,4月7日 22:54,,七ヶ浜災害対策本部へ電話で確認,"38.299470,141.062383",measle_blue
+宮城県,宮城郡七ヶ浜町,花渕浜字大山１−１,七ヶ浜国際村,247,,4月7日 22:52,ＴＥＬ223575931,七ヶ浜災害対策本部へ電話で確認,"38.298453,141.067861",measle_blue
+宮城県,宮城郡利府町,青山１丁目５７−２,勤労青少年ホーム,8,,4月11日 16:00,,利府町ホームページより,"38.335822,140.967775",measle_turquoise
+宮城県,宮城郡松島町,幡谷字鹿渡２４−１１,品井沼農村環境改善センター,104,,4月11日 17:00,,松島町ホームページより,"38.431964,141.082526",measle_turquoise
+宮城県,宮城郡松島町,手樽字釜地前1,手樽地域交流センター（旧第三小学校）,44,,4月11日 17:00,,松島町ホームページより,"38.390159,141.100798",measle_turquoise
+宮城県,宮城郡松島町,高城字動伝一３４−１,温水プール美遊,85,,4月11日 17:00,,松島町ホームページより,"38.395072,141.072010",measle_turquoise
+宮城県,岩沼市,北長谷字樋下２２４−１,農村環境改善センター,74,,4月14日 18:00,,岩沼市ホームページより,,measle_turquoise
+宮城県,岩沼市,里の杜１丁目１−１,総合体育館,151,,4月14日 18:00,,岩沼市ホームページより,"38.105928,140.876790",measle_turquoise
+宮城県,岩沼市,里の杜１丁目２−４５,市民会館,320,,4月14日 18:00,,岩沼市ホームページより,"38.107648,140.877315",measle_blue
+宮城県,本吉群南三陸町,志津川,民家6軒,2030,,3月23日 1:36,,,,measle_blue
+宮城県,本吉郡南三陸町,,ハイム　メアーズ,240,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.678753,141.471237",measle_blue
+宮城県,本吉郡南三陸町,,入谷公民館,100,,3月20日 13:00,0226-46-5103,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.702896,141.411774",measle_turquoise
+宮城県,本吉郡南三陸町,,名足保育園,280,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.723633,141.550751",measle_blue
+宮城県,本吉郡南三陸町,,大上坊センター,30,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_turquoise
+宮城県,本吉郡南三陸町,,志津川中学校,420,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.686855,141.444061",measle_blue
+宮城県,本吉郡南三陸町,,志津川高校,443,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.680569,141.438736",measle_blue
+宮城県,本吉郡南三陸町,,柳津小学校,70,,3月20日 13:00,町外の方？,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_turquoise
+宮城県,本吉郡南三陸町,,横山小学校,240,,3月20日 13:00,町外の方？,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_blue
+宮城県,本吉郡南三陸町,,歌津中学校,500,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.719597,141.521759",measle_blue
+宮城県,本吉郡南三陸町,,津の宮生活センター,40,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.638729,141.485931",measle_turquoise
+宮城県,本吉郡南三陸町,,登米中学校,480,,3月20日 13:00,町外の方？,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_blue
+宮城県,本吉郡南三陸町,,石泉活性化センター,80,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_turquoise
+宮城県,本吉郡南三陸町,,荒町生活センター,70,,3月20日 13:00,,宮城県 市町村別避難所・避難者リスト,"38.645081,141.412811",measle_turquoise
+宮城県,本吉郡南三陸町,,青年の家,213,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.641636,141.477066",measle_blue
+宮城県,本吉郡南三陸町,,韮の浜荘,20,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_turquoise
+宮城県,本吉郡南三陸町,,高野鉄工,30,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_turquoise
+宮城県,本吉郡南三陸町,中野91,民家,30,,3月18日 16:17,子供発熱！物資が行き届いてません。,,,measle_turquoise
+宮城県,本吉郡南三陸町,入谷,入谷1区〜10区,518,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_blue
+宮城県,本吉郡南三陸町,入谷字童子下１９３?２,入谷小学校,350,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_blue
+宮城県,本吉郡南三陸町,南三陸町歌津字館浜,民家数件,,,,近隣集落の住民が津波が届かなかった数軒に集まっている。ﾗｲﾌﾗｲﾝはもちろん、圏外なため、連絡手段無し。今は各家の食材で対応しているが、暖房も無く、お年寄り、赤ちゃんも居る。山から平成の森に通じる道は通行可能かどうか不明。,,,measle_yellow
+宮城県,本吉郡南三陸町,大久保,民家など,40,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.670189,141.439208",measle_turquoise
+宮城県,本吉郡南三陸町,寄木,寄木,40,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.708726,141.517594",measle_turquoise
+宮城県,本吉郡南三陸町,寺浜,寺浜生活センター,100,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.633972,141.522689",measle_turquoise
+宮城県,本吉郡南三陸町,志津川,ベイサイドアリーナ,1500,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.680912,141.461609",measle_blue
+宮城県,本吉郡南三陸町,志津川15-73,旭ヶ岡コミュニティセンターなど,699,,3月20日 13:00,集落の集会場まで物資が届いていない。見落とされている可能性大。おにぎり１個１日家族で分け合っている模様。,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_blue
+宮城県,本吉郡南三陸町,志津川地区,マリンパル,27,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_turquoise
+宮城県,本吉郡南三陸町,志津川地区,大雄寺,40,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_turquoise
+宮城県,本吉郡南三陸町,志津川地区,林生活センター,212,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_blue
+宮城県,本吉郡南三陸町,志津川地区,熊田,60,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_turquoise
+宮城県,本吉郡南三陸町,志津川字城場４１,志津川小学校,100,,3月31日 11:47,,宮城県 市町村別避難所・避難者リスト,"38.682995,141.448486",measle_turquoise
+宮城県,本吉郡南三陸町,志津川蒲の沢190-1,いこいの海あらと,389,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.678319,141.481052",measle_blue
+宮城県,本吉郡南三陸町,戸倉地区,クリーンセンター,18,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.653706,141.437210",measle_turquoise
+宮城県,本吉郡南三陸町,戸倉地区,水戸部在郷,99,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.640522,141.452744",measle_turquoise
+宮城県,本吉郡南三陸町,戸倉地区,藤浜,60,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_turquoise
+宮城県,本吉郡南三陸町,戸倉地区,長清水荘,80,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_turquoise
+宮城県,本吉郡南三陸町,歌津,つつじ苑,250,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_blue
+宮城県,本吉郡南三陸町,歌津,平成の森,400,,4月2日 2:26,寝たきりの老人もいます。老人40人ぐらい。,,,measle_blue
+宮城県,本吉郡南三陸町,歌津,民家,,,3月19日 14:51,,,,measle_yellow
+宮城県,本吉郡南三陸町,歌津地区,大磯カネ,70,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_turquoise
+宮城県,本吉郡南三陸町,歌津地区,港親義会館,35,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_turquoise
+宮城県,本吉郡南三陸町,歌津地区,老人福祉センター,140,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_turquoise
+宮城県,本吉郡南三陸町,歌津字馬場85-2,馬場中山生活センター,120,,3月21日 22:25,たくさんのお年寄りと子供がいます。物資が足りてないです。食べ物、飲み物、薬、灯油、生活用品、とにかく何でも早く届けて下さい。狭い中に120人も避難しています。お年寄りや子供の体も限界かもしれません。医師も行ってくれたら助かります。,,,measle_turquoise
+宮城県,本吉郡南三陸町,泊浜,泊浜,540,,3月20日 13:00,,宮城県 市町村別避難所・避難者リスト,"38.701103,141.560013",measle_blue
+宮城県,本吉郡南三陸町,滝浜,滝浜 寺,150,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.633871,141.490911",measle_turquoise
+宮城県,本吉郡南三陸町,石浜,石浜集会所,40,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.731491,141.560719",measle_turquoise
+宮城県,本吉郡南三陸町,砂浜,民家,17,,3月21日 6:04,水、燃料、食糧不足のため倒れた人が出ているとのこと,,,measle_turquoise
+宮城県,本吉郡南三陸町,細浦,細浦佐藤住建,150,,3月20日 13:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.695062,141.497558",measle_turquoise
+宮城県,東松山市,矢本町,民家,5,,3月19日 23:47,,,,measle_turquoise
+宮城県,東松島市,,上町学供,84,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,,measle_turquoise
+宮城県,東松島市,,中下地区センター,55,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.387253,141.153381",measle_turquoise
+宮城県,東松島市,,五味倉生活センター,23,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.437683,141.222351",measle_turquoise
+宮城県,東松島市,,南浦学供,25,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,,measle_turquoise
+宮城県,東松島市,,大塚地区センター,84,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.380825,141.129608",measle_turquoise
+宮城県,東松島市,,定林寺（中下）,45,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.382576,141.151062",measle_turquoise
+宮城県,東松島市,,小松学供,42,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,,measle_turquoise
+宮城県,東松島市,,川下地区センター,50,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.408405,141.136169",measle_turquoise
+宮城県,東松島市,,浅井地区センター,36,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.398209,141.146729",measle_turquoise
+宮城県,東松島市,,牛網学供,207,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.394295,141.179276",measle_blue
+宮城県,東松島市,,矢本西市民センター,46,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.422886,141.205460",measle_turquoise
+宮城県,東松島市,,赤井地区体育館,128,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.433937,141.235458",measle_turquoise
+宮城県,東松島市,,赤井市民センター,152,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.442345,141.231888",measle_turquoise
+宮城県,東松島市,,農村婦人の家（谷地）,20,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.437531,141.215668",measle_turquoise
+宮城県,東松島市,,野蒜小学校,12,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.375847,141.153152",measle_turquoise
+宮城県,東松島市,,野蒜駅裏山（坂本）,66,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.374962,141.160309",measle_turquoise
+宮城県,東松島市,,鳴瀬第一中学校,38,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.408543,141.151321",measle_turquoise
+宮城県,東松島市,,鹿妻学供,27,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,,measle_turquoise
+宮城県,東松島市,上下堤字仮又沢15-5,農村創作活動センター,42,,4月16日 0:00,0225-87-2918,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.411400,141.117645",measle_turquoise
+宮城県,東松島市,大塩,さつき苑,33,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.439937,141.167876",measle_turquoise
+宮城県,東松島市,大塩字中沢２６−１,大塩市民センター,205,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.441448,141.175293",measle_blue
+宮城県,東松島市,小松字稔田６０−１,四季の里,27,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.433990,141.218674",measle_turquoise
+宮城県,東松島市,小野字中之関６−２,はまなすの里（鳴瀬庁舎裏）,22,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.402137,141.165548",measle_turquoise
+宮城県,東松島市,小野字新欠下３６,小野市民センター,202,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.400517,141.163620",measle_blue
+宮城県,東松島市,矢本字大溜１−１,東松島市コミュニティセンター,228,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.427606,141.211437",measle_blue
+宮城県,東松島市,矢本字立沼２６−２,立沼地区センター,43,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.410472,141.206660",measle_turquoise
+宮城県,東松島市,西福田,西福田上地区センター,5,,4月16日 0:00,,東松島町ホームページ(4/18)より。http://www.city.higashimatsushima.miyagi.jp/cnt/ssaigai/bousai/jhinanjyo.html,"38.435067,141.127962",measle_turquoise
+宮城県,柴田郡大河原町,字小島1-7,総合体育館,46,250,3月28日 15:00,,宮城県 市町村別避難所・避難者リスト,"38.064243,140.739365",measle_turquoise
+宮城県,柴田郡柴田町,大字本船迫字上野４−１,太陽の村,68,,4月17日 18:00,,"山元町公式ホームページより
+http://www.town.yamamoto.miyagi.jp/jishin/oojishin.html","38.075705,140.755915",measle_turquoise
+宮城県,気仙沼市,,シルバー人材センター,14,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.903576,141.571304",measle_turquoise
+宮城県,気仙沼市,,ホテル望洋,23,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.908390,141.579147",measle_turquoise
+宮城県,気仙沼市,,介護老人保健施設リンデンバウムの杜,8,,4月12日 19:00,,気仙沼市ホームページ 避難所リスト（4/12）による。,"38.905663,141.549026",measle_turquoise
+宮城県,気仙沼市,,小泉はまなすの丘,70,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.763565,141.499451",measle_turquoise
+宮城県,気仙沼市,,市役所本庁舎（旧農林課・ワンテン子どもの部屋）,22,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.908070,141.570038",measle_turquoise
+宮城県,気仙沼市,,市民会館,282,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.900894,141.572800",measle_blue
+宮城県,気仙沼市,,新月中学校体育館,85,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.911781,141.543335",measle_turquoise
+宮城県,気仙沼市,,本吉公民館,28,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.794136,141.501968",measle_turquoise
+宮城県,気仙沼市,,条南中学校,15,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.890186,141.562180",measle_turquoise
+宮城県,気仙沼市,,松岩公民館,235,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.879105,141.576340",measle_blue
+宮城県,気仙沼市,,気仙沼市総合体育館,1100,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.881710,141.553726",measle_blue
+宮城県,気仙沼市,,気仙沼高校 柔道場・剣道場ほか,280,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.894875,141.558075",measle_blue
+宮城県,気仙沼市,,浄念寺,70,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.928993,141.586304",measle_turquoise
+宮城県,気仙沼市,,盛岡市新庄浄水場,7,,4月12日 19:00,,気仙沼市ホームページ 避難所リスト（4/12）による。,,measle_turquoise
+宮城県,気仙沼市,,階上小学校,66,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,,measle_turquoise
+宮城県,気仙沼市,,面瀬中学校,350,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.863354,141.569824",measle_blue
+宮城県,気仙沼市,327,九条小学校,38,,4月16日 19:00,TEL0226-22-6984,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.893963,141.553146",measle_turquoise
+宮城県,気仙沼市,三ノ浜74-1,鶴ヶ浦生活文化センター,30,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.882900,141.608124",measle_turquoise
+宮城県,気仙沼市,中山１１５−４,大島開発総合センター,98,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.847135,141.619681",measle_turquoise
+宮城県,気仙沼市,二ノ浜83-2,浦島小学校,21,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.891552,141.601547",measle_turquoise
+宮城県,気仙沼市,八日町２丁目２−２４,青龍寺,23,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.906593,141.571003",measle_turquoise
+宮城県,気仙沼市,唐桑町,中井公民館,53,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,,measle_turquoise
+宮城県,気仙沼市,唐桑町,唐桑・館老人憩いの家,2,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.948956,141.631470",measle_turquoise
+宮城県,気仙沼市,唐桑町,小原木中学校,189,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.947052,141.631958",measle_turquoise
+宮城県,気仙沼市,唐桑町,崎浜集会所,6,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.841755,141.619858",measle_turquoise
+宮城県,気仙沼市,唐桑町,第一高松園,30,,4月16日 11:05,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.921127,141.635178",measle_turquoise
+宮城県,気仙沼市,唐桑町,鮪立老人憩いの家,47,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.892216,141.639465",measle_turquoise
+宮城県,気仙沼市,唐桑町明戸２０８−６,唐桑小学校,65,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.905456,141.646649",measle_turquoise
+宮城県,気仙沼市,唐桑町石浜282-3,唐桑さんさん館,46,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.920878,141.637411",measle_turquoise
+宮城県,気仙沼市,唐桑町馬場181-1,唐桑公民館・体育館,72,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.903848,141.646935",measle_turquoise
+宮城県,気仙沼市,唐桑町鮪立１６６−１,鮪立児童館,9,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,,measle_turquoise
+宮城県,気仙沼市,大峠山1-1,東陵高校,71,,4月12日 19:00,,気仙沼市ホームページ 避難所リスト（4/12）による。,"38.921189,141.592740",measle_turquoise
+宮城県,気仙沼市,大峠山１−２６３,鹿折中学校体育館,300,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.918125,141.589593",measle_blue
+宮城県,気仙沼市,大島町,大島小学校,100,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.856625,141.615814",measle_turquoise
+宮城県,気仙沼市,太田,太田２区自治会館,159,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.910150,141.574669",measle_turquoise
+宮城県,気仙沼市,岩井崎,岩井崎高台,2,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,,measle_turquoise
+宮城県,気仙沼市,最知,くるみ会館（旧最知保育所）,13,,4月12日 19:00,,気仙沼市ホームページ 避難所リスト（4/12）による。,"38.882900,141.608124",measle_turquoise
+宮城県,気仙沼市,最知南最知224,海蔵寺,59,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.850395,141.573975",measle_turquoise
+宮城県,気仙沼市,本吉,大谷公民館,83,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,,measle_turquoise
+宮城県,気仙沼市,本吉,寺谷コミセン,50,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.882900,141.608124",measle_turquoise
+宮城県,気仙沼市,本吉,松尾コミセン,47,,4月12日 19:00,,気仙沼市ホームページ 避難所リスト（4/12）による。,"38.891609,141.587509",measle_turquoise
+宮城県,気仙沼市,本吉,林の沢振興会館,16,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.798855,141.517624",measle_turquoise
+宮城県,気仙沼市,本吉,登米沢多目的集会場,20,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.788845,141.506790",measle_turquoise
+宮城県,気仙沼市,本吉町,小泉中学校,380,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.764145,141.505203",measle_blue
+宮城県,気仙沼市,本吉町 大谷,仙翁寺,256,,4月16日 19:00,TEL0226-44-3305,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.816812,141.573104",measle_blue
+宮城県,気仙沼市,本吉町今朝磯58,浜多目的広場,60,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.758096,141.524747",measle_turquoise
+宮城県,気仙沼市,本吉町大東25-3,上沢３区自治会館（岩月）,14,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.767422,141.430669",measle_turquoise
+宮城県,気仙沼市,本吉町大森１７,清涼院,27,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.804735,141.541832",measle_turquoise
+宮城県,気仙沼市,東中才,東中才会館,25,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.937658,141.579787",measle_turquoise
+宮城県,気仙沼市,東中才372,興福寺,50,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.937813,141.581146",measle_turquoise
+宮城県,気仙沼市,東中才442,鹿折県営住宅,5,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.927146,141.587281",measle_turquoise
+宮城県,気仙沼市,東新城２丁目２−１,すこやか（健康管理センター）,8,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/12）による。,"38.908959,141.548510",measle_turquoise
+宮城県,気仙沼市,松崎五駄鱈,松岩小学校,74,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.878540,141.572357",measle_turquoise
+宮城県,気仙沼市,松崎柳沢２２８−６８,特別養護老人ホーム恵風荘,5,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.874818,141.547082",measle_turquoise
+宮城県,気仙沼市,松崎面瀬６６−１２,村伝おもせ,35,,4月12日 19:00,,気仙沼市ホームページ 避難所リスト（4/12）による。,,measle_turquoise
+宮城県,気仙沼市,柏崎１－１,気仙沼プラザホテル,10,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.903896,141.578364",measle_turquoise
+宮城県,気仙沼市,栄町2-2-1,菅野勝衛宅,13,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.911636,141.578549",measle_turquoise
+宮城県,気仙沼市,栄町7-106,後藤泰寿（カネコメ）宅,2,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.913397,141.577786",measle_turquoise
+宮城県,気仙沼市,気仙沼市笹が陣,気仙沼中学校体育館,517,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.902988,141.571121",measle_blue
+宮城県,気仙沼市,気仙沼市笹が陣,気仙沼小学校校舎,250,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.902988,141.571121",measle_blue
+宮城県,気仙沼市,気仙沼市赤岩五駄鱈43-2,気仙沼広域防災センター,160,,4月16日 19:00,TEL226220119,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.880826,141.574710",measle_turquoise
+宮城県,気仙沼市,気仙沼市陣山,第２保育所,20,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.901520,141.627243",measle_turquoise
+宮城県,気仙沼市,河原田,河原田一区自治会館,23,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.900692,141.572882",measle_turquoise
+宮城県,気仙沼市,波板48,忍ぶ沢避難所,10,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.914197,141.589234",measle_turquoise
+宮城県,気仙沼市,浜見山,紫会館,100,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.903590,141.571380",measle_turquoise
+宮城県,気仙沼市,港町４－１９,サンマリン気仙沼ホテル観洋,20,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,,measle_turquoise
+宮城県,気仙沼市,西中才,西中才会館,15,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）に記載なし。,"38.936781,141.578043",measle_turquoise
+宮城県,気仙沼市,赤岩大滝２−１,夢の森,5,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.881479,141.543324",measle_turquoise
+宮城県,気仙沼市,赤岩牧沢３８−３,ひまわり（知的障がい者授産施設）,11,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.880973,141.557917",measle_turquoise
+宮城県,気仙沼市,赤岩迎前田127,水梨コミュニティーセンター,5,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.865365,141.532865",measle_turquoise
+宮城県,気仙沼市,長磯中原125,階上中学校,277,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）より,"38.839081,141.572952",measle_blue
+宮城県,気仙沼市,長磯大窪８３−３,長磯高自治会館,4,,4月16日 19:00,,気仙沼市ホームページ 避難所リスト（4/16）による。,"38.846042,141.574625",measle_turquoise
+宮城県,気仙沼市,長磯船原32,階上出張所,70,,4月12日 19:00,,気仙沼市ホームページ 避難所リスト（4/12）による。,"38.840111,141.580399",measle_turquoise
+宮城県,牡鹿郡女川町,,電力浦宿寮,50,,3月15日 19:15,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_turquoise
+宮城県,牡鹿郡女川町,塚浜字竹の尻,女川原子力発電所,1000,,3月15日 19:15,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.400345,141.499965",measle_blue
+宮城県,牡鹿郡女川町,女川浜字大原,女川町総合体育館,,3700,3月22日 1:11,phone:0225533151　　　　　　　　　　　　運動公園（2500）＋体育館（1200）＝（合計人数3700）,,,measle_yellow
+宮城県,牡鹿郡女川町,女川浜字大原３１０,第二小学校,100,,3月15日 19:15,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.449561,141.442427",measle_turquoise
+宮城県,牡鹿郡女川町,尾浦字尾浦145-2,女川第三小学校,180,,3月15日 19:15,電話がありません。仙台より4/2現在現地まで車での交通が可能です。,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.448404,141.488836",measle_turquoise
+宮城県,牡鹿郡女川町,尾浦字鯛ノ浜6,保福寺,180,,3月15日 19:15,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.455048,141.489100",measle_turquoise
+宮城県,牡鹿郡女川町,御前浜,御前浜,,,4月11日 16:27,,女川町ホームページ 避難所リスト（4/11現在）による。http://www.town.onagawa.miyagi.jp/,"38.465330,141.475329",measle_yellow
+宮城県,牡鹿郡女川町,指ケ浜,指ケ浜,,,4月11日 16:28,,女川町ホームページ 避難所リスト（4/11現在）による。http://www.town.onagawa.miyagi.jp/,"38.471071,141.482492",measle_yellow
+宮城県,牡鹿郡女川町,旭ヶ丘,旭ヶ丘集会所,150,,3月20日 2:19,,,,measle_turquoise
+宮城県,牡鹿郡女川町,浦宿浜字十二神６０−３,女川高校,40,,3月15日 19:15,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.438673,141.432656",measle_turquoise
+宮城県,牡鹿郡女川町,浦宿浜字天王130番地,ホテル華夕美,,,4月11日 16:21,,女川町ホームページ 避難所リスト（4/11現在）による。http://www.town.onagawa.miyagi.jp/,"38.433520,141.409376",measle_yellow
+宮城県,牡鹿郡女川町,浦宿浜字門前４,女川第一小学校,220,,3月18日 11:31,,,,measle_blue
+宮城県,牡鹿郡女川町,浦宿浜字門前６２,照源寺,,,4月11日 16:21,,女川町ホームページ 避難所リスト（4/11現在）による。http://www.town.onagawa.miyagi.jp/,"38.442458,141.434750",measle_yellow
+宮城県,牡鹿郡女川町,野々浜,スローライフ野々浜,,,4月11日 16:26,,女川町ホームページ 避難所リスト（4/11現在）による。http://www.town.onagawa.miyagi.jp/,"38.393252,141.469360",measle_yellow
+宮城県,牡鹿郡女川町,高白浜字高白３５,海泉閣,320,,3月15日 19:15,TEL8060081638,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.424417,141.459984",measle_blue
+宮城県,牡鹿郡女川町,鷲神字荒立,さくら集会所,,,4月11日 16:24,,女川町ホームページ 避難所リスト（4/11現在）による。http://www.town.onagawa.miyagi.jp/,"38.438177,141.438987",measle_yellow
+宮城県,牡鹿郡女川町,鷲神浜字堀切,電力堀切アパート,50,,3月21日 0:11,,,"38.439645,141.435138",measle_turquoise
+宮城県,牡鹿郡女川町,鷲神浜字堀切山51-6,町立病院,300,,3月15日 19:15,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.443609,141.445402",measle_blue
+宮城県,牡鹿郡女川町,鷲神浜字荒立３５−１,第一保育所,245,,3月15日 19:15,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.438176,141.439239",measle_blue
+宮城県,牡鹿郡女川町,鷲神浜字荒立８４-２,勤労青少年センター,120,,3月31日 21:04,場所が足りず車で寝てる人もいるとのこと。,,"38.438556,141.439628",measle_turquoise
+宮城県,登米市,中田,石森ふれあいセンター,13,,4月1日 12:00,,http://www.city.tome.miyagi.jp/oshirase/bousai/4-1kanto_tohokujishin.html,"38.714466,141.213760",measle_turquoise
+宮城県,登米市,津山町柳津字黄牛田高畑５９,津山若者総合体育館,301,,4月1日 12:00,登米市外の方,http://www.city.tome.miyagi.jp/oshirase/bousai/4-1kanto_tohokujishin.html,"38.617404,141.301775",measle_blue
+宮城県,登米市,登米,登米中学校,292,,4月1日 12:00,南三陸町から避難された方々,http://www.city.tome.miyagi.jp/oshirase/bousai/4-1kanto_tohokujishin.html,"38.656193,141.289337",measle_blue
+宮城県,登米市,豊里,多目的研修センター（豊里公民館）,79,,4月1日 12:00,,http://www.city.tome.miyagi.jp/oshirase/bousai/4-1kanto_tohokujishin.html,"38.588154,141.252670",measle_turquoise
+宮城県,白石市,,スポーツセンター,57,61,4月1日 8:00,,宮城県 市町村別避難所・避難者リスト,"37.997906,140.626053",measle_turquoise
+宮城県,白石市,寺屋敷前25-6,中央公民館,39,394,4月1日 8:00,,宮城県 市町村別避難所・避難者リスト,"38.005573,140.627792",measle_turquoise
+宮城県,石巻市,,パチンコ２１世紀,3,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.417229,141.325836",measle_turquoise
+宮城県,石巻市,,ホテルドルフィン,20,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.431660,141.306656",measle_turquoise
+宮城県,石巻市,,中央公民館,130,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.427547,141.305161",measle_turquoise
+宮城県,石巻市,,中津山一小,48,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.540848,141.238342",measle_turquoise
+宮城県,石巻市,,中津山二小,45,,3月28日 20:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.561001,141.243881",measle_turquoise
+宮城県,石巻市,,前谷地小学校,70,,3月28日 20:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.520447,141.189972",measle_turquoise
+宮城県,石巻市,,創価学会平和会館（万石浦）,60,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.426395,141.375809",measle_turquoise
+宮城県,石巻市,,図書館,120,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.430370,141.302658",measle_turquoise
+宮城県,石巻市,,堤パーキング,100,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,,measle_turquoise
+宮城県,石巻市,,大街道第四創価学会 石巻文化会館,130,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.431648,141.279282",measle_turquoise
+宮城県,石巻市,,小積浜（民家）,33,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,,measle_turquoise
+宮城県,石巻市,,小竹浜コミュニティセンター,81,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,,measle_turquoise
+宮城県,石巻市,,山下小学校,218,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.432491,141.295700",measle_blue
+宮城県,石巻市,,市役所本庁舎（３Ｆ「多目的ホール」）,20,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.434563,141.302750",measle_turquoise
+宮城県,石巻市,,市民の森（第一駐車場車10台）,150,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.431480,141.326706",measle_turquoise
+宮城県,石巻市,,折立集会所,30,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,,measle_turquoise
+宮城県,石巻市,,旧石材会館,20,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,,measle_turquoise
+宮城県,石巻市,,明友館,50,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.437393,141.320038",measle_turquoise
+宮城県,石巻市,,明神斎場,44,,4月5日 0:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,,measle_turquoise
+宮城県,石巻市,,桃生小学校,48,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.566429,141.276245",measle_turquoise
+宮城県,石巻市,,梅渓寺,30,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.439396,141.344772",measle_turquoise
+宮城県,石巻市,,河南東中学校,124,,3月28日 20:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.494175,141.239883",measle_turquoise
+宮城県,石巻市,,河南農村改善センター,103,,3月28日 20:00,,,,measle_turquoise
+宮城県,石巻市,,河南農村環境改善センター,93,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.498380,141.238978",measle_turquoise
+宮城県,石巻市,,法務局,25,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.427544,141.299530",measle_turquoise
+宮城県,石巻市,,消防本部,70,,4月2日 0:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.444515,141.310837",measle_turquoise
+宮城県,石巻市,,渡波保育所,60,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.416542,141.362961",measle_turquoise
+宮城県,石巻市,,牡鹿斎場,30,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.298153,141.513168",measle_turquoise
+宮城県,石巻市,,牡鹿清優館,148,,4月5日 20:00,（鮎川小、谷川小、牡鹿中受入）,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.298195,141.498215",measle_turquoise
+宮城県,石巻市,,牡鹿総合支所,58,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.301983,141.508469",measle_turquoise
+宮城県,石巻市,,牧山社務所,70,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.439659,141.339462",measle_turquoise
+宮城県,石巻市,,石巻北高校,197,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.485237,141.283020",measle_turquoise
+宮城県,石巻市,,石巻小学校,40,,3月28日 20:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.428959,141.305405",measle_turquoise
+宮城県,石巻市,,第二ひたかみ園,47,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.452942,141.255905",measle_turquoise
+宮城県,石巻市,,船戸斎場,7,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,,measle_turquoise
+宮城県,石巻市,,荻浜小学校,132,,3月28日 20:00,ＴＥＬ０２２５?９０?２６１９,,,measle_turquoise
+宮城県,石巻市,,蛇田中学校,312,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.446537,141.264328",measle_blue
+宮城県,石巻市,,開北小学校,66,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.443043,141.314270",measle_turquoise
+宮城県,石巻市,,須江小学校,12,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.472713,141.241074",measle_turquoise
+宮城県,石巻市,,館山（八幡町）,18,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.430042,141.313339",measle_turquoise
+宮城県,石巻市,不動町２丁目１６,勤労体育センター,173,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.437583,141.320160",measle_turquoise
+宮城県,石巻市,中央2,石巻中学校,440,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.428135,141.298004",measle_blue
+宮城県,石巻市,中里５丁目７?１,中里小学校,175,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.444080,141.297302",measle_turquoise
+宮城県,石巻市,井内字一番７８−２,阿部民石材店,11,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.443516,141.331367",measle_turquoise
+宮城県,石巻市,伊原津２丁目１０−５０,ヨークベニマル鹿妻店,35,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.419264,141.338497",measle_turquoise
+宮城県,石巻市,伊原津２丁目１１−２９,元JA 渡波支店,60,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.418725,141.341155",measle_turquoise
+宮城県,石巻市,住吉町,住吉小学校,97,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.437569,141.312561",measle_turquoise
+宮城県,石巻市,前網,前網個人宅1箇所,20,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.390235,141.515958",measle_turquoise
+宮城県,石巻市,北上町十三浜大指,大指林業センター,31,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.611046,141.516512",measle_turquoise
+宮城県,石巻市,北上町十三浜字上大平１３８−１,白浜荘,57,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.583593,141.469476",measle_turquoise
+宮城県,石巻市,北上町十三浜字吉浜２６６,はまぎく,79,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.577110,141.438726",measle_turquoise
+宮城県,石巻市,北上町十三浜字東田３５３,長観寺,60,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.578410,141.448765",measle_turquoise
+宮城県,石巻市,北上町十三浜小室・大室,小室大室,100,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.593354,141.486283",measle_turquoise
+宮城県,石巻市,北上町十三浜小泊,小泊 （佐々木宅）,39,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.597862,141.500500",measle_turquoise
+宮城県,石巻市,北上町十三浜小滝,小滝,2,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.620346,141.521960",measle_turquoise
+宮城県,石巻市,北上町十三浜相川,相川子育て支援センター,166,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.607258,141.499957",measle_turquoise
+宮城県,石巻市,北上町大須橋浦,北上中学校,216,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.568031,141.427002",measle_blue
+宮城県,石巻市,北上町女川字峯1,追分温泉,38,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.561150,141.408116",measle_turquoise
+宮城県,石巻市,北村字前山１５−１,遊楽館,129,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.501108,141.196673",measle_turquoise
+宮城県,石巻市,十八成浜十八成,十八成老人憩いの家,146,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.310043,141.493030",measle_turquoise
+宮城県,石巻市,南光町２丁目,日本製紙南光町社宅,500,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.423095,141.296079",measle_blue
+宮城県,石巻市,南境字大樋２０,石巻商業高校,126,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.452820,141.306702",measle_turquoise
+宮城県,石巻市,南境字後谷５０,遠山製麺所,25,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.451837,141.299564",measle_turquoise
+宮城県,石巻市,南境新水戸1番地,石巻専修大学,230,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.453827,141.294327",measle_blue
+宮城県,石巻市,古館山,館山桜公園,0,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）に記載なしhttp://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.430169,141.317097",measle_grey
+宮城県,石巻市,吉野町,湊小学校,300,,4月5日 20:00,指定避難所。孤立状態でお年寄りが多い。,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.427246,141.316452",measle_blue
+宮城県,石巻市,吉野町1-4-9,多福院,20,,4月5日 20:00,生後5ｹ月の赤ちゃんもいる。,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.426758,141.317841",measle_turquoise
+宮城県,石巻市,吉野町２丁目６−７,湊水産,70,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.424248,141.321624",measle_turquoise
+宮城県,石巻市,向陽町４丁目１３?２４,向陽小学校,108,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.452042,141.278732",measle_turquoise
+宮城県,石巻市,向陽町４丁目９?１１,向陽地区コミュニティーセンター,66,,3月28日 20:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.451660,141.279327",measle_turquoise
+宮城県,石巻市,大原浜一の峠17,大原中学校,53,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.346971,141.480632",measle_turquoise
+宮城県,石巻市,大手町3-15,石巻高校,288,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.425812,141.299347",measle_blue
+宮城県,石巻市,大浜,近藤宅,9,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.412437,141.399947",measle_turquoise
+宮城県,石巻市,大街道南1丁目3?1,大街道小学校,379,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.428288,141.282089",measle_blue
+宮城県,石巻市,大街道東１丁目２−３４,宮城マンション,40,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.428219,141.288993",measle_turquoise
+宮城県,石巻市,大街道西２丁目５?１,釜小学校,340,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.432552,141.273972",measle_blue
+宮城県,石巻市,大門町3丁目4-10,斎場ほたる,20,,4月5日 20:00,指定避難所。電気、水道無し+看護体制不十分。,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.420486,141.324371",measle_turquoise
+宮城県,石巻市,大門町４丁目１?１,湊中学校,58,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.418812,141.321945",measle_turquoise
+宮城県,石巻市,女川原発,女川原発体育館,49,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.395503,141.505763",measle_turquoise
+宮城県,石巻市,字戸泥８の１,大原小学校,130,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.334244,141.475616",measle_turquoise
+宮城県,石巻市,字田ノ浜山３,荻浜中学校,121,,3月28日 20:00,phone:0225-90-2224　　　　　　　　　　　石巻市侍浜字周辺住民、多数　１歳５歳乳幼児、高齢者多い、携帯電波届かない地域、孤立が心配、,,,measle_turquoise
+宮城県,石巻市,宇田川町1-24,宮城水産高校,67,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.420555,141.369644",measle_turquoise
+宮城県,石巻市,寄磯浜五梅沢２４,寄磯小学校,120,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.391513,141.522941",measle_turquoise
+宮城県,石巻市,小島,佐藤宅,10,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.462060,141.366453",measle_turquoise
+宮城県,石巻市,小渕,小渕個人宅19箇所,408,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.320400,141.469661",measle_blue
+宮城県,石巻市,小網倉,小網倉個人宅３カ所,60,,3月28日 20:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.352937,141.456749",measle_turquoise
+宮城県,石巻市,山下町１丁目１１−２２,やすらぎ荘,30,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.431647,141.293970",measle_turquoise
+宮城県,石巻市,成田字小塚裏畑５４,石巻市河北総合センター（ビッグバン）,539,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.517349,141.309654",measle_blue
+宮城県,石巻市,折浜字風越１３,峰耕寺,55,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.404082,141.404358",measle_turquoise
+宮城県,石巻市,折浜蛤浜,蛤浜集会所,20,,4月5日 20:00,ライフラインが全てない。携帯の電波なし。,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.404352,141.409277",measle_turquoise
+宮城県,石巻市,新山,新山生活センター,114,,3月28日 20:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.570778,141.279507",measle_turquoise
+宮城県,石巻市,新栄１丁目２５−７,稲井公民館,110,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.446477,141.335520",measle_turquoise
+宮城県,石巻市,日和が丘２丁目１１−８,市立女子高校,170,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.423265,141.304356",measle_turquoise
+宮城県,石巻市,明神町,明神児童遊園,36,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.416285,141.320982",measle_turquoise
+宮城県,石巻市,月浦,月浦（民家）,64,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.383527,141.428086",measle_turquoise
+宮城県,石巻市,東中里３丁目３?１,住吉中学校,250,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.442226,141.306061",measle_blue
+宮城県,石巻市,根岸,根岸集会所,80,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.443706,141.350307",measle_turquoise
+宮城県,石巻市,桃浦字米久保５,荻浜小学校,132,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.396401,141.437416",measle_turquoise
+宮城県,石巻市,橋浦,橋浦小学校,180,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.554379,141.408646",measle_turquoise
+宮城県,石巻市,水浜,旧水浜保育所,107,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.504426,141.486739",measle_turquoise
+宮城県,石巻市,沢田,沢田会館,50,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.433114,141.382516",measle_turquoise
+宮城県,石巻市,沢田字折立入５６,表沢田集会所,10,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.438366,141.385320",measle_turquoise
+宮城県,石巻市,泉町3－2－17,カトリック幼稚園,30,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.429035,141.298562",measle_turquoise
+宮城県,石巻市,泉町４丁目７?１２,門脇中学校,681,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.428043,141.296555",measle_blue
+宮城県,石巻市,泊,泊コミセン,159,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.349945,141.521843",measle_turquoise
+宮城県,石巻市,流留字七勺２１,万石浦中学校,377,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.425629,141.372238",measle_blue
+宮城県,石巻市,渡波字仁田山２,洞源院,260,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.410574,141.371406",measle_blue
+宮城県,石巻市,渡波字栄田,鹿妻小学校,743,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.423786,141.346313",measle_blue
+宮城県,石巻市,渡波字浜曽根山一,渡波中学校,59,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.416537,141.351538",measle_turquoise
+宮城県,石巻市,渡波字神明３５?３,法音寺,80,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.412782,141.373961",measle_turquoise
+宮城県,石巻市,渡波町2丁目6番31号,渡波公民館,100,,3月28日 20:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.417004,141.366852",measle_turquoise
+宮城県,石巻市,渡波町１-５-２２,渡波小学校,700,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.418575,141.364410",measle_blue
+宮城県,石巻市,渡波祝田,祝田一区集会所,40,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.413329,141.371402",measle_turquoise
+宮城県,石巻市,湊,湊公民館,15,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.425076,141.323068",measle_turquoise
+宮城県,石巻市,湊,牧山参道会館,40,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.424677,141.323765",measle_turquoise
+宮城県,石巻市,湊字根上り松２−１,パチンコゼットン,6,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.420646,141.327254",measle_turquoise
+宮城県,石巻市,湊字鳥井崎1-10,祥光寮,45,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.434334,141.319690",measle_turquoise
+宮城県,石巻市,湊字鹿妻山96,法山寺幼稚園,100,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.423943,141.338089",measle_turquoise
+宮城県,石巻市,牧浜字竹浜道２２−２,東浜小学校・区長宅,89,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.363744,141.434148",measle_turquoise
+宮城県,石巻市,狐崎浜字狐崎屋敷２５−２,狐崎浜漁村センター・民家,111,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.350495,141.421267",measle_turquoise
+宮城県,石巻市,田代島,旧田代島自然教育センター,100,,3月28日 20:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.297866,141.419946",measle_turquoise
+宮城県,石巻市,田道町一丁目２－３９,カーサ・デ・コスタ,80,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.436172,141.295717",measle_turquoise
+宮城県,石巻市,相野谷旧会所前３４,飯野川中学校,260,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.516052,141.314697",measle_blue
+宮城県,石巻市,真野八の坪116,稲井中学校,50,,4月2日 0:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.448433,141.355484",measle_turquoise
+宮城県,石巻市,真野字八の坪116-1,稲井小学校,70,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.448078,141.357239",measle_turquoise
+宮城県,石巻市,石巻市相野谷,飯野川第一小学校,115,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.517559,141.317215",measle_turquoise
+宮城県,石巻市,福貴浦,福貴浦会館,141,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.354348,141.444195",measle_turquoise
+宮城県,石巻市,築山３丁目６−２８,釜会館,21,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.424530,141.276555",measle_turquoise
+宮城県,石巻市,給分,給分個人宅３カ所,160,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.327980,141.473691",measle_turquoise
+宮城県,石巻市,網地,網地生活センター,149,,3月28日 20:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.273044,141.461897",measle_turquoise
+宮城県,石巻市,緑町１丁目２−７,小松荘,30,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.418108,141.337275",measle_turquoise
+宮城県,石巻市,船越,中里宅,51,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.530087,141.514280",measle_turquoise
+宮城県,石巻市,船越,清水宅,29,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.532605,141.512789",measle_turquoise
+宮城県,石巻市,荻浜字田ノ浜山３,荻浜中学校,121,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.381028,141.439746",measle_turquoise
+宮城県,石巻市,蛇田字中埣２６,蛇田公民館,50,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.443387,141.282460",measle_turquoise
+宮城県,石巻市,蛇田字小斎２９,サンネットなごみ・コスモス,120,,3月28日 20:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.451991,141.255892",measle_turquoise
+宮城県,石巻市,蛇田字新立野４１０−１,石巻特別支援学校,30,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.451699,141.258325",measle_turquoise
+宮城県,石巻市,蛇田字新金沼20の1,蛇田小学校,220,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.445118,141.279114",measle_blue
+宮城県,石巻市,蛇田字西道下71,石巻赤十字病院,200,,3月28日 20:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.459185,141.279723",measle_blue
+宮城県,石巻市,蛇田新丸井戸,新丸井戸二集会所,8,,3月28日 20:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.445442,141.280803",measle_turquoise
+宮城県,石巻市,角脇字裏屋敷,青葉中学校,764,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.433075,141.261963",measle_blue
+宮城県,石巻市,貞山三丁目４?１,好文館高校,104,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.434536,141.283020",measle_turquoise
+宮城県,石巻市,針岡,針岡地区（鳥屋森公民館ほか）,310,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.520030,141.415083",measle_blue
+宮城県,石巻市,針岡字山下６１,大川中学校,,,,,宮城県 市町村別避難所・避難者リスト,"38.538586,141.414261",measle_yellow
+宮城県,石巻市,鋳銭場,石巻グランドホテル,40,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.434086,141.307571",measle_turquoise
+宮城県,石巻市,長渡浜字杉13-3,網小医院,13,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.266084,141.478521",measle_turquoise
+宮城県,石巻市,長渡浜長渡,長渡分館,1,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.254717,141.493660",measle_turquoise
+宮城県,石巻市,門脇字元捨喰５−１,ひたかみ園,42,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.425499,141.254660",measle_turquoise
+宮城県,石巻市,門脇町1-2-21,石巻港湾病院,180,,3月28日 20:00,,宮城県 市町村別避難所・避難者リストによる。http://www.pref.miyagi.jp/hinanjo.htm,"38.427200,141.307539",measle_turquoise
+宮城県,石巻市,雄勝町名振小浜,名振コミュニティーセンター,108,,4月5日 20:00,指定避難所。年配者多数。若者が少ないため輸送困難。ガソリン少なく、又情報が乏しい。一刻も早くボランティアが必要。,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.530084,141.496293",measle_turquoise
+宮城県,石巻市,雄勝町大須船隠１-１,大須小学校,524,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.512325,141.535721",measle_blue
+宮城県,石巻市,雄勝町立浜字寺下２,立浜龍澤寺,6,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.511409,141.516771",measle_turquoise
+宮城県,石巻市,雄勝町船越荒,荒老人いこいの家,131,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.526600,141.526807",measle_turquoise
+宮城県,石巻市,雄勝町雄勝味噌作,味噌作（クリーンセンター）,14,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.507432,141.450815",measle_turquoise
+宮城県,石巻市,雄勝町雄勝唐桑,唐桑地区,35,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.512506,141.478497",measle_turquoise
+宮城県,石巻市,雄勝町雄勝字原３９,森林公園,122,,4月5日 20:00,指定避難所,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.492857,141.443945",measle_turquoise
+宮城県,石巻市,魚町２丁目９−１３,フルノ電気３階,15,,4月5日 20:00,町内で被災された方達,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.414025,141.330759",measle_turquoise
+宮城県,石巻市,鮎川,鮎川集会場,40,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.301749,141.508676",measle_turquoise
+宮城県,石巻市,鹿又大巻前,NPO法人フェアトレード,25,,4月5日 20:00,,石巻市ホームページ 避難所リスト（4/5 20:00）による。http://www.city.ishinomaki.lg.jp/hishokoho/zisinn2011.jsp,"38.482483,141.295008",measle_turquoise
+宮城県,角田市,尾山字山入９１−１,婦人研修センター,35,,4月17日 18:00,,"山元町公式ホームページより
+http://www.town.yamamoto.miyagi.jp/jishin/oojishin.html","37.977063,140.781990",measle_turquoise
+宮城県,角田市,角田字柳町35-1,総合保健福祉センター,13,,4月11日 16:00,,角田市ホームページより,"37.982765,140.776932",measle_turquoise
+宮城県,遠田郡涌谷町,字立町４−１,農村勤労福祉センター,17,200,4月1日 16:27,,"http://www.town.wakuya.miyagi.jp/contents/0osirase/sinsai20110311/pdf/houkoku0401.pdf 
+涌谷町ホームページより","38.542543,141.126286",measle_turquoise
+宮城県,遠田郡美里町,牛飼字新町５１,さるびあ館,2,,4月10日 8:00,,"http://www.town.misato.miyagi.jp/17bousai/2011-0319-1026-5.html
+美里町ホームページより","38.557765,141.056241",measle_turquoise
+山形県,上山市,けやきの森2-1,上山市体育文化センター,126,200,4月12日 13:06,,山形県広域支援対策本部避難者支援班発表資料,"38.146328,140.270874",measle_turquoise
+山形県,北村山郡大石田町,緑町8,クロスカルチャープラザ「桂桜会館」,0,40,4月9日 0:46,,山形県広域支援対策本部避難者支援班発表資料,"38.592598,140.372925",measle_grey
+山形県,南陽市,元中山164,旧南陽市立中川中学校,39,180,4月12日 13:06,,山形県広域支援対策本部避難者支援班発表資料,"38.102177,140.207611",measle_turquoise
+山形県,天童市,大字小関1230番地,天童市スポーツセンター総合体育館,91,200,4月9日 4:01,,山形県広域支援対策本部避難者支援班発表資料,"38.363510,140.360687",measle_turquoise
+山形県,天童市,小路1-7-8,山形県青年の家,33,150,4月12日 13:06,,山形県広域支援対策本部避難者支援班発表資料,"38.355785,140.373611",measle_turquoise
+山形県,寒河江市,大字西根字石川西365,寒河江市体育館合宿所,55,43,4月12日 13:07,,山形県広域支援対策本部避難者支援班発表資料,"38.390381,140.275543",measle_turquoise
+山形県,山形市,落合町1番地,山形市総合スポーツセンター,401,1056,4月12日 13:00,,山形県広域支援対策本部避難者支援班発表資料,"38.282207,140.347672",measle_blue
+山形県,山形市,霞城町1-2,山形県体育館,25,1000,4月12日 13:00,,山形県広域支援対策本部避難者支援班発表資料,"38.253788,140.327316",measle_turquoise
+山形県,新庄市,堀端町4-67,新庄市民文化会館,0,70,4月9日 0:51,,山形県広域支援対策本部避難者支援班発表資料,"38.767860,140.296326",measle_grey
+山形県,新庄市,大字仁間265 付近,野際団地集会場,0,30,4月12日 13:10,,山形県広域支援対策本部避難者支援班発表資料,"38.743570,140.289476",measle_grey
+山形県,新庄市,大字角沢1366,農業大学校短期研修施設緑風館,0,60,4月9日 0:52,,山形県広域支援対策本部避難者支援班発表資料,"38.729137,140.296036",measle_grey
+山形県,新庄市,桧町23番地1,小桧室団地集会場,0,50,4月9日 10:57,,問合先：災害対策本部最上支部 0233-29-1295,"38.774136,140.293634",measle_grey
+山形県,新庄市,金沢3070-7,東山スポーツハウス,27,150,4月12日 13:10,,山形県広域支援対策本部避難者支援班発表資料,"38.757858,140.318466",measle_turquoise
+山形県,新庄市,金沢3070-8,新庄市武道館,0,150,4月9日 0:52,,山形県広域支援対策本部避難者支援班発表資料,"38.758930,140.317749",measle_grey
+山形県,新庄市,金沢字西の山3028-5,新庄市農村環境改善センター,0,230,4月9日 0:52,,山形県広域支援対策本部避難者支援班発表資料,"38.767826,140.333252",measle_grey
+山形県,最上郡大蔵村,大字南山64?5,南山交流センター,0,40,4月9日 0:52,,山形県広域支援対策本部避難者支援班発表資料,"38.667801,140.209686",measle_grey
+山形県,最上郡大蔵村,大字南山967?9,ふるさと味来館,0,50,4月9日 0:52,,山形県広域支援対策本部避難者支援班発表資料,"38.624107,140.218216",measle_grey
+山形県,最上郡大蔵村,大字赤松689?1,赤松生涯学習センター「まつぼっくり」,0,60,4月9日 0:53,,山形県広域支援対策本部避難者支援班発表資料,"38.679764,140.240677",measle_grey
+山形県,最上郡戸沢村,大字名高1593-86,戸沢村中央体育館・公民館大ホール,0,54,4月9日 0:53,,山形県広域支援対策本部避難者支援班発表資料,"38.747623,140.178391",measle_grey
+山形県,最上郡戸沢村,大字蔵岡上の山3718-1,戸沢村若者センター,11,20,4月9日 0:54,,山形県広域支援対策本部避難者支援班発表資料,,measle_turquoise
+山形県,最上郡最上町,大字向町674,最上町立中央公民館,0,150,4月9日 0:53,,山形県広域支援対策本部避難者支援班発表資料,"38.758980,140.519440",measle_grey
+山形県,最上郡最上町,大字向町760,最上町立最上中学校（寄宿舎）,22,80,4月9日 11:00,,山形県広域支援対策本部避難者支援班発表資料,"38.759589,140.521276",measle_turquoise
+山形県,最上郡最上町,大字大堀字蟹ノ又1360-19,保養センターもがみ,5,50,4月12日 13:12,,山形県広域支援対策本部避難者支援班発表資料,"38.754475,140.467239",measle_turquoise
+山形県,最上郡真室川町,大字大沢5016-74,真室川町立真室川中学校寄宿舎,0,30,4月9日 0:55,,山形県広域支援対策本部避難者支援班発表資料,"38.867245,140.236084",measle_grey
+山形県,最上郡真室川町,大字大滝64-1,真室川町立及位中学校寄宿舎,0,16,4月9日 0:55,,山形県広域支援対策本部避難者支援班発表資料,"38.969555,140.311798",measle_grey
+山形県,最上郡真室川町,大字新町945,真室川町民体育館,0,100,4月9日 0:58,,山形県広域支援対策本部避難者支援班発表資料,"38.853603,140.265060",measle_grey
+山形県,最上郡舟形町,富田1265,舟形町農村環境改善センター,0,28,4月9日 11:24,,山形県広域支援対策本部避難者支援班発表資料,"38.667874,140.273717",measle_grey
+山形県,最上郡舟形町,小田山2679,舟形町農林漁業者トレーニングセンター（体育館）,0,100,4月9日 11:02,,山形県広域支援対策本部避難者支援班発表資料,"38.691444,140.319776",measle_grey
+山形県,最上郡舟形町,舟形2679,農村漁業体験実習館,0,60,4月9日 0:59,,山形県広域支援対策本部避難者支援班発表資料,"38.679337,140.324051",measle_grey
+山形県,最上郡舟形町,舟形352-10,舟形町老人いこいの家清流荘,0,27,4月9日 11:20,,山形県広域支援対策本部避難者支援班発表資料,"38.691369,140.316632",measle_grey
+山形県,最上郡金山町,大字金山561,老人福祉センター,0,50,4月9日 10:00,,山形県広域支援対策本部避難者支援班発表資料,"38.877953,140.332748",measle_grey
+山形県,最上郡金山町,大字金山571,金山町農村環境改善センター,0,50,4月9日 10:36,,山形県広域支援対策本部避難者支援班発表資料,"38.877337,140.332454",measle_grey
+山形県,最上郡鮭川村,大字京塚1324-2,鮭川村中央公民館,0,70,4月9日 10:01,,山形県広域支援対策本部避難者支援班発表資料,"38.817581,140.234009",measle_grey
+山形県,最上郡鮭川村,大字佐渡893,鮭川村老人いこいの家,0,30,4月12日 13:15,,山形県広域支援対策本部避難者支援班発表資料,"38.797337,140.222198",measle_grey
+山形県,最上郡鮭川村,川口,鮭川村エコパーク,22,56,4月9日 10:02,,山形県広域支援対策本部避難者支援班発表資料,"38.791851,140.239578",measle_turquoise
+山形県,村山市,大字大久保甲610-2,勤労青少年ホーム,18,40,4月9日 10:51,,山形県広域支援対策本部避難者支援班発表資料,"38.475066,140.323710",measle_turquoise
+山形県,東村山郡中山町,大字長崎4665-5,勤労文化センター,18,60,4月9日 10:02,,山形県広域支援対策本部避難者支援班発表資料,"38.335457,140.273056",measle_turquoise
+山形県,東村山郡山辺町,大字大蕨1173,旧作谷沢保育所,0,50,4月9日 10:03,,山形県広域支援対策本部避難者支援班発表資料,"38.262150,140.189117",measle_grey
+山形県,東村山郡山辺町,緑ケ丘1,山辺町武道館,0,150,4月9日 10:03,,山形県広域支援対策本部避難者支援班発表資料,"38.287815,140.260742",measle_grey
+山形県,東根市,大字東根乙1119-1,東根市市民体育館,41,100,4月12日 13:18,,山形県広域支援対策本部避難者支援班発表資料,"38.423462,140.406586",measle_turquoise
+山形県,東田川郡三川町,大字押切新田字豊秋15-11,旧押切公民館,6,50,4月9日 10:04,,山形県広域支援対策本部避難者支援班発表資料,"38.812218,139.851975",measle_turquoise
+山形県,東田川郡庄内町,余目字藤原野3-1,余目第三公民館,0,50,4月9日 11:31,,山形県広域支援対策本部避難者支援班発表資料,"38.852342,139.910561",measle_grey
+山形県,東置賜郡川西町,大字上小松1133-4,生きがい交流館,32,40,4月9日 10:05,,山形県広域支援対策本部避難者支援班発表資料,"38.003922,140.049149",measle_turquoise
+山形県,東置賜郡川西町,大字中小松2240-2,農業改善センター,30,75,4月9日 10:13,,山形県広域支援対策本部避難者支援班発表資料,"38.008385,140.056458",measle_turquoise
+山形県,東置賜郡高畠町,大字高畠435,高畠町中央公民館,14,14,4月9日 10:16,,山形県広域支援対策本部避難者支援班発表資料,"38.002742,140.190238",measle_turquoise
+山形県,東置賜郡高畠町,大字高畠435,高畠町武道館,88,100,4月12日 13:19,,山形県広域支援対策本部避難者支援班発表資料,"38.002743,140.190231",measle_turquoise
+山形県,米沢市,金池3-1-62,米沢市営体育館（アリーナ）,,450,4月12日 13:20,避難人数：米沢市施設合計327,山形県広域支援対策本部避難者支援班発表資料,"37.920704,140.116470",measle_yellow
+山形県,米沢市,金池3-1-62,米沢市営体育館（合宿所〉,,60,4月12日 13:20,避難人数：米沢市施設合計327,山形県広域支援対策本部避難者支援班発表資料,"37.920704,140.116470",measle_yellow
+山形県,米沢市,金池3-1-62,米沢市営体育館（武道館〉,,60,4月12日 13:20,避難人数：米沢市施設合計327,山形県広域支援対策本部避難者支援班発表資料,"37.920704,140.116470",measle_yellow
+山形県,米沢市,金池三丁目1-14,置賜総合文化センター（会議室）,,80,4月12日 13:20,避難人数：米沢市施設合計327,山形県広域支援対策本部避難者支援班発表資料,"37.920025,140.116806",measle_yellow
+山形県,米沢市,金池三丁目1-14,置賜総合文化センター（青年の家）,,60,4月12日 13:20,"避難人数：米沢市施設合計327
+場所：置賜総合文化センター3F",山形県広域支援対策本部避難者支援班発表資料,"37.920025,140.116806",measle_yellow
+山形県,西村山郡河北町,大字溝延字小堤40,河北町溝延研修センター,10,50,4月12日 13:21,,山形県広域支援対策本部避難者支援班発表資料,"38.396420,140.315079",measle_turquoise
+山形県,西村山郡西川町,大字間沢280,西川交流センターあいべ,21,50,4月9日 10:28,,山形県広域支援対策本部避難者支援班発表資料,"38.432049,140.131805",measle_turquoise
+山形県,西置賜郡小国町,大字小玉川511,旧小玉川小中学校,60,100,4月12日 13:22,,山形県広域支援対策本部避難者支援班発表資料,"37.968781,139.675980",measle_turquoise
+山形県,西置賜郡小国町,小玉川506-1,旧玉川小中学校,15,50,4月12日 13:22,,山形県広域支援対策本部避難者支援班発表資料,"38.032967,139.681244",measle_turquoise
+山形県,西置賜郡白鷹町,大字鮎貝1593?3,白鷹町就業構造改善センター,12,30,4月12日 13:23,,山形県広域支援対策本部避難者支援班発表資料,"38.187786,140.069290",measle_turquoise
+山形県,西置賜郡飯豊町,大字椿1902-4,白椿公民館,0,60,4月9日 10:33,,山形県広域支援対策本部避難者支援班発表資料,"38.042400,139.991211",measle_grey
+山形県,西置賜郡飯豊町,大字添川2955,東部公民館,32,60,4月9日 10:34,,山形県広域支援対策本部避難者支援班発表資料,"38.034382,140.013596",measle_turquoise
+山形県,西置賜郡飯豊町,大字添川字関山3535-33,飯豊少年自然の家,116,200,4月12日 13:23,,山形県広域支援対策本部避難者支援班発表資料,"38.024796,139.998672",measle_turquoise
+山形県,酒田市,光ケ丘2-1-25,酒田市営親子スポーツ会館,17,300,4月12日 13:24,,山形県広域支援対策本部避難者支援班発表資料,"38.925659,139.830948",measle_turquoise
+山形県,長井市,中伊佐沢1256-8,向山荘,7,30,4月9日 10:37,,山形県広域支援対策本部避難者支援班発表資料,"38.080257,140.073105",measle_turquoise
+山形県,長井市,九野本1235-1,長井市置賜生涯学習プラザ,6,42,4月9日 10:38,,山形県広域支援対策本部避難者支援班発表資料,"38.090240,140.020264",measle_turquoise
+山形県,長井市,屋城町6-53,勤労センター,13,64,4月12日 13:25,,山形県広域支援対策本部避難者支援班発表資料,"38.109570,140.044052",measle_turquoise
+山形県,飽海郡遊佐町,吹浦字西浜5,西浜セミナーハウス,10,20,4月9日 10:41,,山形県広域支援対策本部避難者支援班発表資料,"39.066647,139.874725",measle_turquoise
+山形県,飽海郡遊佐町,吹浦釜磯1,遊佐町漁村センター,0,40,4月12日 13:25,,山形県広域支援対策本部避難者支援班発表資料,"39.081642,139.872162",measle_grey
+山形県,飽海郡遊佐町,菅里字菅野299番地,海浜自然の家,0,210,4月9日 10:41,,山形県広域支援対策本部避難者支援班発表資料,"39.050743,139.879166",measle_grey
+山形県,鶴岡市,たらのき代字西野469-1,ほのかたらのき代,21,30,4月9日 10:44,,山形県広域支援対策本部避難者支援班発表資料,"38.652588,139.912689",measle_turquoise
+山形県,鶴岡市,朝暘町8-6,荘内病院医師公舎,9,9,4月9日 11:28,,山形県広域支援対策本部避難者支援班発表資料,"38.728392,139.844412",measle_turquoise
+山形県,鶴岡市,羽黒町川代字向山628,創造の森,0,15,4月12日 13:26,,山形県広域支援対策本部避難者支援班発表資料,"38.682011,139.928818",measle_grey
+山形県,鶴岡市,羽黒町荒川字谷地堰11番地1,羽黒農村改善センター,17,40,4月12日 13:38,,山形県広域支援対策本部避難者支援班発表資料,"38.715897,139.900603",measle_turquoise
+山形県,鶴岡市,藤浪2丁目,ふじなみ団地,0,9,4月9日 10:42,,山形県広域支援対策本部避難者支援班発表資料,"38.762096,139.903336",measle_grey
+山形県,鶴岡市,馬場町9-25,朝日青少年センター,0,10,4月9日 10:45,,山形県広域支援対策本部避難者支援班発表資料,"38.727184,139.826721",measle_grey
+岩手県,一関市,一関市三関字桜町36－3,サンアビリティーズ一関,4,,4月14日 17:00,,岩手県災害対策本部,"38.929390,141.151917",measle_turquoise
+岩手県,一関市,一関市厳美町字下り松65-2,瑞泉閣,48,,4月14日 17:00,,岩手県災害対策本部,"38.977077,140.926170",measle_turquoise
+岩手県,一関市,一関市厳美町字祭畤31,かみくら,21,,4月14日 17:00,,岩手県災害対策本部,"39.009006,140.861506",measle_turquoise
+岩手県,一関市,一関市青葉2丁目4－5,山目公民館,19,,4月14日 17:00,,岩手県災害対策本部,"38.931480,141.126602",measle_turquoise
+岩手県,一関市,大東町渋民字大洞55－8,保健センター,0,,4月14日 17:00,,岩手県災害対策本部,"39.020317,141.339096",measle_grey
+岩手県,一関市,東山,三室公民館,0,,4月14日 17:00,,岩手県災害対策本部,"38.963840,141.238922",measle_grey
+岩手県,一関市,東山町長坂字西本町139－1,千厩保健センター,0,,4月14日 17:00,,岩手県災害対策本部,"38.921474,141.332031",measle_grey
+岩手県,上閉伊郡大槌町,,中央公民館,267,,4月14日 17:00,,災害対策本部(情報班),"39.359272,141.901627",measle_blue
+岩手県,上閉伊郡大槌町,,城山体育館,0,,4月14日 17:00,,災害対策本部(情報班),"39.359348,141.901749",measle_grey
+岩手県,上閉伊郡大槌町,上町2-16,小鎚神社,25,,4月14日 17:00,,,,measle_turquoise
+岩手県,上閉伊郡大槌町,上町１－８,大念寺,26,,4月14日 17:00,,,,measle_turquoise
+岩手県,上閉伊郡大槌町,吉里吉里11-25,浪板地区交流センター,130,,4月14日 17:00,年配者多数,災害対策本部(情報班),"39.385406,141.934799",measle_turquoise
+岩手県,上閉伊郡大槌町,吉里吉里2-4-1,吉里吉里小学校,177,,4月14日 17:00,,,,measle_turquoise
+岩手県,上閉伊郡大槌町,吉里吉里29-21-57,らふたぁヒルズ,97,,4月14日 17:00,,災害対策本部(情報班),"39.369850,141.941193",measle_turquoise
+岩手県,上閉伊郡大槌町,吉里吉里32-18-25,三陸園,78,,4月14日 17:00,,,,measle_turquoise
+岩手県,上閉伊郡大槌町,吉里吉里4-4-7,吉祥寺,1315,,4月14日 17:00,,,,measle_blue
+岩手県,上閉伊郡大槌町,大ケ口1-5-5,大ヶ口多目的集会所,356,,4月14日 17:00,,災害対策本部(情報班),,measle_blue
+岩手県,上閉伊郡大槌町,大槌15-71-1,大槌高校,480,,4月14日 17:00,,,,measle_blue
+岩手県,上閉伊郡大槌町,大槌6-42,大槌町役場かみよ稲穂館,289,,4月14日 17:00,,,,measle_blue
+岩手県,上閉伊郡大槌町,大槌第10地割39,エノモト,73,,4月14日 17:00,,,,measle_turquoise
+岩手県,上閉伊郡大槌町,大槌第12地割3-1,千田精密,53,,4月14日 17:00,,,,measle_turquoise
+岩手県,上閉伊郡大槌町,大鎚26-24,大徳院,60,,4月14日 17:00,,,,measle_turquoise
+岩手県,上閉伊郡大槌町,安渡2-11-1,安渡小学校,353,,4月14日 17:00,,,,measle_blue
+岩手県,上閉伊郡大槌町,安渡2-8-1,大槌稲荷神社,95,,4月14日 17:00,,,,measle_turquoise
+岩手県,上閉伊郡大槌町,安渡3,惣川高台,57,,4月14日 17:00,,災害対策本部(情報班),,measle_turquoise
+岩手県,上閉伊郡大槌町,安渡3-7,古学校,97,,4月14日 17:00,,,,measle_turquoise
+岩手県,上閉伊郡大槌町,安渡3-8-4,高森団地,70,,4月14日 17:00,,,,measle_turquoise
+岩手県,上閉伊郡大槌町,小槌14-57,あかね会（ケアプラザ大槌）,51,,4月14日 17:00,193411200,,,measle_turquoise
+岩手県,上閉伊郡大槌町,小鎚15-50,蕨打直集会所,194,,4月14日 17:00,,,,measle_turquoise
+岩手県,上閉伊郡大槌町,小鎚20-80,臼澤鹿子踊保存会館伝承館,356,,4月14日 17:00,,災害対策本部(情報班),,measle_blue
+岩手県,上閉伊郡大槌町,小鎚30,寺野弓道場,402,,4月14日 17:00,,,,measle_blue
+岩手県,上閉伊郡大槌町,小鎚第18地割,山岸地区生活改善センター,151,,4月14日 17:00,,,,measle_turquoise
+岩手県,上閉伊郡大槌町,小鎚第23地割86-4,デイサービスはまぎく,21,,4月14日 17:00,,,,measle_turquoise
+岩手県,上閉伊郡大槌町,小鎚第6地割17-1,小鎚多目的集会所,14,,4月14日 17:00,,,,measle_turquoise
+岩手県,上閉伊郡大槌町,桜木町14-9,桜木町保健福祉会館,487,,4月14日 17:00,,,,measle_blue
+岩手県,上閉伊郡大槌町,町吉里吉里,吉里吉里若葉会,12,,4月14日 17:00,,,,measle_turquoise
+岩手県,上閉伊郡大槌町,町安渡3-5-2,大安（タクシー）本社,22,,4月14日 17:00,,,,measle_turquoise
+岩手県,上閉伊郡大槌町,赤浜1-2-12,赤浜小学校,150,,4月14日 17:00,,,,measle_turquoise
+岩手県,上閉伊郡大槌町,赤浜1-89,岡本造船所,41,,4月14日 17:00,（個人宅4名含む）,災害対策本部(情報班),"39.352814,141.930984",measle_turquoise
+岩手県,上閉伊郡大槌町,赤浜2-2,赤浜八幡宮,221,,4月14日 17:00,,,,measle_blue
+岩手県,上閉伊郡大槌町,赤浜3丁目,赤浜3丁目,150,,4月14日 17:00,,,,measle_turquoise
+岩手県,上閉伊郡大槌町,金澤27-57,大槌町役場金沢支所,48,,4月14日 17:00,,災害対策本部(情報班),"39.442379,141.807022",measle_turquoise
+岩手県,上閉伊郡大槌町,金澤29-19,金沢小学校,40,,4月14日 17:00,,,,measle_turquoise
+岩手県,上閉伊郡大槌町,金澤30-35-2,金沢地区生活改善センター,29,,4月14日 17:00,,災害対策本部(情報班),,measle_turquoise
+岩手県,下閉伊郡山田町,,山の内生活改善センター,18,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,,旧陸中海岸ホテル,61,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,,第２分団屯所,371,,4月17日 17:00,,,,measle_blue
+岩手県,下閉伊郡山田町,八幡町3-20,中央コミセン（公民館）,67,,4月17日 17:00,,災害対策本部(情報班),,measle_turquoise
+岩手県,下閉伊郡山田町,北浜4-1,善慶寺,43,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,大沢11-55,浜川目集落,140,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,大沢6-51,大沢小学校,432,,4月17日 17:00,,災害対策本部(情報班),"39.487244,141.972458",measle_blue
+岩手県,下閉伊郡山田町,山田14-21,北小学校,354,,4月17日 17:00,,,,measle_blue
+岩手県,下閉伊郡山田町,山田16-9-10,平安荘,41,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,山田16-9-10,関口児童館,20,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,山田18-105,関口農業担い手センター,12,,4月17日 17:00,,災害対策本部(情報班),,measle_turquoise
+岩手県,下閉伊郡山田町,山田町大沢8-17-2,大沢ふるさとセンター,106,,4月17日 17:00,,災害対策本部(情報班),,measle_turquoise
+岩手県,下閉伊郡山田町,後楽町4-5,龍昌寺,14,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,織笠11-30,織笠保育園,23,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,織笠11-80,織笠小学校,116,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,織笠11-93-3,織笠コミュニティーセンター,118,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,織笠8-6-2,山田高校,466,,4月17日 17:00,,,,measle_blue
+岩手県,下閉伊郡山田町,船越15－3－242,瑞然寺,20,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,船越2-42,青少年の家,142,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,船越6-159-2,長林コミュニティセンター,20,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,船越6-52-8,船越防災センター（支所）,48,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,船越6-53-35,船越保育園,52,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,豊間根,民家,17,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,豊間根3-177-10,豊間根保育園,55,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,豊間根3-177-4,町立生活改善センター・豊間根公民館,46,,4月17日 17:00,※fromForm内「豊間根公民館」との避難場所の掲載があるも、生活改善センターと同一と判明。,災害対策本部(情報班),"39.532055,141.926025",measle_turquoise
+岩手県,下閉伊郡山田町,豊間根3-181-3,豊間根中学校,123,,4月17日 17:00,,災害対策本部(情報班),"39.529747,141.925079",measle_turquoise
+岩手県,下閉伊郡山田町,豊間根7-22,新田地区集落農事集会所,16,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,豊間根7-58-1,豊間根小学校,57,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,飯岡7-1,さくら幼稚園,108,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,飯岡7-28-2,山田南小学校,183,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡山田町,飯岡7-3-5,武徳殿,110,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡岩泉町,,ふれあいらんど岩泉,35,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡岩泉町,岩泉字松橋21-1,岩泉町民会,24,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡岩泉町,岩泉府金48,龍泉洞温泉ホテル,154,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡普代村,2字下村84-4,くろさき荘,1,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡田野畑村,和野278-1,アズビィホール,134,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡田野畑村,和野278-1,アズビィ学習センター,102,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡田野畑村,和野278付近,西和野自冶会館,8,,4月17日 17:00,,,,measle_turquoise
+岩手県,下閉伊郡田野畑村,田野畑120-18,和野公民館,17,,4月17日 17:00,,,,measle_turquoise
+岩手県,久慈市,,雇用促進住宅,62,,4月17日 17:00,,,,measle_turquoise
+岩手県,久慈市,久慈市中田1-41,長福寺,0,,4月12日 17:00,,岩手県災害対策本部,"40.189392,141.763092",measle_grey
+岩手県,久慈市,久慈市中町1丁目地内,巽山,0,,4月12日 17:00,,岩手県災害対策本部,"40.189724,141.766235",measle_grey
+岩手県,久慈市,久慈市八日町1-1,久慈合同庁舎,0,,4月12日 17:00,,岩手県災害対策本部,"40.192120,141.763779",measle_grey
+岩手県,久慈市,久慈市夏井3-57-1,平山小学校,0,,4月12日 17:00,,岩手県災害対策本部,"40.218021,141.781815",measle_grey
+岩手県,久慈市,久慈市夏井町字大崎4-2,大崎生活技術伝承館,0,,4月17日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,久慈市,久慈市夏井町字閉伊口地内,半崎集会所,0,,4月12日 17:00,,岩手県災害対策本部,"40.218887,141.799103",measle_grey
+岩手県,久慈市,久慈市夏井町鳥谷9-1-4,若宮八幡宮,0,,4月17日 17:00,,岩手県災害対策本部,"40.215359,141.785980",measle_grey
+岩手県,久慈市,久慈市宇部町,宇部,0,,4月12日 17:00,,岩手県災害対策本部,"40.189705,141.765152",measle_grey
+岩手県,久慈市,久慈市宇部町20-146-1,久喜保育園,0,,4月12日 17:00,,岩手県災害対策本部,"40.136517,141.839874",measle_grey
+岩手県,久慈市,久慈市宇部町5-41,宇部支所,0,,4月12日 17:00,,岩手県災害対策本部,"40.131092,141.787415",measle_grey
+岩手県,久慈市,久慈市川崎町1-1,市役所会議室,0,,4月12日 17:00,,岩手県災害対策本部,"40.190464,141.775635",measle_grey
+岩手県,久慈市,久慈市川崎町1-15,久慈東長内高校,0,,4月12日 17:00,,岩手県災害対策本部,"40.191071,141.776688",measle_grey
+岩手県,久慈市,久慈市川貫5-20-230,三船十段記念館,0,,4月12日 17:00,,岩手県災害対策本部,"40.187954,141.758728",measle_grey
+岩手県,久慈市,久慈市新中の橋5-28-4,久慈中央公民館,0,,4月12日 17:00,,岩手県災害対策本部,"40.194748,141.770020",measle_grey
+岩手県,久慈市,久慈市旭町7-127-3,ふくしの村,0,,4月12日 17:00,,岩手県災害対策本部,"40.203060,141.779526",measle_grey
+岩手県,久慈市,久慈市旭町7-127-3,久慈市総合福祉センター,0,,4月12日 17:00,,岩手県災害対策本部,"40.203293,141.779129",measle_grey
+岩手県,久慈市,久慈市湊町13-75,長寿庵,0,,4月12日 17:00,,岩手県災害対策本部,"40.203350,141.792511",measle_grey
+岩手県,久慈市,久慈市湊町第19-8-1,湊分館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,久慈市,久慈市申町1丁目67,久慈市分庁舎,0,,4月12日 17:00,,岩手県災害対策本部,"40.188694,141.764816",measle_grey
+岩手県,久慈市,久慈市畑田26-96,久慈高校,0,,4月12日 17:00,,岩手県災害対策本部,"40.193012,141.742401",measle_grey
+岩手県,久慈市,久慈市長内町21-63-2,サンエール,0,,4月12日 17:00,,岩手県災害対策本部,"40.184292,141.772217",measle_grey
+岩手県,久慈市,久慈市長内町25-41,長内小学校,0,,4月12日 17:00,,岩手県災害対策本部,"40.200016,141.767654",measle_grey
+岩手県,久慈市,久慈市長内町28,サンスポーツ,0,,4月12日 17:00,,岩手県災害対策本部,"40.178413,141.791153",measle_grey
+岩手県,久慈市,久慈市長内町28,下長内公民館,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,久慈市,久慈市長内町28-103-18,プランドール,0,,4月12日 17:00,,岩手県災害対策本部,"40.186581,141.785599",measle_grey
+岩手県,久慈市,久慈市長内町28-105-1,久慈市総合運動場,0,,4月12日 17:00,,岩手県災害対策本部,"40.178413,141.791153",measle_grey
+岩手県,久慈市,久慈市長内町35-98,諏訪神社,0,,4月12日 17:00,,岩手県災害対策本部,"40.187572,141.798325",measle_grey
+岩手県,久慈市,久慈市長内町46地内,小袖地区漁村センター,0,,4月12日 17:00,,岩手県災害対策本部,"40.165619,141.853683",measle_grey
+岩手県,久慈市,久慈市門前36-10,久慈東高校,0,,4月12日 17:00,,岩手県災害対策本部,"40.200981,141.763245",measle_grey
+岩手県,九戸郡野田村,大字玉川2-62-1,国民宿舎えぼし荘,69,,4月17日 17:00,,,,measle_turquoise
+岩手県,九戸郡野田村,大字野田12ー61,野田小学校,50,,4月17日 17:00,,,,measle_turquoise
+岩手県,九戸郡野田村,大字野田22-114-13,野田中学校,59,,4月17日 17:00,,,,measle_turquoise
+岩手県,九戸郡野田村,大字野田22-138,中平公民館,4,,4月17日 17:00,,,,measle_turquoise
+岩手県,九戸郡野田村,大字野田26-27,海蔵院,45,,4月17日 17:00,,,,measle_turquoise
+岩手県,九戸郡野田村,大字野田26-62-17,久慈工業高校,38,,4月17日 17:00,,,,measle_turquoise
+岩手県,九戸郡野田村,大字野田8-40-126,米田公民館（米田地区集落センター）,17,,4月17日 17:00,,,,measle_turquoise
+岩手県,九戸郡野田村,字野田20-14,野田村役場/総合センター,31,,4月17日 17:00,,,,measle_turquoise
+岩手県,住田町,住田町世田米字川向96-1,住田町農林会館,1,,4月12日 17:00,,岩手県災害対策本部,"39.141483,141.575089",measle_turquoise
+岩手県,八幡平市,八幡平市安比高原,ホテル安比グランド,117,,4月17日 17:00,,岩手県災害対策本部,"40.002032,140.967468",measle_turquoise
+岩手県,北上市,北上市和賀町岩崎1-103,東館,3,,4月17日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,北上市,北上市和賀町岩崎1-103,水神温泉湯元東館,29,,4月17日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,北上市,北上市和賀町岩崎新田,入畑温泉瀬目乃湯,18,,4月17日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,北上市,北上市和賀町岩崎新田1-128-2,瀬美温泉,13,,4月17日 17:00,,岩手県災害対策本部,"39.239792,140.956031",measle_turquoise
+岩手県,北上市,北上市和賀町岩崎新田2-43-5,水神温泉山照園,12,,4月17日 17:00,,岩手県災害対策本部,"39.242002,140.981921",measle_turquoise
+岩手県,北上市,北上市大通2-2-11,北上パークホテル,3,,4月17日 17:00,,岩手県災害対策本部,"39.282096,141.117671",measle_turquoise
+岩手県,北上市,北上市大通2-9-8,草のホテル,2,,4月17日 17:00,,岩手県災害対策本部,"39.282804,141.116249",measle_turquoise
+岩手県,北上市,北上市山口23-24-5,ふるさと体験館「北上」,30,,4月17日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,北上市,北上市常盤台1-30-20,黒沢尻北地区交流センター,0,,4月17日 17:00,,岩手県災害対策本部,"39.304634,141.120361",measle_grey
+岩手県,北上市,北上市幸町1-30,勤労青少年ホーム,0,,4月17日 17:00,,岩手県災害対策本部,"39.285168,141.120743",measle_grey
+岩手県,北上市,北上市本石町1-6-20,黒沢尻西地区交流センター,5,,4月17日 17:00,,岩手県災害対策本部,"39.291073,141.113144",measle_turquoise
+岩手県,北上市,北上市村崎野111,高甚旅館,1,,4月17日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,北上市,北上市村崎野12-67-6,飯豊地区交流センター,12,,4月17日 17:00,,岩手県災害対策本部,"39.332904,141.099330",measle_turquoise
+岩手県,和賀郡西和賀町,湯本温泉,対滝閣,49,,4月17日 17:00,,,,measle_turquoise
+岩手県,大槌町,,小国瓦,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大槌町,,波板地区,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大槌町,,赤浜地区,0,,4月12日 17:00,,岩手県災害対策本部,"39.353722,141.929626",measle_grey
+岩手県,大槌町,大槌町上町2-16,小鎚神社,22,,4月12日 17:00,,岩手県災害対策本部,"39.358139,141.897110",measle_turquoise
+岩手県,大槌町,大槌町上町2丁目,小橋神社,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大槌町,大槌町上町１－８,大念寺,23,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大槌町,大槌町吉里吉里,吉里吉里若葉会,12,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大槌町,大槌町吉里吉里11-25,浪板地区交流センター,54,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大槌町,大槌町吉里吉里1丁目215,吉里吉里中学校,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大槌町,大槌町吉里吉里2-4-1,吉里吉里小学校,127,,4月12日 17:00,,岩手県災害対策本部,"39.371826,141.940491",measle_turquoise
+岩手県,大槌町,大槌町吉里吉里29-21-57,らふたぁヒルズ,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大槌町,大槌町吉里吉里32-18-25,三陸園,78,,4月12日 17:00,,岩手県災害対策本部,"39.371998,141.954987",measle_turquoise
+岩手県,大槌町,大槌町吉里吉里4-4-7,吉祥寺,60,,4月12日 17:00,,岩手県災害対策本部,"39.373184,141.936554",measle_turquoise
+岩手県,大槌町,大槌町大ケ口1-5-5,大ケ口多目的集会所,56,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大槌町,大槌町大槌15-71-1,大槌高校,430,,4月12日 17:00,,岩手県災害対策本部,"39.371544,141.902847",measle_blue
+岩手県,大槌町,大槌町大槌6-42,大槌町役場かみよ稲穂館,117,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大槌町,大槌町大槌第10地割39,エノモト,19,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大槌町,大槌町大槌第12地割3-1,千田精密,31,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大槌町,大槌町大町5-2,多機能ケアセンターほっと大町,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大槌町,大槌町大町５番７号,大槌町社会福祉協議会,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大槌町,大槌町大鎚26-24,大徳院,60,,4月12日 17:00,,岩手県災害対策本部,"39.354664,141.887817",measle_turquoise
+岩手県,大槌町,大槌町安渡2-11-1,安渡小学校,273,,4月12日 17:00,高齢者多い,岩手県災害対策本部,"39.361687,141.916718",measle_blue
+岩手県,大槌町,大槌町安渡2-8-1,大槌稲荷神社,69,,4月12日 17:00,,岩手県災害対策本部,"39.359741,141.917953",measle_turquoise
+岩手県,大槌町,大槌町安渡3,惣川高台,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大槌町,大槌町安渡3-18,安渡寺,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,大槌町,大槌町安渡3-5-2,大安（タクシー）本社,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大槌町,大槌町安渡3-7,古学校,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大槌町,大槌町安渡3-8-4,高森団地,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大槌町,大槌町小槌14-57,あかね会（ケアプラザ大槌）,51,,4月12日 17:00,,岩手県災害対策本部,"39.379471,141.845108",measle_turquoise
+岩手県,大槌町,大槌町小鎚13-3-4,小鎚託児所,0,,4月12日 17:00,,岩手県災害対策本部,"39.379627,141.830704",measle_grey
+岩手県,大槌町,大槌町小鎚15-50,蕨打直集会所,15,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大槌町,大槌町小鎚20-80,臼澤鹿子踊保存会館伝承館,58,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大槌町,大槌町小鎚23-22,大槌勤労青少年体育センター,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大槌町,大槌町小鎚28-153-25,白石小枕集会所,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大槌町,大槌町小鎚30,寺野弓道場,221,,4月12日 17:00,,岩手県災害対策本部,,measle_blue
+岩手県,大槌町,大槌町小鎚32-126,城山公園体育館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大槌町,大槌町小鎚32-126,大槌中央公民館,267,,4月12日 17:00,,岩手県災害対策本部,,measle_blue
+岩手県,大槌町,大槌町小鎚第14地割43-2,わらび学園,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大槌町,大槌町小鎚第16地割18-1,四季の郷,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大槌町,大槌町小鎚第18地割,山岸地区生活改善センター,15,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大槌町,大槌町小鎚第23地割86-4,デイサービスはまぎく,11,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大槌町,大槌町小鎚第6地割17-1,小鎚多目的集会所,14,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大槌町,大槌町新町8-14,大槌病院,0,,4月12日 17:00,うち、看50、医80,岩手県災害対策本部,"39.362980,141.904465",measle_grey
+岩手県,大槌町,大槌町桜木町14-9,桜木町保健福祉会館,5,,4月12日 17:00,,岩手県災害対策本部,"39.360207,141.888168",measle_turquoise
+岩手県,大槌町,大槌町赤浜,赤浜三丁目個人宅,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,大槌町,大槌町赤浜1-2-12,赤浜小学校,100,,4月12日 17:00,,岩手県災害対策本部,"39.354691,141.929520",measle_turquoise
+岩手県,大槌町,大槌町赤浜1-3-23,三協印刷,0,,4月12日 17:00,,岩手県災害対策本部,"39.355064,141.930466",measle_grey
+岩手県,大槌町,大槌町赤浜1-89,岡本造船所,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大槌町,大槌町赤浜1丁目3,常楽院,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大槌町,大槌町赤浜2-2,赤浜八幡宮,23,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大槌町,大槌町赤浜2-3-48,ワークフォロー大槌,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,大槌町,大槌町赤浜3丁目,赤浜3丁目,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大槌町,大槌町金澤27-57,大槌町役場　金沢支所,49,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大槌町,大槌町金澤29-19,金沢小学校,40,,4月12日 17:00,,岩手県災害対策本部,"39.440464,141.807693",measle_turquoise
+岩手県,大槌町,大槌町金澤30-35-2,金沢地区生活改善センター,31,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,,中井公民館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大船渡市,,合足公民館,16,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,,吉浜住民宅,80,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,,大洞公民館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大船渡市,,平公民館,7,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,,桜場公民館,10,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,,梅神公民館,54,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,,泊部落個人宅,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大船渡市,三陸町吉浜字上野93-1,吉浜拠点センター,80,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,三陸町吉浜字千歳170-2,千歳（せんざい）部落公民館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大船渡市,三陸町吉浜字千蔵170-1,仲区公民館,33,,4月12日 17:00,,岩手県災害対策本部,"40.212116,141.780060",measle_turquoise
+岩手県,大船渡市,三陸町吉浜字扇洞7,扇洞部落公民館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大船渡市,三陸町吉浜字扇洞7,濁水住民宅,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大船渡市,三陸町綾里75-2,あやひめホール,74,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,三陸町綾里75-2,大船渡町（北笹崎個人宅）,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大船渡市,三陸町綾里字岩崎136-1,長林寺,0,,4月12日 17:00,,岩手県災害対策本部,"39.050869,141.790405",measle_grey
+岩手県,大船渡市,三陸町綾里字砂子沢48,砂小浜改善センター,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大船渡市,三陸町綾里字舘ケ森27-12,小石浜公民館,0,,4月12日 17:00,,岩手県災害対策本部,"39.074261,141.816833",measle_grey
+岩手県,大船渡市,三陸町綾里字野形33,野形不動七福会館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大船渡市,三陸町綾里字黒土田99-1,綾里中学校,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,大船渡市,三陸町越喜来字仲崎沢185-7,崎浜部落公民館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大船渡市,三陸町越喜来字小出59-1,夏虫のお湯っこ（三陸特産物生産施設）,23,,4月12日 17:00,,岩手県災害対策本部,"39.136143,141.779831",measle_turquoise
+岩手県,大船渡市,三陸町越喜来字泊,泊（地震観測所付近）,0,,4月12日 17:00,,岩手県災害対策本部,"39.109055,141.804474",measle_grey
+岩手県,大船渡市,三陸町越喜来字鳥頭160-4,北里大学,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大船渡市,三陸町越喜来町西上甫嶺31,上甫嶺公民館,17,,4月12日 17:00,,岩手県災害対策本部,"39.090649,141.806717",measle_turquoise
+岩手県,大船渡市,三陸町越喜来肥の田54-1,南区公民館,28,,4月12日 17:00,,岩手県災害対策本部,"39.116852,141.808655",measle_turquoise
+岩手県,大船渡市,吉浜地区,蛸の浦地区（清水住民宅）,163,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,大船渡市三陸町越喜来字杉下138-2,花菱縫製,40,,4月12日 17:00,,岩手県災害対策本部,"39.117290,141.821045",measle_turquoise
+岩手県,大船渡市,大船渡市大船渡町上山165-3,明和保育園,0,,4月12日 17:00,,岩手県災害対策本部,"39.064426,141.713821",measle_grey
+岩手県,大船渡市,大船渡市大船渡町字下船渡26,下船渡公民館,180,,4月17日 17:00,,岩手県災害対策本部,"39.036640,141.718643",measle_turquoise
+岩手県,大船渡市,大船渡市大船渡町字富沢42,富沢二区公民館,10,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,大船渡市大船渡町字山馬越10-1,県立大船渡病院,0,,4月17日 17:00,,岩手県災害対策本部,"39.072708,141.707382",measle_grey
+岩手県,大船渡市,大船渡市大船渡町字山馬越68-2,大船渡北小学校,150,,4月17日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,大船渡市大船渡町字永沢94-1,大船渡中学校,267,,4月17日 17:00,,岩手県災害対策本部,"39.053253,141.717773",measle_blue
+岩手県,大船渡市,大船渡市大船渡町字猪頭28-10,加茂神社,17,,4月17日 17:00,,岩手県災害対策本部,"39.059032,141.717453",measle_turquoise
+岩手県,大船渡市,大船渡市大船渡町字猪頭42,本増寺,0,,4月12日 17:00,,岩手県災害対策本部,"39.055954,141.714905",measle_grey
+岩手県,大船渡市,大船渡市大船渡町字笹崎17-5,南笹崎公民館,15,,4月17日 17:00,,岩手県災害対策本部,"39.055462,141.719742",measle_turquoise
+岩手県,大船渡市,大船渡市大船渡町字赤沢17-3大船渡合同庁舎,職業安定所,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大船渡市,大船渡市大船渡町赤沢16-4,上山公民館,50,,4月17日 17:00,,岩手県災害対策本部,"39.065228,141.715485",measle_turquoise
+岩手県,大船渡市,大船渡市字下平24-1,小規模多機能ホーム「平」,42,,4月17日 17:00,193235001,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,大船渡市明神前10-14,大船渡地区公民館,867,,4月17日 17:00,,岩手県災害対策本部,"39.061977,141.713211",measle_blue
+岩手県,大船渡市,大船渡市末崎町字中森22,碁石地区コミュニティーセンター,86,,4月17日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,大船渡市末崎町字中野74-6,中野地域公民館,18,,4月17日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,大船渡市末崎町字大豆沢60-1,碁石公民館,58,,4月17日 17:00,,岩手県災害対策本部,"38.991207,141.735794",measle_turquoise
+岩手県,大船渡市,大船渡市末崎町字大豆沢98-2,三十刈公民館,25,,4月17日 17:00,,岩手県災害対策本部,"38.992214,141.734314",measle_turquoise
+岩手県,大船渡市,大船渡市末崎町字山岸122,末崎小学校,70,,4月17日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,大船渡市末崎町字峯岸,峰岸地区公民館,32,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,大船渡市末崎町字平林72-13,末崎中学校,150,,4月17日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,大船渡市末崎町字平林81,末崎地区公民館・ふるさとセンター,650,,4月17日 17:00,,岩手県災害対策本部,,measle_blue
+岩手県,大船渡市,大船渡市末崎町字神坂26,神坂熊野神社,45,,4月17日 17:00,,岩手県災害対策本部,"39.014042,141.718043",measle_turquoise
+岩手県,大船渡市,大船渡市末崎町字細浦150-1,長源寺,45,,4月17日 17:00,,岩手県災害対策本部,"39.017132,141.712860",measle_turquoise
+岩手県,大船渡市,大船渡市末崎町字細浦88-2,天理教愛町分協会愛与布教所,82,,4月17日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,大船渡市末崎町字船河原,船河原公民館,3,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,大船渡市猪川町字下権現堂8-11,猪川地区公民館,0,,4月12日 17:00,,岩手県災害対策本部,"39.093090,141.705688",measle_grey
+岩手県,大船渡市,大船渡市猪川町字中井沢53,下中井公民館,0,,4月12日 17:00,,岩手県災害対策本部,"39.091019,141.716751",measle_grey
+岩手県,大船渡市,大船渡市猪川町字前田5-8,前田公民館,0,,4月12日 17:00,,岩手県災害対策本部,"39.095608,141.705521",measle_grey
+岩手県,大船渡市,大船渡市猪川町字前田6-1,合同庁舎(沿岸広域振興局）,0,,4月12日 17:00,,岩手県災害対策本部,"39.095261,141.704620",measle_grey
+岩手県,大船渡市,大船渡市猪川町字富岡148,富美岡荘,60,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,大船渡市猪川町字轆轤石23,猪川小学校,31,,4月12日 17:00,,岩手県災害対策本部,"39.093956,141.710938",measle_turquoise
+岩手県,大船渡市,大船渡市猪川町字長洞7-1,大船渡高校,0,,4月12日 17:00,,岩手県災害対策本部,"39.094341,141.716675",measle_grey
+岩手県,大船渡市,大船渡市盛町字下舘下18-1,リアスホール,240,,4月12日 17:00,,岩手県災害対策本部,"39.077824,141.710175",measle_blue
+岩手県,大船渡市,大船渡市盛町字内ノ目4-2,カメリアホール(中央公民館）,32,,4月12日 17:00,,岩手県災害対策本部,"39.085342,141.710693",measle_turquoise
+岩手県,大船渡市,大船渡市盛町字宇津野沢15,大船渡市役所,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,大船渡市,大船渡市盛町字権現堂3-6,吉野町公民館,0,,4月12日 17:00,,岩手県災害対策本部,"39.090542,141.705353",measle_grey
+岩手県,大船渡市,大船渡市盛町字沢川30,盛小学校,81,,4月12日 17:00,,岩手県災害対策本部,"39.081909,141.704636",measle_turquoise
+岩手県,大船渡市,大船渡市盛町字町3-1,蔵ハウス,12,,4月12日 17:00,,岩手県災害対策本部,"39.086758,141.707718",measle_turquoise
+岩手県,大船渡市,大船渡市立根町字上ノ台19-2,立根小学校,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大船渡市,大船渡市立根町字冷清水1-1,大船渡東高校,0,,4月12日 17:00,,岩手県災害対策本部,"39.112534,141.713699",measle_grey
+岩手県,大船渡市,大船渡市立根町字宮田33-3,気仙光陵支援学校,0,,4月12日 17:00,,岩手県災害対策本部,"39.100704,141.715302",measle_grey
+岩手県,大船渡市,大船渡市立根町字田ノ上30-20,福祉の里センター,70,,4月12日 17:00,,岩手県災害対策本部,"39.101894,141.718384",measle_turquoise
+岩手県,大船渡市,大船渡市赤崎町字中井38,赤崎中井公民館,0,,4月12日 17:00,,岩手県災害対策本部,"39.089367,141.718796",measle_grey
+岩手県,大船渡市,大船渡市赤崎町字外口86-2,担い手センター,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大船渡市,大船渡市赤崎町字大洞1-1,赤崎町デイサービスセンター・菊田,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大船渡市,大船渡市赤崎町字山口58-1,大船渡市市営住宅,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,大船渡市,大船渡市赤崎町字山口80-38,赤崎地区公民館・漁村センター,150,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,大船渡市赤崎町字後ノ入49,後ノ入地域公民館,21,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,大船渡市赤崎町字跡浜125-2,旧宿公民館,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,大船渡市,大船渡市赤崎町字鳥沢10-2,蛸の浦小学校,0,,4月12日 17:00,,岩手県災害対策本部,"39.034748,141.741592",measle_grey
+岩手県,大船渡市,大船渡市赤崎町字鳥沢219-5,蛸の浦地区公民館（蛸の浦漁村厚生施設）,250,,4月12日 17:00,,岩手県災害対策本部,,measle_blue
+岩手県,大船渡市,大船渡市赤崎町字鳥沢62-2,蛸の浦保育園,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大船渡市,大船渡町字地ノ森,地ノ森二区公民館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大船渡市,大船渡町字地ノ森26-21,地ノ森一区公民館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,大船渡市,宮古地区,山口公民館,69,,4月12日 17:00,,岩手県災害対策本部,"39.650269,141.936600",measle_turquoise
+岩手県,大船渡市,赤崎町,後浜神社,30,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,赤崎町字佐野,佐野地区公民館,45,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,大船渡市,赤崎町字石橋前地内,沢田公民館,62,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,奥州市,,前沢ふれあいセンター,24,,4月12日 17:00,,岩手県災害対策本部,"39.051777,141.125290",measle_turquoise
+岩手県,奥州市,奥州市水沢区字聖天85-2,水沢公民館,0,,4月12日 17:00,,岩手県災害対策本部,"39.148083,141.131958",measle_grey
+岩手県,奥州市,奥州市江刺区大通り1-8,江刺総合支所,0,,4月12日 17:00,,岩手県災害対策本部,"39.191353,141.173721",measle_grey
+岩手県,奥州市,奥州市胆沢区若柳字堰袋８－１,奥州胆沢温泉　すぱおあご,24,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,奥州市,奥州市胆沢区若柳字天沢52-7,焼石クアパークひめかゆ,40,,4月12日 17:00,,岩手県災害対策本部,"39.116052,140.941230",measle_turquoise
+岩手県,奥州市,奥州市衣川区日向６０－２ ,サンホテル衣川荘,21,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,,堀内集落,13,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,,新町公民館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市,伊藤牧場,13,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市上村2-1-3,磯鶏修導場,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,宮古市,宮古市上村2-4-1,磯鶏小学校,59,,4月12日 17:00,,岩手県災害対策本部,"39.627556,141.954498",measle_turquoise
+岩手県,宮古市,宮古市中里団地,中里団地→31に集約,0,,4月12日 17:00,,岩手県災害対策本部,"39.648312,141.959198",measle_grey
+岩手県,宮古市,宮古市中里団地3-7,中里団地集会所,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市五月2-1,宮古消防署,0,,4月12日 17:00,,岩手県災害対策本部,"39.647194,141.947067",measle_grey
+岩手県,宮古市,宮古市五月町1-20,宮古地区合同庁舎,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市光岸地6-16,善林寺,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市千徳町5-37,千徳デイサービスセンター,27,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市千鶏地区,千鶏地区,150,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市向町2-34,カノンの国,12,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市向町2-34,介護施設あお空,30,,4月12日 17:00,,岩手県災害対策本部,"39.641674,141.954285",measle_turquoise
+岩手県,宮古市,宮古市姉吉地区,姉吉地区,33,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市実田1-7-28,かのん小規模多機能センター,14,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市宮町1-3-5,陸中ビル,0,,4月12日 17:00,,岩手県災害対策本部,"39.639343,141.945007",measle_grey
+岩手県,宮古市,宮古市宮町2-1-1,宮古高校,0,,4月12日 17:00,,岩手県災害対策本部,"39.637817,141.947479",measle_grey
+岩手県,宮古市,宮古市小山田2-9-20,宮古市社会福祉協議会,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市小山田3-4-5,小山田地区センター,0,,4月12日 17:00,,岩手県災害対策本部,"39.632008,141.940002",measle_grey
+岩手県,宮古市,宮古市山口3-6-16,山口団地集会所,60,,4月12日 17:00,,岩手県災害対策本部,"39.647285,141.933228",measle_turquoise
+岩手県,宮古市,宮古市山口5-5-10,セルプわかたけ,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市山口5-5-10,介護老人保健施設　桜ヶ丘,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市崎山3-2,崎山小学校,44,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市崎山5-88,はまゆり学園,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市崎山5-88,恵風支援学校,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市崎山5-94,第二わかたけ学園,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市崎鍬ケ崎1-1-26,宮古病院,0,,4月12日 17:00,,岩手県災害対策本部,"39.658985,141.948227",measle_grey
+岩手県,宮古市,宮古市崎鍬ケ崎18-25-3,宮古国民休暇村,86,,4月12日 17:00,,岩手県災害対策本部,"39.684010,141.982773",measle_turquoise
+岩手県,宮古市,宮古市崎鍬ヶ崎4-1-11,ウイリー,40,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市崎鍬ヶ崎4-1-20,サンホームみやこ,125,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市崎鍬ヶ崎9-39-27,ほほえみの里,124,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市崎鍬ヶ崎第4地割字早稲栃1-13,宮古高等看護学校,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市川代地区,川代地区,30,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市愛宕1-4-6,愛宕小学校,170,,4月12日 17:00,,岩手県災害対策本部,"39.644043,141.962463",measle_turquoise
+岩手県,宮古市,宮古市愛宕2-6-29,本照寺,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市日の出町7-1,宮古第二中学校,140,,4月12日 17:00,,岩手県災害対策本部,"39.653374,141.954926",measle_turquoise
+岩手県,宮古市,宮古市日立浜町32-4,浄土ヶ浜パークホテル,126,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市横町5-1,宮古小学校,155,,4月12日 17:00,,岩手県災害対策本部,"39.644341,141.949600",measle_turquoise
+岩手県,宮古市,宮古市沢田4-11,常安寺,22,,4月12日 17:00,,岩手県災害対策本部,"39.645836,141.955063",measle_turquoise
+岩手県,宮古市,宮古市河南1-1-1,河南中学校,68,,4月12日 17:00,,岩手県災害対策本部,"39.622704,141.954178",measle_turquoise
+岩手県,宮古市,宮古市津軽石11-57,津軽石中学校,51,,4月12日 17:00,,岩手県災害対策本部,"39.572330,141.939255",measle_turquoise
+岩手県,宮古市,宮古市津軽石12-151,藤畑公民館,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,宮古市,宮古市津軽石12-25,駒形公民館,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,宮古市,宮古市津軽石14-36,瑞雲寺,0,,4月12日 17:00,,岩手県災害対策本部,"39.567802,141.927155",measle_grey
+岩手県,宮古市,宮古市津軽石14-38-3,清寿荘,60,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市津軽石4-82,津軽石小学校,326,,4月12日 17:00,,岩手県災害対策本部,"39.581078,141.933609",measle_blue
+岩手県,宮古市,宮古市津軽石第15地割,津軽石荷竹自治会館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市熊野3-1,熊野神社,25,,4月12日 17:00,,岩手県災害対策本部,"39.650650,141.968307",measle_turquoise
+岩手県,宮古市,宮古市熊野町6-33,鍬ケ崎小学校,114,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市田老向新田148,グリーンピア三陸宮古,481,,4月12日 17:00,,岩手県災害対策本部,,measle_blue
+岩手県,宮古市,宮古市田老字八幡水上43-2,宮古北高校,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市田老字和蒔48,神田地区集会施設,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市田老字小田代16,小田代山荘,0,,4月12日 17:00,,岩手県災害対策本部,"39.720760,141.930237",measle_grey
+岩手県,宮古市,宮古市田老字樫内118,樫内地区集会施設,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市田老字水沢南35,水沢（水沢地区公民館）,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,宮古市,宮古市田老字片巻19-1,摂待生活改善センター,12,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市田老字舘が森155-2,田老第一小学校,0,,4月12日 17:00,,岩手県災害対策本部,"39.736252,141.966476",measle_grey
+岩手県,宮古市,宮古市田老字重津部34-2,道の駅たろう,0,,4月12日 17:00,,岩手県災害対策本部,"39.763645,141.965790",measle_grey
+岩手県,宮古市,宮古市田老字青砂里112,山王閣跡地,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市田老字養呂地6-2,ふれあい荘,0,,4月12日 17:00,,岩手県災害対策本部,"39.730698,141.938950",measle_grey
+岩手県,宮古市,宮古市田老字館が森,東キヌ宅,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市田老字館が森140,常運寺,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市田老館が森129-2,田老総合事務所,0,,4月12日 17:00,,岩手県災害対策本部,"39.736813,141.969193",measle_grey
+岩手県,宮古市,宮古市田鎖第5地割33-4,さくらつつみグループホーム,14,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市白浜1-90-1,白浜分校跡地,48,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市石浜地区,石浜地区,120,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市磯鶏2-5-10,海上技術短大,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市磯鶏3-5-1,宮古商業高校,0,,4月12日 17:00,,岩手県災害対策本部,"39.617264,141.959564",measle_grey
+岩手県,宮古市,宮古市花輪6-13,花輪農村文化伝承館,50,,4月12日 17:00,,岩手県災害対策本部,"39.609982,141.898651",measle_turquoise
+岩手県,宮古市,宮古市藤原3-8-38,比古神社,0,,4月12日 17:00,,岩手県災害対策本部,"39.636169,141.959610",measle_grey
+岩手県,宮古市,宮古市藤原上菊町1-37,藤原小学校,72,,4月12日 17:00,,岩手県災害対策本部,"39.636395,141.956314",measle_turquoise
+岩手県,宮古市,宮古市西ケ丘2-1-1,宮古西中学校,0,,4月12日 17:00,,岩手県災害対策本部,"39.640575,141.912567",measle_grey
+岩手県,宮古市,宮古市西ケ丘4-53-8,慈苑,12,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市西町1-1-1,ニチイケアセンター,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市赤前,山根幸伸宅,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市赤前11-49-2,赤前小学校,130,,4月12日 17:00,,岩手県災害対策本部,"39.581940,141.956635",measle_turquoise
+岩手県,宮古市,宮古市赤前13-30,小堀内公民館（高台）,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市重茂1-61,重茂公民館,0,,4月12日 17:00,,岩手県災害対策本部,"39.582180,142.021469",measle_grey
+岩手県,宮古市,宮古市重茂1-61,重茂出張所,50,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市重茂2-1,重茂児童館,0,,4月12日 17:00,,岩手県災害対策本部,"39.587772,142.020081",measle_grey
+岩手県,宮古市,宮古市重茂2-12,重茂小学校,0,,4月12日 17:00,,岩手県災害対策本部,"39.585274,142.021851",measle_grey
+岩手県,宮古市,宮古市重茂28-20,重茂北地区公民館,30,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市金浜台1地割18-1,金浜老人福祉センター,86,,4月12日 17:00,,岩手県災害対策本部,"39.597958,141.944412",measle_turquoise
+岩手県,宮古市,宮古市長根4-13-1,えくぼ,5,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市音部,笹見内分館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,宮古市,宮古市音部3　笹見内バス停付近,笹見内地区公民館,80,,4月12日 17:00,,岩手県災害対策本部,"39.590179,142.022430",measle_turquoise
+岩手県,宮古市,宮古市高浜2-2-1,高浜村上商店,28,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,宮古市,宮古市高浜3-3-1,コープケミカル㈱社宅,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,宮古市,宮古市鴨崎3-25,山口小学校,90,,4月12日 17:00,,岩手県災害対策本部,"39.645115,141.941681",measle_turquoise
+岩手県,山田町,,山の内生活改善センター,22,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,,日向脇の民家,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,山田町,,浦の浜（山善宅ほか）,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,山田町,山田町6-52-8,船越防災センター（支所）,35,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町八幡町3-20,中央コミセン（公民館）,33,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町八幡町3-20,山田中央公民館,51,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町北浜4-1,善慶寺,43,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町大沢11-55,浜川目集落,128,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町大沢6-51,大沢小学校,170,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町大沢8-17-2,大沢ふるさとセンター,72,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町山田14-21,北小学校,196,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町山田16-9-10,平安荘,43,,4月12日 17:00,,岩手県災害対策本部,"39.473412,141.934509",measle_turquoise
+岩手県,山田町,山田町山田16-9-10,関口児童館,19,,4月12日 17:00,,岩手県災害対策本部,"39.473743,141.933258",measle_turquoise
+岩手県,山田町,山田町山田18-105,関口農業担い手センター,12,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町山田5-66-1,山田病院（入院患者）,0,,4月12日 17:00,,岩手県災害対策本部,"39.478214,141.953171",measle_grey
+岩手県,山田町,山田町川向町13-5,大浦漁村センター,11,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町後楽町4-5,龍昌寺,13,,4月12日 17:00,,岩手県災害対策本部,"39.469761,141.951050",measle_turquoise
+岩手県,山田町,山田町織笠11-30,織笠保育園,19,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町織笠11-80,織笠小学校,105,,4月12日 17:00,193823628,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町織笠11-93-3,織笠コミュニティセンター,109,,4月12日 17:00,,岩手県災害対策本部,"39.451096,141.956085",measle_turquoise
+岩手県,山田町,山田町織笠14-32-1,体育館,0,,4月12日 17:00,,岩手県災害対策本部,"39.456623,141.954147",measle_grey
+岩手県,山田町,山田町織笠14-32-1,山田南中学校,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,山田町,山田町織笠8-6-2,山田高校,493,,4月12日 17:00,,岩手県災害対策本部,"39.449642,141.948746",measle_blue
+岩手県,山田町,山田町船越,大浦地区,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,山田町,山田町船越15－3－242,瑞然寺,20,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町船越17-40-2,田の浜旧タブの木荘,0,,4月12日 17:00,,岩手県災害対策本部,"39.413849,141.991089",measle_grey
+岩手県,山田町,山田町船越2-42,青少年の家,197,,4月12日 17:00,,岩手県災害対策本部,"39.402962,141.949112",measle_turquoise
+岩手県,山田町,山田町船越20-10,大浦小学校,41,,4月12日 17:00,,岩手県災害対策本部,"39.442368,142.009995",measle_turquoise
+岩手県,山田町,山田町船越23-27-2,大浦保育園,16,,4月12日 17:00,,岩手県災害対策本部,"39.450752,142.005768",measle_turquoise
+岩手県,山田町,山田町船越6-159-2,長林コミュニティセンター,19,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町船越6-28-3,船越湾漁業協同組合船越支所,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,山田町,山田町船越6-52-8,山田町役場船越支所,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,山田町,山田町船越6-53-35,船越保育園,66,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町豊間根,上豊間根個人宅（佐々木和男）,8,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町豊間根14-15,上豊間根自治交流会館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,山田町,山田町豊間根3-177-10,豊間根保育園,49,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町豊間根3-177-4,町立生活改善センター・豊間根公民館,40,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町豊間根3-181-3,豊間根中学校,122,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町豊間根3-181-3,豊間根中学校練成館道場,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,山田町,山田町豊間根7-22,新田地区集落農事集会所,16,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町豊間根7-58-1,豊間根小学校,55,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町飯岡7-1,さくら幼稚園,91,,4月12日 17:00,,岩手県災害対策本部,"39.462723,141.943451",measle_turquoise
+岩手県,山田町,山田町飯岡7-28-2,山田南小学校,181,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,山田町,山田町飯岡7-3-5,武徳殿,78,,4月12日 17:00,,岩手県災害対策本部,"39.461784,141.942184",measle_turquoise
+岩手県,山田町,織笠,自治交流センター,0,,4月12日 17:00,→豊間根地区へ,岩手県災害対策本部,,measle_grey
+岩手県,岩泉町,,ふれあいらんど岩泉,35,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,岩泉町,岩泉町中島字中島,中島地区多目的集会施設,7,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,岩泉町,岩泉町乙茂字上9-12,ふれんどりー岩泉,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,岩泉町,岩泉町小本字中野31-3,箱石イク宅,0,,4月12日 17:00,箱石イク宅前,岩手県災害対策本部,,measle_grey
+岩手県,岩泉町,岩泉町小本字小成133,小成コミュニティセンター,126,,4月12日 17:00,,岩手県災害対策本部,"39.855251,141.801163",measle_turquoise
+岩手県,岩泉町,岩泉町岩泉字中家38-1,どんぐり苑,12,,4月12日 17:00,,岩手県災害対策本部,"39.847698,141.795853",measle_turquoise
+岩手県,岩泉町,岩泉町岩泉字松橋1-2,ホテル龍泉洞愛山,0,,4月12日 17:00,,岩手県災害対策本部,"39.844872,141.795090",measle_grey
+岩手県,岩泉町,岩泉町岩泉字松橋21-1,岩泉町民会館,54,,4月12日 17:00,,岩手県災害対策本部,"39.843124,141.793823",measle_turquoise
+岩手県,普代村,普代村13地割169-1,自然休養村管理センター,0,,4月12日 17:00,,岩手県災害対策本部,"40.010071,141.885254",measle_grey
+岩手県,普代村,普代村20地割字堀内,堀内地区漁村センター,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,普代村,普代村2字下村84-4,くろさき荘,1,,4月12日 17:00,,岩手県災害対策本部,"40.005096,141.935013",measle_turquoise
+岩手県,洋野町,洋野町小子内6-6,旧小子内小学校,0,,4月12日 17:00,,岩手県災害対策本部,"40.285091,141.625565",measle_grey
+岩手県,洋野町,洋野町有家5-16-2,有家地区センター,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,洋野町,洋野町種市,八木北地区（自主防）,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,洋野町,洋野町種市1-15-16,八木保育園,0,,4月12日 17:00,,岩手県災害対策本部,"40.340820,141.763306",measle_grey
+岩手県,洋野町,洋野町種市12-1,種市幼稚園,0,,4月12日 17:00,,岩手県災害対策本部,"40.398682,141.718491",measle_grey
+岩手県,洋野町,洋野町種市20-33-3,種市小学校,0,,4月12日 17:00,,岩手県災害対策本部,"40.405392,141.715515",measle_grey
+岩手県,洋野町,洋野町種市23-27,種市庁舎,0,,4月12日 17:00,,岩手県災害対策本部,"40.408401,141.718842",measle_grey
+岩手県,洋野町,洋野町種市23-27,種市武道館,0,,4月12日 17:00,,岩手県災害対策本部,"40.408401,141.718842",measle_grey
+岩手県,洋野町,洋野町種市3-6-1,八木徳平方,0,,4月12日 17:00,,岩手県災害対策本部,"40.363270,141.743713",measle_grey
+岩手県,洋野町,洋野町種市35-2,平内小学校,0,,4月12日 17:00,,岩手県災害対策本部,"40.423836,141.700333",measle_grey
+岩手県,洋野町,洋野町種市43-101-10,角浜小学校,0,,4月12日 17:00,,岩手県災害対策本部,"40.444809,141.677719",measle_grey
+岩手県,田野畑村,田野畑村和野278-1,アズビィホール,184,,4月12日 17:00,,岩手県災害対策本部,"39.924053,141.902603",measle_turquoise
+岩手県,田野畑村,田野畑村和野278-1,アズビィ学習センター,136,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,田野畑村,田野畑村和野278付近,西和野自治会館,10,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,田野畑村,田野畑村田野畑120-18,和野公民館,17,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,田野畑村,田野畑村田野畑120-18,寿生苑,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,盛岡市,盛岡市三本柳8地割1-3,ふれあいランド,91,,4月12日 17:00,市外避難者あり（全員沿岸からの避難者）,岩手県災害対策本部,"39.656456,141.167206",measle_turquoise
+岩手県,盛岡市,盛岡市上田4-1-1,上田公民館,0,,4月12日 17:00,,岩手県災害対策本部,"39.720387,141.138062",measle_grey
+岩手県,盛岡市,盛岡市南大通1丁目7-5,杜陵老人福祉センター,0,,4月12日 17:00,4/19で避難所としては閉鎖,岩手県災害対策本部,"39.698265,141.155579",measle_grey
+岩手県,盛岡市,盛岡市南青山町6-1,西部公民館,0,,4月12日 17:00,,岩手県災害対策本部,"39.718422,141.116013",measle_grey
+岩手県,盛岡市,盛岡市永井24地割10-1,都南公民館,0,,4月12日 17:00,市外避難者あり,岩手県災害対策本部,"39.652493,141.154877",measle_grey
+岩手県,盛岡市,盛岡市湯沢1-1-41,つどいの森こもれびの宿,5,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,盛岡市,盛岡市盛岡駅西通2丁目9-1,マリオス,0,,4月12日 17:00,,岩手県災害対策本部,"39.701103,141.133453",measle_grey
+岩手県,盛岡市,盛岡市繋字塗沢40-4,愛真館,223,,4月12日 17:00,,岩手県災害対策本部,,measle_blue
+岩手県,矢巾町,矢巾町,サンコーポラス2号棟（雇用促進住宅矢巾宿舎）,48,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,紫波町,紫波町土舘字沖田98-20,志和公民館,71,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,花巻市,花巻市下シ沢字中野53-1,幸迎館,12,,4月12日 17:00,,岩手県災害対策本部,"39.452599,141.004601",measle_turquoise
+岩手県,花巻市,花巻市大通り1丁目2-21,なはんプラザ,0,,4月12日 17:00,,岩手県災害対策本部,"39.391878,141.111496",measle_grey
+岩手県,花巻市,花巻市湯口字佐野21-8,渡り温泉,52,,4月12日 17:00,,岩手県災害対策本部,"39.425875,141.015348",measle_turquoise
+岩手県,花巻市,花巻市湯口字大沢181,大沢温泉,68,,4月12日 17:00,,岩手県災害対策本部,"39.435812,141.016056",measle_turquoise
+岩手県,花巻市,花巻市湯本,ホテル花巻,205,,4月12日 17:00,,岩手県災害対策本部,"39.452165,141.068808",measle_blue
+岩手県,葛巻町,葛巻町葛巻5-170-2,ふれあい宿舎グリーンテージ,4,,4月12日 17:00,,岩手県災害対策本部,"40.050275,141.461363",measle_turquoise
+岩手県,西和賀町,西和賀町湯本温泉,対滝閣,49,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,遠野市,遠野市上郷町板沢11地割5-4,上郷地区センター,41,,4月12日 17:00,市外避難者あり,岩手県災害対策本部,"39.285400,141.588226",measle_turquoise
+岩手県,遠野市,遠野市新町1-10,あえりあ遠野,40,,4月12日 17:00,市外避難者あり,岩手県災害対策本部,"39.328365,141.528366",measle_turquoise
+岩手県,遠野市,遠野市松崎町白岩字薬研淵1-3,松崎地区センター,0,,4月12日 17:00,市外避難者あり,岩手県災害対策本部,"39.343449,141.536667",measle_grey
+岩手県,遠野市,遠野市松崎町白岩薬研淵4,健康長者の郷,0,,4月12日 17:00,市外避難者あり,岩手県災害対策本部,,measle_grey
+岩手県,遠野市,遠野市青笹長青笹13地割1-8,青笹地区センター,0,,4月12日 17:00,市外避難者あり,岩手県災害対策本部,"39.321644,141.573212",measle_grey
+岩手県,野田村,野田村大字玉川2-62-1,国民宿舎えぼし荘,69,,4月12日 17:00,,岩手県災害対策本部,"40.058533,141.847107",measle_turquoise
+岩手県,野田村,野田村大字玉川5-81,玉川消防屯所（玉川地区コミュニティ消防センター）,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,野田村,野田村大字野田12ー61,野田小学校,52,,4月12日 17:00,,岩手県災害対策本部,"40.102901,141.817902",measle_turquoise
+岩手県,野田村,野田村大字野田22-114-13,野田中学校,57,,4月12日 17:00,,岩手県災害対策本部,"40.102833,141.803452",measle_turquoise
+岩手県,野田村,野田村大字野田26-27,海蔵院,47,,4月12日 17:00,,岩手県災害対策本部,"40.111950,141.815582",measle_turquoise
+岩手県,野田村,野田村大字野田26-62-17,久慈工業高校,45,,4月12日 17:00,,岩手県災害対策本部,"40.116570,141.806046",measle_turquoise
+岩手県,野田村,野田村大字野田33-35,新山消防屯所,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,野田村,野田村大字野田35-20-1,新山保育園,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,野田村,野田村大字野田35-20-1,新山児童館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,野田村,野田村大字野田37-30-323,中沢公民館,6,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,野田村,野田村大字野田8-40-126,米田公民館（米田地区集落センター）,17,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,野田村,野田村字野田20-14,野田村役場/総合センター,29,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,,上栗林基幹集落センター,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,,仙人の里,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,,大平小学校,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,,大渡町、天神町、只越町,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,,女遊部地区,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,,山谷地区,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,,山谷地区避難所,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,,山谷集会所,1,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,,橋野ふれあいセンター,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,,橋野ふれあいセンター,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,,民宿シーサイド（室町）,17,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,,水海町会,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,,沢村地区,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,,滝の家,17,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,,生涯センター,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,,白浜集会所,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,唐丹町字向54,大石地域交流センター→56と重複,3,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,大平町3-2-1,釜石商工高校,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,釜石市,小佐野町3-39,スマートホームパティオ,19,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,新浜町,創価学会釜石文化会館,13,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,新浜町,滝乃沢（新浜町地区）,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,釜石市,新浜町,越路（新浜町地区）,80,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,甲子町15-86-5,ウェルライフガーデン釜石,6,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,箱崎町,上前地区（箱崎）→63と重複,121,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石唐丹町字大曽根125-17,本郷地区コミュニティ消防センター,18,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市両石町4-45-39付近,両石女遊部部落公民館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市両石町4丁目,女遊部水海集会所,18,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市中妻町1,中妻体育館,130,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市中妻町1-6-8,釜石中学校,107,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市中妻町1-6-8,釜石第一中学校体育館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市中妻町3-1,昭和園クラブハウス,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,釜石市,釜石市中妻町6-16,中妻北地区コミュニティ消防センター,17,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市内定町1-27,立成校成会釜石教会,42,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市只越3-13,釜石市役所西側,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市唐丹町,いきいき福祉唐丹センター,20,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市唐丹町大曽根,本郷地区,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市唐丹町字上荒川146-2,荒川集会所,26,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市唐丹町字小白浜36-1,小白浜愛恵会,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,釜石市,釜石市唐丹町字片岸30-1,天照御祖神社,24,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市唐丹町字荒川146,片川集会所,13,,4月12日 17:00,高齢者多い,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市唐丹町小白浜36-1,小白河避難所（いきいきセンター）,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市唐丹町花露辺67-5,花露辺漁村センター,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市唐丹町荒川地区,唐丹（荒川地区）,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市大只越1-7-5,釜石簡易裁判所,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,釜石市,釜石市大只越1丁目,大只越一丁目,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市大只越町1-9-13付近,大只越集会所,25,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市大只越町2-9-1,千寿院,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市大只越町１丁目３−２,釜石パンション＆ホテル（石応禅寺）,16,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市大平2-9-1,釜石無線局,0,,4月12日 17:00,,岩手県災害対策本部,"39.259686,141.893570",measle_grey
+岩手県,釜石市,釜石市大平3-6-1,大平中学校,35,,4月12日 17:00,,岩手県災害対策本部,"39.260479,141.896545",measle_turquoise
+岩手県,釜石市,釜石市大平4-1-26,井戸商店,0,,4月12日 17:00,,岩手県災害対策本部,"39.263573,141.895370",measle_grey
+岩手県,釜石市,釜石市大平町2-8,大平集会所,16,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市大渡町1-8-4,釜石保育園,0,,4月12日 17:00,,岩手県災害対策本部,"39.272137,141.879517",measle_grey
+岩手県,釜石市,釜石市大渡町3-14-8,釜石小学校,156,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市大渡町3-15,釜石のぞみ病院,73,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市大渡町3-15-26,釜石市保健福祉センター,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市天神5-17,旧釜石第一中学校,123,,4月12日 17:00,食料+暖房設備+飲料水+おむつ+ｶﾞｿﾘﾝ,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市嬉石町1-7-8,嬉石市民交流センター,131,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市嬉石町3-6-1,白山小学校,50,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市定内町,愛育園釜石いこいの家,11,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市定内町4-9-5,祥雲支援学校,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,釜石市,釜石市小佐野町3-37,小佐野小学校,81,,4月12日 17:00,,岩手県災害対策本部,"39.259686,141.893570",measle_turquoise
+岩手県,釜石市,釜石市小佐野町3丁目,小佐野地区応援生活センター,16,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市小川町4-2-5,働く婦人の家,79,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市平田1-14-6,上平田集会所,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市平田2-51-7,あいぜんの里,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,釜石市,釜石市平田6-1-9,旧釜石商業高校,108,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市平田8,尾崎白浜地区,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市平田9,佐須地区,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市平田町3-61-22,ホテルシーガリアマリン,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,釜石市,釜石市平田第6地割123-1,平田幼稚園,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,釜石市,釜石市平田第7地割96-2,尾崎小学校,80,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市平田第一地割14-6,上平田NT集会所,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,釜石市,釜石市新浜町1-5-9,新浜町,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市新浜町3丁目10,わかば荘,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,釜石市,釜石市新町1-58,釜石市立双葉小学校,41,,4月12日 17:00,,岩手県災害対策本部,"39.259686,141.893570",measle_turquoise
+岩手県,釜石市,釜石市東前川地区,三咳,50,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市東前川地区,東さん宅,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市東町16-19,東前町（民家）,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市松原町2-9,松原地区コミュニティ消防センター,68,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市栗林町13-5,栗林地区基幹集落センター,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,釜石市,釜石市栗林町16-46,栗林小学校,200,,4月12日 17:00,"水、食料、ガソリン、灯油、薬、生理用品、カイロ、お願いします。道路が大丈夫なら、遠野から笛吹峠というルートで入れるかもしれません。
+0193282517",岩手県災害対策本部,,measle_blue
+岩手県,釜石市,釜石市栗林町6-27,上栗林地区集会所,60,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市桜木町1-1,市民体育館,239,,4月12日 17:00,,岩手県災害対策本部,,measle_blue
+岩手県,釜石市,釜石市橋野町中村7,中村集会所,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市浜町1丁目１,釜石市営ビル,36,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市浜町3-13-6,料亭　幸楼,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,釜石市,釜石市浜町3-23-27,尾崎神社,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市港町1-2-3,陸中海岸グランドホテル,14,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市片岸町,古廟坂避難所,13,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市甲子9-15-6,甲子中学校,145,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市甲子9-87,甲子小学校,161,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市甲子町10-255,松倉地区コミュニティ消防センター,30,,4月12日 17:00,※甲子町10-255との記録の為検索したところ「釜石市役所甲子（出）」の住所と判明。,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市甲子町10-255,甲子公民館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市甲子町10-256,甲子地区生活応援センター,36,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市甲子町10-614,釜石高校,182,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市甲子町3-139,大松学園,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市甲子町3-162-2,大松コミュニティー,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市甲子町5-206-3,洞関地区コミュニティ消防センター,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市甲子町8-178,清風荘（滝の家）,15,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市甲子町9-9-27,甲子林業センター,51,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市甲子町一の波,一の渡コミュニティー,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市甲子町第10地割159番4,市陸上競技場クラブハウス,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,釜石市,釜石市箱崎地区,箱崎,140,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市箱崎町,上前地区（箱崎）,72,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市箱崎町,野川前地区,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市箱崎町,釜石箱崎町めばな浜,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,釜石市,釜石市箱崎町13地内,釜石市箱崎町桑の浜集落,20,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市箱崎町4-3-10,佐々木宅,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市箱崎町8,横瀬前地区,31,,4月12日 17:00,,岩手県災害対策本部,"39.259686,141.893570",measle_turquoise
+岩手県,釜石市,釜石市野田町3-11-19,野田地区コミュニティ消防センター屯所,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市鈴子町15-2,釜石教育センター,200,,4月12日 17:00,)-,岩手県災害対策本部,,measle_blue
+岩手県,釜石市,釜石市魚河岸1-2,釜石港湾事務所,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市鵜住居16-39-2,鵜住居保育園,0,,4月12日 17:00,,岩手県災害対策本部,"39.324883,141.887115",measle_grey
+岩手県,釜石市,釜石市鵜住居18-5-1,鵜住居小学校,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市鵜住居19-28-3,釜石東中学校,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市鵜住居20-93-18,根浜　宝来館,70,,4月12日 17:00,高台にあるため津波の被害を逃れ、そこに避難している人がいるようです,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市鵜住居町,日向アパート,120,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市鵜住居町16-44-16,はまと神経内科クリニック,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,釜石市,釜石市鵜住居町30-10,市立外山集会所,9,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市鵜住居町川目7-1,川目集会所,35,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,釜石市鵜住居町第28地割22-35,新川原集会所,6,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,鈴子町2-1,サンフィッシュ釜石,20,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,釜石市,鈴子町2-1,浜っ子公園（新浜町地区）,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,,下和野会館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,,千葉宅,80,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,,壺の沢公民館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,,小ヶ口,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,,新沼秀二宅,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,,村上宅,25,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,,横山宅,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,,法量地区,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,,生出コミセン,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,,福伏荒木宅,63,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,,細谷宅,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,,菅野幸典宅,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,,金剛寺,9,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,,鳴石公民館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,岩手県陸前高田市米崎町地竹沢181,普門寺,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,竹駒町館21-4,矢崎公民館,0,,4月12日 17:00,,岩手県災害対策本部,"39.040958,141.606400",measle_grey
+岩手県,陸前高田市,陸前高田市字横田町,横田町コミュニティセンター,283,,4月12日 17:00,,岩手県災害対策本部,,measle_blue
+岩手県,陸前高田市,陸前高田市小友町字上の坊10,上の坊公民館,1,,4月12日 17:00,,岩手県災害対策本部,"38.999536,141.697853",measle_turquoise
+岩手県,陸前高田市,陸前高田市小友町字両替69,正徳時,49,,4月12日 17:00,リストの避難所名は「正徳寺」で、住所は以下だと思います。岩手県陸前高田市小友町字両替69（0192-56-2229）,岩手県災害対策本部,"39.002727,141.680890",measle_turquoise
+岩手県,陸前高田市,陸前高田市小友町字小谷地上24,小友町地区（新田及川宅）,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,陸前高田市小友町字柳沢85,柳沢会館,27,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市小友町字獺沢155-78,モビリア,65,,4月12日 17:00,,岩手県災害対策本部,"38.985958,141.677841",measle_turquoise
+岩手県,陸前高田市,陸前高田市小友町字矢の浦106,矢の浦公民館,30,,4月12日 17:00,,岩手県災害対策本部,"38.986519,141.669708",measle_turquoise
+岩手県,陸前高田市,陸前高田市小友町字茗荷1-237,気仙大工左官伝承館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,陸前高田市小友町字西の坊60,松山会館,106,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市小友町字門前23,華蔵寺,9,,4月12日 17:00,,岩手県災害対策本部,"38.990677,141.707077",measle_turquoise
+岩手県,陸前高田市,陸前高田市広田地区,"広田町（その他）→82,83,85～88へ分割",,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,陸前高田市広田町,中沢地区,12,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市広田町,喜多公民館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,陸前高田市広田町,天ケ森公民館,11,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市広田町,岩倉公民館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,陸前高田市広田町,集地区,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,陸前高田市広田町久保地区,久保地区,1,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市広田町字六ケ浦158,六ケ浦会館,24,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市広田町字大久保9,広田小学校,236,,4月12日 17:00,,岩手県災害対策本部,"38.965160,141.695068",measle_blue
+岩手県,陸前高田市,陸前高田市広田町字大陽180-2,大陽公民館,15,,4月12日 17:00,,岩手県災害対策本部,"38.973548,141.677895",measle_turquoise
+岩手県,陸前高田市,陸前高田市広田町字平畑184,平畑公民館,8,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市広田町字泊53,慈恩寺,64,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市広田町字田端45,田端公民館,7,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市広田町字袖野74,小袖公民館,4,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市広田町字長洞144,前川商店,0,,4月12日 17:00,,岩手県災害対策本部,"38.982668,141.703347",measle_grey
+岩手県,陸前高田市,陸前高田市広田町字長洞7,長洞公民館,98,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市広田町根崎地区,根崎地区,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,陸前高田市気仙町字上長部・字湊,上長部地区・湊地区,68,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市気仙町字丑沢133,長円寺,0,,4月12日 17:00,,岩手県災害対策本部,"38.994992,141.617377",measle_grey
+岩手県,陸前高田市,陸前高田市気仙町字丑沢17,二日市公民館,24,,4月12日 17:00,,岩手県災害対策本部,"38.996532,141.618652",measle_turquoise
+岩手県,陸前高田市,陸前高田市気仙町字古谷33,古谷公民館,16,,4月12日 17:00,,岩手県災害対策本部,"38.987575,141.622290",measle_turquoise
+岩手県,陸前高田市,陸前高田市気仙町字月山25,月山神社,80,,4月12日 17:00,,岩手県災害対策本部,"38.992970,141.615356",measle_turquoise
+岩手県,陸前高田市,陸前高田市気仙町字水上33,双六公民館,46,,4月12日 17:00,,岩手県災害対策本部,"38.983128,141.619873",measle_turquoise
+岩手県,陸前高田市,陸前高田市気仙町字牧田17,長部町小学校・長部保育所・高台コミュニティセンター,272,,4月12日 17:00,,岩手県災害対策本部,,measle_blue
+岩手県,陸前高田市,陸前高田市気仙町字町浦29（金剛寺隣り）,成田神社,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,陸前高田市気仙町字福伏,福伏地区,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,陸前高田市,陸前高田市気仙町字福伏155-6,ホテル三陽,4,,4月12日 17:00,,岩手県災害対策本部,"38.976360,141.625931",measle_turquoise
+岩手県,陸前高田市,陸前高田市気仙町字要谷50-1-1,要谷公民館,30,,4月12日 17:00,,岩手県災害対策本部,"38.981548,141.621552",measle_turquoise
+岩手県,陸前高田市,陸前高田市矢作町字諏訪44,下矢作多目的研修センター,150,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市矢作町字鍋谷6-2,矢作多目的研修センター,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,陸前高田市矢作町袖野,袖野公民館,0,,4月12日 17:00,,岩手県災害対策本部,"39.030237,141.531705",measle_grey
+岩手県,陸前高田市,陸前高田市竹駒町字仲の沢36,仲の沢公民館,21,,4月12日 17:00,,岩手県災害対策本部,"39.035612,141.615065",measle_turquoise
+岩手県,陸前高田市,陸前高田市竹駒町字仲の沢51,荘厳寺,0,,4月12日 17:00,,岩手県災害対策本部,"39.036251,141.615387",measle_grey
+岩手県,陸前高田市,陸前高田市竹駒町字滝の里,滝の里中野宅,11,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市竹駒町字滝の里105-5,甘竹公民館（㈱アマタケ滝の里工場）,24,,4月12日 17:00,,岩手県災害対策本部,"39.035751,141.619217",measle_turquoise
+岩手県,陸前高田市,陸前高田市竹駒町字滝の里150-7,㈲中野塗装,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,陸前高田市竹駒町字相川146-1,三共精密,20,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市竹駒町字相川2,下沢公民館,12,,4月12日 17:00,,岩手県災害対策本部,"39.032277,141.620698",measle_turquoise
+岩手県,陸前高田市,陸前高田市竹駒町字相川73-30,西部ディサービスセンター竹の里,51,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市竹駒町字相川74-1,陸前高田自動車学校,5,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市竹駒町字相川74-9,㈱シェリール高田工場,12,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市竹駒町字舘44,竹駒地区公民館,86,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市竹駒町細根沢69-2,上細根町内会館,41,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市米崎町,岩根会館,5,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市米崎町,松峰神社,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,陸前高田市米崎町,神田公民館,15,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市米崎町,米崎コミュニティセンター,5,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市米崎町,米崎地区（大和田金四郎宅）,12,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市米崎町,米崎地区（嶋村宅）,24,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市米崎町,米崎地区（金野昌則宅）,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,陸前高田市米崎町,能化（米崎地区）,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,陸前高田市米崎町字和方23,和方会館,56,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市米崎町字地竹沢7-10,地竹沢公民館,16,,4月12日 17:00,,岩手県災害対策本部,"39.022774,141.652405",measle_turquoise
+岩手県,陸前高田市,陸前高田市米崎町字川内1,米崎小学校,147,,4月12日 17:00,,岩手県災害対策本部,"39.016983,141.662643",measle_turquoise
+岩手県,陸前高田市,陸前高田市米崎町字川内101,上浜田構造改善センター,55,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市米崎町字松峰59-58,松峰公民館,11,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市米崎町字糠塚沢62,糠塚沢公民館,42,,4月12日 17:00,,岩手県災害対策本部,"39.019299,141.655960",measle_turquoise
+岩手県,陸前高田市,陸前高田市米崎町字野沢12-12,雷神自治会館,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,陸前高田市米崎町樋の口,樋の口直売所,3,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市米崎町西風道60-1,旧自然休暇村,45,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市赤崎町字佐野,佐野公民館,0,,4月12日 17:00,,岩手県災害対策本部,,measle_grey
+岩手県,陸前高田市,陸前高田市高田町,高田地区（小泉部落）,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,陸前高田市高田町中田,中田地区,42,,4月12日 17:00,,岩手県災害対策本部,"39.014918,141.645190",measle_turquoise
+岩手県,陸前高田市,陸前高田市高田町中田62-2,雇用促進住宅,,,4月12日 17:00,,岩手県災害対策本部,,measle_yellow
+岩手県,陸前高田市,陸前高田市高田町大隈8-8,ひかみの園,148,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,陸前高田市,陸前高田市高田町字中田69-2,介護老人保健施設　松原苑,50,,4月12日 17:00,,岩手県災害対策本部,"39.014458,141.648972",measle_turquoise
+岩手県,陸前高田市,陸前高田市高田町字大隈8-6,希望が丘病院,37,,4月12日 17:00,,岩手県災害対策本部,"39.033279,141.636353",measle_turquoise
+岩手県,陸前高田市,陸前高田市高田町字太田87,陸前高田斎苑,32,,4月12日 17:00,,岩手県災害対策本部,"39.018027,141.639216",measle_turquoise
+岩手県,陸前高田市,陸前高田市高田町字山苗代37-12,サン・ビレッジ高田,120,,4月12日 17:00,,岩手県災害対策本部,"39.026752,141.647385",measle_turquoise
+岩手県,陸前高田市,陸前高田市高田町字東和野37-1,あすなろホーム,7,,4月12日 17:00,,岩手県災害対策本部,"39.023495,141.639740",measle_turquoise
+岩手県,陸前高田市,陸前高田市高田町字東和野67,高寿園,401,,4月12日 17:00,,岩手県災害対策本部,"39.022251,141.638947",measle_blue
+岩手県,陸前高田市,陸前高田市高田町字牧田17,漁村センター,45,,4月12日 17:00,,岩手県災害対策本部,"39.446087,142.006409",measle_turquoise
+岩手県,陸前高田市,陸前高田市高田町字荒沢49-3,小泉公民館,55,,4月12日 17:00,,岩手県災害対策本部,"39.022800,141.647957",measle_turquoise
+岩手県,陸前高田市,陸前高田市高田町字西和野90,和野会館,62,,4月12日 17:00,,岩手県災害対策本部,"39.027726,141.635885",measle_turquoise
+岩手県,陸前高田市,陸前高田市高田町字長砂6-4,高田高校,0,,4月12日 17:00,,岩手県災害対策本部,"39.014526,141.638657",measle_grey
+岩手県,陸前高田市,陸前高田市高田町字鳴石5-1,陸前高田市立第一中学校,650,,4月12日 17:00,自衛隊・赤十字・多数の報道関係が入っている。電気あり。水道なし。住民の疲労がかなりある。,岩手県災害対策本部,"39.021885,141.625534",measle_blue
+岩手県,陸前高田市,陸前高田市高田町字鳴石51,鳴石が丘会館,25,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,雫石町,雫石町高倉温泉,雫石プリンスホテル,91,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,雫石町,雫石町鴬宿第１０地割３−１,偕楽苑,3,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,雫石町,雫石町鶯宿10-64-1,ホテル森の風鶯宿,68,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,雫石町,雫石町鶯宿6-7,長栄館,122,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+岩手県,雫石町,雫石町鶯宿7-47,ホテル加賀助,76,,4月12日 17:00,,岩手県災害対策本部,,measle_turquoise
+新潟県,三島郡出雲崎町,三島郡出雲崎町大門394-1,出雲崎町保健福祉総合センターふれあいの里,24,30,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.538101,138.716995",measle_turquoise
+新潟県,三条市,南四日町１丁目１５番８号,三条市勤労青少年ホーム（ソレイユ三条）,115,115,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.620800,138.957001",measle_turquoise
+新潟県,三条市,東本成寺２－１,三条市総合福祉センター,197,197,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.612499,138.953003",measle_turquoise
+新潟県,三条市,荒町２－１－８,三条市体育文化センター,159,159,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.637402,138.951996",measle_turquoise
+新潟県,三条市,西大崎１－６－７６,三条市農業体験交流センター（サンファーム三条）,61,61,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.627201,138.987000",measle_turquoise
+新潟県,上越市,大潟区雁子浜304番地20,雇用促進住宅大潟宿舎,73,230,4月15日 16:00,,"上越市HP
+新潟県災害対策本部より",,measle_turquoise
+新潟県,上越市,木田1丁目17-33,勤労身体障害者体育館,35,200,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.146198,138.235992",measle_turquoise
+新潟県,上越市,本城町5番,上越教育大学本城住宅職員宿舎,25,40,4月15日 16:00,,"上越市HP
+新潟県災害対策本部より",,measle_turquoise
+新潟県,上越市,頸城区百間町716番地,ユートピア くびき希望館,102,200,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.188400,138.326996",measle_turquoise
+新潟県,五泉市,石曽根8074番地1,五泉市村松体育館(さくらアリーナ),22,500,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.696701,139.190002",measle_turquoise
+新潟県,五泉市,馬下1816,馬下保養センター,13,,4月8日 10:00,受入停止中,五泉市HP,,measle_turquoise
+新潟県,佐渡市,,民間宿泊施設（佐渡市）,160,1300,4月15日 16:00,佐渡市ホームページ参照,"新潟県内の避難所状況
+新潟県災害対策本部より","38.017311,138.369110",measle_turquoise
+新潟県,刈羽郡刈羽村,刈羽97,刈羽村第２体育館,13,30,4月15日 16:00,3/22-,"新潟県内の避難所状況
+新潟県災害対策本部より","37.425301,138.621002",measle_turquoise
+新潟県,刈羽郡刈羽村,刈羽１４３１,刈羽村老人福祉センター,47,49,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.425900,138.617996",measle_turquoise
+新潟県,刈羽郡刈羽村,大字下高町４６６,高町地区集会場,18,40,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.407902,138.606003",measle_turquoise
+新潟県,刈羽郡刈羽村,大字油田１３５１番地,油田地区集会場,9,10,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.414200,138.705994",measle_turquoise
+新潟県,刈羽郡刈羽村,大字滝谷１２３６番地,勝山地区集会場,19,30,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.444599,138.628998",measle_turquoise
+新潟県,刈羽郡刈羽村,大字赤田町方５４３,赤田地区集会場,14,30,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.414700,138.643005",measle_turquoise
+新潟県,加茂市,大字宮寄上１３番地１,加茂美人の湯,48,48,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.600601,139.110992",measle_turquoise
+新潟県,北蒲原郡聖籠町,北蒲原郡聖籠町大字次第浜5431,亀代地区公民館,,50,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","38.015099,139.270996",measle_yellow
+新潟県,北蒲原郡聖籠町,北蒲原郡聖籠町大字次第浜３９６１－２,聖籠町老人福祉センター聖海荘,9,60,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","38.018101,139.278000",measle_turquoise
+新潟県,北蒲原郡聖籠町,北蒲原郡聖籠町大字諏訪山1280番地,聖籠町町民会館,153,306,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.977699,139.281006",measle_turquoise
+新潟県,十日町市,,民間宿泊施設（十日町市）,8,300,4月15日 16:00,3/28-,"新潟県内の避難所状況
+新潟県災害対策本部より","37.127586,138.755707",measle_turquoise
+新潟県,十日町市,丁82,十日町市老人福祉センター羽根川荘,,80,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.087200,138.766998",measle_yellow
+新潟県,南蒲原郡田上町,南蒲原郡田上町大字羽生田乙851-6,田上町総合公園YOU・遊ランド,36,43,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.686901,139.070999",measle_turquoise
+新潟県,南魚沼市,,民間宿泊施設（南魚沼市）,113,1200,4月15日 16:00,南魚沼市ホームページ参照,"新潟県内の避難所状況
+新潟県災害対策本部より","37.065521,138.876083",measle_turquoise
+新潟県,南魚沼市,中778番地1,塩沢セミナーハウス,7,42,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.029900,138.850006",measle_turquoise
+新潟県,南魚沼市,仙石1-20,中之島農村改善センター,0,200,3月29日 0:00,,新潟県内の避難所状況,"37.006500,138.841003",measle_grey
+新潟県,南魚沼市,長崎824-1,上田農村改善センター,0,200,3月29日 0:00,,新潟県内の避難所状況,"37.007198,138.878998",measle_grey
+新潟県,南魚沼郡湯沢町,,民間宿泊施設（湯沢町）,522,1300,4月15日 16:00,湯沢町ホームページ参照,"新潟県内の避難所状況
+新潟県災害対策本部より","36.933800,138.817993",measle_blue
+新潟県,南魚沼郡湯沢町,南魚沼郡湯沢町大字湯沢２８２２番地,湯沢町公民館,,200,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","36.938000,138.813004",measle_yellow
+新潟県,妙高市,大字関山6323-2,国立妙高青少年自然の家,110,250,4月15日 16:00,3/25-,"新潟県内の避難所状況
+新潟県災害対策本部より","36.917530,138.189072",measle_turquoise
+新潟県,小千谷市,桜町4915番地,小千谷市総合体育館,113,300,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.314602,138.783005",measle_turquoise
+新潟県,岩船郡粟島浦村,浦村1113-4,さっこい交流館（釜谷地区）,0,16,3月29日 0:00,3/29-,新潟県内の避難所状況,"38.468266,139.254440",measle_grey
+新潟県,岩船郡粟島浦村,浦村929-65,釜谷集落センター（釜谷地区）,0,10,3月29日 0:00,3/29-,新潟県内の避難所状況,"38.468266,139.254440",measle_grey
+新潟県,岩船郡粟島浦村,浦村96-1,老人いこいの家（内浦地区）,0,10,3月29日 0:00,3/29-,新潟県内の避難所状況,"38.468266,139.254440",measle_grey
+新潟県,岩船郡関川村,大字安角402－3,安角ふれあい自然の家,17,70,3月29日 0:00,,新潟県内の避難所状況,"38.056801,139.570999",measle_turquoise
+新潟県,岩船郡関川村,大字湯沢231－1,老人いこいの家むつみ荘,26,30,3月29日 0:00,,新潟県内の避難所状況,"38.083599,139.580994",measle_turquoise
+新潟県,新潟市,,新潟県民会館,,,3月29日 6:13,,,,measle_yellow
+新潟県,新潟市,中央区一番堀通町3番地1,新潟市体育館,177,350,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.912300,139.037994",measle_turquoise
+新潟県,新潟市,中央区関屋下川原町2-635,新潟高等学校青山会館,20,20,3月29日 0:00,人工透析患者（外来）の避難場所,新潟県内の避難所状況,"37.915501,139.022995",measle_turquoise
+新潟県,新潟市,北区嘉山488-3,豊栄総合体育館,115,300,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.905602,139.223999",measle_turquoise
+新潟県,新潟市,江南区茅野山3-1-13,亀田総合体育館,14,14,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.855999,139.098007",measle_turquoise
+新潟県,新潟市,西区五十嵐1の町6368-48,西総合スポーツセンター,174,350,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.879200,138.953003",measle_turquoise
+新潟県,新潟市西区,,新潟市西総合スポーツセンター,300,,3月31日 15:23,,,,measle_blue
+新潟県,新発田市,五十公野6080,サン・ビレッジしばた,131,131,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.937801,139.354004",measle_turquoise
+新潟県,新発田市,本町4-16-83,新発田市カルチャーセンター,343,343,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.950401,139.339996",measle_blue
+新潟県,村上市,岩船駅前63番地,神林農村環境改善センター,39,100,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","38.182800,139.457001",measle_turquoise
+新潟県,村上市,日下993-1,村上農村環境改善センター,27,100,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","38.221001,139.509995",measle_turquoise
+新潟県,東蒲原郡阿賀町,東蒲原郡阿賀町両郷甲2150,阿賀町上川会館,16,50,4月15日 16:00,3/23-,"新潟県内の避難所状況
+新潟県災害対策本部より","37.631199,139.466003",measle_turquoise
+新潟県,東蒲原郡阿賀町,東蒲原郡阿賀町津川2136番地,阿賀町文化福祉会館,13,50,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.680099,139.449997",measle_turquoise
+新潟県,柏崎市,大字中田２２９５－１,北鯖石コミュニティセンター,29,29,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.372799,138.608002",measle_turquoise
+新潟県,柏崎市,大字半田1番地4,柏崎市総合体育館,60,340,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.349098,138.580994",measle_turquoise
+新潟県,柏崎市,大字安田１４１３－１,田尻コミュニティセンター,82,82,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.352402,138.606003",measle_turquoise
+新潟県,柏崎市,東港町５－５５,中央地区コミュニティセンター,159,159,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.372299,138.550995",measle_turquoise
+新潟県,燕市,吉田浜首408番地1,燕・弥彦総合事務組合防災センター,73,73,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.691101,138.869003",measle_turquoise
+新潟県,燕市,大曲3015番地,燕市民研修館・燕市民武道館,79,79,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.648102,138.919006",measle_turquoise
+新潟県,燕市,長辰７５５０?２,国上農村環境改善センター,4,4,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.663200,138.824005",measle_turquoise
+新潟県,糸魚川市,大字田麦平26番地1,柵口温泉権現荘,11,11,4月15日 16:00,,"市のHP
+新潟県災害対策本部より",,measle_turquoise
+新潟県,糸魚川市,山口151,シーサイドバレースキー場センターハウス,6,20,4月15日 16:00,3/22-,"新潟県内の避難所状況
+新潟県災害対策本部より","36.941299,137.899002",measle_turquoise
+新潟県,糸魚川市,青海4690,青海生涯学習センター,36,200,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.023399,137.796997",measle_turquoise
+新潟県,胎内市,協和町,クラレ（株）新潟事業所社宅,36,72,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","38.064301,139.401001",measle_turquoise
+新潟県,胎内市,夏井1191-3,胎内アウレッツ館,43,43,3月29日 0:00,,新潟県内の避難所状況,"38.022999,139.498993",measle_turquoise
+新潟県,胎内市,熱田坂881番地69,胎内山荘,14,14,3月29日 0:00,,新潟県内の避難所状況,"38.017502,139.500000",measle_turquoise
+新潟県,胎内市,西条666番地,B&G体育館,32,250,3月29日 0:00,,新潟県内の避難所状況,"38.069801,139.399002",measle_turquoise
+新潟県,胎内市,西条町3-10,旧本条小学校,0,150,3月29日 0:00,,新潟県内の避難所状況,"38.064800,139.399994",measle_grey
+新潟県,西蒲原郡弥彦村,西蒲原郡弥彦村大字麓７０４５－２,観山荘,20,20,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.682598,138.822998",measle_turquoise
+新潟県,見附市,今町5丁目36番16号,今町公民館,,50,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.551201,138.891998",measle_yellow
+新潟県,見附市,今町5丁目37番33号,今町体育館,115,200,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.551800,138.891998",measle_turquoise
+新潟県,見附市,本町2丁目5番9号,中央公民館,76,150,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.526199,138.925003",measle_turquoise
+新潟県,見附市,長岡市寺泊郷本188-1,見附市海の家「 海・海ハウス」,104,130,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.605701,138.750000",measle_turquoise
+新潟県,長岡市,上樫出3034,長岡市老人福祉センター「皆楽荘」,51,51,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.486801,139.016006",measle_turquoise
+新潟県,長岡市,与板町本与板2380番地1,志保の里荘,40,80,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.556301,138.809006",measle_turquoise
+新潟県,長岡市,今朝白2丁目8番18号,長岡市高齢者センターけさじろ,68,68,3月29日 0:00,,新潟県内の避難所状況,"37.449799,138.858994",measle_turquoise
+新潟県,長岡市,大字日越185番地2,ロングライフセンター,44,70,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.439301,138.779007",measle_turquoise
+新潟県,長岡市,寺泊金山170番地3,長岡市老人憩いの家「夕映荘」,16,16,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.624001,138.757004",measle_turquoise
+新潟県,長岡市,新産２丁目１-９,新産体育館,57,233,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.438099,138.794006",measle_turquoise
+新潟県,長岡市,曲新町564番地3,長岡市南部体育館,194,194,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.420200,138.848007",measle_turquoise
+新潟県,長岡市,曲新町566番地7,長岡市高齢者センターみやうち,55,55,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.419800,138.848007",measle_turquoise
+新潟県,長岡市,東蔵王2丁目2番72号,長岡市北部体育館,115,115,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.469799,138.858002",measle_turquoise
+新潟県,阿賀野市,畑江２３番地,五頭連峰少年自然の家,63,200,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.821701,139.313004",measle_turquoise
+新潟県,魚沼市,吉田1144,魚沼市地域振興センター,41,150,4月15日 16:00,,"新潟県内の避難所状況
+新潟県災害対策本部より","37.224098,138.981995",measle_turquoise
+東京都,港区,芝浦,民家,5,,3月21日 3:18,,,,measle_turquoise
+柴田郡,柴田群柴田町,槻木駅西,槻木障害学習センタ?,2,,3月18日 7:27,0224-56-1997,,,measle_turquoise
+柴田郡,柴田郡,柴田町北船岡1-2-1,仙南中央病院,,,3月22日 11:39,0224-54-1210　　食糧、医薬品、燃料がありません（緊急）,,,measle_yellow
+栃木県,下都賀郡壬生町,大字上稲葉1056-8,嘉陽ヶ丘ふれあい広場,16,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,大田原市,福原1411-22,ふれあいの丘青少年研修センター,84,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,宇都宮市,不動前1-3-14,北関東綜合警備保障株式会社,17,,4月12日 15:00,,,,measle_turquoise
+栃木県,宇都宮市,中里町182-1,上河内生涯学習センター,5,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,宇都宮市,福岡町1074-1,宇都宮市サイクリングターミナル,10,,4月3日 14:12,,,,measle_turquoise
+栃木県,宇都宮市,篠井町1885-1,宇都宮市冒険活動センター,27,,4月3日 14:10,,,,measle_turquoise
+栃木県,宇都宮市,茂原777-1,クリーンパーク茂原管理棟会議室,25,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,宇都宮市,茂原町777-1,クリーンパーク茂原　環境学習センター,80,,3月30日 5:06,,,,measle_turquoise
+栃木県,宇都宮市,西川田町1038,姿川生涯学習センター付属体育館,75,,4月3日 14:31,,,,measle_turquoise
+栃木県,小山市,,県南体育館,100,,4月1日 8:47,,,,measle_turquoise
+栃木県,日光市,中宮祠2478-25,ホテルアジアンガーデン,28,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,日光市,倉ケ崎605ー7,特別養護老人ホーム　誠心園,10,,3月21日 0:29,0288-21-7020,,,measle_turquoise
+栃木県,日光市,大沢町809-1,日光市大沢公民館,21,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,日光市,根室609-1,今市青少年スポーツセンター,55,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,日光市,町谷1866-1,かたくりの湯,5,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,栃木市,園部町2-14-9,老人福祉センター長寿園,44,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,栃木市,平井町638,太平少年自然の家,23,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,栃木市,都賀町合戦場599-6,ｱﾄﾞﾊﾞﾝｽ ﾌｨﾙﾑ ﾃﾞｨﾊﾞｲｽ ｲﾝｸ合戦場寮,40,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,芳賀郡益子町,大字益子4470,芳賀青年の家,54,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,芳賀郡茂木町,大字木幡252,昭和ふるさと村,13,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,足利市,名草中町1618-1,セミナーハウス,46,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,足利市,江川町3丁目62-2,北幸楽荘,8,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,那須塩原市,南郷屋5-163,那須塩原市健康長寿センター,28,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,那須烏山市,田野倉85-1,保健福祉センター,11,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,那須烏山市,野上７０３,旧野上小学校,,,3月21日 0:32,0287831111（市役所）　　穴場。現在30名程度まだまだ空きあり。入浴場なしだがバスで近くの温泉へ行っている。※栃木県です。,,,measle_yellow
+栃木県,那須郡那須町,大字寺子乙2516-36,那須町スポーツセンター,78,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,那須郡那須町,湯本157,なす高原自然の家,133,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,鹿沼市,下石川694-1,鹿沼総合体育館,161,,4月12日 15:00,,栃木県HP,,measle_turquoise
+栃木県,鹿沼市,御成橋町2-2197-1,菊沢コミュニティセンター,25,,4月12日 15:00,,栃木県HP,,measle_turquoise
+福島県,いわき市,,下山田下公民館,20,,4月13日 16:39,,福島県災害対策本部より,,measle_turquoise
+福島県,いわき市,,南大平集会所,30,30,4月13日 16:39,,福島県災害対策本部より,,measle_turquoise
+福島県,いわき市,,石住集会所,15,20,4月13日 16:39,,福島県災害対策本部より,,measle_turquoise
+福島県,いわき市,三和町下市萱字竹ノ内114-1,三和ふれあい館,0,,4月7日 17:46,,福島県災害対策本部による,"37.142735,140.687891",measle_grey
+福島県,いわき市,中央台飯野四丁目5番地の1,中央台公民館,61,,4月13日 16:39,,福島県災害対策本部による,"37.016208,140.920193",measle_turquoise
+福島県,いわき市,中央台高久2丁目24番地,中央台東小学校,158,,4月13日 16:39,電話番号: 0246-46-0630　備考: 楢葉町民ほか　老人多。,福島県災害対策本部による,"37.008354,140.928467",measle_turquoise
+福島県,いわき市,中央台鹿島二丁目１?１,中央台南小学校,153,,4月13日 16:39,電話番号: 0246-31-1020　備考: 楢葉町民ほか,福島県災害対策本部による,"37.002567,140.922562",measle_turquoise
+福島県,いわき市,内郷御厩町二丁目１２１番地,御厩小学校,153,,4月13日 16:39,,福島県災害対策本部による,"37.046258,140.869423",measle_turquoise
+福島県,いわき市,内郷綴町大木下28-1,内郷コミュニティセンター,145,,4月13日 16:39,,福島県災害対策本部による,"37.036506,140.859724",measle_turquoise
+福島県,いわき市,内郷綴町榎下40?1,宮沢集会所,20,,4月13日 16:39,,福島県災害対策本部による,"37.036384,140.857702",measle_turquoise
+福島県,いわき市,内郷高坂町台６,高坂小学校,14,,4月13日 16:39,,福島県災害対策本部による,"37.040689,140.857127",measle_turquoise
+福島県,いわき市,勿来町窪田小島11-1,勿来公民館,11,,4月7日 17:46,,福島県災害対策本部による,"36.889440,140.761613",measle_turquoise
+福島県,いわき市,勿来町窪田小島11-1,勿来市民公民館,28,,4月13日 16:39,,福島県災害対策本部より,"36.889470,140.761581",measle_turquoise
+福島県,いわき市,勿来町関田北作６番地,勿来第二中学校,61,,4月13日 16:39,,福島県災害対策本部による,,measle_turquoise
+福島県,いわき市,四倉町字５丁目４,四倉高等学校,176,1000,4月13日 16:39,第１体育館、第2体育館、柔剣道場。孤立しており、老人・子供多し,福島県災害対策本部による,"37.112484,140.988065",measle_turquoise
+福島県,いわき市,四倉町狐塚字小橋89,大浦公民館,15,,4月13日 16:39,,福島県災害対策本部より,"37.090364,140.969340",measle_turquoise
+福島県,いわき市,好間町中好間字中川原29?1,好間公民館,20,160,4月13日 16:39,,福島県災害対策本部による,"37.063353,140.856909",measle_turquoise
+福島県,いわき市,小名浜下神白字武城２３,小名浜高等学校,74,83,4月13日 16:39,,福島県災害対策本部による,"36.946925,140.922201",measle_turquoise
+福島県,いわき市,小名浜下神白字綱取８８,下神白三崎集会所,14,16,4月13日 16:39,,福島県災害対策本部による,"36.942801,140.916582",measle_turquoise
+福島県,いわき市,小名浜字古湊１９０,冷泉寺,5,3,4月13日 16:39,,福島県災害対策本部による,"36.947779,140.912831",measle_turquoise
+福島県,いわき市,小名浜岡小名字山田作15,小名浜第一中学校,5,28,4月7日 17:46,,福島県災害対策本部による,"36.949127,140.905353",measle_turquoise
+福島県,いわき市,小名浜岡小名字池袋11番地,小名浜第二中学校,52,43,4月13日 16:39,,福島県災害対策本部による,"36.955971,140.911927",measle_turquoise
+福島県,いわき市,小名浜愛宕上6-1,小名浜市民会館,32,37,4月13日 16:39,,福島県災害対策本部による,"36.954165,140.895259",measle_turquoise
+福島県,いわき市,小名浜愛宕上7-2,小名浜公民館,80,,4月13日 16:39,,福島県災害対策本部による,"36.954085,140.895216",measle_turquoise
+福島県,いわき市,小浜町西ノ作68,汐見が丘小学校,73,59,4月13日 16:39,,福島県災害対策本部による,"36.922577,140.830647",measle_turquoise
+福島県,いわき市,常磐上湯長谷町上ノ台７５番地,長倉小学校,31,,4月13日 16:39,,福島県災害対策本部による,"37.002451,140.837403",measle_turquoise
+福島県,いわき市,常磐上湯長谷町五反田５５,湯本高等学校,190,400,4月13日 16:39,定員: 400,福島県災害対策本部による,"36.997768,140.841827",measle_turquoise
+福島県,いわき市,常磐下湯長谷町勝善２１,磐崎小学校,32,,4月13日 16:39,,福島県災害対策本部による,"36.988078,140.851118",measle_turquoise
+福島県,いわき市,常磐水野谷町竜ヶ沢２３０,湯本第三小学校,24,,4月13日 16:39,,福島県災害対策本部による,"37.008390,140.863294",measle_turquoise
+福島県,いわき市,常磐湯本町上浅貝10,湯本第二中学校,36,,4月13日 16:39,アドレス：yumoto2-jh@city.iwaki.fukushima.jp,福島県災害対策本部による,"37.015423,140.858040",measle_turquoise
+福島県,いわき市,常磐湯本町上浅貝22-1,いわきゆったり館,72,,4月13日 16:39,,福島県災害対策本部による,"37.010683,140.855420",measle_turquoise
+福島県,いわき市,常磐湯本町字栄田11番地,湯本第一小学校,81,,4月13日 16:39,,福島県災害対策本部による,"37.003330,140.848358",measle_turquoise
+福島県,いわき市,常磐藤原町斑堂１１５?２,藤原小学校,58,,4月13日 16:39,,福島県災害対策本部による,"37.001548,140.822396",measle_turquoise
+福島県,いわき市,平上荒川字長尾３０,福島工業高等専門学校,135,,4月7日 17:46,,福島県災害対策本部による,"37.032975,140.889225",measle_turquoise
+福島県,いわき市,平下神谷字宿２５,草野小学校,59,,4月13日 16:39,電話番号: 0246-34-2207　備考: 楢葉町民ほか,福島県災害対策本部による,"37.071419,140.947904",measle_turquoise
+福島県,いわき市,平下荒川字中剃１?３,平工業高等学校,142,160,4月13日 16:39,,福島県災害対策本部による,"37.037189,140.902908",measle_turquoise
+福島県,いわき市,平下高久字原極６４,高久小学校,30,,4月13日 16:39,,福島県災害対策本部による,"37.029537,140.957825",measle_turquoise
+福島県,いわき市,平字三崎1-6,いわき芸術交流館　アリオス,132,,4月13日 16:39,,福島県災害対策本部による,"37.049870,140.889554",measle_turquoise
+福島県,いわき市,平字正内町6-1,平体育館,129,,4月13日 16:39,,福島県災害対策本部による,"37.054858,140.899952",measle_turquoise
+福島県,いわき市,平字高月７,磐城高等学校,34,100,4月13日 16:39,定員: 20　電話番号: 0246-23-2556,福島県災害対策本部による,"37.063183,140.879684",measle_turquoise
+福島県,いわき市,平沼ノ内字新街３５,沼の内公民館,34,,4月13日 16:39,,福島県災害対策本部による,"37.011953,140.971695",measle_turquoise
+福島県,いわき市,平藤間字千ヶ久保７６,藤間中学校,76,,4月13日 16:39,,福島県災害対策本部による,"37.036022,140.964249",measle_turquoise
+福島県,いわき市,植田町根小屋２５－４,植田中学校,5,,4月13日 16:39,,福島県災害対策本部より,"36.919362,140.786940",measle_turquoise
+福島県,いわき市,永崎字館１,江名中学校,74,89,4月13日 16:39,,福島県災害対策本部による,"36.959191,140.940896",measle_turquoise
+福島県,いわき市,江名字天ケ作130,江名小学校,140,152,4月13日 16:39,老人多。水・食糧不足。,福島県災害対策本部による,"36.971448,140.954328",measle_turquoise
+福島県,いわき市,泉町４丁目１３−１１,泉公民館,66,,4月13日 16:39,,福島県災害対策本部による,"36.951669,140.853753",measle_turquoise
+福島県,いわき市,洋向台３丁目,洋向台東公園集会所,47,48,4月13日 16:39,,福島県災害対策本部による,"36.967490,140.937616",measle_turquoise
+福島県,いわき市,田人町旅人字下平石191,田人ふれあい館,115,100,4月13日 16:39,満員,福島県災害対策本部による,"36.952212,140.704834",measle_turquoise
+福島県,いわき市,錦町中迎一丁目12-1,勿来体育館,100,,4月13日 16:39,,福島県災害対策本部による,"36.906235,140.793501",measle_turquoise
+福島県,いわき市,錦町細谷102-58,南の森スポーツパーク,273,,4月13日 16:39,,福島県災害対策本部による,"36.914181,140.765301",measle_blue
+福島県,二本松市,,岳下住民センター 婦人の家,38,100,4月17日 17:53,,福島県災害対策本部による,,measle_turquoise
+福島県,二本松市,三保内７２−１,岳下住民センター（体育館）,110,250,4月8日 18:47,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.588319,140.417800",measle_turquoise
+福島県,二本松市,亀谷１丁目５−１,二本松住民センター(体育館）,5,200,4月17日 17:53,浪江町民,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.594229,140.439120",measle_turquoise
+福島県,二本松市,太子堂２８２,大平住民センター（体育館）,122,255,4月8日 19:28,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.578562,140.474042",measle_turquoise
+福島県,二本松市,太田堺田95－1,旧下太田小学校,88,560,4月8日 18:45,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.593064,140.539390",measle_turquoise
+福島県,二本松市,太田字堺田４７−１,太田住民センター（体育館）,150,190,4月8日 19:31,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.593798,140.539693",measle_turquoise
+福島県,二本松市,岳温泉１の197,安達太良体育館,50,350,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.604662,140.355285",measle_turquoise
+福島県,二本松市,平石町３６５−１,石井住民センター（体育館）,84,250,4月8日 19:26,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.561453,140.460548",measle_turquoise
+福島県,二本松市,戸沢字下田１００,戸沢住民センター（体育館）,100,190,4月8日 19:58,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.569637,140.578402",measle_turquoise
+福島県,二本松市,木幡字叺内６５,木幡住民センター（公民館）,109,190,4月8日 20:26,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.619859,140.556624",measle_turquoise
+福島県,二本松市,永田字長坂4-2,JICA二本松,208,300,4月17日 17:53,定員: 324　備考: 受入予定あり,,"37.612404,140.341843",measle_blue
+福島県,二本松市,西新殿字西１,新殿地区体育館,53,130,4月8日 20:15,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.534730,140.557789",measle_turquoise
+福島県,二本松市,西町２２３−１,杉田住民センター,87,150,4月8日 19:25,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.560558,140.412084",measle_turquoise
+福島県,二本松市,郭内４丁目９７,城山第二体育館,50,230,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.603350,140.428445",measle_turquoise
+福島県,二本松市,金色４２４−１,二本松合同庁舎,37,50,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.584860,140.431050",measle_turquoise
+福島県,二本松市,針道字上台１３２,東和生きがいセンター,32,,4月8日 20:31,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.598251,140.580201",measle_turquoise
+福島県,二本松市,針道字堤崎25,旧針道小学校,5,750,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.598181,140.576562",measle_turquoise
+福島県,二本松市,針道字蔵下２３－１,東和第一体育館,31,300,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.596999,140.579367",measle_turquoise
+福島県,伊達市,,月舘老人福祉センター,2,,3月14日 16:00,電話番号: 024-573-3401,,"37.734612,140.609314",measle_turquoise
+福島県,伊達市,保原町字宮下１１１−４,保原第二体育館,40,150,4月7日 17:46,定員: 200　電話番号: 024-575-4166,福島県災害対策本部による,"37.821243,140.556244",measle_turquoise
+福島県,伊達市,保原町字舟橋１８０,伊達ふれあいセンター,53,250,4月17日 17:53,定員: 240　電話番号: 024-551-2247,福島県災害対策本部による,"37.815998,140.510925",measle_turquoise
+福島県,伊達市,保原町字西町１１３,保原ふれあいセンター,1,200,4月17日 17:53,,福島県災害対策本部より,"37.823935,140.551684",measle_turquoise
+福島県,伊達市,保原町所沢字東畑１００,柱沢公民館,15,50,4月17日 17:53,定員: 50　電話番号: 024-575-0860　備考: 浪江町,福島県災害対策本部による,"37.796646,140.568420",measle_turquoise
+福島県,伊達市,前川原37-1,伊達体育館,69,200,4月17日 17:53,,,"37.820450,140.507440",measle_turquoise
+福島県,伊達市,月舘町御代田字月崎山１?７,特別養護老人ホーム星風苑,,,3月18日 0:27,電話番号：024-573-3581　物資不足。,,"37.752224,140.603163",measle_yellow
+福島県,伊達市,梁川町字北町頭７０,梁川体育館,185,500,4月17日 17:53,,福島県災害対策本部による,"37.858328,140.614433",measle_turquoise
+福島県,伊達市,霊山町掛田字西裏１７,霊山中央公民館,73,150,4月17日 17:53,定員: 100　電話番号: 024-586-1314　備考: 双葉高校（予定）,福島県災害対策本部による,"37.783630,140.592514",measle_turquoise
+福島県,伊達市,霊山町掛田字西裏１７,霊山体育館,0,250,4月7日 17:46,定員: 500,福島県災害対策本部による,"37.783958,140.592630",measle_grey
+福島県,伊達郡国見町,大字大木戸字新田原３,大木戸ふれあいセンター,4,40,4月17日 17:53,,福島県災害対策本部による,"37.890378,140.571997",measle_turquoise
+福島県,伊達郡国見町,大字藤田字観月台15,観月台文化センター,63,,4月17日 17:53,体育館・施設,福島県災害対策本部による,"37.877048,140.542477",measle_turquoise
+福島県,伊達郡川俣町,大字小島字町畑8-1/,旧おじま小（おじまふるさと交流館）,82,950,4月17日 17:53,電話番号: 024-566-3297,福島県災害対策本部による,"37.697359,140.608239",measle_turquoise
+福島県,伊達郡桑折町,大字下郡字堂ノ前11-1,伊達崎公民館,6,90,4月17日 17:53,,福島県災害対策本部による,"37.850007,140.539728",measle_turquoise
+福島県,会津若松市,,あいづ総合体育館,69,300,4月17日 17:53,定員: 300　備考: 水・毛布あり,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.460323,139.925949",measle_turquoise
+福島県,会津若松市,一箕町大字八幡字八幡2番地の１,ふれあい体育館,88,200,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.510271,139.946069",measle_turquoise
+福島県,会津若松市,河東町浅山字石堀山45,河東総合体育館,68,250,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.546100,139.956636",measle_turquoise
+福島県,南会津郡下郷町,,ふれあいセンター,0,100,,,,"37.255581,139.872131",measle_grey
+福島県,南会津郡下郷町,,大川ふるさと公園（ｺﾐｭﾆﾃｨｾﾝﾀｰ）,0,400,4月8日 22:28,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.245041,139.856979",measle_grey
+福島県,南会津郡南会津町,松下,松ノ下多目的集会所,10,20,4月8日 22:32,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.207269,139.767955",measle_turquoise
+福島県,南会津郡南会津町,永田字東俣１６１−１,永田林業研修センター,5,42,4月13日 16:39,,福島県災害対策本部による,"37.198079,139.753004",measle_turquoise
+福島県,南会津郡南会津町,永田字枇杷影２,高齢者センター,0,80,4月8日 22:31,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.200247,139.759812",measle_grey
+福島県,南会津郡南会津町,田部原,田部原コミュニティセンター,13,20,4月8日 22:32,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.210736,139.801229",measle_turquoise
+福島県,南会津郡只見町,只見町大字黒谷字館658,朝日地区センター,4,80,4月13日 16:39,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.306934,139.366180",measle_turquoise
+福島県,南会津郡只見町,大字布沢字大久保５４４,森林の分校ふざわ,50,,4月8日 22:30,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.340027,139.476218",measle_turquoise
+福島県,南会津郡檜枝岐村,,村内の民宿・旅館,231,,4月8日 22:29,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf",,measle_blue
+福島県,南相馬市,原町区北長野字北原田２８８,石神第一小学校,78,,4月13日 16:39,,福島県災害対策本部による,"37.659147,140.934749",measle_turquoise
+福島県,南相馬市,原町区東町２丁目,原町第一小学校,128,552,4月13日 16:39,,福島県災害対策本部による,"37.642858,140.962942",measle_turquoise
+福島県,南相馬市,西町三丁目2,鹿島保健センター,52,60,4月13日 16:39,,福島県災害対策本部より,,measle_turquoise
+福島県,南相馬市,鹿島区西町２丁目１１６,デイサービス「ひまわり」,36,65,4月13日 16:39,,福島県災害対策本部による,"37.708318,140.960898",measle_turquoise
+福島県,喜多方市,字押切１丁目86,押切川公園体育館,73,780,4月17日 17:53,定員: 780,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.654114,139.863098",measle_turquoise
+福島県,大沼郡三島町,,森の校舎かたくり,4,100,4月13日 16:39,(団体用),"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.488472,139.660599",measle_turquoise
+福島県,大沼郡会津美里町,,あやめ荘,12,200,4月13日 16:39,楢葉町避難所,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.458622,139.845825",measle_turquoise
+福島県,大沼郡会津美里町,,新鶴体育館,46,150,4月8日 22:24,定員: 150,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.507160,139.811554",measle_turquoise
+福島県,大沼郡会津美里町,,新鶴構造改善センター,75,100,4月13日 16:39,楢葉町避難所,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.511353,139.831223",measle_turquoise
+福島県,大沼郡会津美里町,,新鶴高齢者福祉センター,33,40,4月13日 16:39,体調不良者用,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.512527,139.829163",measle_turquoise
+福島県,大沼郡会津美里町,,農村環境改善センター,111,230,4月13日 16:39,楢葉町避難所,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.435696,139.879501",measle_turquoise
+福島県,大沼郡会津美里町,,高田体育館,75,100,4月13日 16:39,"定員: 閉鎖
+自治体ホームページに避難所情報自体なし。","福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.462597,139.845596",measle_turquoise
+福島県,大沼郡会津美里町,大字八木沢字伴右エ門前,旧赤沢幼稚園,0,80,4月13日 16:39,楢葉町避難所,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.475190,139.818624",measle_grey
+福島県,大沼郡会津美里町,大字八木沢字伴右エ門前3503,旧赤沢小,12,150,4月13日 16:39,楢葉町避難所,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.475604,139.817502",measle_turquoise
+福島県,大沼郡会津美里町,字舘ノ南甲544,旧高田幼児保育園,65,,4月13日 16:39,楢葉町避難所,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.459986,139.841940",measle_turquoise
+福島県,大沼郡昭和村,,しらかば会館,3,15,4月17日 17:53,定員: 15,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.355392,139.591400",measle_turquoise
+福島県,大沼郡昭和村,,昭和村公民館,0,15,4月17日 17:53,定員: 10,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.335403,139.610657",measle_grey
+福島県,大沼郡昭和村,,生活改善センター,0,10,4月8日 22:58,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.326656,139.685730",measle_grey
+福島県,安達郡大玉村,,アットホーム大玉,121,150,4月17日 17:53,定員: 100　電話番号: 0243-48-2026,,"37.582272,140.336075",measle_turquoise
+福島県,安達郡大玉村,,フォレストパークあだたら,106,110,4月17日 17:53,定員: 100　電話番号: 0243-48-2040　備考: コテージ１８棟、乳幼児・高齢者優先,福島県災害対策本部による,"37.580936,140.328735",measle_turquoise
+福島県,安達郡大玉村,大山字大江田中３７−１,大山公民館,30,30,4月17日 17:53,,福島県災害対策本部による,"37.545346,140.387871",measle_turquoise
+福島県,安達郡大玉村,大山字大皿久保１１０−５,大玉温泉　金泉閣,32,30,4月17日 17:53,,福島県災害対策本部による,"37.574582,140.348648",measle_turquoise
+福島県,安達郡大玉村,大山字藤ノ木８２,北部ふれあいセンター,27,30,4月17日 17:53,,福島県災害対策本部による,"37.556269,140.383526",measle_turquoise
+福島県,安達郡大玉村,大山田池５５−１,東部ふれあいセンター,26,30,4月17日 17:53,,福島県災害対策本部による,"37.534339,140.371006",measle_turquoise
+福島県,安達郡大玉村,玉井字台37,大玉村地域包括支援センター,24,30,4月17日 17:53,,福島県災害対策本部による,"37.534714,140.370037",measle_turquoise
+福島県,安達郡大玉村,玉井字橋本１３９,西部ふれあいセンター,22,30,4月17日 17:53,,福島県災害対策本部による,"37.540780,140.349221",measle_turquoise
+福島県,岩瀬郡鏡石町,,老人福祉センター,26,,4月8日 22:05,定員: 80,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.244736,140.349670",measle_turquoise
+福島県,東白川郡棚倉町,,ルネサンス棚倉,15,50,4月13日 16:39,,,"37.034973,140.398102",measle_turquoise
+福島県,東白川郡矢祭町,大字小田川字春田１６−１,山村開発センター,8,150,4月13日 16:39,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","36.865790,140.424370",measle_turquoise
+福島県,河沼郡会津坂下町,,会津自然の家,59,200,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.581356,139.799408",measle_turquoise
+福島県,河沼郡会津坂下町,,川西公民館,53,200,4月17日 17:53,定員: 200,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.587837,139.811020",measle_turquoise
+福島県,河沼郡会津坂下町,,農村環境改善センター,17,100,4月13日 16:39,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.588730,139.799484",measle_turquoise
+福島県,河沼郡柳津町,,銀山荘,39,80,4月17日 17:53,定員: 80,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.528622,139.727203",measle_turquoise
+福島県,河沼郡湯川村,,ユースピアゆがわ,23,72,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.565659,139.887939",measle_turquoise
+福島県,田村市,,田村市総合体育館,59,1500,4月17日 17:53,定員: 1500　備考: 大熊町民,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.438194,140.601089",measle_turquoise
+福島県,田村市,,船引町旧春山小学校,276,700,4月17日 17:53,電話番号: 電話なし　備考: 大熊町民,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.437885,140.546783",measle_blue
+福島県,田村市,大越町牧野字堺６８－２,たむら（相談支援田村事業所）,15,,4月13日 16:39,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.363359,140.610543",measle_turquoise
+福島県,田村市,常葉町常葉字町裏１,常葉公民館,0,170,4月8日 22:00,電話番号: 0240-77-2013,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.437065,140.643695",measle_grey
+福島県,田村市,船引町光陽台26番地,株式会社デンソー東日本,320,2000,4月8日 21:58,乳幼児・老人含。,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.436221,140.522782",measle_blue
+福島県,田村郡三春町,,町民体育館,100,200,4月17日 17:53,定員: 200,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.431576,140.490356",measle_turquoise
+福島県,田村郡三春町,大字実沢字楢梨２１５−５,沢石会館,67,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.487538,140.537590",measle_turquoise
+福島県,田村郡小野町,,町民体育館,113,,4月17日 17:53,広野町民,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.289406,140.621307",measle_turquoise
+福島県,白河市,北中川原３０,白河市中央体育館,69,280,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.123452,140.229333",measle_turquoise
+福島県,相馬市,,はまなす館（福祉センター）,453,,4月13日 16:39,電話番号: 0244-36-1905,福島県災害対策本部による,"37.807079,140.918381",measle_blue
+福島県,相馬市,,中村第一小学校体育館,150,,4月7日 17:46,電話番号: 0244-35-3168,福島県災害対策本部による,"37.796368,140.917191",measle_turquoise
+福島県,相馬市,,八幡小学校体育館,59,,4月7日 17:46,電話番号: 0244-35-3208,福島県災害対策本部による,"37.776787,140.914169",measle_turquoise
+福島県,相馬市,,向陽中学校体育館,117,,4月13日 16:39,電話番号: 0244-35-2348　老人多。,福島県災害対策本部による,"37.792526,140.920044",measle_turquoise
+福島県,相馬市,,飯豊小学校体育館,79,,4月13日 16:39,電話番号: 0244-35-3209,福島県災害対策本部による,"37.788815,140.948914",measle_turquoise
+福島県,相馬市,中村字北町55－1,スポーツアリーナそうま,146,,4月13日 16:39,電話番号: 0244-37-2309,福島県災害対策本部による,"37.798447,140.918762",measle_turquoise
+福島県,相馬市,中村字川沼３１５,中央児童センター,3,,4月7日 17:46,,福島県災害対策本部による,"37.805184,140.914142",measle_turquoise
+福島県,相馬市,中村字本町１３２,中村第一中学校,92,,4月13日 16:39,,福島県災害対策本部による,"37.799807,140.907104",measle_turquoise
+福島県,相馬市,北飯渕字阿弥陀堂200番地,旧相馬女子高等学校（相馬東高等学校）,484,,4月13日 16:39,老人多。,福島県災害対策本部による,"37.806016,140.939115",measle_blue
+福島県,相馬市,和田字北迫２６１,中村第二中学校,96,,4月13日 16:39,,福島県災害対策本部による,"37.817456,140.945728",measle_turquoise
+福島県,相馬市,尾浜字細田１,中村第二小学校,172,,4月13日 16:39,,福島県災害対策本部による,"37.821353,140.943702",measle_turquoise
+福島県,相馬市,石上,民家,20,,3月21日 0:29,老人多。,,"37.825468,140.918971",measle_turquoise
+福島県,相馬郡新地町,新地町福田,新地町福田小学校,150,,3月18日 14:05,,,,measle_turquoise
+福島県,相馬郡新地町,福田字中里15,福田小学校,100,220,4月13日 16:39,,福島県災害対策本部による,"37.889801,140.893265",measle_turquoise
+福島県,相馬郡新地町,谷地小屋字愛宕１,新地小学校,263,220,4月13日 16:39,満員,福島県災害対策本部による,"37.874532,140.916236",measle_blue
+福島県,相馬郡新地町,谷地小屋字愛宕３８,尚英中学校,48,280,4月13日 16:39,,福島県災害対策本部による,"37.872960,140.914464",measle_turquoise
+福島県,相馬郡新地町,谷地小屋字樋掛田40-1,保健センター,150,150,4月13日 16:39,満員,福島県災害対策本部による,"37.876268,140.920322",measle_turquoise
+福島県,相馬郡新地町,駒ヶ嶺字新町11,駒ヶ嶺公民館,27,189,4月13日 16:39,福島第一原発　避難指示エリアからの避難者,福島県災害対策本部による,"37.847416,140.916640",measle_turquoise
+福島県,石川郡古殿町,,古殿町公民館,0,250,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.089050,140.564560",measle_grey
+福島県,石川郡古殿町,,旧大久田小学校,2,,4月17日 17:53,町民自主避難者（夜間のみ）,福島県HP,,measle_turquoise
+福島県,石川郡古殿町,,竹貫集落センター,8,,4月17日 17:53,,福島県HP,,measle_turquoise
+福島県,石川郡古殿町,,薄木集会所,7,,4月17日 17:53,,,,measle_turquoise
+福島県,石川郡浅川町,大字浅川字背戸谷地143-5,浅川町中央公民館,14,80,4月8日 22:00,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.081545,140.411204",measle_turquoise
+福島県,石川郡玉川村,大字小高字中畷１０,玉川村就業改善センター,6,30,4月17日 17:53,,福島県災害対策本部より,"37.210939,140.408433",measle_turquoise
+福島県,石川郡石川町,,石川町総合体育館,73,400,4月17日 17:53,定員: 300　備考: 広野・楢葉町民,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.144176,140.435501",measle_turquoise
+福島県,福島市,佐倉下字附ノ川１−３,ハイテクプラザ福島,8,30,4月17日 17:53,,福島県災害対策本部による,"37.740198,140.403998",measle_turquoise
+福島県,福島市,佐原字神事場１番地,あづま総合運動公園,750,1400,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.723373,140.363770",measle_blue
+福島県,福島市,入江町１−１,働く婦人の家,11,,4月7日 17:46,,福島県災害対策本部による,"37.769705,140.478568",measle_turquoise
+福島県,福島市,大笹生,十六沼体育館,43,,4月17日 17:53,空きがまだまだあります。食事は毎日3食。トイレも困りません。お風呂は飯坂温泉にいけば無料のところがあります。,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.799734,140.402564",measle_turquoise
+福島県,福島市,太平寺字町ノ内16-1-2,社会福祉法人なごみ,,,4月8日 22:14,"お年寄りが多い
+0245736161",自治体避難所リストに記載なし,"37.731740,140.458581",measle_yellow
+福島県,福島市,御山字松川原5-1,清水学習センター,65,,4月8日 18:21,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.780859,140.456915",measle_turquoise
+福島県,福島市,松川町浅川字笠松１１−２,南体育館,40,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.677546,140.466019",measle_turquoise
+福島県,福島市,森合字戸ノ内４３ 寿アパートＡ,野田町集会所,30,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.768263,140.452885",measle_turquoise
+福島県,福島市,森合町6－34,福島県立盲学校,0,50,4月7日 17:46,定員: 50,福島県災害対策本部による,"37.762745,140.461166",measle_grey
+福島県,福島市,笹木野字折杉４１−１,吾妻支所(学習センター),23,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.760163,140.419561",measle_turquoise
+福島県,福島市,笹谷字西小楢４,ファーム樅の木,3,30,4月17日 17:53,,福島県災害対策本部による,"37.802617,140.427625",measle_turquoise
+福島県,福島市,荒井字地蔵原乙１５−１,福島県自治研修センター,90,,4月17日 17:53,満員,福島県ウェブサイト配布資料 http://www.pref.fukushima.jp/j/hinanjolist0407.pdf,"37.706932,140.361364",measle_turquoise
+福島県,福島市,蓬莱町４丁目１−２,蓬莱学習センター,24,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.698360,140.472851",measle_turquoise
+福島県,福島市,金谷川１,福島大学,50,200,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.683761,140.455836",measle_turquoise
+福島県,福島市,鎌田字中江１,北信支所(学習センター),63,,4月8日 18:35,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.796522,140.478993",measle_turquoise
+福島県,福島市,霞町１−５２,敬老センター,23,,4月8日 18:32,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.761611,140.469195",measle_turquoise
+福島県,福島市,飯坂町字筑前27-1,パルセ飯坂,127,,4月17日 17:53,飯坂温泉10含む,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.832022,140.448725",measle_turquoise
+福島県,福島市,飯坂町字銀杏６−１１,飯坂支所(学習センター),20,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.827557,140.447161",measle_turquoise
+福島県,福島市,飯野町明治芳作６２?１,飯野地区体育館,32,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.661734,140.513104",measle_turquoise
+福島県,耶麻郡北塩原村,,その他施設(村で受入),5,,4月13日 16:39,村内の旅館等(連絡先は役場),"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf",,measle_turquoise
+福島県,耶麻郡北塩原村,,宿泊施設に個人的に避難している方,35,,4月13日 16:39,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf",,measle_turquoise
+福島県,耶麻郡猪苗代町,,ばんだい荘,0,,4月13日 16:39,要援護者(障害者),"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.557743,140.070648",measle_grey
+福島県,耶麻郡猪苗代町,字五輪原7136-1,磐梯青少年交流の家,206,600,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.565670,140.082428",measle_blue
+福島県,耶麻郡猪苗代町,字五輪原７１３６,昭和女子大学会津キャンプ村,24,50,4月17日 17:53,女性・子供含。,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.565114,140.079904",measle_turquoise
+福島県,耶麻郡磐梯町,大字更科字清水平6838番地68,リゾートイン磐梯,167,300,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.579928,140.027733",measle_turquoise
+福島県,耶麻郡西会津町,登世島字西林乙２５２９?１０,さゆり公園体育館,42,240,4月17日 17:53,収容人数240人まだまだ余裕あり,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.599414,139.644489",measle_turquoise
+福島県,西白河郡中島村,大字滑津字二ツ山75,中島体育センター,4,100,4月13日 16:39,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.150881,140.346632",measle_turquoise
+福島県,西白河郡泉崎村,,中央公民館,0,40,4月13日 16:39,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.148430,140.302719",measle_grey
+福島県,西白河郡泉崎村,,泉崎村保健福祉総合センター,5,60,4月13日 16:39,定員: 60,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.158150,140.291595",measle_turquoise
+福島県,西白河郡矢吹町,,三神公民館,33,75,4月17日 17:53,,,,measle_turquoise
+福島県,西白河郡矢吹町,,農業短期大学校体育館,9,100,4月17日 17:53,備考: トイレ有り,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.198742,140.340698",measle_turquoise
+福島県,西白河郡西郷村,,太陽の国厚生センター,137,100,4月17日 17:53,定員: 100 満員,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.133163,140.119705",measle_turquoise
+福島県,西白河郡西郷村,,那須甲子少年自然の家,202,400,4月17日 17:53,備考: 全枠避難予定,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.169621,140.024780",measle_blue
+福島県,西白河郡西郷村,大字熊倉字折口原76-1,西郷村文化センター,27,100,4月17日 17:53,日帰り温泉施設の無料送迎付入浴あり,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.141215,140.154589",measle_turquoise
+福島県,郡山市,,あぶくま養護学校,10,100,4月17日 17:53,"備考: ユラックスから移動
+閉鎖予定日4/17","福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.374493,140.420486",measle_turquoise
+福島県,郡山市,,ろう学校,51,128,4月13日 16:39,備考: ユラックスから移動,,"37.398388,140.319733",measle_turquoise
+福島県,郡山市,,大槻東地域公民館,35,,4月17日 17:53,,福島県HP,,measle_turquoise
+福島県,郡山市,,郡山市青少年会館,59,,4月17日 17:53,満員,福島県HP,,measle_turquoise
+福島県,郡山市,上野山5番地,テクノアカデミー,26,100,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.388223,140.407138",measle_turquoise
+福島県,郡山市,南２丁目５２,ビックパレットふくしま,1785,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.369441,140.373947",measle_blue
+福島県,郡山市,喜久田町堀之内字下河原1,喜久田ふれあいセンター,7,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.453240,140.343003",measle_turquoise
+福島県,郡山市,大槻町字中前田５６−１,大槻ふれあいセンター,15,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.387577,140.319958",measle_turquoise
+福島県,郡山市,大槻町字六角５０−１,小山田地域公民館,15,,4月13日 16:39,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.404567,140.332464",measle_turquoise
+福島県,郡山市,大槻町笹ノ台６８,郡山市立中央公民館　針生分館,13,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.384372,140.349902",measle_turquoise
+福島県,郡山市,安積町成田字西島坂１,林業研究センター,33,40,4月17日 17:53,定員: 50　電話番号: 024-945-2160,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.356945,140.345173",measle_turquoise
+福島県,郡山市,安積町荒井字前田２４−１,柴宮地域公民館,31,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.373859,140.339087",measle_turquoise
+福島県,郡山市,富久山町久保田字桝形４３,行徳地域公民館,10,50,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.418558,140.378340",measle_turquoise
+福島県,郡山市,富久山町福原字泉崎１８１−１,サンライフ富久山,26,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.419839,140.390505",measle_turquoise
+福島県,郡山市,富田町字大十内８５−２２,富田西地域公民館,9,,4月8日 21:44,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.416677,140.334711",measle_turquoise
+福島県,郡山市,富田町字天神林４０−１,富田東公民館,20,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.423560,140.357739",measle_turquoise
+福島県,郡山市,日和田町高倉字下中道１１６,農業総合センター,96,140,4月13日 16:39,"定員: 140　備考: 双葉町民
+※満員","福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.473255,140.388107",measle_turquoise
+福島県,郡山市,朝日１丁目２９−９,総合福祉センター,56,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.401234,140.358767",measle_turquoise
+福島県,郡山市,本町１丁目２０−１８,橘地域公民館,17,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.392047,140.385954",measle_turquoise
+福島県,郡山市,桑野５丁目５−１,大島地域公民館,17,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.410792,140.355773",measle_turquoise
+福島県,郡山市,芳賀２丁目６−１,芳賀地域公民館,12,,4月13日 16:39,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.390931,140.396511",measle_turquoise
+福島県,郡山市,赤木町７−１９,赤木地域公民館,17,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.404701,140.382804",measle_turquoise
+福島県,郡山市,逢瀬町多田野字中丸山46,郡山自然の家,87,100,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.386452,140.280228",measle_turquoise
+福島県,郡山市,郡山市富田町,郡山養護学校,125,250,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.429852,140.345520",measle_turquoise
+福島県,郡山市,開成5丁目25-63,安積高校,35,40,4月17日 17:53,閉鎖予定日4/17,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.366356,140.387802",measle_turquoise
+福島県,郡山市,開成１丁目５－１２,野球場,18,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.397779,140.360384",measle_turquoise
+福島県,郡山市,開成３丁目１４−１０,開成地域公民館,15,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.393152,140.351443",measle_turquoise
+福島県,郡山市,香久池１丁目１５−１５,障害者福祉センター,1,,4月8日 21:48,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.380134,140.370964",measle_turquoise
+福島県,郡山市,麓山１丁目１６−１７,21世紀記念公園,55,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.395894,140.375169",measle_turquoise
+福島県,須賀川市,中曽根６０,市民スポーツ会館,48,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.300920,140.384764",measle_turquoise
+福島県,須賀川市,八幡町１３４,中央公民館,21,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.286191,140.372380",measle_turquoise
+福島県,須賀川市,岩渕字岡谷地46,稲田地域体育館,27,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.263617,140.322190",measle_turquoise
+福島県,須賀川市,牛袋町5,須賀川アリーナ,138,,4月17日 17:53,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.291866,140.356073",measle_turquoise
+福島県,須賀川市,諏訪町67-1,保健センター,22,,4月13日 16:39,,"福島県ウェブサイト配布資料
+http://www.pref.fukushima.jp/j/hinanjolist0407.pdf","37.289788,140.373483",measle_turquoise
+茨城県,つくば市,二の宮2-20,つくば市洞峰公園,29,,4月13日 9:00,福島県の原発事故による避難者の受け入れ（受け入れ終了）,災害対策本部（情報班）,,measle_turquoise
+茨城県,つくば市,竹園2-20-3,つくば国際会議場,225,,4月8日 18:00,福島県の原発事故による避難者の受け入れ（受け入れ終了）,つくば市ホームページより,,measle_blue
+茨城県,久慈郡大子町,北田気６６２,東京理科大　大子研修センター,2,,4月13日 9:00,,災害対策本部（情報班）,"36.765287,140.363611",measle_turquoise
+茨城県,北茨城市,,マウントあかね,21,,4月13日 9:00,,茨城県HP,,measle_turquoise
+茨城県,北茨城市,,大津コミュニティセンター,17,,4月13日 9:00,,茨城県HP,,measle_turquoise
+茨城県,北茨城市,,大津小,20,,4月6日 18:51,,北茨城市ホームページより,"36.836517,140.788300",measle_turquoise
+茨城県,北茨城市,,市民体育館,64,,4月13日 9:00,,北茨城市ホームページより,"36.800488,140.753494",measle_turquoise
+茨城県,取手市,台宿２丁目４−１,取手第一高等学校,2,,4月5日 9:00,,取手市ホームページより,"35.897530,140.065676",measle_turquoise
+茨城県,取手市,白山６丁目２−８,競輪場宿舎,106,,4月13日 9:00,,北茨城市ホームページより,"35.899926,140.056461",measle_turquoise
+茨城県,取手市,長兵衛新田193 - 2.,取手市役所　かたらいの郷,30,,4月5日 9:00,,取手市ホームページより,,measle_turquoise
+茨城県,土浦市,大岩田１０５１,霞ヶ浦総合公園内 霞ヶ浦文化体育会館 水郷体育館,450,,3月21日 13:26,029-823-4811　福島からの被災者避難場所,,"36.060031,140.218015",measle_blue
+茨城県,小美玉市,堅倉835番地,美野里公民館,40,,3月25日 21:00,,災害対策本部(情報班) 2,"36.239277,140.352615",measle_turquoise
+茨城県,小美玉市,高崎300番地2,しみじみの家,23,,3月25日 21:00,,災害対策本部(情報班) 2,"36.154572,140.332321",measle_turquoise
+茨城県,常総市,大塚戸町310番地,あすなろの里,16,,4月13日 9:00,,災害対策本部（情報班）,"36.005108,139.922885",measle_turquoise
+茨城県,日立市,助川町５-１１-３,鳩が丘スポーツセンター,15,,4月7日 16:30,0294-24-2845,日立市ホームページより,"36.590941,140.640002",measle_turquoise
+茨城県,水戸市,五軒町１丁目２−１２,五軒市民センター,37,,4月13日 9:00,,水戸市災害対策本部より 4/8 9:00現在,"36.379604,140.466638",measle_turquoise
+茨城県,水戸市,全隈町８０−１,少年自然の家,27,,4月13日 0:00,福島県民からの受け入れ,水戸市災害対策本部より 4/8 9:00現在,"36.410926,140.384678",measle_turquoise
+茨城県,水戸市,千波町１３９６−４,千波市民センター,,,4月8日 0:00,,水戸市災害対策本部より 4/8 9:00現在,"36.358223,140.467966",measle_yellow
+茨城県,水戸市,柳町２丁目５−８,竹隈市民センター,42,,4月13日 9:00,,水戸市災害対策本部より 4/8 9:00現在,"36.366872,140.490112",measle_turquoise
+茨城県,潮来市,辻779,潮来保健センター,10,,4月13日 9:00,,災害対策本部（情報班）,"35.949761,140.556358",measle_turquoise
+茨城県,牛久市,女化町８９４,牛久市総合福祉センター,15,,4月13日 9:00,他県よりの避難者,http://www.city.ushiku.ibaraki.jp/em2.htm,"35.947765,140.173075",measle_turquoise
+茨城県,神栖市,,平泉コミュニティセンター,99,,4月13日 9:00,,神栖市ホームページより,"35.906197,140.634552",measle_turquoise
+茨城県,稲敷市,,ふれあいセンター,4,,4月13日 9:00,,稲敷市ホームページによる,"35.913956,140.293015",measle_turquoise
+茨城県,稲敷市,江戸崎２１４８−２,江戸崎福祉センター,6,,4月13日 9:00,,災害対策本部（情報班）,"35.960190,140.314941",measle_turquoise
+茨城県,稲敷郡美浦村,受領1470,光と風の丘公園,34,,4月13日 9:00,,災害対策本部（情報班）,"36.002316,140.304990",measle_turquoise
+茨城県,稲敷郡阿見町,大字廻戸３７２,福祉センターまほろば,5,,4月13日 9:00,,災害対策本部（情報班）,"36.042866,140.223088",measle_turquoise
+茨城県,結城市,大字鹿窪５１４,生きがいふれあいセンター,4,,4月13日 9:00,,災害対策本部（情報班）,"36.276253,139.886119",measle_turquoise
+茨城県,鉾田市,当間２２８,鉾田市老人福祉センターともえ荘,13,,4月13日 9:00,,災害対策本部（情報班）,"36.153020,140.484493",measle_turquoise
+茨城県,高萩市,,総合福祉センター,36,,4月13日 9:00,,災害対策本部(情報班) 2,"36.719707,140.717072",measle_turquoise
+茨城県,龍ケ崎市,中里３丁目２−１,たつのこアリーナ,15,300,4月13日 9:00,他県よりの受け入れ,災害対策本部（情報班）,"35.926496,140.205781",measle_turquoise
+茨城県,龍ケ崎市,川原代町５０１４,総合福祉センター,0,50,,他県よりの受け入れ,龍ケ崎市ホームページより,"35.904378,140.161839",measle_grey
+青森県,八戸市,城下３丁目１−１７,三八城公民館,5,,4月8日 3:00,,八戸市ホームページより。2011/04/07 06:00現在,"40.520405,141.487869",measle_turquoise
+青森県,八戸市,大字市川町字桔梗野官地,海上自衛隊体育館 （市川地区）,97,,4月8日 3:07,,八戸市ホームページより。2011/04/07 06:00現在,"40.555392,141.455394",measle_turquoise
+青森県,八戸市,大字市川町字赤畑１９−２,市川公民館,36,,4月8日 3:00,,八戸市ホームページより。2011/04/07 06:00現在,"40.578447,141.440913",measle_turquoise
+青森県,八戸市,大字湊町字中道６４−７,湊公民館,39,,3月12日 16:00,,防災消防課,"40.521835,141.530930",measle_turquoise
+青森県,八戸市,大字鮫町字住吉町１４−１,鮫公民館,26,,4月8日 3:05,,八戸市ホームページより。2011/04/07 06:00現在,"40.530315,141.557755",measle_turquoise
+青森県,八戸市,大字鮫町字棚久保１４−４８,種差生活館,4,,4月8日 3:03,,八戸市ホームページより。2011/04/07 06:00現在,"40.506251,141.609889",measle_turquoise
+青森県,八戸市,白銀３丁目２−１４,白銀公民館,11,,4月8日 3:05,,八戸市ホームページより。2011/04/07 06:00現在,"40.522598,141.546234",measle_turquoise
