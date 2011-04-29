@@ -2,48 +2,88 @@
 # -*- coding: utf-8 -*-
 # $Id$
 
+# グーグル避難所情報サイトが提供しているFusionTableのCSVデータをウィキ形式に変換するスクリプト
+
 require "kconv"
 require "rubygems"
 require "fastercsv"
 
 if $0 == __FILE__
-   cont = ARGF.read
-   csv = FasterCSV.parse( cont.toutf8 )
-
+   data = {}
    done = {}
    none_target = {}
-   csv.shift # skip first line (header).
-   csv.each do |pref,area,city,district,name,population,capacity,update_date,update_time,source,notes,latlng,color|
-      name.gsub!( /コミセン/, "コミュニティセンター" )
-      city = "一関市" if city == "一関"
-      city_n = city.gsub( /\A.*?郡/, "" )
-      pagename = if name.index( city_n ) == 0
-      		    name
-		 else
-		    city_n + name
-		 end
-      if not name =~ /公民館|コミュニティセンター|コミュニティー?センター?|市民センター|地区センター/
-         none_target[ pref ] ||= []
-	 none_target[ pref ] << pagename
-	 next
-      end
-      capacity_str = if capacity
-                        if capacity =~ /^\d+$/
-                           "*最大#{ capacity }名 収容可能"
+   ARGV.each do |f|
+      cont = open( f ){|io| io.read }
+      csv = FasterCSV.parse( cont.toutf8, { :headers => true } )
+      ## header = csv.shift # skip first line (header).
+      csv.each do |c|
+         c["Name"].gsub!( /コミセン/, "コミュニティセンター" )
+         c["City"] = "一関市" if c["City"] == "一関"
+         c["Name"].gsub!( /�|�/, "" )
+         city_n = c["City"].gsub( /\A.*?郡/, "" )
+         pagename = if c["Name"].index( city_n ) == 0
+                       c["Name"]
+                    else
+                       city_n + c["Name"]
+                    end
+         if not c["Name"] =~ /公民館|コミュニティセンター|コミュニティー?センター?|市民センター|地区センター/
+            none_target[ c["Prefecture"] ] ||= []
+            none_target[ c["Prefecture"] ] << pagename
+            next
+         end
+         capacity_str = if c["Capacity"]
+                           if c["Capacity"] =~ /^\d+$/
+                              "*最大#{ c["Capacity"] }名 収容可能"
+                           else
+                              "*" << c["Capacity"]
+                           end
                         else
-                           "*" << capacity
+                           ""
                         end
-                     else
-                        ""
-                     end
-      template = <<EOF
+         updated = nil
+         if c["UpdateDate"]
+            updated = "更新 #{ c["UpdateDate"] }"
+            updated << " " + c["UpdateTime"].to_s.gsub( /:00$/, "" ) if c["UpdateTime"]
+         elsif c["Updated"]
+            updated = c["Updated"]
+         end
+         data[ pagename ] ||= {}
+         %w[ Prefecture City District LatLng ].each do |k|
+            key = k.downcase.intern
+            #p [ k , key, c[k] ]
+            if data[ pagename ][ key ].nil? or data[ pagename ][ key ].empty?
+               val = c[k]
+               if val and val.size > 0
+                  data[ pagename ][ key ] = val
+               end
+            end
+         end
+         if data[ pagename ][ :capacity_str ].nil? or data[ pagename ][ :capacity_str ].empty?
+            if capacity_str and capacity_str.size > 0
+               data[ pagename ][ :capacity_str ] = capacity_str
+            end
+         end
+         data[ pagename ][ :size ] ||= []
+         size_s = ""
+         size_s << "*避難者#{ c["Population"] }名 #{ "（#{ updated }）" if updated }" if c["Population"]
+         size_s << "※#{ c["Notes"] }" if c["Notes"]
+         data[ pagename ][ :size ] << size_s
+         data[ pagename ][ :source ] ||= []
+         data[ pagename ][ :source ] << "*[http://shelter-info.appspot.com/maps Google避難所情報]#{ c["Source"] ? ", #{ c["Source"] }" : "" } #{ "（#{ updated }）" if updated }"
+         done[ c["Prefecture"] ] ||= []
+         done[ c["Prefecture"] ] << pagename
+      end
+   end
+   data.each do |pagename, data|
+      open( "#{ pagename }.txt", "w" ) do |io|
+         io.print <<EOF
 {{subst:新規施設
 | 名称=#{ pagename }
 | よみ=
-| 都道府県=#{ pref }
+| 都道府県=#{ data[:prefecture] }
 | 施設種別=公民館
-| 所在地  =#{ pref }#{ city }#{ district }
-| 緯度経度=#{ latlng }
+| 所在地  =#{ data[:prefecture] }#{ data[:city] }#{ data[:district] }
+| 緯度経度=#{ data[:latlng] }
 | 電話番号=
 | FAX=
 | メールアドレス=
@@ -58,21 +98,18 @@ if $0 == __FILE__
 | 運営情報=
 | 救援状況=
 | 避難受入情報=
-| 避難受入規模=#{ population ? "*避難者#{ population }名 #{ update_date ? "（更新 #{ update_date }）" : "" }" : "" }#{ notes ? "," + notes : "" }
-#{ capacity_str }
+| 避難受入規模=#{ data[:size].uniq.join("\n") }
+#{ data[:capacity_str] ? "*" + data[:capacity_str] : "" }
 | その他=
 | 記入者=
-| 元情報=*[http://shelter-info.appspot.com/maps Google避難所情報]#{ source ? ", #{ source }" : "" } #{ update_date ? "（更新 #{ update_date } #{ update_time.to_s.gsub( /:00$/, "" ) }）" : "" }
+| 元情報=#{ data[:source].uniq.join("\n") }
 }}
 EOF
-      open( "#{ pagename }.txt", "w" ){|io| io.print template }
-      done[ pref ] ||= []
-      done[ pref ] << pagename
-      #puts notes
+      end
    end
    done.each_key do |k|
       puts "*#{k}"
-      puts "**対象施設 (#{done[k].size}): #{done[k].map{|e| "[[#{ e }]]" }.join(", ") }"
-      puts "**非対象施設 (#{none_target[k].size}): #{none_target[k].map{|e| "[[#{ e }]]" }.join(", ") }"
+      puts "**対象施設 (#{done[k].uniq.size}): #{done[k].uniq.map{|e| "[[#{ e }]]" }.join(", ") }"
+      puts "**非公民館施設 (#{none_target[k].uniq.size}): #{none_target[k].uniq.map{|e| "[[#{ e }]]" }.join(", ") }"
    end
 end
