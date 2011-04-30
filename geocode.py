@@ -95,6 +95,11 @@ class GeocodeBot:
         latlon = None
         try:
             latlon = self.geocoding( address )
+            if not latlong:
+                address2 = re.sub( ur'^〒?\d\d\d-?(\d\d\d\d)?\s*', "", address )
+                pywikibot.output( address2 )
+                if address != address2:
+                    latlon = self.geocoding( address2 )
         except GeocodingOverQueryLimitError:
             pywikibot.output( u"OVER_QUERY_LIMIT error at %s." % page.title(asLink=True) )
         if not latlon:
