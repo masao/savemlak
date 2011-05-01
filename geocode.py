@@ -108,7 +108,7 @@ class GeocodeBot:
                         latlng = self.geocoding( address_noparen )
                 if not latlng:
                     address_nobuilding = re.sub( ur'[0-9０-９\.,・、]+\s*[F階]$', "", address_noparen )
-                    address_nobuilding = re.sub( ur'[^0-9０-９]*$', "", address_noparen )
+                    address_nobuilding = re.sub( ur'[^0-9０-９]*$', "", address_nobuilding )
                     if address_nobuilding != address_noparen and address_nobuilding != "":
                         pywikibot.output( address_nobuilding )
                         latlng = self.geocoding( address_nobuilding )
