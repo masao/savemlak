@@ -89,26 +89,38 @@ class GeocodeBot:
 	    line = u"*%s (所在地 記載なし)" % page.title(asLink=True)
             print line.encode('utf_8')
             return
-        address = match_address.group( 1 )
+        address = match_address.group( 1 ).strip()
         #print address
 
-        latlon = None
+        latlng = None
         try:
-            latlon = self.geocoding( address )
-            if not latlong:
+            latlng = self.geocoding( address )
+            if not latlng:
                 address2 = re.sub( ur'^〒?\d\d\d-?(\d\d\d\d)?\s*', "", address )
-                pywikibot.output( address2 )
                 if address != address2:
-                    latlon = self.geocoding( address2 )
+                    pywikibot.output( address2 )
+                    latlng = self.geocoding( address2 )
+                if not latlng:
+                    address_noparen = re.sub( ur'\([^\)]+\)$', "", address2 )
+                    address_noparen = re.sub( ur'（[^）]+）$', "", address2 )
+                    if address_noparen != address2:
+                        pywikibot.output( address_noparen )
+                        latlng = self.geocoding( address_noparen )
+                if not latlng:
+                    address_nobuilding = re.sub( ur'[0-9０-９\.,・、]+\s*[F階]$', "", address_noparen )
+                    address_nobuilding = re.sub( ur'[^0-9０-９]*$', "", address_noparen )
+                    if address_nobuilding != address_noparen:
+                        pywikibot.output( address_nobuilding )
+                        latlng = self.geocoding( address_nobuilding )
         except GeocodingOverQueryLimitError:
             pywikibot.output( u"OVER_QUERY_LIMIT error at %s." % page.title(asLink=True) )
-        if not latlon:
+        if not latlng:
 	    line = "*%s (%s)" % ( page.title(asLink=True), address.strip() )
             print line.encode('utf_8')
             return
 
         text = re.sub( pattern_address,
-                       ur'\g<0>|緯度経度=%s,%s\n' % ( latlon["lat"], latlon["lon"] ),
+                       ur'\g<0>|緯度経度=%s,%s\n' % ( latlng["lat"], latlng["lng"] ),
                        text )
 
         # only save if something was changed
@@ -172,7 +184,7 @@ class GeocodeBot:
             return None
 
         result = {}
-        result['lon'] = str(obj["results"][0]["geometry"]["location"]["lng"])
+        result['lng'] = str(obj["results"][0]["geometry"]["location"]["lng"])
         result['lat'] = str(obj["results"][0]["geometry"]["location"]["lat"])
         return result
 
