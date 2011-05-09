@@ -62,7 +62,8 @@ class LibraryCategoryBot:
         """
         Loads the given page, does some changes, and saves it.
         """
-        cats = page.categories()
+        #pywikibot.output( "-%s" % page.title() )
+        cats = page.categories(get_redirect=True)
         #for cat in cats:
         #    pywikibot.output( "-%s" %  cat )
         univ_lib   = pywikibot.Page(pywikibot.getSite(), u'Category:大学図書館')
@@ -70,6 +71,7 @@ class LibraryCategoryBot:
         special_lib= pywikibot.Page(pywikibot.getSite(), u'Category:専門図書館')
         public_lib = pywikibot.Page(pywikibot.getSite(), u'Category:公共図書館')
         ndl_lib    = pywikibot.Page(pywikibot.getSite(), u'Category:国立国会図書館')
+        kominkan_lib= pywikibot.Page(pywikibot.getSite(), u'Category:公民館図書室')
         if public_lib in cats:
             return
         elif univ_lib in cats:
@@ -77,6 +79,8 @@ class LibraryCategoryBot:
         elif school_lib in cats:
             return
         elif special_lib in cats:
+            return
+        elif kominkan_lib in cats:
             return
         elif ndl_lib in cats:
             return
