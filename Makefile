@@ -1,6 +1,7 @@
 TEXT = check_yomi_all.txt
 NOGEOCODE = nogeocode.txt
 LIBARRYCATEGORY = library_category.txt
+MUSEUMCATEGORY  = museum_category.txt
 
 all: library_category geocode check_yomi_all
 
@@ -8,6 +9,11 @@ library_category:
 	echo "適切なサブカテゴリを持たない図書館施設一覧です。" > $(LIBARRYCATEGORY)
 	./library_category.py -cat:図書館 >> $(LIBARRYCATEGORY)
 	./put.py -page:利用者:Masao/LibraryCategory -file:$(LIBARRYCATEGORY) -summary:サブカテゴリを持たない図書館施設一覧を更新
+
+museum_category:
+	echo "適切なサブカテゴリを持たない博物館施設一覧です。" > $(MUSEUMCATEGORY)
+	./museum_category.py -cat:博物館 >> $(MUSEUMCATEGORY)
+	./put.py -page:saveMLAK:博物館サブカテゴリの追加/修正一覧 -file:$(MUSEUMCATEGORY) -summary:サブカテゴリを持たない博物館施設一覧を更新
 
 geocode:
 	echo "自動で「緯度経度」項目が入手できなかった施設一覧です:" > $(NOGEOCODE)
