@@ -3,7 +3,7 @@ NOGEOCODE = nogeocode.txt
 LIBARRYCATEGORY = library_category.txt
 MUSEUMCATEGORY  = museum_category.txt
 
-all: library_category geocode check_yomi_all
+all: library_category museum_category geocode check_yomi_all
 
 library_category:
 	echo "適切なサブカテゴリを持たない図書館施設一覧です。" > $(LIBARRYCATEGORY)
