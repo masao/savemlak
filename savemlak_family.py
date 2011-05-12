@@ -14,6 +14,7 @@ class Family(family.Family):
                 'ja': 'savemlak.jp',
                 'en': 'savemlak.jp',
         }
+	self.nocapitalize = [ 'ja', 'en' ]
         self.namespaces[1] = {
             'ja': u'トーク',
         }
