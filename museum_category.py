@@ -65,6 +65,8 @@ class MuseumCategoryBot:
         """
         Loads the given page, does some changes, and saves it.
         """
+        if page.isRedirectPage():
+            return
         #pywikibot.output( "-%s" % page.title() )
         cats = page.categories(get_redirect=True)
         #for cat in cats:
