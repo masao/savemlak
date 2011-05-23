@@ -57,7 +57,14 @@ class MuseumCategoryBot:
     	self.count = { "target" : [], "done" : [] }
         pywikibot.setAction( self.summary )
         musecat = catlib.Category( pywikibot.getSite(), u'Category:博物館' )
+        ignore_list = [
+            catlib.Category( pywikibot.getSite(), u'Category:登録博物館' ),
+            catlib.Category( pywikibot.getSite(), u'Category:博物館相当施設' ),
+            catlib.Category( pywikibot.getSite(),  u'Category:全国博物館園職員録' ),
+            catlib.Category( pywikibot.getSite(), u'Category:全国博物館総覧' ),
+        ]
         catlist = musecat.subcategoriesList()
+        catlist = set( catlist ) - set( ignore_list )
         for page in self.generator:
             self.treat(page, catlist)
 
