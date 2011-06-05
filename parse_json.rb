@@ -17,9 +17,10 @@ puts <<EOF
 !編集ユーザ数
 !編集ユーザ
 EOF
+count = 0
+users = Hash.new(0)
 ARGV.each do |f|
    changes = JSON.load( open(f) )["query"]["recentchanges"]
-   users = Hash.new(0)
    changes.each do |e|
       users["[[特別:投稿記録/#{ e["user"] }|#{ e["user"] }]]"] += 1
    end
@@ -30,6 +31,8 @@ ARGV.each do |f|
 | #{ users.size }
 | #{ users.keys.sort_by{|e| users[e] }.reverse.join(", ") }
 EOF
+   count += changes.size
 end
-
 puts "|}"
+
+STDERR.puts "#{ count } edits, #{ users.keys.size } users"
