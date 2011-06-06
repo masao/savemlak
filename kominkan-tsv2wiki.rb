@@ -16,7 +16,7 @@ ARGF.each do |line|
    else
       next
    end
-   puts name
+   #puts name
    tel = fax = nil
    if tel1 and tel2 and tel3
       tel = [ tel1, tel2, tel3 ].join( "-" )
@@ -24,6 +24,7 @@ ARGF.each do |line|
    if fax1 and fax2 and fax3
       fax = [ fax1, fax2, fax3 ].join( "-" )
    end
+   puts [ identifier[0..4], LOCAL[ identifier[ 0..4 ] ], name ]
 #    open( name + ".txt", "w" ) do |io|
 #       print <<EOF
 # {{subst:新規施設
