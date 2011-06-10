@@ -18,21 +18,24 @@ puts <<EOF
 !編集ユーザ
 EOF
 count = 0
-users = Hash.new(0)
+users = Hash.new( 0 )
 ARGV.each do |f|
+   #p users
    changes = JSON.load( open(f) )["query"]["recentchanges"]
+   cur_users = Hash.new(0)
    changes.each do |e|
-      users["[[特別:投稿記録/#{ e["user"] }|#{ e["user"] }]]"] += 1
+      cur_users["[[特別:投稿記録/#{ e["user"] }|#{ e["user"] }]]"] += 1
+      users[ e["user"] ] += 1
    end
    puts <<EOF
 |-
 | #{ File.basename( f ).gsub(/\.json$/,"") }時台
 | #{ changes.size }
-| #{ users.size }
-| #{ users.keys.sort_by{|e| users[e] }.reverse.join(", ") }
+| #{ cur_users.size }
+| #{ cur_users.keys.sort_by{|e| cur_users[e] }.reverse.join(", ") }
 EOF
    count += changes.size
 end
 puts "|}"
-
+STDERR.puts users.inspect
 STDERR.puts "#{ count } edits, #{ users.keys.size } users"
