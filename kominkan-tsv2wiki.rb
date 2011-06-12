@@ -25,7 +25,6 @@ ARGF.each do |line|
       fax = [ fax1, fax2, fax3 ].join( "-" )
    end
    pagename = name.sub( /\A#{ PREF[ pref_code ] }(.+郡)?/, "" )
-   pagename = pagename.sub( /:/, "：" )
    local_gov = LOCAL[ identifier[0..4] ]
    local_gov2 = local_gov.gsub( /ケ/, "ヶ" )
    #puts [local_gov, local_gov2]
@@ -43,6 +42,12 @@ ARGF.each do |line|
    #puts [ identifier[0..4], LOCAL[ identifier[ 0..4 ] ], name, pagename ]
    #puts pagename
 
+   # escaping invalid pagename:
+   pagename = pagename.sub( /:/, "：" )
+   pagename = pagename.sub( /[\[\(\<]/, " (" )
+   pagename = pagename.sub( /[\]\)\>]/, " )" )
+
+   # extracting note:
    note = ""
    pagename = pagename.sub( /[\s　]*(※.*)/ ) do |m|
       note = $1.dup
