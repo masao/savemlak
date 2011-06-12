@@ -43,9 +43,9 @@ ARGF.each do |line|
    #puts pagename
 
    # escaping invalid pagename:
-   pagename = pagename.sub( /:/, "：" )
-   pagename = pagename.sub( /[\[\(\<]/, " (" )
-   pagename = pagename.sub( /[\]\)\>]/, " )" )
+   pagename = pagename.gsub( /:/, "：" )
+   pagename = pagename.gsub( /[\[\(\<]/, " (" )
+   pagename = pagename.gsub( /[\]\)\>]/, ")" )
 
    # extracting note:
    note = ""
