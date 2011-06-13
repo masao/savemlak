@@ -46,6 +46,7 @@ ARGF.each do |line|
    pagename = pagename.gsub( /:/, "：" )
    pagename = pagename.gsub( /[\[\(\<]/, " (" )
    pagename = pagename.gsub( /[\]\)\>]/, ")" )
+   pagename = pagename.gsub( /[\*]/, "" )
 
    # extracting note:
    note = ""
@@ -53,6 +54,8 @@ ARGF.each do |line|
       note = $1.dup
       ""
    end
+
+   pagename = pagename.gsub( /\s+/, " " ).strip
 
    open( pagename + ".txt", "w" ) do |io|
       io.print <<EOF
