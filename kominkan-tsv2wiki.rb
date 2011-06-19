@@ -66,7 +66,7 @@ ARGF.each do |line|
 | 所在地=#{ "〒" if zipcode  }#{ zipcode } #{ address }
 | 電話番号=#{ tel }
 | FAX=#{ fax }
-| 備考=（典拠：全国公民館連合会調査・平成20年7月）
+| 備考=（典拠：全国公民館連合会調査）
 #{ note }
 }}
 EOF
