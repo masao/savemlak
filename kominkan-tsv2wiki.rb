@@ -12,7 +12,7 @@ ARGF.each do |line|
    pref_code = pref_code.to_i
    #p [ note1, pref_code, identifier, name, zipcode, address, tel1, tel2, tel3, fax1, fax2, fax3 ] if not PREF[ pref_code ]
    case pref_code
-   when 1..15, 22
+   when 1..15, 22, 19, 20
    else
       next
    end
