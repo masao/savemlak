@@ -27,9 +27,11 @@ ARGV.each do |f|
       cur_users["[[特別:投稿記録/#{ e["user"] }|#{ e["user"] }]]"] += 1
       users[ e["user"] ] += 1
    end
+   t = File.basename( f, ".json" )
+   t = $1.dup.to_i if t =~ /-(\d\d?)$/
    puts <<EOF
 |-
-| #{ File.basename( f ).gsub(/\.json$/,"") }時台
+| #{ t }時台
 | #{ changes.size }
 | #{ cur_users.size }
 | #{ cur_users.keys.sort_by{|e| cur_users[e] }.reverse.join(", ") }

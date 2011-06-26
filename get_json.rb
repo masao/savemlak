@@ -41,7 +41,7 @@ if $0 == __FILE__
          json_obj["query"]["recentchanges"] += JSON.parse( json2 )["query"]["recentchanges"]
          json = JSON.dump( json_obj )
       end
-      open( "#{ "%02d" % i }.json", "w" ) do |io|
+      open( "#{ date }-#{ "%02d" % i }.json", "w" ) do |io|
          io.print json
       end
    end
