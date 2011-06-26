@@ -17,15 +17,7 @@ require "json"
 
 BASEURL = "http://savemlak.jp/savemlak/api.php?action=query&list=recentchanges&rcdir=newer&rclimit=500&rcprop=user%7Ctitle%7Ctimestamp&format=json"
 
-def get_json( start_t, end_t )
-   json = open( BASEURL + "&rcstart=#{ start_t }&rcend=#{ end_t }" ) do |http|
-      http.read
-   end
-end
-
-if $0 == __FILE__
-   date = ARGV[0] ? Date.parse( ARGV[0] ) : Date.today
-   puts "getting data of #{ date.to_s }..."
+def save_json_onday( date )
    time = Time.local( date.year, date.month, date.day ).gmtime
    #p date.to_s
    #p time
@@ -45,4 +37,15 @@ if $0 == __FILE__
          io.print json
       end
    end
+end
+def get_json( start_t, end_t )
+   json = open( BASEURL + "&rcstart=#{ start_t }&rcend=#{ end_t }" ) do |http|
+      http.read
+   end
+end
+
+if $0 == __FILE__
+   date = ARGV[0] ? Date.parse( ARGV[0] ) : Date.today
+   puts "getting data of #{ date.to_s }..."
+   save_json_onday( date )
 end
