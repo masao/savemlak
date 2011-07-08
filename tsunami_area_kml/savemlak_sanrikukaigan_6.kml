@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>test</name>
+	<open>1</open>
+	<Document>
+	<NetworkLink>
+		<name>saveMLAK</name>
+		<Link>
+			<href>http://savemlak.jp/wiki/%E7%89%B9%E5%88%A5:%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/-5B-5BCoordinates::37.713702,140.983429%2830km%29-5D-5D/-3FCoordinates/format%3Dkml/linkabsolute%3Dyes/limit%3D500/text%3Dtext/title%3Dtitle</href>
+		</Link>
+	</NetworkLink>
+	</Document>
+	<Document>
+	<NetworkLink>
+		<name>津波浸水マップ</name>
+		<Link>
+			<href>http://stlab.iis.u-tokyo.ac.jp/eq_data/eq_line/Sendaiwan3_line.kml</href>
+		</Link>
+	</NetworkLink>
+	</Document>
+</Folder>
+</kml>
