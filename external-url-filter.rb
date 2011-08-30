@@ -48,7 +48,7 @@ if $0 == __FILE__
       when /twitter\.com\Z/
          next
       end
-      next if title =~ /jdarchive\/seeds/
+      next if title =~ /\A(jdarchive\/seeds|Yegusa\/jdarchive)/
       count[ url ] ||= []
       count[ url ] << fullpagename( title, ns )
    end
