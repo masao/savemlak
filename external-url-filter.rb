@@ -21,36 +21,12 @@ def parse_url( url )
 end
 
 def fullpagename( title, ns = 0 )
-   ns = ns.to_i
+   #ns = ns.to_i
    case ns
-   when 0
+   when 0, "0"
       title
-   when 1
-      "Talk:" << title
-   when 2
-      "User:" << title
-   when 3
-      "User talk:" << title
-   when 4
-      "saveMLAK:" << title
-   when 5
-      "saveMLAK talk:" << title
-   when 6
-      "File:" << title
-   when 8
-      "MediaWiki:" << title
-   when 10
-      "Template:" << title
-   when 12
-      "Help:" << title
-   when 14
-      "Category:" << title
-   when 274
-      "Widget:" << title
-   when 108
-      "Concept:" << title
    else
-      raise "Unknown namespace: #{ ns }"
+      "{{ns:#{ ns }}}:#{ title }"
    end
 end
 
@@ -67,14 +43,16 @@ if $0 == __FILE__
          warn "#{ e }\t#{ page_id }"
       end
       next if uri.nil?
+      next if uri.scheme == "mailto"
       case uri.host
       when /twitter\.com\Z/
          next
       end
+      next if title =~ /jdarchive\/seeds/
       count[ url ] ||= []
       count[ url ] << fullpagename( title, ns )
    end
-   count.keys.sort_by{|e| -1 * count[e].size }.each do |url|
-      puts [ url, count[url] ].join("\t")
+   count.keys.sort_by{|e| [ -1 * count[e].size, e ] }.each do |url|
+      puts [ url, count[url].map{|e| "[[#{ e }]]" }.join(" ") ].join("\t")
    end
 end
