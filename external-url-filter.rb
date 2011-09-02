@@ -53,6 +53,6 @@ if $0 == __FILE__
       count[ url ] << fullpagename( title, ns )
    end
    count.keys.sort_by{|e| [ -1 * count[e].size, e ] }.each do |url|
-      puts [ url, count[url].map{|e| "[[#{ e }]]" }.join(" ") ].join("\t")
+      puts [ url, count[url].map{|e| "[[#{ e }]]" }.sort.join(" ") ].join("\t")
    end
 end
