@@ -2,6 +2,7 @@ TEXT = check_yomi_all.txt
 NOGEOCODE = nogeocode.txt
 LIBARRYCATEGORY = library_category.txt
 MUSEUMCATEGORY  = museum_category.txt
+TODAY = `date +%Y%m%d`
 
 all: library_category museum_category geocode check_yomi_all
 
@@ -63,5 +64,8 @@ check_yomi_all:
 	./check_yomi.py -outputwiki -cat:長野県 >> $(TEXT)
 	./put.py -page:利用者:Masao/Yomi_Check -file:$(TEXT) -summary:「よみ」未付与の項目一覧を更新
 
+check_jdarchive:
+	./external-url-filter.rb savemlak-el-all.txt | ./external-url-diff.rb savemlak-el-20*.txt | ./external-url-style.rb - > $(TODAY)
+	./createpage.py -page:saveMLAK:jdarchive/seeds/$(TODAY) -file:$(TODAY) "-summary:jdarchive seeds list at $(TODAY)"
 
 .PHONY: check_yomi check_yomi_all geocode library_category
