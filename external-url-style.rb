@@ -2,18 +2,15 @@
 # -*- coding: utf-8 -*-
 
 if $0 == __FILE__
-   hash = {}
-   fname_stdout = false
-   if ARGV[0] == "-"
+   basename = nil
+   if ARGV[0] =~ /\A-base:(.+)\Z/
       ARGV.shift
-      fname_stdout = true
+      basename = $1
    end
+
+   hash = {}
    ARGF.each_with_index do |line, i|
-      if fname_stdout
-         fname = "-"
-      else
-         fname = ( ( i/20 ) + 1 ).to_s
-      end
+      fname = ( ( i/20 ) + 1 ).to_s
       url, pages, = line.chomp.split( /\t/ )
       if not hash[ fname ]
          hash[ fname ] = <<EOF
@@ -30,12 +27,10 @@ EOF
       # break if fname_split and i > 100
    end
 
-   hash.keys.sort.each do |fname|
-      if fname_stdout
-         io = $stdout
-      else
-         io = open( fname, "w" )
-      end
+   hash.keys.sort.each do |name|
+      fname = name
+      fname = "#{ basename }-#{ name }" if basename
+      io = open( fname, "w" )
       io.print <<EOF
 {{saveMLAK:jdarchive/seeds/doc}}
 {| class="wikitable"
@@ -44,7 +39,7 @@ EOF
 !リンク元ページ
 !入力済み?
 !備考
-#{ hash[ fname ] }
+#{ hash[ name ] }
 |}
 [[Category:jdarchive/seeds]]
 [[Category:jdarchive作業中]]
