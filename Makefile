@@ -65,7 +65,11 @@ check_yomi_all:
 	./put.py -page:利用者:Masao/Yomi_Check -file:$(TEXT) -summary:「よみ」未付与の項目一覧を更新
 
 check_jdarchive:
-	./external-url-filter.rb savemlak-el-all.txt | ./external-url-diff.rb savemlak-el-20*.txt | ./external-url-style.rb - > $(TODAY)
-	./createpage.py -page:saveMLAK:jdarchive/seeds/$(TODAY) -file:$(TODAY) "-summary:jdarchive seeds list at $(TODAY)"
+	./external-url-filter.rb savemlak-el-all.txt | ./external-url-diff.rb savemlak-el-20*.txt | ./external-url-style.rb -base:$(TODAY)
+	for f in $(TODAY)-*; do \
+	  ./createpage.py -page:saveMLAK:jdarchive/seeds/$$f -file:$$f "-summary:jdarchive seeds list at $(TODAY)"; \
+	done;
+	ruby -e 'puts ARGV.map{|f| "*{{jdarchive-list|#{ f }}}" }' $(TODAY)-* > jdarchive-list
+	cd ../pywikipedia; python add_text.py -page:saveMLAK:jdarchive/seeds -textfile:../savemlak/jdarchive-list -always
 
 .PHONY: check_yomi check_yomi_all geocode library_category
