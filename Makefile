@@ -70,6 +70,6 @@ check_jdarchive:
 	  ./createpage.py -page:saveMLAK:jdarchive/seeds/$$f -file:$$f "-summary:jdarchive seeds list at $(TODAY)"; \
 	done;
 	ruby -e 'puts ARGV.map{|f| "*{{jdarchive-list|#{ f }}}" }' $(TODAY)-* > jdarchive-list
-	cd ../pywikipedia; python add_text.py -page:saveMLAK:jdarchive/seeds -textfile:../savemlak/jdarchive-list -always
+	cd ../pywikipedia; python add_text.py -noreorder -page:saveMLAK:jdarchive/seeds -textfile:../savemlak/jdarchive-list -always
 
 .PHONY: check_yomi check_yomi_all geocode library_category
