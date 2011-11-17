@@ -58,7 +58,7 @@ class CheckYomiBot:
         for page in self.generator:
             self.treat(page)
         if self.outputwiki:
-            for page in (set(self.count["target"])-set(self.count["done"])):
+            for page in sorted(set(self.count["target"])-set(self.count["done"])):
                 print( (u"*%s" % page).encode('utf_8') )
         print "Done: %.01f%% (%d/%d)" % \
               ( 100*len(self.count["done"]) / float(len(self.count["target"])),
