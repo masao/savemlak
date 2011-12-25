@@ -20,6 +20,7 @@ class Family(family.Family):
         }
         self.namespaces[2] = {
             'ja': u'利用者',
+            'en': u'利用者',
         }
         self.namespaces[3] = {
             'ja': u'利用者・トーク',
