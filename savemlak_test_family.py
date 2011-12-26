@@ -11,8 +11,8 @@ class Family(family.Family):
         self.name = 'savemlak_test'
 
         self.langs = {
-                'ja': 'mwr.mediacom.keio.ac.jp',
-                'en': 'mwr.mediacom.keio.ac.jp',
+                'ja': 'etk2.sakura.ne.jp',
+                'en': 'etk2.sakura.ne.jp',
         }
         self.namespaces[1] = {
             'ja': u'トーク',
@@ -76,4 +76,4 @@ class Family(family.Family):
         return "1.18alpha"
 
     def scriptpath(self, code):
-        return '/~tanabe/savemlak/'
+        return '/smw/'
