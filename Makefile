@@ -13,7 +13,7 @@ library_category:
 
 museum_category:
 	echo "適切なサブカテゴリを持たない博物館施設一覧です。" > $(MUSEUMCATEGORY)
-	./museum_category.py -cat:博物館 >> $(MUSEUMCATEGORY)
+	./museum_category.py -cat:博物館 -ns:0 >> $(MUSEUMCATEGORY)
 	./put.py -page:saveMLAK:博物館サブカテゴリの追加/修正一覧 -file:$(MUSEUMCATEGORY) -summary:サブカテゴリを持たない博物館施設一覧を更新
 
 geocode:
