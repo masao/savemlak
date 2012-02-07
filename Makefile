@@ -1,3 +1,4 @@
+CHECK_NAME_FILE = check_name.txt
 TEXT = check_yomi_all.txt
 NOGEOCODE = nogeocode.txt
 LIBARRYCATEGORY = library_category.txt
@@ -22,8 +23,12 @@ geocode:
 	./put.py -page:利用者:Masao/NoGeocode -file:$(NOGEOCODE) -summary:「緯度経度」自動取得による更新を反映
 
 
+check_name:
+	./check_name.py -cat:施設 -ns:0 > $(CHECK_NAME_FILE)
+	./put.py -page:利用者:Masao/Name_Check -file:$(CHECK_NAME_FILE) -summary:名称不一致の項目一覧を更新
+
 check_yomi:
-	./check_yomi.py -always -cat:文書館 -cat:博物館 -cat:図書館
+	./check_yomi.py -always -cat:施設 -ns:0
 
 check_yomi_all:
 	-rm -f $(TEXT)
@@ -72,4 +77,4 @@ check_jdarchive:
 	ruby -e 'puts ARGV.sort_by{|e| e.split(/-/).map{|e2| e2.to_i} }.map{|f| "*{{jdarchive-list|#{ f }}}" }' $(TODAY)-* > jdarchive-list
 	cd ../pywikipedia; python add_text.py -noreorder -page:saveMLAK:jdarchive/seeds -textfile:../savemlak/jdarchive-list -always
 
-.PHONY: check_yomi check_yomi_all geocode library_category
+.PHONY: check_name check_yomi check_yomi_all geocode library_category
