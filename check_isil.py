@@ -73,8 +73,9 @@ class ISILBot:
         if match_isil and len(match_isil.group( 1 ).strip()) > 0:
             return
 
-        text = re.sub( ur'}}',
-                       ur'|ISIL=%s\n}}' % self.isil,
+        facility_pattern = re.compile( ur'({{施設.*?)}}', re.DOTALL )
+        text = re.sub( facility_pattern,
+                       ur'\1|ISIL=%s\n}}' % self.isil,
                        text )
 
         # only save if something was changed
