@@ -32,6 +32,8 @@ cols.each do |col|
       header << :note
    when /\A\s*\|== その他 ==/o
       header << :others
+   else
+      header << nil
    end
 end
 p header
@@ -47,7 +49,7 @@ ARGF.each do |line|
             data[ :categories ] ||= []
             data[ :categories ] << e
          else
-            raise "unknown column: #{ i }: #{ e }"
+            warn "unknown column: #{ i }: #{ e }"
          end
       end
    end
