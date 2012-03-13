@@ -40,7 +40,10 @@ if $0 == __FILE__
             user = contributor.content
             if contributor.find( "./mw:username" ) and contributor.find( "./mw:username" )[0]
                user = contributor.find( "./mw:username" )[0].content
-         elsif contributor.find( "./mw:ip" ) and contributor.find( "./mw:ip" )[0]
+               if revision.find( "./mw:comment" ) and revision.find( "./mw:comment" )[0] and revision.find( "./mw:comment" )[0].content == "ロボットによる編集: check Yomi field"
+                  user = contributor.find( "./mw:username" )[0].content + ":yomi"
+               end
+            elsif contributor.find( "./mw:ip" ) and contributor.find( "./mw:ip" )[0]
                user = contributor.find( "./mw:ip" )[0].content
             end
             puts [ date, title, user ].join( "\t" )
