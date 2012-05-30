@@ -33,7 +33,7 @@ class IMLinkToCommentBot:
         'en': u'Robot: Add Internet Museum link to comment',
         'ja': u'ロボットによる編集: インターネットミュージアムリンクを追加',
     }
-    im_comment = u'情報提供元: [http://www.museum.or.jp インターネットミュージアム]'
+    im_comment = u'情報提供協力: [http://www.museum.or.jp インターネットミュージアム]'
 
     def __init__(self, generator, dry, always, input, outputwiki):
         """
