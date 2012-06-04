@@ -122,8 +122,8 @@ class IMLinkToCommentBot:
             pywikibot.output(u"Page %s does not exist; skipping."
                              % page.title(asLink=True))
         except pywikibot.IsRedirectPage:
-            pywikibot.output(u"Page %s is a redirect; skipping."
-                             % page.title(asLink=True))
+            pywikibot.output(u"Page %s is a redirect to %s; skipping."
+                             % ( page.title(asLink=True), page.getRedirectTarget().title(asLink=True) ))
         else:
             return text
         return None
