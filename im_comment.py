@@ -72,6 +72,12 @@ class IMLinkToCommentBot:
 	if match:
 	    comment = self.im_comment
 	    if len( match.group(1).strip() ) > 0:
+                pattern_im = re.compile( ur'http:\/\/www.museum.or.jp' )
+                match_im = pattern_im.search( match.group(1) )
+                if match_im:
+                    pywikibot.output(u"Page %s is already done; skipping."
+                                     % page.title(asLink=True))
+                    return
 		comment += "<br />\n" + match.group(1).strip()
             text = re.sub( pattern, ur'|備考=%s\n' % comment, text )
 	else:
@@ -99,7 +105,7 @@ class IMLinkToCommentBot:
                     try:
                         # Save the page
                         page.put(text)
-                    except pywikibot.LockedPage:
+                    except pywikibot.LockedPage: 
                         pywikibot.output(u"Page %s is locked; skipping."
                                          % page.title(asLink=True))
                     except pywikibot.EditConflict:
