@@ -26,8 +26,9 @@ if $0 == __FILE__
    pages.each do |page|
       revisions = page.find( "./mw:revision" ).to_a
       # puts revisions.size
-      if revisions[0].find( "./mw:text" )[0].content == "ここに本文が入ります。"
-         revisions.shift
+      revisions.reject! do |r|
+         text = r.find( "./mw:text" )[0].content
+         text == "ここに本文が入ります。" or text =~ /\A#(REDIRECT|転送)/
       end
       next if revisions.empty?
 
