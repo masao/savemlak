@@ -83,7 +83,7 @@ class GeocodeBot:
             else:
                 return
 
-        pattern_address = re.compile( ur'\|\s*所在地\s*=([^\|]*)' )
+        pattern_address = re.compile( ur'\|\s*所在地\s*=([^\|\}]*)' )
         match_address = pattern_address.search( text )
         if not match_address or len(match_address.group(1).strip()) == 0:
 	    line = u"*%s (所在地 記載なし)" % page.title(asLink=True)
@@ -177,16 +177,19 @@ class GeocodeBot:
         io = urllib.urlopen( url )
         content = io.read()
         #print "%s" % content
-        obj = json.loads(content)
-        if obj["status"] == "OVER_QUERY_LIMIT":
-            raise GeocodingOverQueryLimitError( u'Geocoding "OVER_QUERY_LIMIT" error for %s.' % address )
-        elif obj["status"] != "OK":
-            return None
-
-        result = {}
-        result['lng'] = str(obj["results"][0]["geometry"]["location"]["lng"])
-        result['lat'] = str(obj["results"][0]["geometry"]["location"]["lat"])
-        return result
+        try:
+            obj = json.loads(content)
+            if obj["status"] == "OVER_QUERY_LIMIT":
+                raise GeocodingOverQueryLimitError( u'Geocoding "OVER_QUERY_LIMIT" error for %s.' % address )
+            elif obj["status"] != "OK":
+                return None
+            result = {}
+            result['lng'] = str(obj["results"][0]["geometry"]["location"]["lng"])
+            result['lat'] = str(obj["results"][0]["geometry"]["location"]["lat"])
+            return result
+        except ValueError:
+            pywikibot.output( u"invalid JSON format returned from geocoding api at %s:" % address )
+            pywikibot.output( u">> %s" % content )
 
 def main():
     # This factory is responsible for processing command line arguments
