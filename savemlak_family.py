@@ -43,12 +43,6 @@ class Family(family.Family):
         self.namespaces[103] = {
             'ja': u'Property talk',
         }
-        self.namespaces[104] = {
-            'ja': u'Type',
-        }
-        self.namespaces[105] = {
-            'ja': u'Type talk',
-        }
         self.namespaces[106] = {
             'ja': u'Form',
         }
@@ -75,7 +69,7 @@ class Family(family.Family):
         }
 
     def version(self, code):
-        return "1.18alpha"
+        return "1.19.1"
 
     def scriptpath(self, code):
         return '/savemlak'
