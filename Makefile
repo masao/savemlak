@@ -67,6 +67,14 @@ check_yomi_all:
 	./check_yomi.py -outputwiki -ns:0 -cat:山梨県 >> $(TEXT)
 	echo "== [[:Category:長野県|]] ==" >> $(TEXT)
 	./check_yomi.py -outputwiki -ns:0 -cat:長野県 >> $(TEXT)
+	echo "== [[:Category:京都府|]] ==" >> $(TEXT)
+	./check_yomi.py -outputwiki -ns:0 -cat:京都府 >> $(TEXT)
+	echo "== [[:Category:福岡県|]] ==" >> $(TEXT)
+	./check_yomi.py -outputwiki -ns:0 -cat:福岡県 >> $(TEXT)
+	echo "== [[:Category:熊本県|]] ==" >> $(TEXT)
+	./check_yomi.py -outputwiki -ns:0 -cat:熊本県 >> $(TEXT)
+	echo "== [[:Category:大分県|]] ==" >> $(TEXT)
+	./check_yomi.py -outputwiki -ns:0 -cat:大分県 >> $(TEXT)
 	./put.py -page:利用者:Masao/Yomi_Check -file:$(TEXT) -summary:「よみ」未付与の項目一覧を更新
 
 check_jdarchive:
