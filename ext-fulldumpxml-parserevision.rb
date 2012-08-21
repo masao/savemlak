@@ -151,16 +151,16 @@ if $0 == __FILE__
             edit_type = []
             timestamp = revision.find( "./mw:timestamp" )[0].content
             date = Time.parse( timestamp ).localtime.iso8601[ 0, 10 ]
-            #          contributor = revision.find( "./mw:contributor" )[0]
-            #          user = contributor.content
-            #          if contributor.find( "./mw:username" ) and contributor.find( "./mw:username" )[0]
-            #             user = contributor.find( "./mw:username" )[0].content
-            #             if revision.find( "./mw:comment" ) and revision.find( "./mw:comment" )[0] and revision.find( "./mw:comment" )[0].content == "ロボットによる編集: check Yomi field"
-            #                user = contributor.find( "./mw:username" )[0].content + ":yomi"
-            #             end
-            #          elsif contributor.find( "./mw:ip" ) and contributor.find( "./mw:ip" )[0]
-            #             user = contributor.find( "./mw:ip" )[0].content
-            #          end
+            contributor = revision.find( "./mw:contributor" )[0]
+            user = contributor.content
+            if contributor.find( "./mw:username" ) and contributor.find( "./mw:username" )[0]
+               user = contributor.find( "./mw:username" )[0].content
+               if revision.find( "./mw:comment" ) and revision.find( "./mw:comment" )[0] and revision.find( "./mw:comment" )[0].content == "ロボットによる編集: check Yomi field"
+                  user = contributor.find( "./mw:username" )[0].content + ":yomi"
+               end
+            elsif contributor.find( "./mw:ip" ) and contributor.find( "./mw:ip" )[0]
+               user = contributor.find( "./mw:ip" )[0].content
+            end
 
             text = revision.find( "./mw:text" )[0].content
 
@@ -182,6 +182,7 @@ if $0 == __FILE__
             if opt_mode == :section
                puts [ date, title,
                  edit_type.join(","),
+                 user,
                  categories.join(",") ].join( "\t" )
             end
 
