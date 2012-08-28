@@ -85,7 +85,7 @@ class GeocodeBot:
 
         pattern_address = re.compile( ur'\|\s*所在地\s*=([^\|\}]*)' )
         match_address = pattern_address.search( text )
-        if not match_address or len(match_address.group(1).strip()) == 0:
+        if not match_address or len(match_address.group(1).strip()) == 0 or match_address.group(1).strip() == "{{{所在地":
 	    line = u"*%s (所在地 記載なし)" % page.title(asLink=True)
             print line.encode('utf_8')
             return
