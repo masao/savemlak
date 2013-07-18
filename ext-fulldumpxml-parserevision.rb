@@ -63,9 +63,13 @@ end
 
 if $0 == __FILE__
    opt_mode = :page
+   opt_til_201207 = false
    while( ARGV[0] and ARGV[0] =~ /\A-/ ) do
       if ARGV[0] and ARGV[0] =~ /\A--?(section|revision)/
          opt_mode = :section
+         ARGV.shift
+      elsif ARGV[0] and ARGV[0] =~ /\A--?standard/
+         opt_til_201207 = true
          ARGV.shift
       end
    end
@@ -108,9 +112,11 @@ if $0 == __FILE__
          text = r.find( "./mw:text" )[0].content
          text =~ /\{\{(施設|図書館)\s*/o and not text =~ /\A#(REDIRECT|転送)/o
       end
+      if opt_til_201207
       revisions = revisions.find_all do |r| # 2012-07-01以降のものは無視する
          timestamp = r.find( "./mw:timestamp" )[0].content
          timestamp < "2012-07-01"
+      end
       end
       next if revisions.empty?
 
