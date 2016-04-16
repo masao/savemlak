@@ -19,8 +19,8 @@ import re
 
 sys.path.append( os.path.join( os.path.dirname(os.path.abspath(sys.argv[0])),
                                "..", "pywikipedia" ) )
-import wikipedia as pywikibot
-import pagegenerators
+import pywikibot
+from pywikibot import pagegenerators
 
 # This is required for the text that is shown when you run this script
 # with the parameter -help.
