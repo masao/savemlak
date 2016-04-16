@@ -31,7 +31,7 @@ ARGF.each do |line|
   if name =~ /大学/
     category = "大学図書館"
   end
-  open("#{name}.txt", "w") do |io|
+  open("#{title}.txt", "w") do |io|
     io.print <<EOF
 {{施設
 |名称=#{name}
