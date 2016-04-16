@@ -23,8 +23,8 @@ except ImportError:
     import json
 
 sys.path.append( "../pywikipedia/" )
-import wikipedia as pywikibot
-import pagegenerators
+import pywikibot
+from pywikibot import pagegenerators
 
 # This is required for the text that is shown when you run this script
 # with the parameter -help.
