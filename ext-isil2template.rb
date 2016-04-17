@@ -27,9 +27,12 @@ ARGF.each do |line|
     city_cat = $1.dup
     puts "-> #{city_cat}"
   end
-  category = default_category.dup
-  if name =~ /大学/
-    category = "大学図書館"
+  category = [default_category]
+  case name
+  when /大学/
+    category = ["大学図書館"]
+  when /公民館/, /学習センター/, /コミュニティセンター/
+    category = ["公民館", "公民館図書室"]
   end
   open("#{title}.txt", "w") do |io|
     io.print <<EOF
@@ -40,7 +43,9 @@ ARGF.each do |line|
 |電話番号=#{tel}
 |FAX=#{fax}
 |緯度経度=
+|ISIL=#{isil}
 |URL=#{url}
+|備考={{ISIL由来|2016-03-22}}
 }}
 == 被害状況 ==
 === 職員・利用者の被害 ===
@@ -80,7 +85,9 @@ ARGF.each do |line|
 [[Category:#{pref}]]
 [[Category:#{pref}/#{city_cat}]]
 [[Category:図書館]]
-[[Category:#{category}]]
 EOF
+    category.each do |c|
+      io.puts "[[Category:#{c}]]"
+    end
   end
 end
