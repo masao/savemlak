@@ -58,7 +58,7 @@ class GeocodeBot:
         self.dry = dry
         self.always = always
         # Set the edit summary message
-        self.summary = pywikibot.translate(pywikibot.getSite(), self.msg)
+        self.summary = pywikibot.translate(pywikibot.Site(), self.msg)
 
     def run(self):
         pywikibot.setAction( self.summary )
@@ -226,7 +226,7 @@ def main():
     if pageTitleParts != []:
         # We will only work on a single page.
         pageTitle = ' '.join(pageTitleParts)
-        page = pywikibot.Page(pywikibot.getSite(), pageTitle)
+        page = pywikibot.Page(pywikibot.Site(), pageTitle)
         gen = iter([page])
 
     if not gen:
