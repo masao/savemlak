@@ -4,7 +4,7 @@
 # to create your user-config.py file.
 
 mylang = 'ja'
-family_files["savemlak"]="http://savemlak.jp/savemlak/api.php"
+family_files["savemlak"]="https://savemlak.jp/savemlak/api.php"
 family = 'savemlak'
 usernames['savemlak']['ja'] = 'MasaoBot'
 console_encoding = 'utf-8'
