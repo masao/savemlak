@@ -19,6 +19,8 @@ import re
 
 sys.path.append( os.path.join( os.path.dirname(os.path.abspath(sys.argv[0])),
                                "..", "pywikipedia" ) )
+sys.path.append( os.path.join( os.path.dirname(os.path.abspath(sys.argv[0])),
+                               "..", "pywikibot" ) )
 import pywikibot
 from pywikibot import pagegenerators
 
@@ -37,16 +39,16 @@ class PagePutBot:
     }
 
     def __init__(self, page, filename, summary, dry, always):
-        self.page = pywikibot.Page( pywikibot.getSite(), page )
+        self.page = pywikibot.Page( pywikibot.Site(), page )
         self.filename = filename
         self.summary = summary
         if not self.summary:
             self.summary = pywikibot.translate(pywikibot.getSite(), self.msg)
-        pywikibot.setAction( self.summary )
+        # pywikibot.setAction( self.summary )
 
     def run(self):
         file = open( self.filename )
-        text = file.read().decode("utf_8")
+        text = file.read()
         try:
             current_text = self.page.get()
         except pywikibot.NoPage:
@@ -55,17 +57,17 @@ class PagePutBot:
             try:
                 # Save the page
                 self.page.put(text)
-            except pywikibot.LockedPage:
+            except pywikibot.exceptions.LockedPageError:
                 pywikibot.output(u"Page %s is locked; skipping."
                                  % self.page.title(asLink=True))
-            except pywikibot.EditConflict:
+            except pywikibot.exceptions.EditConflictError:
                 pywikibot.output(
                     u'Skipping %s because of edit conflict'
                     % (self.page.title()))
-            except pywikibot.SpamfilterError, error:
-                pywikibot.output(
-                    u'Cannot change %s because of spam blacklist entry %s'
-                    % (self.page.title(), error.url))
+            # except pywikibot.exceptions.SpamfilterError as error:
+            #   pywikibot.output(
+            #        u'Cannot change %s because of spam blacklist entry %s'
+            #        % (self.page.title(), error.url))
 
 def main():
     dry = None
@@ -73,7 +75,7 @@ def main():
     page_title = None
     filename = None
     summary = None
-    for arg in pywikibot.handleArgs():
+    for arg in pywikibot.handle_args():
         if arg.startswith("-dry"):
             dry = True
         elif arg.startswith('-always'):

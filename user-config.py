@@ -7,5 +7,6 @@ mylang = 'ja'
 family_files["savemlak"]="https://savemlak.jp/savemlak/api.php"
 family = 'savemlak'
 usernames['savemlak']['ja'] = 'MasaoBot'
+usernames['savemlak']['savemlak'] = 'MasaoBot'
 console_encoding = 'utf-8'
 

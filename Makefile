@@ -19,7 +19,7 @@ museum_category:
 
 geocode:
 	echo "自動で「緯度経度」項目が入手できなかった施設一覧です:" > $(NOGEOCODE)
-	./geocode.py -ns:0 -transcludes:施設 -always >> $(NOGEOCODE)
+	./geocode.py -ns:0 -category:施設緯度経度未付与 -always >> $(NOGEOCODE)
 	./put.py -page:利用者:Masao/NoGeocode -file:$(NOGEOCODE) -summary:「緯度経度」自動取得による更新を反映
 
 

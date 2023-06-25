@@ -16,6 +16,8 @@ and the bot will only work on that single page.
 import sys
 import re
 import urllib
+import urllib.parse
+import urllib.request
 
 try:
     import simplejson as json
@@ -23,8 +25,11 @@ except ImportError:
     import json
 
 sys.path.append( "../pywikipedia/" )
+sys.path.append( "../pywikibot/" )
 import pywikibot
 from pywikibot import pagegenerators
+
+sys.stdout.reconfigure(encoding='utf-8')
 
 # This is required for the text that is shown when you run this script
 # with the parameter -help.
@@ -61,7 +66,7 @@ class GeocodeBot:
         self.summary = pywikibot.translate(pywikibot.Site(), self.msg)
 
     def run(self):
-        pywikibot.setAction( self.summary )
+        # pywikibot.setAction( self.summary )
         for page in self.generator:
             self.treat(page)
 
@@ -73,21 +78,22 @@ class GeocodeBot:
         if not text:
             return
 
-	pattern_coordinates = re.compile( ur'\s*\|\s*緯度経度\s*=([^\n]*)\n' )
+        pattern_coordinates = re.compile( r'\s*\|\s*緯度経度\s*=([^\n]*)\n' )
         match_coordinates = pattern_coordinates.search( text )
         if match_coordinates:
             val = match_coordinates.group( 1 ).strip()
             #print val
-            if len(val) == 0 or re.match( ur'^0\s*,\s*0$', val ):
+            if len(val) == 0 or re.match( r'^0\s*,\s*0$', val ):
                 text = re.sub( pattern_coordinates, r'\n', text )
             else:
                 return
 
-        pattern_address = re.compile( ur'\|\s*所在地\s*=([^\|\}]*)' )
+        pattern_address = re.compile( r'\|\s*所在地\s*=([^\|\}]*)' )
         match_address = pattern_address.search( text )
         if not match_address or len(match_address.group(1).strip()) == 0 or match_address.group(1).strip() == u"{{{所在地":
-	    line = u"*%s (所在地 記載なし)" % page.title(asLink=True)
-            print line.encode('utf_8')
+            line = u"*%s (所在地 記載なし)" % page.title(as_link=True)
+            print(line)
+            # .encode('utf_8'))
             return
         address = match_address.group( 1 ).strip()
         #print address
@@ -96,31 +102,32 @@ class GeocodeBot:
         try:
             latlng = self.geocoding( address )
             if not latlng:
-                address2 = re.sub( ur'^〒?\d\d\d-?(\d\d\d\d)?\s*', "", address )
+                address2 = re.sub( r'^〒?\d\d\d-?(\d\d\d\d)?\s*', "", address )
                 if address != address2:
                     pywikibot.output( address2 )
                     latlng = self.geocoding( address2 )
                 if not latlng:
-                    address_noparen = re.sub( ur'\([^\)]+\)$', "", address2 )
-                    address_noparen = re.sub( ur'（[^）]+）$', "", address2 )
+                    address_noparen = re.sub( r'\([^\)]+\)$', "", address2 )
+                    address_noparen = re.sub( r'（[^）]+）$', "", address2 )
                     if address_noparen != address2:
                         pywikibot.output( address_noparen )
                         latlng = self.geocoding( address_noparen )
                 if not latlng:
-                    address_nobuilding = re.sub( ur'[0-9０-９\.,・、]+\s*[F階]$', "", address_noparen )
-                    address_nobuilding = re.sub( ur'[^0-9０-９]*$', "", address_nobuilding )
+                    address_nobuilding = re.sub( r'[0-9０-９\.,・、]+\s*[F階]$', "", address_noparen )
+                    address_nobuilding = re.sub( r'[^0-9０-９]*$', "", address_nobuilding )
                     if address_nobuilding != address_noparen and address_nobuilding != "":
                         pywikibot.output( address_nobuilding )
                         latlng = self.geocoding( address_nobuilding )
         except GeocodingOverQueryLimitError:
             pywikibot.output( u"OVER_QUERY_LIMIT error at %s." % page.title(asLink=True) )
         if not latlng:
-	    line = "*%s (%s)" % ( page.title(asLink=True), address.strip() )
-            print line.encode('utf_8')
+            line = "*%s (%s)" % ( page.title(as_link=True), address.strip() )
+            print(line)
+            # .encode('utf_8'))
             return
 
         text = re.sub( pattern_address,
-                       ur'\g<0>|緯度経度=%s,%s\n' % ( latlng["lat"], latlng["lng"] ),
+                       r'\g<0>|緯度経度=%s,%s\n' % ( latlng["lat"], latlng["lng"] ),
                        text )
 
         # only save if something was changed
@@ -148,7 +155,7 @@ class GeocodeBot:
                         pywikibot.output(
                             u'Skipping %s because of edit conflict'
                             % (page.title()))
-                    except pywikibot.SpamfilterError, error:
+                    except pywikibot.SpamfilterError as error:
                         pywikibot.output(
                             u'Cannot change %s because of spam blacklist entry %s'
                             % (page.title(), error.url))
@@ -171,10 +178,12 @@ class GeocodeBot:
         return None
 
     def geocoding(self, address):
+        key = open("GEOCODE_APIKEY").read().rstrip()
         url = 'http://maps.google.com/maps/api/geocode/json?'
         url = url + '&language=ja&sensor=false&region=ja'
-        url = url + '&address=' + urllib.quote(address.encode('utf-8'))
-        io = urllib.urlopen( url )
+        url = url + '&address=' + urllib.parse.quote(address.encode('utf-8'))
+        url = url + '&key=' + key
+        io = urllib.request.urlopen( url )
         content = io.read()
         #print "%s" % content
         try:
@@ -212,7 +221,7 @@ def main():
     outputwiki = False
 
     # Parse command line arguments
-    for arg in pywikibot.handleArgs():
+    for arg in pywikibot.handle_args():
         if arg.startswith("-dry"):
             dry = True
         elif arg.startswith("-always"):
@@ -220,7 +229,7 @@ def main():
         else:
             # check if a standard argument like
             # -start:XYZ or -ref:Asdf was given.
-            if not genFactory.handleArg(arg):
+            if not genFactory.handle_arg(arg):
                 pageTitleParts.append(arg)
 
     if pageTitleParts != []:
