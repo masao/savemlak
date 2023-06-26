@@ -139,7 +139,7 @@ class GeocodeBot:
             pywikibot.showDiff(page.get(), text)
             if not self.dry:
                 if not self.always:
-                    choice = pywikibot.inputChoice(
+                    choice = pywikibot.input_choice(
                         u'Do you want to accept these changes?',
                         ['Yes', 'No'], ['y', 'N'], 'N')
                 else:
@@ -179,13 +179,15 @@ class GeocodeBot:
 
     def geocoding(self, address):
         key = open("GEOCODE_APIKEY").read().rstrip()
-        url = 'http://maps.google.com/maps/api/geocode/json?'
+        url = 'https://maps.google.com/maps/api/geocode/json?'
         url = url + '&language=ja&sensor=false&region=ja'
         url = url + '&address=' + urllib.parse.quote(address.encode('utf-8'))
         url = url + '&key=' + key
+        #print(url)
         io = urllib.request.urlopen( url )
         content = io.read()
         #print "%s" % content
+        #print(content)
         try:
             obj = json.loads(content)
             if obj["status"] == "OVER_QUERY_LIMIT":
